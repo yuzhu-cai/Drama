@@ -1,20 +1,18 @@
-from datasets import load_dataset
+import json
 
 class HumanEvalDataLoader:
-    def __init__(self, dataset_name="./data/HumanEval", split="test"):
-        self.dataset = load_dataset(dataset_name, split=split)
+    def __init__(self, dataset_name="./data/HumanEval/HumanEval.jsonl"):
+        self.dataset = []
+        with open(dataset_name, "r", encoding="utf-8") as f:
+            for line in f:
+                data = json.loads(line)
+                self.dataset.append(data)
 
     def __len__(self):
         return len(self.dataset)
 
     def __getitem__(self, idx):
-        sample = self.dataset[idx]
-        return {
-            "task_id": sample["task_id"],
-            "prompt": sample["prompt"],
-            "canonical_solution": sample["canonical_solution"],
-            "test": sample["test"],
-        }
+        return self.dataset[idx]
 
     def get_all_samples(self):
         return [self.__getitem__(i) for i in range(len(self))]
@@ -30,6 +28,7 @@ if __name__ == "__main__":
     print("Prompt:", sample["prompt"])
     print("Canonical Solution:", sample["canonical_solution"])
     print("Test Cases:", sample["test"])
+    print("Entry Point:", sample["entry_point"])
 
     # 获取数据集中的所有样本
     all_samples = dataloader.get_all_samples()
