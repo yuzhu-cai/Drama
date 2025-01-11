@@ -12,6 +12,8 @@ class OpenAILLM:
         )
         self.system_prompt = system_prompt
 
+    def set_system_prompt(self, system_prompt: str):
+        self.system_prompt = system_prompt
 
     def call(
             self, 
