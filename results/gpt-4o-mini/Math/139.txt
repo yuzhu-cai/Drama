@@ -1,0 +1,73 @@
+To find the number of increasing sequences of three distinct prime numbers that sum to 20, we start by letting the three distinct prime numbers be \( p_1 < p_2 < p_3 \). We need to satisfy the equation:
+
+\[
+p_1 + p_2 + p_3 = 20
+\]
+
+We will first list the prime numbers less than 20:
+
+\[
+2, 3, 5, 7, 11, 13, 17, 19
+\]
+
+Since \( p_1, p_2, \) and \( p_3 \) must be distinct and increasing, we will consider combinations of these primes. Notably, since the sum is even (20), at least one of the primes must be even. The only even prime is 2, so we will set \( p_1 = 2 \) and find \( p_2 \) and \( p_3 \) such that:
+
+\[
+2 + p_2 + p_3 = 20
+\]
+
+This simplifies to:
+
+\[
+p_2 + p_3 = 18
+\]
+
+Next, we will find pairs of distinct primes \( p_2 \) and \( p_3 \) such that \( p_2 + p_3 = 18 \) and \( p_2 < p_3 \). We will check the possible values for \( p_2 \):
+
+1. **If \( p_2 = 3 \)**:
+   \[
+   p_3 = 18 - 3 = 15 \quad (\text{not prime})
+   \]
+
+2. **If \( p_2 = 5 \)**:
+   \[
+   p_3 = 18 - 5 = 13 \quad (\text{prime})
+   \]
+   Thus, one valid sequence is \( (2, 5, 13) \).
+
+3. **If \( p_2 = 7 \)**:
+   \[
+   p_3 = 18 - 7 = 11 \quad (\text{prime})
+   \]
+   Thus, another valid sequence is \( (2, 7, 11) \).
+
+4. **If \( p_2 = 11 \)**:
+   \[
+   p_3 = 18 - 11 = 7 \quad (\text{not valid since \( p_2 \) must be less than \( p_3 \)})
+   \]
+
+5. **If \( p_2 = 13 \)**:
+   \[
+   p_3 = 18 - 13 = 5 \quad (\text{not valid since \( p_2 \) must be less than \( p_3 \)})
+   \]
+
+6. **If \( p_2 = 17 \)**:
+   \[
+   p_3 = 18 - 17 = 1 \quad (\text{not prime})
+   \]
+
+Now we have found all valid pairs \( (p_2, p_3) \) with \( p_1 = 2 \):
+
+- \( (2, 5, 13) \)
+- \( (2, 7, 11) \)
+
+Thus, the increasing sequences of three distinct prime numbers that sum to 20 are:
+
+1. \( (2, 5, 13) \)
+2. \( (2, 7, 11) \)
+
+In conclusion, the total number of increasing sequences of three distinct prime numbers that sum to 20 is:
+
+\[
+\boxed{2}
+\]

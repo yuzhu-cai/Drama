@@ -1,0 +1,24 @@
+To find the probability that a randomly selected point \((x, y)\) satisfies the condition \(x + y \leq 4\) within the bounds \(0 \leq x \leq 8\) and \(0 \leq y \leq 4\), we first need to determine the area of the region defined by these constraints.
+
+1. **Determine the total area of the rectangle:**
+   The rectangle defined by \(0 \leq x \leq 8\) and \(0 \leq y \leq 4\) has a width of \(8\) and a height of \(4\). Thus, the area \(A_{\text{total}}\) of the rectangle is:
+   \[
+   A_{\text{total}} = \text{width} \times \text{height} = 8 \times 4 = 32.
+   \]
+
+2. **Identify the area satisfying \(x + y \leq 4\):**
+   The line \(x + y = 4\) intersects the axes at the points \((4, 0)\) and \((0, 4)\). The region defined by \(x + y \leq 4\) is a triangle with vertices at \((0, 0)\), \((4, 0)\), and \((0, 4)\).
+
+3. **Calculate the area of the triangle:**
+   The base of the triangle along the x-axis is \(4\) (from \((0, 0)\) to \((4, 0)\)), and the height along the y-axis is also \(4\) (from \((0, 0)\) to \((0, 4)\)). The area \(A_{\text{triangle}}\) of the triangle is given by:
+   \[
+   A_{\text{triangle}} = \frac{1}{2} \times \text{base} \times \text{height} = \frac{1}{2} \times 4 \times 4 = \frac{16}{2} = 8.
+   \]
+
+4. **Calculate the probability:**
+   The probability \(P\) that a randomly selected point \((x, y)\) satisfies \(x + y \leq 4\) is the ratio of the area of the triangle to the area of the rectangle:
+   \[
+   P = \frac{A_{\text{triangle}}}{A_{\text{total}}} = \frac{8}{32} = \frac{1}{4}.
+   \]
+
+Thus, the probability that \(x + y \leq 4\) is \(\boxed{\frac{1}{4}}\).

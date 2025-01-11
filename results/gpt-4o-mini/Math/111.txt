@@ -1,0 +1,68 @@
+To determine the values of \( n \) for which the quadratic equation \( 9x^2 + nx + 36 = 0 \) has exactly one solution, we need to analyze the discriminant of the quadratic equation. The discriminant \( D \) of a quadratic equation \( ax^2 + bx + c = 0 \) is given by the formula:
+
+\[
+D = b^2 - 4ac
+\]
+
+In our case, we have:
+
+- \( a = 9 \)
+- \( b = n \)
+- \( c = 36 \)
+
+Substituting these values into the discriminant formula, we get:
+
+\[
+D = n^2 - 4 \cdot 9 \cdot 36
+\]
+
+Calculating \( 4 \cdot 9 \cdot 36 \):
+
+\[
+4 \cdot 9 = 36
+\]
+\[
+36 \cdot 36 = 1296
+\]
+
+Thus, the discriminant becomes:
+
+\[
+D = n^2 - 1296
+\]
+
+For the quadratic equation to have exactly one solution, the discriminant must be equal to zero:
+
+\[
+n^2 - 1296 = 0
+\]
+
+Solving for \( n^2 \):
+
+\[
+n^2 = 1296
+\]
+
+Taking the square root of both sides, we find:
+
+\[
+n = \sqrt{1296} \quad \text{or} \quad n = -\sqrt{1296}
+\]
+
+Calculating \( \sqrt{1296} \):
+
+\[
+\sqrt{1296} = 36
+\]
+
+Thus, the possible values for \( n \) are:
+
+\[
+n = 36 \quad \text{or} \quad n = -36
+\]
+
+Since we are asked for the positive value of \( n \), we conclude that:
+
+\[
+\boxed{36}
+\]

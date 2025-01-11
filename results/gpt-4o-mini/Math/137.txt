@@ -1,0 +1,59 @@
+To evaluate the expression 
+
+\[
+S = 1^{-1} \cdot 2^{-1} + 2^{-1} \cdot 3^{-1} + 3^{-1} \cdot 4^{-1} + \cdots + (p-2)^{-1} \cdot (p-1)^{-1} \pmod{p},
+\]
+
+we start by rewriting each term in the sum. The term \( k^{-1} \) represents the modular inverse of \( k \) modulo \( p \). Thus, we can express \( S \) as:
+
+\[
+S = \sum_{k=1}^{p-1} k^{-1} \cdot (k+1)^{-1} \pmod{p}.
+\]
+
+Next, we can rewrite each term \( k^{-1} \cdot (k+1)^{-1} \) as:
+
+\[
+k^{-1} \cdot (k+1)^{-1} = \frac{1}{k(k+1)}.
+\]
+
+Therefore, we can express \( S \) as:
+
+\[
+S = \sum_{k=1}^{p-1} \frac{1}{k(k+1)}.
+\]
+
+To simplify this sum, we can use partial fractions. We have:
+
+\[
+\frac{1}{k(k+1)} = \frac{1}{k} - \frac{1}{k+1}.
+\]
+
+Thus, we can rewrite \( S \) as:
+
+\[
+S = \sum_{k=1}^{p-1} \left( \frac{1}{k} - \frac{1}{k+1} \right).
+\]
+
+This is a telescoping series. When we expand the sum, we see that most terms cancel:
+
+\[
+S = \left( \frac{1}{1} - \frac{1}{2} \right) + \left( \frac{1}{2} - \frac{1}{3} \right) + \left( \frac{1}{3} - \frac{1}{4} \right) + \cdots + \left( \frac{1}{p-1} - \frac{1}{p} \right).
+\]
+
+After cancellation, we are left with:
+
+\[
+S = 1 - \frac{1}{p}.
+\]
+
+Now, we need to compute \( S \) modulo \( p \). Since \( \frac{1}{p} \equiv 0 \pmod{p} \), we have:
+
+\[
+S \equiv 1 \pmod{p}.
+\]
+
+Thus, the final result is:
+
+\[
+\boxed{1}.
+\]

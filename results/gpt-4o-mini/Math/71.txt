@@ -1,0 +1,61 @@
+To find the remainder when \( 6y^3 + 5y^2 - 16y + 8 \) is divided by \( 2y + 3 \), we can use polynomial long division or the Remainder Theorem. According to the Remainder Theorem, the remainder of a polynomial \( f(y) \) when divided by a linear polynomial \( ay + b \) can be found by evaluating \( f(-\frac{b}{a}) \).
+
+In this case, we have \( a = 2 \) and \( b = 3 \), so we need to evaluate \( f(-\frac{3}{2}) \).
+
+First, we calculate \( f(-\frac{3}{2}) \):
+
+\[
+f(y) = 6y^3 + 5y^2 - 16y + 8
+\]
+
+Substituting \( y = -\frac{3}{2} \):
+
+\[
+f\left(-\frac{3}{2}\right) = 6\left(-\frac{3}{2}\right)^3 + 5\left(-\frac{3}{2}\right)^2 - 16\left(-\frac{3}{2}\right) + 8
+\]
+
+Calculating each term:
+
+1. \( \left(-\frac{3}{2}\right)^3 = -\frac{27}{8} \)
+   \[
+   6\left(-\frac{27}{8}\right) = -\frac{162}{8} = -\frac{81}{4}
+   \]
+
+2. \( \left(-\frac{3}{2}\right)^2 = \frac{9}{4} \)
+   \[
+   5\left(\frac{9}{4}\right) = \frac{45}{4}
+   \]
+
+3. \( -16\left(-\frac{3}{2}\right) = 24 \)
+
+4. The constant term is \( 8 \).
+
+Now, we combine these results:
+
+\[
+f\left(-\frac{3}{2}\right) = -\frac{81}{4} + \frac{45}{4} + 24 + 8
+\]
+
+First, combine the fractions:
+
+\[
+-\frac{81}{4} + \frac{45}{4} = -\frac{36}{4} = -9
+\]
+
+Now, convert \( 24 \) and \( 8 \) to fractions with a denominator of \( 4 \):
+
+\[
+24 = \frac{96}{4}, \quad 8 = \frac{32}{4}
+\]
+
+Now, add these fractions:
+
+\[
+-9 + \frac{96}{4} + \frac{32}{4} = -9 + \frac{128}{4} = -9 + 32 = 23
+\]
+
+Thus, the remainder when \( 6y^3 + 5y^2 - 16y + 8 \) is divided by \( 2y + 3 \) is:
+
+\[
+\boxed{23}
+\]

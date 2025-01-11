@@ -1,0 +1,24 @@
+To solve the problem, we need to determine how many ways we can set the 8 light switches such that either one or two banks of lights are on.
+
+1. **Calculating the number of ways to have exactly one bank of lights on:**
+   - If we want exactly one bank of lights on, we can choose any one of the 8 switches to be "on" while the remaining 7 switches must be "off".
+   - The number of ways to choose 1 switch from 8 is given by the combination formula \( \binom{n}{k} \), where \( n \) is the total number of switches and \( k \) is the number of switches we want to choose.
+   - Thus, the number of ways to have exactly one switch on is:
+     \[
+     \binom{8}{1} = 8
+     \]
+
+2. **Calculating the number of ways to have exactly two banks of lights on:**
+   - If we want exactly two banks of lights on, we need to choose 2 switches to be "on" and the remaining 6 switches to be "off".
+   - The number of ways to choose 2 switches from 8 is:
+     \[
+     \binom{8}{2} = \frac{8 \times 7}{2 \times 1} = 28
+     \]
+
+3. **Totaling the possibilities:**
+   - To find the total number of ways to set the switches such that either one or two banks of lights are on, we add the two results together:
+     \[
+     \text{Total} = \binom{8}{1} + \binom{8}{2} = 8 + 28 = 36
+     \]
+
+Thus, the total number of possible ways to set the 8 switches so that either one or two banks of lights are on is \( \boxed{36} \).

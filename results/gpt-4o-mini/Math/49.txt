@@ -1,0 +1,39 @@
+To find the length of the shadow of the 20-foot flagpole, we can use the concept of similar triangles. The height of the woman and the length of her shadow form one triangle, while the height of the flagpole and its shadow form another triangle.
+
+Given:
+- Height of the woman = 6 feet
+- Length of the woman's shadow = 9 feet
+- Height of the flagpole = 20 feet
+- Length of the flagpole's shadow = \( x \) feet (unknown)
+
+Since the triangles are similar, we can set up a proportion:
+
+\[
+\frac{\text{Height of woman}}{\text{Length of woman's shadow}} = \frac{\text{Height of flagpole}}{\text{Length of flagpole's shadow}}
+\]
+
+Substituting the known values into the proportion:
+
+\[
+\frac{6}{9} = \frac{20}{x}
+\]
+
+Now, we can cross-multiply to solve for \( x \):
+
+\[
+6x = 20 \times 9
+\]
+
+Calculating the right side:
+
+\[
+6x = 180
+\]
+
+Now, divide both sides by 6:
+
+\[
+x = \frac{180}{6} = 30
+\]
+
+Thus, the length of the shadow of the 20-foot flagpole is \( \boxed{30} \) feet.

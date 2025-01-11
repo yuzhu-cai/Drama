@@ -1,0 +1,24 @@
+To add 313.9 and 12.6, you align the numbers by their decimal points:
+
+```
+  313.9
++  12.6
+```
+
+Now, add them column by column, starting from the right:
+
+1. In the hundredths place: \(9 + 6 = 15\). Write down 5 and carry over 1.
+2. In the tenths place: \(3 + 2 + 1 (carry) = 6\).
+3. In the units place: \(3 + 1 = 4\).
+4. In the hundreds place: \(3 + 0 = 3\).
+
+Putting it all together, we get:
+
+```
+  313.9
++  12.6
+-------
+  326.5
+```
+
+Thus, the result of adding 313.9 and 12.6 is **326.5**.

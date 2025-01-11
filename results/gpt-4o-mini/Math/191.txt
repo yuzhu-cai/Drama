@@ -1,0 +1,70 @@
+To find the number of numbers in the list \( 6, 7, 10, 11, 14, 15, \ldots, 94, 95, 98 \), we first need to identify the pattern in the sequence.
+
+The numbers can be grouped based on their properties:
+- The first group consists of numbers that are congruent to \( 6 \mod 4 \): \( 6, 10, 14, \ldots, 94 \).
+- The second group consists of numbers that are congruent to \( 7 \mod 4 \): \( 7, 11, 15, \ldots, 95 \).
+- The last number \( 98 \) is included separately.
+
+### Step 1: Count the numbers in the first group
+
+The first group is \( 6, 10, 14, \ldots, 94 \). This is an arithmetic sequence where:
+- The first term \( a = 6 \)
+- The common difference \( d = 4 \)
+
+To find the number of terms \( n \) in this sequence, we use the formula for the \( n \)-th term of an arithmetic sequence:
+\[
+a_n = a + (n-1)d
+\]
+Setting \( a_n = 94 \):
+\[
+94 = 6 + (n-1) \cdot 4
+\]
+Subtracting \( 6 \) from both sides:
+\[
+88 = (n-1) \cdot 4
+\]
+Dividing by \( 4 \):
+\[
+22 = n - 1
+\]
+Thus,
+\[
+n = 23
+\]
+
+### Step 2: Count the numbers in the second group
+
+The second group is \( 7, 11, 15, \ldots, 95 \). This is also an arithmetic sequence where:
+- The first term \( a = 7 \)
+- The common difference \( d = 4 \)
+
+Again, we find the number of terms \( n \):
+Setting \( a_n = 95 \):
+\[
+95 = 7 + (n-1) \cdot 4
+\]
+Subtracting \( 7 \) from both sides:
+\[
+88 = (n-1) \cdot 4
+\]
+Dividing by \( 4 \):
+\[
+22 = n - 1
+\]
+Thus,
+\[
+n = 23
+\]
+
+### Step 3: Count the last number
+
+The last number \( 98 \) is not part of the two groups above, so we add \( 1 \) to our total count.
+
+### Step 4: Calculate the total count
+
+Adding the counts from both groups and the last number:
+\[
+23 + 23 + 1 = 47
+\]
+
+Thus, the total number of numbers in the list is \( \boxed{47} \).

@@ -1,0 +1,53 @@
+To determine the smallest integer \( x \) for which the expression 
+
+\[
+\frac{\sqrt{x-2}}{x^2+x-6}
+\]
+
+is defined, we need to analyze the conditions under which both the numerator and the denominator are defined and non-zero.
+
+1. **Numerator Condition**: The expression \( \sqrt{x-2} \) is defined when the argument is non-negative:
+
+\[
+x - 2 \geq 0 \implies x \geq 2.
+\]
+
+2. **Denominator Condition**: The expression \( x^2 + x - 6 \) must not be zero. We first find the roots of the quadratic equation \( x^2 + x - 6 = 0 \) using the quadratic formula:
+
+\[
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} = \frac{-1 \pm \sqrt{1^2 - 4 \cdot 1 \cdot (-6)}}{2 \cdot 1} = \frac{-1 \pm \sqrt{1 + 24}}{2} = \frac{-1 \pm 5}{2}.
+\]
+
+Calculating the roots:
+
+\[
+x = \frac{4}{2} = 2 \quad \text{and} \quad x = \frac{-6}{2} = -3.
+\]
+
+Thus, the roots of the denominator are \( x = 2 \) and \( x = -3 \). The denominator is zero at these points, so we must exclude them from our consideration.
+
+3. **Combining Conditions**: We need \( x \geq 2 \) from the numerator condition, but we must also ensure that \( x \neq 2 \) because it would make the denominator zero. Therefore, the smallest integer \( x \) that satisfies both conditions is:
+
+\[
+x = 3.
+\]
+
+4. **Verification**: We check \( x = 3 \):
+
+- For the numerator: 
+  \[
+  \sqrt{3 - 2} = \sqrt{1} = 1 \quad \text{(defined)}.
+  \]
+
+- For the denominator:
+  \[
+  3^2 + 3 - 6 = 9 + 3 - 6 = 6 \quad \text{(not zero)}.
+  \]
+
+Since both the numerator and denominator are defined and the denominator is non-zero, the expression is defined at \( x = 3 \).
+
+Thus, the smallest integer \( x \) for which the expression is defined is 
+
+\[
+\boxed{3}.
+\]

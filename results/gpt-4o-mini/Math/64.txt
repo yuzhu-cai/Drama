@@ -1,0 +1,103 @@
+To find the minimum value of the expression 
+
+\[
+E = \frac{2}{a} + \frac{1}{b}
+\]
+
+given the constraint 
+
+\[
+a + 2b = 1,
+\]
+
+we can express \( b \) in terms of \( a \):
+
+\[
+b = \frac{1 - a}{2}.
+\]
+
+Substituting this into the expression for \( E \):
+
+\[
+E = \frac{2}{a} + \frac{1}{\frac{1 - a}{2}} = \frac{2}{a} + \frac{2}{1 - a}.
+\]
+
+Now, we need to minimize 
+
+\[
+E(a) = \frac{2}{a} + \frac{2}{1 - a}.
+\]
+
+To find the critical points, we first compute the derivative \( E'(a) \):
+
+\[
+E'(a) = -\frac{2}{a^2} + \frac{2}{(1 - a)^2}.
+\]
+
+Setting the derivative equal to zero gives:
+
+\[
+-\frac{2}{a^2} + \frac{2}{(1 - a)^2} = 0.
+\]
+
+This simplifies to:
+
+\[
+\frac{2}{(1 - a)^2} = \frac{2}{a^2}.
+\]
+
+Cross-multiplying yields:
+
+\[
+2a^2 = 2(1 - a)^2.
+\]
+
+Dividing both sides by 2:
+
+\[
+a^2 = (1 - a)^2.
+\]
+
+Expanding the right side:
+
+\[
+a^2 = 1 - 2a + a^2.
+\]
+
+Subtracting \( a^2 \) from both sides:
+
+\[
+0 = 1 - 2a.
+\]
+
+Solving for \( a \):
+
+\[
+2a = 1 \implies a = \frac{1}{2}.
+\]
+
+Substituting \( a = \frac{1}{2} \) back into the constraint to find \( b \):
+
+\[
+b = \frac{1 - a}{2} = \frac{1 - \frac{1}{2}}{2} = \frac{\frac{1}{2}}{2} = \frac{1}{4}.
+\]
+
+Now we can calculate \( E \) at \( a = \frac{1}{2} \) and \( b = \frac{1}{4} \):
+
+\[
+E\left(\frac{1}{2}, \frac{1}{4}\right) = \frac{2}{\frac{1}{2}} + \frac{1}{\frac{1}{4}} = 4 + 4 = 8.
+\]
+
+To confirm that this is a minimum, we can check the second derivative:
+
+\[
+E''(a) = \frac{4}{a^3} + \frac{4}{(1 - a)^3}.
+\]
+
+Since \( a \) and \( b \) are positive, both terms are positive, indicating that \( E''(a) > 0 \) for \( a \in (0, 1) \). Thus, \( E(a) \) is convex, and the critical point we found is indeed a minimum.
+
+Therefore, the minimum value of \( E \) is 
+
+\[
+\boxed{8}.
+\]

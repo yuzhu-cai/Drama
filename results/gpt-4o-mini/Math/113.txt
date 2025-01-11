@@ -1,0 +1,28 @@
+To simplify the expression \(\frac{2s^5}{s^3} - 6s^2 + \frac{7s^3}{s}\), we will simplify each term separately.
+
+1. **Simplifying \(\frac{2s^5}{s^3}\)**:
+   \[
+   \frac{2s^5}{s^3} = 2s^{5-3} = 2s^2
+   \]
+
+2. **The second term is \(-6s^2\)**, which remains unchanged.
+
+3. **Simplifying \(\frac{7s^3}{s}\)**:
+   \[
+   \frac{7s^3}{s} = 7s^{3-1} = 7s^2
+   \]
+
+Now, we can rewrite the entire expression with the simplified terms:
+\[
+2s^2 - 6s^2 + 7s^2
+\]
+
+Next, we combine the like terms:
+\[
+(2 - 6 + 7)s^2 = (2 + 7 - 6)s^2 = 3s^2
+\]
+
+Thus, the simplified expression is:
+\[
+\boxed{3s^2}
+\]

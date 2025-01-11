@@ -1,0 +1,50 @@
+To find the total area of the shaded regions in the figure, we first need to calculate the areas of the semicircles involved.
+
+1. **Largest Semicircle**:
+   - Diameter = 16 cm, so the radius \( r_1 = \frac{16}{2} = 8 \) cm.
+   - Area of the semicircle:
+     \[
+     A_1 = \frac{1}{2} \pi r_1^2 = \frac{1}{2} \pi (8^2) = \frac{1}{2} \pi (64) = 32\pi
+     \]
+
+2. **Second Semicircle**:
+   - Diameter = 12 cm, so the radius \( r_2 = \frac{12}{2} = 6 \) cm.
+   - Area of the semicircle:
+     \[
+     A_2 = \frac{1}{2} \pi r_2^2 = \frac{1}{2} \pi (6^2) = \frac{1}{2} \pi (36) = 18\pi
+     \]
+
+3. **Third Semicircle**:
+   - Diameter = 8 cm, so the radius \( r_3 = \frac{8}{2} = 4 \) cm.
+   - Area of the semicircle:
+     \[
+     A_3 = \frac{1}{2} \pi r_3^2 = \frac{1}{2} \pi (4^2) = \frac{1}{2} \pi (16) = 8\pi
+     \]
+
+4. **Fourth Semicircle**:
+   - Diameter = 4 cm, so the radius \( r_4 = \frac{4}{2} = 2 \) cm.
+   - Area of the semicircle:
+     \[
+     A_4 = \frac{1}{2} \pi r_4^2 = \frac{1}{2} \pi (2^2) = \frac{1}{2} \pi (4) = 2\pi
+     \]
+
+Next, we calculate the total area of the shaded regions. The shaded area consists of the area of the largest semicircle minus the areas of the two smaller semicircles that are not shaded.
+
+The total area of the shaded regions is given by:
+\[
+\text{Shaded Area} = A_1 - A_2 + A_3 - A_4
+\]
+Substituting the areas we calculated:
+\[
+\text{Shaded Area} = 32\pi - 18\pi + 8\pi - 2\pi = (32 - 18 + 8 - 2)\pi = 20\pi
+\]
+
+Now, substituting \( \pi \approx 3.14 \):
+\[
+\text{Shaded Area} \approx 20 \times 3.14 = 62.8
+\]
+
+Thus, the total area of the shaded regions, expressed as a decimal to the nearest tenth, is:
+\[
+\boxed{62.8}
+\]

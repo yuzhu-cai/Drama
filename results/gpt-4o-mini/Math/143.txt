@@ -1,0 +1,64 @@
+To find the remainder when the \(100^{\text{th}}\) term of the Fibonacci sequence is divided by 4, we first need to compute the Fibonacci sequence modulo 4.
+
+The Fibonacci sequence is defined as follows:
+\[
+F_1 = 1, \quad F_2 = 1, \quad F_n = F_{n-1} + F_{n-2} \text{ for } n \geq 3.
+\]
+
+We will compute the first few terms of the Fibonacci sequence modulo 4:
+
+\[
+\begin{align*}
+F_1 & = 1 \\
+F_2 & = 1 \\
+F_3 & = F_1 + F_2 = 1 + 1 = 2 \\
+F_4 & = F_2 + F_3 = 1 + 2 = 3 \\
+F_5 & = F_3 + F_4 = 2 + 3 = 5 \equiv 1 \mod 4 \\
+F_6 & = F_4 + F_5 = 3 + 1 = 4 \equiv 0 \mod 4 \\
+F_7 & = F_5 + F_6 = 1 + 0 = 1 \\
+F_8 & = F_6 + F_7 = 0 + 1 = 1 \\
+F_9 & = F_7 + F_8 = 1 + 1 = 2 \\
+F_{10} & = F_8 + F_9 = 1 + 2 = 3 \\
+F_{11} & = F_9 + F_{10} = 2 + 3 = 5 \equiv 1 \mod 4 \\
+F_{12} & = F_{10} + F_{11} = 3 + 1 = 4 \equiv 0 \mod 4 \\
+\end{align*}
+\]
+
+Continuing this process, we can summarize the results so far:
+
+\[
+\begin{align*}
+F_1 & \equiv 1 \mod 4 \\
+F_2 & \equiv 1 \mod 4 \\
+F_3 & \equiv 2 \mod 4 \\
+F_4 & \equiv 3 \mod 4 \\
+F_5 & \equiv 1 \mod 4 \\
+F_6 & \equiv 0 \mod 4 \\
+F_7 & \equiv 1 \mod 4 \\
+F_8 & \equiv 1 \mod 4 \\
+F_9 & \equiv 2 \mod 4 \\
+F_{10} & \equiv 3 \mod 4 \\
+F_{11} & \equiv 1 \mod 4 \\
+F_{12} & \equiv 0 \mod 4 \\
+\end{align*}
+\]
+
+Now, we notice a repeating pattern in the Fibonacci sequence modulo 4:
+\[
+1, 1, 2, 3, 1, 0
+\]
+This pattern has a length of 6. To find \(F_{100} \mod 4\), we calculate \(100 \mod 6\):
+\[
+100 \div 6 = 16 \quad \text{remainder } 4.
+\]
+Thus, \(100 \mod 6 = 4\).
+
+From our earlier calculations, we see that:
+\[
+F_4 \equiv 3 \mod 4.
+\]
+
+Therefore, the remainder when the \(100^{\text{th}}\) term of the Fibonacci sequence is divided by 4 is:
+\[
+\boxed{3}.
+\]

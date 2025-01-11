@@ -1,0 +1,60 @@
+To find the value of \( k \) such that the remainder when \( kx^4 + 9x^3 + kx^2 + 32x - 11 \) is divided by \( x + 5 \) is \( 4 \), we can use the Remainder Theorem. According to the theorem, the remainder of a polynomial \( f(x) \) when divided by \( x - r \) is \( f(r) \).
+
+In this case, we need to evaluate the polynomial at \( x = -5 \):
+
+\[
+f(x) = kx^4 + 9x^3 + kx^2 + 32x - 11
+\]
+
+Substituting \( x = -5 \):
+
+\[
+f(-5) = k(-5)^4 + 9(-5)^3 + k(-5)^2 + 32(-5) - 11
+\]
+
+Calculating each term:
+
+1. \( k(-5)^4 = k \cdot 625 = 625k \)
+2. \( 9(-5)^3 = 9 \cdot (-125) = -1125 \)
+3. \( k(-5)^2 = k \cdot 25 = 25k \)
+4. \( 32(-5) = -160 \)
+5. The constant term is \( -11 \).
+
+Putting it all together:
+
+\[
+f(-5) = 625k - 1125 + 25k - 160 - 11
+\]
+
+Combining like terms:
+
+\[
+f(-5) = (625k + 25k) + (-1125 - 160 - 11)
+\]
+\[
+= 650k - 1296
+\]
+
+According to the problem, we know that \( f(-5) = 4 \):
+
+\[
+650k - 1296 = 4
+\]
+
+Now, we solve for \( k \):
+
+\[
+650k = 4 + 1296
+\]
+\[
+650k = 1300
+\]
+\[
+k = \frac{1300}{650} = 2
+\]
+
+Thus, the value of \( k \) is 
+
+\[
+\boxed{2}
+\]

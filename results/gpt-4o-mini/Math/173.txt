@@ -1,0 +1,62 @@
+To find the number of rectangles that can be formed with two nonadjacent vertices at \((4, 3)\) and \((-4, -3)\), we first determine the center of the rectangle. The center can be calculated as the midpoint of the two given vertices:
+
+\[
+\text{Midpoint} = \left( \frac{4 + (-4)}{2}, \frac{3 + (-3)}{2} \right) = (0, 0).
+\]
+
+Next, we need to find the lengths of the sides of the rectangle. The distance between the two given vertices can be calculated using the distance formula:
+
+\[
+d = \sqrt{(4 - (-4))^2 + (3 - (-3))^2} = \sqrt{(4 + 4)^2 + (3 + 3)^2} = \sqrt{8^2 + 6^2} = \sqrt{64 + 36} = \sqrt{100} = 10.
+\]
+
+Since the two vertices \((4, 3)\) and \((-4, -3)\) are opposite corners of the rectangle, the diagonal of the rectangle is equal to this distance, which is \(10\).
+
+Let the lengths of the sides of the rectangle be \(a\) and \(b\). The relationship between the sides and the diagonal is given by the Pythagorean theorem:
+
+\[
+a^2 + b^2 = d^2.
+\]
+
+Substituting \(d = 10\):
+
+\[
+a^2 + b^2 = 10^2 = 100.
+\]
+
+Next, we need to find pairs of integers \((a, b)\) such that \(a^2 + b^2 = 100\). We can find the integer solutions by checking perfect squares that sum to \(100\):
+
+- \(a = 0\): \(b^2 = 100 \Rightarrow b = 10\) (or \(-10\))
+- \(a = 6\): \(b^2 = 100 - 36 = 64 \Rightarrow b = 8\) (or \(-8\))
+- \(a = 8\): \(b^2 = 100 - 64 = 36 \Rightarrow b = 6\) (or \(-6\))
+- \(a = 10\): \(b^2 = 100 - 100 = 0 \Rightarrow b = 0\)
+
+The valid pairs \((a, b)\) are:
+
+1. \((0, 10)\)
+2. \((6, 8)\)
+3. \((8, 6)\)
+4. \((10, 0)\)
+
+Next, we need to consider the integer coordinates of the other two vertices of the rectangle. The coordinates of the other two vertices can be derived from the center \((0, 0)\) and the lengths \(a\) and \(b\). The coordinates of the vertices can be expressed as:
+
+\[
+\left( \frac{a}{2}, \frac{b}{2} \right), \left( -\frac{a}{2}, \frac{b}{2} \right), \left( \frac{a}{2}, -\frac{b}{2} \right), \left( -\frac{a}{2}, -\frac{b}{2} \right).
+\]
+
+For each pair \((a, b)\):
+
+1. For \((0, 10)\): Vertices are \((0, 5)\), \((0, -5)\) (not integer coordinates).
+2. For \((6, 8)\): Vertices are \((3, 4)\), \((-3, 4)\), \((3, -4)\), \((-3, -4)\) (all integer coordinates).
+3. For \((8, 6)\): Vertices are \((4, 3)\), \((-4, 3)\), \((4, -3)\), \((-4, -3)\) (all integer coordinates).
+4. For \((10, 0)\): Vertices are \((5, 0)\), \((-5, 0)\) (not integer coordinates).
+
+Thus, the only valid pairs that yield integer coordinates for the other two vertices are \((6, 8)\) and \((8, 6)\).
+
+Each of these pairs corresponds to a rectangle, and since the rectangles formed by \((6, 8)\) and \((8, 6)\) are essentially the same (just rotated), we count them as one unique rectangle.
+
+Therefore, the total number of rectangles that satisfy the conditions is:
+
+\[
+\boxed{2}.
+\]

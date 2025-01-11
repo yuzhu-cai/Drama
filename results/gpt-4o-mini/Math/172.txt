@@ -1,0 +1,70 @@
+To find the area of the region common to the two equilateral triangles formed by joining alternate vertices of a regular hexagon with edges of 4 inches, we start by determining the coordinates of the vertices of the hexagon.
+
+The vertices of a regular hexagon with a side length of 4 inches can be represented in the coordinate plane as follows:
+- \( A = (4, 0) \)
+- \( B = (2, 2\sqrt{3}) \)
+- \( C = (-2, 2\sqrt{3}) \)
+- \( D = (-4, 0) \)
+- \( E = (-2, -2\sqrt{3}) \)
+- \( F = (2, -2\sqrt{3}) \)
+
+Next, we form two equilateral triangles by connecting alternate vertices:
+1. Triangle \( ACF \) using vertices \( A \), \( C \), and \( F \).
+2. Triangle \( BDE \) using vertices \( B \), \( D \), and \( E \).
+
+### Step 1: Calculate the area of triangle \( ACF \)
+
+The vertices of triangle \( ACF \) are:
+- \( A = (4, 0) \)
+- \( C = (-2, 2\sqrt{3}) \)
+- \( F = (2, -2\sqrt{3}) \)
+
+Using the formula for the area of a triangle given vertices \((x_1, y_1)\), \((x_2, y_2)\), \((x_3, y_3)\):
+\[
+\text{Area} = \frac{1}{2} \left| x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2) \right|
+\]
+Substituting the coordinates:
+\[
+\text{Area}_{ACF} = \frac{1}{2} \left| 4(2\sqrt{3} - (-2\sqrt{3})) + (-2)(-2\sqrt{3} - 0) + 2(0 - 2\sqrt{3}) \right|
+\]
+Calculating each term:
+\[
+= \frac{1}{2} \left| 4(4\sqrt{3}) + (-2)(-2\sqrt{3}) + 2(-2\sqrt{3}) \right|
+\]
+\[
+= \frac{1}{2} \left| 16\sqrt{3} + 4\sqrt{3} - 4\sqrt{3} \right|
+\]
+\[
+= \frac{1}{2} \left| 16\sqrt{3} \right| = 8\sqrt{3}
+\]
+
+### Step 2: Calculate the area of triangle \( BDE \)
+
+The vertices of triangle \( BDE \) are:
+- \( B = (2, 2\sqrt{3}) \)
+- \( D = (-4, 0) \)
+- \( E = (-2, -2\sqrt{3}) \)
+
+Using the same area formula:
+\[
+\text{Area}_{BDE} = \frac{1}{2} \left| 2(0 - (-2\sqrt{3})) + (-4)(-2\sqrt{3} - 2\sqrt{3}) + (-2)(2\sqrt{3} - 0) \right|
+\]
+Calculating each term:
+\[
+= \frac{1}{2} \left| 2(2\sqrt{3}) + (-4)(-2\sqrt{3}) + (-2)(2\sqrt{3}) \right|
+\]
+\[
+= \frac{1}{2} \left| 4\sqrt{3} + 8\sqrt{3} - 4\sqrt{3} \right|
+\]
+\[
+= \frac{1}{2} \left| 8\sqrt{3} \right| = 4\sqrt{3}
+\]
+
+### Step 3: Find the area of the common region
+
+The common region of the two triangles is the area of the smaller triangle, which is triangle \( BDE \) since it is entirely contained within triangle \( ACF \).
+
+Thus, the area of the region common to the two triangles is:
+\[
+\boxed{4\sqrt{3}}
+\] square inches.

@@ -1,0 +1,43 @@
+Let the number be \( x \). According to the problem, we can set up the equation:
+
+\[
+3 + \frac{1}{x} = \frac{7}{x}
+\]
+
+To eliminate the fractions, we can multiply both sides of the equation by \( x \) (assuming \( x \neq 0 \)):
+
+\[
+3x + 1 = 7
+\]
+
+Next, we can isolate \( x \) by subtracting 1 from both sides:
+
+\[
+3x = 6
+\]
+
+Now, divide both sides by 3:
+
+\[
+x = 2
+\]
+
+To verify our solution, we can substitute \( x = 2 \) back into the original equation:
+
+The left side:
+
+\[
+3 + \frac{1}{2} = 3 + 0.5 = 3.5
+\]
+
+The right side:
+
+\[
+\frac{7}{2} = 3.5
+\]
+
+Since both sides are equal, our solution is confirmed. Therefore, the number is 
+
+\[
+\boxed{2}
+\]

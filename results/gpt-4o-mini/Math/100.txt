@@ -1,0 +1,41 @@
+To find the sum \( S = 1 + 2 + 3 + \cdots + 100 \), we can use the formula for the sum of the first \( n \) natural numbers:
+
+\[
+S_n = \frac{n(n + 1)}{2}
+\]
+
+In this case, \( n = 100 \). Plugging in the value, we have:
+
+\[
+S_{100} = \frac{100(100 + 1)}{2}
+\]
+
+Calculating \( 100 + 1 \):
+
+\[
+100 + 1 = 101
+\]
+
+Now substituting this back into the formula:
+
+\[
+S_{100} = \frac{100 \times 101}{2}
+\]
+
+Next, we calculate \( 100 \times 101 \):
+
+\[
+100 \times 101 = 10100
+\]
+
+Now, we divide by 2:
+
+\[
+S_{100} = \frac{10100}{2} = 5050
+\]
+
+Thus, the sum \( 1 + 2 + 3 + \cdots + 100 \) is 
+
+\[
+\boxed{5050}
+\]

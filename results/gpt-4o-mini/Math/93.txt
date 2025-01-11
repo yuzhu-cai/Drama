@@ -1,0 +1,53 @@
+To solve the problem, we first need to find the sum of the first ten positive integers. The first ten positive integers are:
+
+\[
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+\]
+
+The sum of these integers can be calculated using the formula for the sum of the first \( n \) integers:
+
+\[
+S = \frac{n(n + 1)}{2}
+\]
+
+For \( n = 10 \):
+
+\[
+S = \frac{10(10 + 1)}{2} = \frac{10 \times 11}{2} = 55
+\]
+
+Now, Marsha adds all but one of these integers, so her sum will be \( 55 - x \), where \( x \) is the integer she did not include. We want \( 55 - x \) to be a perfect square.
+
+Let's denote \( 55 - x = k^2 \) for some integer \( k \). Rearranging gives:
+
+\[
+x = 55 - k^2
+\]
+
+Since \( x \) must be one of the integers from 1 to 10, we need \( 1 \leq 55 - k^2 \leq 10 \). This can be rewritten as:
+
+\[
+45 \leq k^2 \leq 54
+\]
+
+Next, we find the integer values of \( k \) such that \( k^2 \) falls within this range. The smallest integer \( k \) such that \( k^2 \geq 45 \) is \( k = 7 \) (since \( 7^2 = 49 \)), and the largest integer \( k \) such that \( k^2 \leq 54 \) is \( k = 7 \) (since \( 8^2 = 64 \) exceeds 54). Thus, the only possible value for \( k \) is 7.
+
+Now, substituting \( k = 7 \) back into the equation for \( x \):
+
+\[
+x = 55 - 7^2 = 55 - 49 = 6
+\]
+
+Thus, Marsha did not include the integer 6. To verify, we calculate the sum of the integers from 1 to 10 excluding 6:
+
+\[
+1 + 2 + 3 + 4 + 5 + 7 + 8 + 9 + 10 = 1 + 2 + 3 + 4 + 5 + 7 + 8 + 9 + 10 = 49
+\]
+
+Since \( 49 \) is indeed a perfect square (\( 7^2 \)), our solution is confirmed.
+
+Therefore, the integer that Marsha did not include is:
+
+\[
+\boxed{6}
+\]

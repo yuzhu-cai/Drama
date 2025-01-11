@@ -1,0 +1,88 @@
+To solve the equation 
+
+\[
+\frac{\sqrt[3]{2x-4}}{\sqrt[3]{x+4}} = 2,
+\]
+
+we start by cross-multiplying to eliminate the fraction:
+
+\[
+\sqrt[3]{2x-4} = 2 \sqrt[3]{x+4}.
+\]
+
+Next, we can cube both sides to remove the cube roots:
+
+\[
+(\sqrt[3]{2x-4})^3 = (2 \sqrt[3]{x+4})^3.
+\]
+
+This simplifies to:
+
+\[
+2x - 4 = 8(x + 4).
+\]
+
+Now, we expand the right-hand side:
+
+\[
+2x - 4 = 8x + 32.
+\]
+
+Next, we will move all terms involving \(x\) to one side and constant terms to the other side. Subtract \(8x\) from both sides:
+
+\[
+2x - 8x - 4 = 32,
+\]
+
+which simplifies to:
+
+\[
+-6x - 4 = 32.
+\]
+
+Now, add 4 to both sides:
+
+\[
+-6x = 36.
+\]
+
+Finally, divide both sides by -6:
+
+\[
+x = -6.
+\]
+
+To ensure our solution is correct, we will substitute \(x = -6\) back into the original equation:
+
+Calculating \(2x - 4\) and \(x + 4\):
+
+\[
+2(-6) - 4 = -12 - 4 = -16,
+\]
+\[
+-6 + 4 = -2.
+\]
+
+Now substituting these values into the original equation:
+
+\[
+\frac{\sqrt[3]{-16}}{\sqrt[3]{-2}}.
+\]
+
+Calculating the cube roots:
+
+\[
+\sqrt[3]{-16} = -2 \quad \text{and} \quad \sqrt[3]{-2} = -1.
+\]
+
+Thus, we have:
+
+\[
+\frac{-2}{-1} = 2.
+\]
+
+Since both sides of the equation are equal, our solution is confirmed. Therefore, the value of \(x\) is 
+
+\[
+\boxed{-6}.
+\]

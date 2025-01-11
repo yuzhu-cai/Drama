@@ -1,0 +1,23 @@
+To find the value of \( y \) in the diagram, we need to analyze the angles formed by the lines and the arc.
+
+1. **Understanding the Diagram**: The diagram shows a right angle formed by the x-axis and y-axis at the origin (0,0). The arc represents a quarter circle from the positive x-axis to the positive y-axis.
+
+2. **Identifying the Angles**: The angle \( y \) is located in the third quadrant, where both x and y coordinates are negative. The angle \( y \) is measured from the positive x-axis in a counterclockwise direction.
+
+3. **Calculating the Angle**: The full circle is \( 360^\circ \). The angle from the positive x-axis to the negative x-axis is \( 180^\circ \). The angle from the negative x-axis to the positive y-axis is another \( 90^\circ \). Therefore, the total angle from the positive x-axis to the negative y-axis is:
+
+   \[
+   180^\circ + 90^\circ = 270^\circ
+   \]
+
+4. **Conclusion**: Since \( y \) is measured counterclockwise from the positive x-axis to the negative y-axis, we find that:
+
+   \[
+   y = 270^\circ
+   \]
+
+Thus, the value of \( y \) is 
+
+\[
+\boxed{270}
+\]

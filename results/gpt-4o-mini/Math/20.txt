@@ -1,0 +1,87 @@
+To solve the equation \(\cos 4x = -\frac{1}{2}\), we start by determining the angles for which the cosine function equals \(-\frac{1}{2}\). The cosine function equals \(-\frac{1}{2}\) at the angles:
+
+\[
+\theta = \frac{2\pi}{3} + 2k\pi \quad \text{and} \quad \theta = \frac{4\pi}{3} + 2k\pi
+\]
+
+for any integer \(k\).
+
+Since we have \(\cos 4x = -\frac{1}{2}\), we set \(4x\) equal to these angles:
+
+1. \(4x = \frac{2\pi}{3} + 2k\pi\)
+2. \(4x = \frac{4\pi}{3} + 2k\pi\)
+
+Now, we will solve each equation for \(x\).
+
+### For the first equation:
+
+\[
+4x = \frac{2\pi}{3} + 2k\pi
+\]
+Dividing both sides by 4 gives:
+
+\[
+x = \frac{2\pi}{12} + \frac{k\pi}{2} = \frac{\pi}{6} + \frac{k\pi}{2}
+\]
+
+### For the second equation:
+
+\[
+4x = \frac{4\pi}{3} + 2k\pi
+\]
+Dividing both sides by 4 gives:
+
+\[
+x = \frac{4\pi}{12} + \frac{k\pi}{2} = \frac{\pi}{3} + \frac{k\pi}{2}
+\]
+
+### Combining the solutions:
+
+Now we have two sets of solutions:
+
+1. From the first equation: 
+   \[
+   x = \frac{\pi}{6} + \frac{k\pi}{2}
+   \]
+2. From the second equation:
+   \[
+   x = \frac{\pi}{3} + \frac{k\pi}{2}
+   \]
+
+To express both solutions in a similar form, we rewrite \(\frac{\pi}{3}\) as \(\frac{2\pi}{6}\):
+
+\[
+x = \frac{2\pi}{6} + \frac{k\pi}{2}
+\]
+
+Now, we can express both solutions in terms of a common format. The first solution can be rewritten as:
+
+\[
+x = \frac{(2k + 1)\pi}{6}
+\]
+
+and the second solution can be rewritten as:
+
+\[
+x = \frac{(2k + 2)\pi}{6} = \frac{(2(k + 1))\pi}{6}
+\]
+
+Thus, the general form of the solutions can be expressed as:
+
+\[
+x = \frac{(2m + 1)\pi}{6} \quad \text{for integers } m
+\]
+
+where \(m\) can take values \(k\) or \(k + 1\).
+
+### Final Form:
+
+The solutions can be expressed in the form \(\frac{(kn \pm 1)\pi}{6}\). Here, we can identify \(k\) from the coefficients of \(n\). 
+
+In our case, we can see that \(k = 2\) because the coefficients of \(n\) in both forms are \(2\).
+
+Thus, the positive value of \(k\) is:
+
+\[
+\boxed{2}
+\]

@@ -1,0 +1,40 @@
+To find the greatest common factor (GCF) of \(5!\), \(10!\), and \(15!\), we first need to understand the factorial notation. The factorial of a number \(n\), denoted as \(n!\), is the product of all positive integers from \(1\) to \(n\).
+
+Calculating the factorials:
+
+\[
+5! = 5 \times 4 \times 3 \times 2 \times 1 = 120
+\]
+
+\[
+10! = 10 \times 9 \times 8 \times 7 \times 6 \times 5 \times 4 \times 3 \times 2 \times 1
+\]
+
+\[
+15! = 15 \times 14 \times 13 \times 12 \times 11 \times 10 \times 9 \times 8 \times 7 \times 6 \times 5 \times 4 \times 3 \times 2 \times 1
+\]
+
+Next, we note that \(n!\) for any \(n\) includes all the factorials of the numbers less than \(n\). Specifically, we have:
+
+\[
+10! = 10 \times 9 \times 8 \times 7 \times 6 \times 5!
+\]
+
+\[
+15! = 15 \times 14 \times 13 \times 12 \times 11 \times 10!
+\]
+
+From this, we can see that \(5!\) is a factor of both \(10!\) and \(15!\). Therefore, the GCF of \(5!\), \(10!\), and \(15!\) must be \(5!\).
+
+To confirm, we can observe that:
+
+- \(5!\) is a factor of \(10!\) because \(10!\) contains \(5!\) as part of its product.
+- \(5!\) is also a factor of \(15!\) for the same reason.
+
+Since \(5!\) is the largest factorial that divides both \(10!\) and \(15!\), we conclude that the GCF of \(5!\), \(10!\), and \(15!\) is indeed \(5!\).
+
+Thus, the greatest common factor is:
+
+\[
+\boxed{120}
+\]

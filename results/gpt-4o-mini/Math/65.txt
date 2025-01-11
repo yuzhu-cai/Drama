@@ -1,0 +1,64 @@
+Given the equation 
+
+\[
+x - \frac{1}{x} = 3,
+\]
+
+we want to find \( x + \frac{1}{x} \). Let's denote 
+
+\[
+y = x + \frac{1}{x}.
+\]
+
+We can relate \( y \) to the given equation by squaring both \( y \) and the original equation. First, we square \( y \):
+
+\[
+y^2 = \left( x + \frac{1}{x} \right)^2 = x^2 + 2 + \frac{1}{x^2}.
+\]
+
+Next, we also square the original equation:
+
+\[
+x - \frac{1}{x} = 3 \implies \left( x - \frac{1}{x} \right)^2 = 3^2 = 9.
+\]
+
+Expanding the left side gives:
+
+\[
+x^2 - 2 + \frac{1}{x^2} = 9.
+\]
+
+Rearranging this, we find:
+
+\[
+x^2 + \frac{1}{x^2} = 9 + 2 = 11.
+\]
+
+Now we have two expressions:
+
+1. \( y^2 = x^2 + 2 + \frac{1}{x^2} = x^2 + \frac{1}{x^2} + 2 \)
+2. \( x^2 + \frac{1}{x^2} = 11 \)
+
+Substituting the second expression into the first gives:
+
+\[
+y^2 = 11 + 2 = 13.
+\]
+
+Thus, we have:
+
+\[
+y^2 = 13.
+\]
+
+Taking the square root of both sides, we find:
+
+\[
+y = \sqrt{13} \quad \text{(since \( x \) is positive, \( y \) must also be positive)}.
+\]
+
+Therefore, the value of \( x + \frac{1}{x} \) is 
+
+\[
+\boxed{\sqrt{13}}.
+\]

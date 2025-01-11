@@ -1,0 +1,39 @@
+To find out what the sum of Alula's next three quiz scores must be in order to achieve an overall average of 14, we first need to calculate the total number of quizzes and the total score required for that average.
+
+1. **Calculate the total number of quizzes**: 
+   Alula currently has 7 quiz scores, and she will have 3 more quizzes, making a total of:
+   \[
+   7 + 3 = 10 \text{ quizzes}
+   \]
+
+2. **Calculate the total score needed for an average of 14**:
+   The formula for average is:
+   \[
+   \text{Average} = \frac{\text{Total Score}}{\text{Number of Quizzes}}
+   \]
+   Rearranging this gives us:
+   \[
+   \text{Total Score} = \text{Average} \times \text{Number of Quizzes}
+   \]
+   Plugging in the values:
+   \[
+   \text{Total Score} = 14 \times 10 = 140
+   \]
+
+3. **Calculate the current total score**:
+   Now, we need to find the sum of Alula's current quiz scores:
+   \[
+   17 + 10 + 9 + 14 + 16 + 8 + 10 = 84
+   \]
+
+4. **Determine the total score needed from the next three quizzes**:
+   Let \( x \) be the sum of the next three quiz scores. We set up the equation:
+   \[
+   84 + x = 140
+   \]
+   Solving for \( x \):
+   \[
+   x = 140 - 84 = 56
+   \]
+
+Thus, the sum of Alula's next three quiz scores must be \( \boxed{56} \).

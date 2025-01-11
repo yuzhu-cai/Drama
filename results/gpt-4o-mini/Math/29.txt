@@ -1,0 +1,62 @@
+To simplify the expression \(\sqrt{(\sqrt{56})(\sqrt{126})}\), we start by combining the square roots:
+
+\[
+\sqrt{(\sqrt{56})(\sqrt{126})} = \sqrt{\sqrt{56} \cdot \sqrt{126}} = \sqrt{56 \cdot 126}
+\]
+
+Next, we calculate \(56 \cdot 126\). First, we can factor both numbers:
+
+\[
+56 = 2^3 \cdot 7
+\]
+\[
+126 = 2 \cdot 3^2 \cdot 7
+\]
+
+Now, we multiply these factorizations together:
+
+\[
+56 \cdot 126 = (2^3 \cdot 7)(2 \cdot 3^2 \cdot 7) = 2^{3+1} \cdot 3^2 \cdot 7^{1+1} = 2^4 \cdot 3^2 \cdot 7^2
+\]
+
+Now we can compute the square root of this product:
+
+\[
+\sqrt{56 \cdot 126} = \sqrt{2^4 \cdot 3^2 \cdot 7^2}
+\]
+
+Using the property of square roots, we can simplify this further:
+
+\[
+\sqrt{2^4} = 2^2 = 4, \quad \sqrt{3^2} = 3, \quad \sqrt{7^2} = 7
+\]
+
+Thus, we have:
+
+\[
+\sqrt{2^4 \cdot 3^2 \cdot 7^2} = 4 \cdot 3 \cdot 7 = 84
+\]
+
+Now, we need to find \(\sqrt{56 \cdot 126}\):
+
+\[
+\sqrt{56 \cdot 126} = 84
+\]
+
+Since we need to express this in the form \(a\sqrt{b}\), we can write:
+
+\[
+84 = 84\sqrt{1}
+\]
+
+Here, \(a = 84\) and \(b = 1\). Now we compute \(a + b\):
+
+\[
+a + b = 84 + 1 = 85
+\]
+
+Thus, the final answer is:
+
+\[
+\boxed{85}
+\]

@@ -1,0 +1,76 @@
+Let \( n \) be the number of quarters Wendy has. We know from the problem that:
+
+1. When stacked in piles of 5, there are 3 quarters left over:
+   \[
+   n \equiv 3 \pmod{5}
+   \]
+
+2. When stacked in piles of 7, there are 5 quarters left over:
+   \[
+   n \equiv 5 \pmod{7}
+   \]
+
+Additionally, since Wendy has less than ten dollars worth of quarters, we have:
+\[
+n < 40 \quad \text{(since each quarter is worth $0.25)}
+\]
+
+Now, we will solve the system of congruences. Starting with the first congruence:
+\[
+n = 5k + 3 \quad \text{for some integer } k
+\]
+
+Substituting this expression for \( n \) into the second congruence:
+\[
+5k + 3 \equiv 5 \pmod{7}
+\]
+Subtracting 3 from both sides gives:
+\[
+5k \equiv 2 \pmod{7}
+\]
+
+To solve for \( k \), we need to find the multiplicative inverse of 5 modulo 7. We can test values:
+- \( 5 \times 1 = 5 \equiv 5 \)
+- \( 5 \times 2 = 10 \equiv 3 \)
+- \( 5 \times 3 = 15 \equiv 1 \)
+
+Thus, the multiplicative inverse of 5 modulo 7 is 3. We multiply both sides of the equation \( 5k \equiv 2 \) by 3:
+\[
+k \equiv 6 \pmod{7}
+\]
+This means:
+\[
+k = 7m + 6 \quad \text{for some integer } m
+\]
+
+Substituting back into the expression for \( n \):
+\[
+n = 5(7m + 6) + 3 = 35m + 30 + 3 = 35m + 33
+\]
+
+Now we need to find \( n < 40 \):
+\[
+35m + 33 < 40
+\]
+Subtracting 33 from both sides:
+\[
+35m < 7
+\]
+Dividing by 35 gives:
+\[
+m < \frac{7}{35} = \frac{1}{5}
+\]
+
+Since \( m \) must be a non-negative integer, the only possible value for \( m \) is 0. Thus:
+\[
+m = 0 \implies n = 35(0) + 33 = 33
+\]
+
+Finally, we check if \( n = 33 \) satisfies both original conditions:
+1. \( 33 \div 5 = 6 \) remainder \( 3 \) (satisfies \( n \equiv 3 \pmod{5} \))
+2. \( 33 \div 7 = 4 \) remainder \( 5 \) (satisfies \( n \equiv 5 \pmod{7} \))
+
+Since both conditions are satisfied, the number of quarters Wendy has is:
+\[
+\boxed{33}
+\]

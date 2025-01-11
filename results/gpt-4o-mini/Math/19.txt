@@ -1,0 +1,46 @@
+To convert the point \((1, -1, -6)\) from rectangular coordinates to cylindrical coordinates, we use the following relationships:
+
+1. The radial coordinate \(r\) is given by:
+   \[
+   r = \sqrt{x^2 + y^2}
+   \]
+2. The angular coordinate \(\theta\) is given by:
+   \[
+   \theta = \tan^{-1}\left(\frac{y}{x}\right)
+   \]
+   We also need to ensure that \(\theta\) is in the correct quadrant.
+3. The vertical coordinate \(z\) remains the same:
+   \[
+   z = z
+   \]
+
+Given the point \((x, y, z) = (1, -1, -6)\):
+
+1. Calculate \(r\):
+   \[
+   r = \sqrt{1^2 + (-1)^2} = \sqrt{1 + 1} = \sqrt{2}
+   \]
+
+2. Calculate \(\theta\):
+   \[
+   \theta = \tan^{-1}\left(\frac{-1}{1}\right) = \tan^{-1}(-1)
+   \]
+   The angle \(\tan^{-1}(-1)\) corresponds to \(-\frac{\pi}{4}\). Since we need \(\theta\) to be in the range \([0, 2\pi)\), we convert \(-\frac{\pi}{4}\) to a positive angle by adding \(2\pi\):
+   \[
+   \theta = -\frac{\pi}{4} + 2\pi = \frac{7\pi}{4}
+   \]
+
+3. The vertical coordinate \(z\) is:
+   \[
+   z = -6
+   \]
+
+Putting it all together, the cylindrical coordinates are:
+\[
+(r, \theta, z) = \left(\sqrt{2}, \frac{7\pi}{4}, -6\right)
+\]
+
+Thus, the final answer is:
+\[
+\boxed{\left(\sqrt{2}, \frac{7\pi}{4}, -6\right)}
+\]

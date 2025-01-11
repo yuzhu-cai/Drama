@@ -1,0 +1,25 @@
+To solve the equation \( |3 - 2i + w| = 0 \), we start by recalling the property of the modulus of a complex number. The modulus \( |z| \) of a complex number \( z \) is equal to zero if and only if \( z = 0 \).
+
+Thus, we can set the expression inside the modulus to zero:
+
+\[
+3 - 2i + w = 0
+\]
+
+To isolate \( w \), we rearrange the equation:
+
+\[
+w = - (3 - 2i)
+\]
+
+This simplifies to:
+
+\[
+w = -3 + 2i
+\]
+
+Therefore, the value of \( w \) is 
+
+\[
+\boxed{-3 + 2i}
+\]

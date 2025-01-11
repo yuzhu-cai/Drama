@@ -1,0 +1,52 @@
+To find \( P(z_1) + P(z_2) + P(z_3) + P(z_4) \), we start by substituting the roots \( z_i \) of the polynomial \( Q(x) = x^4 - x^3 - x^2 - 1 \) into the polynomial \( P(x) = x^6 - x^5 - x^3 - x^2 - x \).
+
+First, we can express \( P(z) \) in terms of \( Q(z) \). Since \( z_i \) are roots of \( Q(z) \), we have:
+
+\[
+z_i^4 = z_i^3 + z_i^2 + 1
+\]
+
+Next, we compute \( z_i^5 \) and \( z_i^6 \):
+
+\[
+z_i^5 = z_i \cdot z_i^4 = z_i(z_i^3 + z_i^2 + 1) = z_i^4 + z_i^3 + z_i = (z_i^3 + z_i^2 + 1) + z_i^3 + z_i = 2z_i^3 + z_i^2 + z_i + 1
+\]
+
+Now, we compute \( z_i^6 \):
+
+\[
+z_i^6 = z_i \cdot z_i^5 = z_i(2z_i^3 + z_i^2 + z_i + 1) = 2z_i^4 + z_i^3 + z_i^2 + z_i = 2(z_i^3 + z_i^2 + 1) + z_i^3 + z_i^2 + z_i
+\]
+\[
+= 2z_i^3 + 2z_i^2 + 2 + z_i^3 + z_i^2 + z_i = 3z_i^3 + 3z_i^2 + z_i + 2
+\]
+
+Now we substitute \( z_i^5 \) and \( z_i^6 \) into \( P(z_i) \):
+
+\[
+P(z_i) = z_i^6 - z_i^5 - z_i^3 - z_i^2 - z_i
+\]
+\[
+= (3z_i^3 + 3z_i^2 + z_i + 2) - (2z_i^3 + z_i^2 + z_i + 1) - z_i^3 - z_i^2 - z_i
+\]
+\[
+= 3z_i^3 + 3z_i^2 + z_i + 2 - 2z_i^3 - z_i^2 - z_i - 1 - z_i^3 - z_i^2 - z_i
+\]
+\[
+= (3z_i^3 - 2z_i^3 - z_i^3) + (3z_i^2 - z_i^2 - z_i^2) + (z_i - z_i - z_i) + (2 - 1)
+\]
+\[
+= 0 + 0 + 0 + 1 = 1
+\]
+
+Thus, we find that \( P(z_i) = 1 \) for each root \( z_i \) of \( Q(x) \). Therefore, we can sum these results:
+
+\[
+P(z_1) + P(z_2) + P(z_3) + P(z_4) = 1 + 1 + 1 + 1 = 4
+\]
+
+Thus, the final answer is:
+
+\[
+\boxed{4}
+\]

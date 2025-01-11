@@ -1,0 +1,44 @@
+To find the length of \( CP \) in triangle \( \triangle ABC \), we start by determining the coordinates of the vertices based on the given lengths of the legs \( AB \) and \( BC \).
+
+Let:
+- \( A = (0, 0) \)
+- \( B = (6, 0) \)
+- \( C = (6, 3\sqrt{3}) \)
+
+Next, we calculate the midpoints \( M \) and \( N \) of the sides \( BC \) and \( AB \), respectively.
+
+1. **Finding the midpoint \( M \) of \( BC \)**:
+   \[
+   M = \left( \frac{6 + 6}{2}, \frac{0 + 3\sqrt{3}}{2} \right) = \left( 6, \frac{3\sqrt{3}}{2} \right)
+   \]
+
+2. **Finding the midpoint \( N \) of \( AB \)**:
+   \[
+   N = \left( \frac{0 + 6}{2}, \frac{0 + 0}{2} \right) = (3, 0)
+   \]
+
+Now, we need to find the coordinates of point \( P \), the centroid of triangle \( ABC \). The centroid \( G \) of a triangle with vertices \( (x_1, y_1) \), \( (x_2, y_2) \), and \( (x_3, y_3) \) is given by:
+\[
+G = \left( \frac{x_1 + x_2 + x_3}{3}, \frac{y_1 + y_2 + y_3}{3} \right)
+\]
+
+Substituting the coordinates of points \( A \), \( B \), and \( C \):
+\[
+G = \left( \frac{0 + 6 + 6}{3}, \frac{0 + 0 + 3\sqrt{3}}{3} \right) = \left( \frac{12}{3}, \frac{3\sqrt{3}}{3} \right) = (4, \sqrt{3})
+\]
+
+Next, we calculate the length \( CP \) where \( C = (6, 3\sqrt{3}) \) and \( P = (4, \sqrt{3}) \).
+
+Using the distance formula:
+\[
+CP = \sqrt{(6 - 4)^2 + (3\sqrt{3} - \sqrt{3})^2}
+\]
+Calculating each component:
+\[
+CP = \sqrt{(2)^2 + (3\sqrt{3} - \sqrt{3})^2} = \sqrt{4 + (2\sqrt{3})^2} = \sqrt{4 + 4 \cdot 3} = \sqrt{4 + 12} = \sqrt{16} = 4
+\]
+
+Thus, the length of \( CP \) is:
+\[
+\boxed{4}
+\]

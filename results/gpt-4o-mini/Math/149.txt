@@ -1,0 +1,52 @@
+To determine how many digits the number \( 700_{10} \) has when converted to base \( 5 \), we can use the formula for the number of digits \( d \) of a number \( n \) in base \( b \):
+
+\[
+d = \lfloor \log_b n \rfloor + 1
+\]
+
+In this case, we need to find \( d \) for \( n = 700 \) and \( b = 5 \). First, we calculate \( \log_5 700 \).
+
+Using the change of base formula, we have:
+
+\[
+\log_5 700 = \frac{\log_{10} 700}{\log_{10} 5}
+\]
+
+Next, we need to compute \( \log_{10} 700 \) and \( \log_{10} 5 \).
+
+1. **Calculating \( \log_{10} 700 \)**:
+   \[
+   \log_{10} 700 = \log_{10} (7 \times 100) = \log_{10} 7 + \log_{10} 100
+   \]
+   Since \( \log_{10} 100 = 2 \), we need \( \log_{10} 7 \). Using a calculator or logarithm table, we find:
+   \[
+   \log_{10} 7 \approx 0.845
+   \]
+   Therefore,
+   \[
+   \log_{10} 700 \approx 0.845 + 2 = 2.845
+   \]
+
+2. **Calculating \( \log_{10} 5 \)**:
+   Using a calculator or logarithm table, we find:
+   \[
+   \log_{10} 5 \approx 0.699
+   \]
+
+Now we can compute \( \log_5 700 \):
+
+\[
+\log_5 700 = \frac{\log_{10} 700}{\log_{10} 5} \approx \frac{2.845}{0.699} \approx 4.07
+\]
+
+Now, we apply the formula for the number of digits:
+
+\[
+d = \lfloor \log_5 700 \rfloor + 1 = \lfloor 4.07 \rfloor + 1 = 4 + 1 = 5
+\]
+
+Thus, the number of digits that \( 700_{10} \) has when converted to base \( 5 \) is 
+
+\[
+\boxed{5}
+\]

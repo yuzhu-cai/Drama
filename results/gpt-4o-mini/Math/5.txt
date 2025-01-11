@@ -1,0 +1,49 @@
+To find the complex number that the translation takes \(-6\) to, we first need to determine the translation vector. A translation can be expressed in the form:
+
+\[
+z' = z + t
+\]
+
+where \(z\) is the original complex number, \(z'\) is the translated complex number, and \(t\) is the translation vector.
+
+Given that the translation takes \(5 + 5i\) to \(6 + 8i\), we can set up the equation:
+
+\[
+6 + 8i = (5 + 5i) + t
+\]
+
+To find \(t\), we rearrange the equation:
+
+\[
+t = (6 + 8i) - (5 + 5i)
+\]
+
+Calculating this gives:
+
+\[
+t = (6 - 5) + (8 - 5)i = 1 + 3i
+\]
+
+Now that we have the translation vector \(t = 1 + 3i\), we can apply this translation to \(-6\). We express \(-6\) as a complex number:
+
+\[
+-6 = -6 + 0i
+\]
+
+Now we apply the translation:
+
+\[
+z' = (-6 + 0i) + (1 + 3i)
+\]
+
+Calculating this gives:
+
+\[
+z' = (-6 + 1) + (0 + 3)i = -5 + 3i
+\]
+
+Thus, the complex number that the translation takes \(-6\) to is:
+
+\[
+\boxed{-5 + 3i}
+\]

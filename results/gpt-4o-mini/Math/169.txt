@@ -1,0 +1,49 @@
+To find the area of triangle \( ABE \), we first need to determine the coordinates of points \( A \), \( B \), and \( E \).
+
+1. **Coordinates of Points**:
+   - Let \( A = (0, 0) \).
+   - Since \( AB = 4 \) and is horizontal, \( B = (4, 0) \).
+   - Since \( AC = 5 \) and is vertical, \( C = (0, 5) \).
+   - Point \( D \) is directly above \( B \) at a height of \( 4 \) (since \( BD = 4 \)), so \( D = (4, 4) \).
+
+2. **Finding Point \( E \)**:
+   - Point \( E \) is the intersection of the lines \( AC \) and \( BD \).
+   - The line \( AC \) can be described by the equation of the line passing through points \( A \) and \( C \). The slope of line \( AC \) is:
+     \[
+     \text{slope of } AC = \frac{5 - 0}{0 - 0} = \text{undefined (vertical line)}
+     \]
+     Thus, the equation of line \( AC \) is \( x = 0 \).
+   - The line \( BD \) can be described by the equation of the line passing through points \( B \) and \( D \). The slope of line \( BD \) is:
+     \[
+     \text{slope of } BD = \frac{4 - 0}{4 - 4} = \text{undefined (vertical line)}
+     \]
+     Thus, the equation of line \( BD \) is \( x = 4 \).
+
+   Since both lines are vertical, we need to find the intersection point \( E \) by considering the heights. The coordinates of \( E \) can be found by averaging the heights of points \( C \) and \( D \):
+   - The y-coordinate of \( E \) is the average of the y-coordinates of \( C \) and \( D \):
+     \[
+     y_E = \frac{5 + 4}{2} = \frac{9}{2} = 4.5
+     \]
+   - The x-coordinate of \( E \) is the average of the x-coordinates of \( A \) and \( B \):
+     \[
+     x_E = \frac{0 + 4}{2} = 2
+     \]
+   Thus, \( E = (2, 4.5) \).
+
+3. **Calculating the Area of Triangle \( ABE \)**:
+   The area \( A \) of triangle \( ABE \) can be calculated using the formula:
+   \[
+   A = \frac{1}{2} \left| x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2) \right|
+   \]
+   where \( (x_1, y_1) = (0, 0) \), \( (x_2, y_2) = (4, 0) \), and \( (x_3, y_3) = (2, 4.5) \).
+
+   Plugging in the coordinates:
+   \[
+   A = \frac{1}{2} \left| 0(0 - 4.5) + 4(4.5 - 0) + 2(0 - 0) \right|
+   \]
+   Simplifying this:
+   \[
+   A = \frac{1}{2} \left| 0 + 18 + 0 \right| = \frac{1}{2} \times 18 = 9
+   \]
+
+Thus, the area of triangle \( ABE \) is \(\boxed{9}\).

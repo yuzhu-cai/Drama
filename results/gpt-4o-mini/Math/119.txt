@@ -1,0 +1,41 @@
+To determine the value of \( c \) such that the quadratic expression \( x^2 + 25x + c \) is equal to the square of a binomial, we start by expressing the square of a binomial in general form. The square of a binomial can be written as:
+
+\[
+(a + b)^2 = a^2 + 2ab + b^2
+\]
+
+In our case, we can set \( a = x \) and \( b = \frac{25}{2} \) so that:
+
+\[
+(x + \frac{25}{2})^2 = x^2 + 2 \cdot x \cdot \frac{25}{2} + \left(\frac{25}{2}\right)^2
+\]
+
+Calculating the middle term:
+
+\[
+2 \cdot x \cdot \frac{25}{2} = 25x
+\]
+
+Now, we calculate \( \left(\frac{25}{2}\right)^2 \):
+
+\[
+\left(\frac{25}{2}\right)^2 = \frac{625}{4}
+\]
+
+Thus, we can rewrite the square of the binomial:
+
+\[
+(x + \frac{25}{2})^2 = x^2 + 25x + \frac{625}{4}
+\]
+
+From this, we can see that the quadratic \( x^2 + 25x + c \) matches the form \( x^2 + 25x + \frac{625}{4} \). Therefore, we can equate \( c \) to \( \frac{625}{4} \):
+
+\[
+c = \frac{625}{4}
+\]
+
+Thus, the value of \( c \) is:
+
+\[
+\boxed{\frac{625}{4}}
+\]

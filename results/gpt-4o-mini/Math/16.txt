@@ -1,0 +1,121 @@
+To find the greatest possible value of the product \( PA \cdot PB \cdot PC \cdot PD \) where \( P \) is a point on the circle \( x^2 + y^2 = 9 \), we start by determining the distances from point \( P \) to points \( A, B, C, D \).
+
+The coordinates of the points are:
+- \( A = (2, 0) \)
+- \( B = (0, 2) \)
+- \( C = (-2, 0) \)
+- \( D = (0, -2) \)
+
+Let \( P = (3 \cos \theta, 3 \sin \theta) \) for some angle \( \theta \) since \( P \) lies on the circle of radius 3.
+
+Now we compute the distances \( PA, PB, PC, PD \):
+
+1. **Distance \( PA \)**:
+   \[
+   PA = \sqrt{(3 \cos \theta - 2)^2 + (3 \sin \theta - 0)^2} = \sqrt{(3 \cos \theta - 2)^2 + (3 \sin \theta)^2}
+   \]
+   Expanding this:
+   \[
+   PA = \sqrt{(3 \cos \theta - 2)^2 + 9 \sin^2 \theta} = \sqrt{9 \cos^2 \theta - 12 \cos \theta + 4 + 9 \sin^2 \theta}
+   \]
+   Using \( \cos^2 \theta + \sin^2 \theta = 1 \):
+   \[
+   PA = \sqrt{9 - 12 \cos \theta + 4} = \sqrt{13 - 12 \cos \theta}
+   \]
+
+2. **Distance \( PB \)**:
+   \[
+   PB = \sqrt{(3 \cos \theta - 0)^2 + (3 \sin \theta - 2)^2} = \sqrt{(3 \cos \theta)^2 + (3 \sin \theta - 2)^2}
+   \]
+   Expanding this:
+   \[
+   PB = \sqrt{9 \cos^2 \theta + (3 \sin \theta - 2)^2} = \sqrt{9 \cos^2 \theta + 9 \sin^2 \theta - 12 \sin \theta + 4}
+   \]
+   Again using \( \cos^2 \theta + \sin^2 \theta = 1 \):
+   \[
+   PB = \sqrt{9 - 12 \sin \theta + 4} = \sqrt{13 - 12 \sin \theta}
+   \]
+
+3. **Distance \( PC \)**:
+   \[
+   PC = \sqrt{(3 \cos \theta + 2)^2 + (3 \sin \theta - 0)^2} = \sqrt{(3 \cos \theta + 2)^2 + (3 \sin \theta)^2}
+   \]
+   Expanding this:
+   \[
+   PC = \sqrt{(3 \cos \theta + 2)^2 + 9 \sin^2 \theta} = \sqrt{9 \cos^2 \theta + 12 \cos \theta + 4 + 9 \sin^2 \theta}
+   \]
+   Using \( \cos^2 \theta + \sin^2 \theta = 1 \):
+   \[
+   PC = \sqrt{9 + 12 \cos \theta + 4} = \sqrt{13 + 12 \cos \theta}
+   \]
+
+4. **Distance \( PD \)**:
+   \[
+   PD = \sqrt{(3 \cos \theta - 0)^2 + (3 \sin \theta + 2)^2} = \sqrt{(3 \cos \theta)^2 + (3 \sin \theta + 2)^2}
+   \]
+   Expanding this:
+   \[
+   PD = \sqrt{9 \cos^2 \theta + (3 \sin \theta + 2)^2} = \sqrt{9 \cos^2 \theta + 9 \sin^2 \theta + 12 \sin \theta + 4}
+   \]
+   Again using \( \cos^2 \theta + \sin^2 \theta = 1 \):
+   \[
+   PD = \sqrt{9 + 12 \sin \theta + 4} = \sqrt{13 + 12 \sin \theta}
+   \]
+
+Now we have:
+\[
+PA = \sqrt{13 - 12 \cos \theta}, \quad PB = \sqrt{13 - 12 \sin \theta}, \quad PC = \sqrt{13 + 12 \cos \theta}, \quad PD = \sqrt{13 + 12 \sin \theta}
+\]
+
+We want to maximize the product:
+\[
+P = PA \cdot PB \cdot PC \cdot PD
+\]
+This can be rewritten as:
+\[
+P = \sqrt{(13 - 12 \cos \theta)(13 - 12 \sin \theta)(13 + 12 \cos \theta)(13 + 12 \sin \theta)}
+\]
+
+Using the identity \( (a-b)(a+b) = a^2 - b^2 \):
+\[
+P = \sqrt{(13^2 - (12 \cos \theta)^2)(13^2 - (12 \sin \theta)^2)}
+\]
+Calculating \( 13^2 = 169 \):
+\[
+P = \sqrt{(169 - 144 \cos^2 \theta)(169 - 144 \sin^2 \theta)}
+\]
+Let \( x = \cos^2 \theta \) and \( y = \sin^2 \theta \) with \( x + y = 1 \):
+\[
+P = \sqrt{(169 - 144 x)(169 - 144 (1-x))}
+\]
+This simplifies to:
+\[
+P = \sqrt{(169 - 144 x)(25 + 144 x)} = \sqrt{(169 - 144 x)(169 - 144 + 144 x)} = \sqrt{(169 - 144 x)(25 + 144 x)}
+\]
+
+To maximize this product, we can use the AM-GM inequality or calculus. However, we can also evaluate specific angles. 
+
+For \( \theta = 0 \):
+\[
+P = PA \cdot PB \cdot PC \cdot PD = \sqrt{13 - 12 \cdot 1} \cdot \sqrt{13 - 12 \cdot 0} \cdot \sqrt{13 + 12 \cdot 1} \cdot \sqrt{13 + 12 \cdot 0}
+\]
+Calculating:
+\[
+P = \sqrt{1} \cdot \sqrt{13} \cdot \sqrt{25} \cdot \sqrt{13} = 1 \cdot \sqrt{13} \cdot 5 \cdot \sqrt{13} = 5 \cdot 13 = 65
+\]
+
+For \( \theta = \frac{\pi}{2} \):
+\[
+P = PA \cdot PB \cdot PC \cdot PD = \sqrt{13 - 12 \cdot 0} \cdot \sqrt{13 - 12 \cdot 1} \cdot \sqrt{13 + 12 \cdot 0} \cdot \sqrt{13 + 12 \cdot 1}
+\]
+Calculating:
+\[
+P = \sqrt{13} \cdot \sqrt{1} \cdot \sqrt{13} \cdot \sqrt{25} = 5 \cdot 13 = 65
+\]
+
+Thus, the maximum value occurs at both \( \theta = 0 \) and \( \theta = \frac{\pi}{2} \) yielding the same product.
+
+Therefore, the greatest possible value of \( PA \cdot PB \cdot PC \cdot PD \) is:
+\[
+\boxed{65}
+\]

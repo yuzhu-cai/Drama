@@ -1,0 +1,74 @@
+To determine the values of \( n \) such that the number \( 42{,}789{,}n37 \) is divisible by 3, we need to use the rule that a number is divisible by 3 if the sum of its digits is divisible by 3.
+
+First, we calculate the sum of the known digits in \( 42{,}789{,}n37 \):
+
+\[
+4 + 2 + 7 + 8 + 9 + n + 3 + 7
+\]
+
+Calculating the sum of the digits without \( n \):
+
+\[
+4 + 2 = 6
+\]
+\[
+6 + 7 = 13
+\]
+\[
+13 + 8 = 21
+\]
+\[
+21 + 9 = 30
+\]
+\[
+30 + 3 = 33
+\]
+\[
+33 + 7 = 40
+\]
+
+Thus, the sum of the digits is:
+
+\[
+40 + n
+\]
+
+Next, we want \( 40 + n \) to be divisible by 3. To find the values of \( n \) that satisfy this condition, we first find \( 40 \mod 3 \):
+
+\[
+40 \div 3 = 13 \quad \text{(remainder 1)}
+\]
+Thus, \( 40 \equiv 1 \mod 3 \).
+
+Now, we need:
+
+\[
+40 + n \equiv 0 \mod 3
+\]
+
+This simplifies to:
+
+\[
+1 + n \equiv 0 \mod 3
+\]
+\[
+n \equiv -1 \equiv 2 \mod 3
+\]
+
+The single-digit values of \( n \) that satisfy \( n \equiv 2 \mod 3 \) are:
+
+- \( n = 2 \)
+- \( n = 5 \)
+- \( n = 8 \)
+
+Now, we will sum these valid values of \( n \):
+
+\[
+2 + 5 + 8 = 15
+\]
+
+Thus, the sum of all single-digit replacements for \( n \) such that the number \( 42{,}789{,}n37 \) is divisible by 3 is:
+
+\[
+\boxed{15}
+\]

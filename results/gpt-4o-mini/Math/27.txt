@@ -1,0 +1,27 @@
+Let \( M \) be the number of students in the Math Club. According to the problem, we know the following:
+
+1. \( 30\% \) of the students in the Math Club are in the Science Club. This means the number of students in both clubs (Math and Science) can be expressed as:
+   \[
+   0.3M
+   \]
+
+2. There are 15 students in the Science Club. According to the problem, \( 80\% \) of the students in the Science Club are also in the Math Club. Therefore, the number of students in the Science Club who are also in the Math Club can be expressed as:
+   \[
+   0.8 \times 15 = 12
+   \]
+
+Now, we can set up the equation based on the two expressions we have for the number of students in both clubs:
+\[
+0.3M = 12
+\]
+
+To find \( M \), we solve the equation:
+\[
+M = \frac{12}{0.3}
+\]
+Calculating the right-hand side:
+\[
+M = \frac{12}{0.3} = 12 \times \frac{10}{3} = 40
+\]
+
+Thus, the number of students in the Math Club is \( \boxed{40} \).

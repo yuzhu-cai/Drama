@@ -1,0 +1,31 @@
+To find how many four-digit positive integers can be formed where each digit is a prime number, we first identify the prime numbers less than 10, since we are dealing with digits. The prime numbers in this range are:
+
+- 2
+- 3
+- 5
+- 7
+
+Thus, the available digits for our four-digit integers are 2, 3, 5, and 7.
+
+Next, we need to consider the structure of a four-digit number. A four-digit number can be represented as \(abcd\), where \(a\), \(b\), \(c\), and \(d\) are the digits. The first digit \(a\) must be non-zero, but since all our digits are prime and non-zero, \(a\) can be any of the four prime digits (2, 3, 5, or 7).
+
+Now, we can calculate the number of choices for each digit:
+
+- For the first digit \(a\), we have 4 choices (2, 3, 5, 7).
+- For the second digit \(b\), we also have 4 choices (2, 3, 5, 7).
+- For the third digit \(c\), we again have 4 choices (2, 3, 5, 7).
+- For the fourth digit \(d\), we have 4 choices (2, 3, 5, 7).
+
+Since the choices for each digit are independent, we can find the total number of four-digit integers by multiplying the number of choices for each digit:
+
+\[
+\text{Total number of four-digit integers} = 4 \times 4 \times 4 \times 4 = 4^4
+\]
+
+Calculating \(4^4\):
+
+\[
+4^4 = 256
+\]
+
+Thus, the total number of four-digit positive integers where each digit is a prime number is \(\boxed{256}\).

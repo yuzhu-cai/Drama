@@ -1,0 +1,23 @@
+To find the greatest possible length of each piece that both ropes can be cut into, we need to determine the greatest common divisor (GCD) of the two lengths of the ropes: 18 meters and 24 meters.
+
+We can find the GCD using the prime factorization method:
+
+1. **Prime factorization of 18**:
+   - \( 18 = 2 \times 3^2 \)
+
+2. **Prime factorization of 24**:
+   - \( 24 = 2^3 \times 3 \)
+
+Next, we identify the common prime factors and take the lowest power of each common factor:
+
+- The common prime factors are \( 2 \) and \( 3 \).
+- For \( 2 \): The minimum power is \( 2^1 \) (from 18).
+- For \( 3 \): The minimum power is \( 3^1 \) (from 24).
+
+Now, we multiply these together to find the GCD:
+
+\[
+\text{GCD} = 2^1 \times 3^1 = 2 \times 3 = 6
+\]
+
+Thus, the greatest possible length of each piece that both ropes can be cut into is \( \boxed{6} \) meters.

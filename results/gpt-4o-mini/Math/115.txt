@@ -1,0 +1,88 @@
+To solve for \( y \) in the system of equations given by
+
+\[
+4x - y + 2z = 7 \quad (1)
+\]
+\[
+6x + 3y + 3z = 5 \quad (2)
+\]
+
+we can manipulate these equations to isolate \( y \).
+
+First, we can express \( y \) from equation (1):
+
+\[
+-y = 7 - 4x - 2z
+\]
+\[
+y = 4x + 2z - 7 \quad (3)
+\]
+
+Next, we will substitute equation (3) into equation (2). We first rewrite equation (2) using equation (3):
+
+\[
+6x + 3(4x + 2z - 7) + 3z = 5
+\]
+
+Now, we expand this equation:
+
+\[
+6x + 12x + 6z - 21 + 3z = 5
+\]
+\[
+18x + 9z - 21 = 5
+\]
+
+Next, we add 21 to both sides:
+
+\[
+18x + 9z = 26
+\]
+
+Now, we can simplify this equation by dividing everything by 9:
+
+\[
+2x + z = \frac{26}{9}
+\]
+
+From this, we can express \( z \) in terms of \( x \):
+
+\[
+z = \frac{26}{9} - 2x \quad (4)
+\]
+
+Now we substitute equation (4) back into equation (3) to find \( y \):
+
+\[
+y = 4x + 2\left(\frac{26}{9} - 2x\right) - 7
+\]
+
+Expanding this gives:
+
+\[
+y = 4x + \frac{52}{9} - 4x - 7
+\]
+
+The \( 4x \) terms cancel out:
+
+\[
+y = \frac{52}{9} - 7
+\]
+
+To combine the terms, we convert \( 7 \) into a fraction with a denominator of 9:
+
+\[
+7 = \frac{63}{9}
+\]
+
+Thus,
+
+\[
+y = \frac{52}{9} - \frac{63}{9} = \frac{52 - 63}{9} = \frac{-11}{9}
+\]
+
+Therefore, the value of \( y \) is 
+
+\[
+\boxed{-\frac{11}{9}}.
+\]

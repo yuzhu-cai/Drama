@@ -1,0 +1,29 @@
+To find the sum of the roots \( a + b + c \) of the polynomial \( x^3 + 7x^2 - 11x - 2 = 0 \), we can use Vieta's formulas. According to Vieta's, for a cubic polynomial of the form 
+
+\[
+x^3 + px^2 + qx + r = 0,
+\]
+
+the sum of the roots \( a + b + c \) is given by 
+
+\[
+-(\text{coefficient of } x^2).
+\]
+
+In our case, the polynomial is 
+
+\[
+x^3 + 7x^2 - 11x - 2.
+\]
+
+Here, the coefficient of \( x^2 \) is \( 7 \). Therefore, according to Vieta's formulas, we have:
+
+\[
+a + b + c = -7.
+\]
+
+Thus, the sum of the roots \( a + b + c \) is 
+
+\[
+\boxed{-7}.
+\]

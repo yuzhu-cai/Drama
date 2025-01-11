@@ -1,0 +1,67 @@
+To solve the equation 
+
+\[
+\frac{x}{3} + \frac{x}{4} = 14,
+\]
+
+we first find a common denominator for the fractions on the left side. The denominators are 3 and 4, and the least common multiple of 3 and 4 is 12.
+
+Next, we rewrite each fraction with the common denominator of 12:
+
+\[
+\frac{x}{3} = \frac{4x}{12} \quad \text{and} \quad \frac{x}{4} = \frac{3x}{12}.
+\]
+
+Substituting these into the equation gives:
+
+\[
+\frac{4x}{12} + \frac{3x}{12} = 14.
+\]
+
+Now, we can combine the fractions:
+
+\[
+\frac{4x + 3x}{12} = 14.
+\]
+
+This simplifies to:
+
+\[
+\frac{7x}{12} = 14.
+\]
+
+To eliminate the fraction, we multiply both sides of the equation by 12:
+
+\[
+7x = 14 \times 12.
+\]
+
+Calculating the right side:
+
+\[
+14 \times 12 = 168,
+\]
+
+so we have:
+
+\[
+7x = 168.
+\]
+
+Next, we solve for \(x\) by dividing both sides by 7:
+
+\[
+x = \frac{168}{7}.
+\]
+
+Calculating this gives:
+
+\[
+x = 24.
+\]
+
+Thus, the solution is 
+
+\[
+\boxed{24}.
+\]

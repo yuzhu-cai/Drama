@@ -1,0 +1,57 @@
+To determine the number of distinct ways to arrange five beads on a necklace using eight distinct beads, we need to account for the symmetries of the necklace, which include both rotations and reflections.
+
+We can use Burnside's lemma to count the distinct arrangements. Burnside's lemma states that the number of distinct arrangements (or orbits) is given by the average number of arrangements fixed by each symmetry of the object.
+
+### Step 1: Identify the symmetries
+
+For a necklace of 5 beads, the symmetries include:
+- **Rotations**: There are 5 rotations (0°, 72°, 144°, 216°, and 288°).
+- **Reflections**: There are 5 reflections (each reflection can be thought of as flipping the necklace over a line that passes through one bead and the midpoint of the opposite side).
+
+Thus, the total number of symmetries is \(5 + 5 = 10\).
+
+### Step 2: Count the arrangements fixed by each symmetry
+
+1. **Rotations**:
+   - **0° rotation (identity)**: All arrangements are fixed. The number of ways to choose 5 beads from 8 is \( \binom{8}{5} \) and for each selection of 5 beads, they can be arranged in \(5!\) ways. Thus, the number of arrangements fixed by this rotation is:
+     \[
+     \binom{8}{5} \cdot 5! = 56 \cdot 120 = 6720.
+     \]
+
+   - **72° rotation**: For an arrangement to be fixed, all beads must be the same, which is impossible since we are using distinct beads. Thus, the number of arrangements fixed is 0.
+
+   - **144° rotation**: Similar to the 72° rotation, all beads must be the same. Thus, the number of arrangements fixed is 0.
+
+   - **216° rotation**: Same reasoning as above. The number of arrangements fixed is 0.
+
+   - **288° rotation**: Same reasoning as above. The number of arrangements fixed is 0.
+
+   Therefore, the total number of arrangements fixed by rotations is:
+   \[
+   6720 + 0 + 0 + 0 + 0 = 6720.
+   \]
+
+2. **Reflections**:
+   - Each reflection will fix arrangements where the beads are symmetric about the line of reflection. For a necklace of 5 beads, this means that the bead at the center (the 3rd bead) can be any of the 8 beads, and the two pairs of beads on either side must be the same. However, since all beads are distinct, there are no arrangements that can satisfy this condition. Thus, the number of arrangements fixed by each reflection is 0.
+
+   Therefore, the total number of arrangements fixed by reflections is:
+   \[
+   0 + 0 + 0 + 0 + 0 = 0.
+   \]
+
+### Step 3: Apply Burnside's lemma
+
+Now we can apply Burnside's lemma:
+\[
+\text{Number of distinct arrangements} = \frac{1}{|\text{Group}|} \sum_{g \in \text{Group}} \text{Fix}(g),
+\]
+where \(|\text{Group}| = 10\) and \(\text{Fix}(g)\) is the number of arrangements fixed by symmetry \(g\).
+
+Thus, we have:
+\[
+\text{Number of distinct arrangements} = \frac{1}{10} (6720 + 0) = \frac{6720}{10} = 672.
+\]
+
+### Conclusion
+
+The number of distinct ways to arrange five beads on a necklace using eight distinct beads, considering rotations and reflections as the same, is \(\boxed{672}\).

@@ -1,0 +1,52 @@
+To find the area of the shaded region in the problem, we first need to determine the area of the circle and the area of triangle \( ABC \).
+
+1. **Circle Area Calculation**:
+   The diameter \( AB \) measures 4 cm, which means the radius \( r \) of circle \( P \) is:
+   \[
+   r = \frac{4}{2} = 2 \text{ cm}
+   \]
+   The area \( A \) of the circle is given by the formula:
+   \[
+   A = \pi r^2 = \pi (2)^2 = 4\pi \text{ cm}^2
+   \]
+
+2. **Triangle Area Calculation**:
+   We know that \( BC = 2 \) cm and \( AB = 4 \) cm. Since \( C \) lies on the circle with diameter \( AB \), triangle \( ABC \) is a right triangle with \( \angle ACB = 90^\circ \).
+
+   To find the length of \( AC \), we can use the Pythagorean theorem:
+   \[
+   AB^2 = AC^2 + BC^2
+   \]
+   Substituting the known lengths:
+   \[
+   4^2 = AC^2 + 2^2
+   \]
+   \[
+   16 = AC^2 + 4
+   \]
+   \[
+   AC^2 = 16 - 4 = 12
+   \]
+   \[
+   AC = \sqrt{12} = 2\sqrt{3} \text{ cm}
+   \]
+
+   Now, we can calculate the area \( A_{ABC} \) of triangle \( ABC \):
+   \[
+   A_{ABC} = \frac{1}{2} \times AB \times BC = \frac{1}{2} \times 4 \times 2 = 4 \text{ cm}^2
+   \]
+
+3. **Shaded Area Calculation**:
+   The shaded area is the area of the circle minus the area of triangle \( ABC \):
+   \[
+   \text{Shaded Area} = \text{Area of Circle} - \text{Area of Triangle}
+   \]
+   Substituting the values we calculated:
+   \[
+   \text{Shaded Area} = 4\pi - 4 \text{ cm}^2
+   \]
+
+Thus, the area of the shaded region is:
+\[
+\boxed{4\pi - 4} \text{ cm}^2
+\]

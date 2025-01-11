@@ -14,11 +14,15 @@ def infer_single_agent(mode: str):
             with open(f'results/gpt-4o-mini/{sample["task_id"]}.py', 'w') as file:
                 file.write(code)
     if mode == "math":
-        pass
+        for sample in tqdm(math_dataloader):
+            response = Agent.chat(sample['problem'])
+            with open(f'results/gpt-4o-mini/Math/{sample["id"]}.txt', 'w') as file:
+                file.write(response)
 
 
 if __name__ == "__main__":
     # single agent: gpt-4o-mini
     # Humaneval
-    infer_single_agent(mode="code")
+    # infer_single_agent(mode="code")
     # MATH
+    infer_single_agent(mode="math")

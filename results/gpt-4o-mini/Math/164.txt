@@ -1,0 +1,45 @@
+To find the value of \( x \) for the triangle with vertices at \( (0, 0) \), \( (x, 0) \), and \( (x, 5) \), we first need to calculate the area of the triangle using the formula for the area of a triangle:
+
+\[
+\text{Area} = \frac{1}{2} \times \text{base} \times \text{height}
+\]
+
+In this triangle:
+- The base is the horizontal segment from \( (0, 0) \) to \( (x, 0) \), which has a length of \( x \).
+- The height is the vertical segment from \( (x, 0) \) to \( (x, 5) \), which has a length of \( 5 \).
+
+Substituting these values into the area formula gives:
+
+\[
+\text{Area} = \frac{1}{2} \times x \times 5
+\]
+
+Simplifying this, we have:
+
+\[
+\text{Area} = \frac{5x}{2}
+\]
+
+According to the problem, the area of the triangle is given as \( 30 \) square units. Therefore, we set up the equation:
+
+\[
+\frac{5x}{2} = 30
+\]
+
+To solve for \( x \), we first multiply both sides by \( 2 \):
+
+\[
+5x = 60
+\]
+
+Next, we divide both sides by \( 5 \):
+
+\[
+x = 12
+\]
+
+Thus, the value of \( x \) is 
+
+\[
+\boxed{12}
+\]

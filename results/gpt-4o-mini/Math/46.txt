@@ -1,0 +1,44 @@
+To find the two-digit positive integers whose digits multiply to 12, we can denote a two-digit number as \( ab \), where \( a \) is the tens digit and \( b \) is the units digit. The condition we need to satisfy is:
+
+\[
+a \times b = 12
+\]
+
+Since \( a \) must be a digit from 1 to 9 (as it is the tens place in a two-digit number) and \( b \) must be a digit from 0 to 9, we will find pairs \( (a, b) \) such that their product equals 12.
+
+Next, we will list the factor pairs of 12:
+
+\[
+1 \times 12, \quad 2 \times 6, \quad 3 \times 4, \quad 4 \times 3, \quad 6 \times 2, \quad 12 \times 1
+\]
+
+Now, we will check which of these pairs can be valid digits for \( a \) and \( b \):
+
+1. **Pair \( (1, 12) \)**: Not valid since 12 is not a digit.
+2. **Pair \( (2, 6) \)**: Valid, gives the number 26.
+3. **Pair \( (3, 4) \)**: Valid, gives the number 34.
+4. **Pair \( (4, 3) \)**: Valid, gives the number 43.
+5. **Pair \( (6, 2) \)**: Valid, gives the number 62.
+6. **Pair \( (12, 1) \)**: Not valid since 12 is not a digit.
+
+Now we summarize the valid two-digit numbers we found:
+
+- From \( (2, 6) \): 26
+- From \( (3, 4) \): 34
+- From \( (4, 3) \): 43
+- From \( (6, 2) \): 62
+
+Thus, the valid two-digit integers are:
+
+- 26
+- 34
+- 43
+- 62
+
+Counting these, we find there are a total of 4 two-digit integers where the product of the digits equals 12.
+
+Therefore, the final answer is:
+
+\[
+\boxed{4}
+\]

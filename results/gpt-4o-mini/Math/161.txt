@@ -1,0 +1,62 @@
+To find the radius of the right circular cylinder, we can use the formulas for the lateral surface area and volume of a cylinder.
+
+The lateral surface area \( A \) of a right circular cylinder is given by:
+
+\[
+A = 2 \pi r h
+\]
+
+where \( r \) is the radius and \( h \) is the height of the cylinder.
+
+The volume \( V \) of a right circular cylinder is given by:
+
+\[
+V = \pi r^2 h
+\]
+
+We are given that the lateral surface area \( A = 3.5 \) square inches and the volume \( V = 3.5 \) cubic inches. Thus, we have the following equations:
+
+1. \( 2 \pi r h = 3.5 \)
+2. \( \pi r^2 h = 3.5 \)
+
+From the first equation, we can express \( h \) in terms of \( r \):
+
+\[
+h = \frac{3.5}{2 \pi r}
+\]
+
+Next, we substitute this expression for \( h \) into the second equation:
+
+\[
+\pi r^2 \left( \frac{3.5}{2 \pi r} \right) = 3.5
+\]
+
+Simplifying this, we get:
+
+\[
+\frac{3.5 r^2}{2 \pi r} = 3.5
+\]
+
+This simplifies further to:
+
+\[
+\frac{3.5 r}{2 \pi} = 3.5
+\]
+
+To eliminate \( 3.5 \) from both sides, we divide by \( 3.5 \):
+
+\[
+\frac{r}{2 \pi} = 1
+\]
+
+Multiplying both sides by \( 2 \pi \) gives:
+
+\[
+r = 2 \pi
+\]
+
+Thus, the radius of the cylinder is:
+
+\[
+\boxed{2\pi} \text{ inches}
+\]

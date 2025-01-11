@@ -1,0 +1,37 @@
+To find the number of students who take neither French nor Spanish, we can use the principle of inclusion-exclusion.
+
+Let:
+- \( F \) be the number of students taking French.
+- \( S \) be the number of students taking Spanish.
+- \( B \) be the number of students taking both languages.
+
+From the problem, we have:
+- \( F = 8 \)
+- \( S = 12 \)
+- \( B = 3 \)
+
+First, we calculate the number of students taking at least one language (either French or Spanish) using the formula:
+
+\[
+\text{Number of students taking at least one language} = F + S - B
+\]
+
+Substituting the values:
+
+\[
+\text{Number of students taking at least one language} = 8 + 12 - 3 = 17
+\]
+
+Now, to find the number of students who take neither language, we subtract the number of students taking at least one language from the total number of students:
+
+\[
+\text{Number of students taking neither language} = \text{Total students} - \text{Number of students taking at least one language}
+\]
+
+Substituting the values:
+
+\[
+\text{Number of students taking neither language} = 30 - 17 = 13
+\]
+
+Thus, the number of students who take neither French nor Spanish is \( \boxed{13} \).

@@ -1,0 +1,38 @@
+To find the value of \( f(g(2)) \), we first need to calculate \( g(2) \).
+
+Given the function \( g(x) = x^2 + 3 \), we substitute \( x = 2 \):
+
+\[
+g(2) = 2^2 + 3
+\]
+Calculating \( 2^2 \):
+
+\[
+2^2 = 4
+\]
+
+Now, adding 3:
+
+\[
+g(2) = 4 + 3 = 7
+\]
+
+Next, we need to evaluate \( f(g(2)) \), which is \( f(7) \).
+
+The function \( f(x) = x + 1 \) allows us to substitute \( x = 7 \):
+
+\[
+f(7) = 7 + 1
+\]
+
+Calculating this gives:
+
+\[
+f(7) = 8
+\]
+
+Thus, the value of \( f(g(2)) \) is 
+
+\[
+\boxed{8}
+\]

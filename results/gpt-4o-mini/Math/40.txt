@@ -1,0 +1,82 @@
+To find the area of the rectangle, we first need to determine the values of \( x \) based on the given perimeter.
+
+The formula for the perimeter \( P \) of a rectangle is given by:
+
+\[
+P = 2 \times (\text{length} + \text{width})
+\]
+
+In this case, the length \( L \) is \( 3x + 10 \) feet and the width \( W \) is \( x + 12 \) feet. Therefore, we can express the perimeter as:
+
+\[
+P = 2 \times ((3x + 10) + (x + 12))
+\]
+
+Simplifying the expression inside the parentheses:
+
+\[
+3x + 10 + x + 12 = 4x + 22
+\]
+
+Now substituting back into the perimeter formula:
+
+\[
+P = 2 \times (4x + 22) = 8x + 44
+\]
+
+We know that the perimeter is 76 feet, so we set up the equation:
+
+\[
+8x + 44 = 76
+\]
+
+To solve for \( x \), we first subtract 44 from both sides:
+
+\[
+8x = 76 - 44
+\]
+\[
+8x = 32
+\]
+
+Next, we divide both sides by 8:
+
+\[
+x = 4
+\]
+
+Now that we have \( x \), we can find the dimensions of the rectangle. First, we calculate the length:
+
+\[
+L = 3x + 10 = 3(4) + 10 = 12 + 10 = 22 \text{ feet}
+\]
+
+Next, we calculate the width:
+
+\[
+W = x + 12 = 4 + 12 = 16 \text{ feet}
+\]
+
+Now we can find the area \( A \) of the rectangle using the formula:
+
+\[
+A = \text{length} \times \text{width} = L \times W
+\]
+
+Substituting the values we found:
+
+\[
+A = 22 \times 16
+\]
+
+Calculating the area:
+
+\[
+A = 352 \text{ square feet}
+\]
+
+Thus, the area of the rectangle is 
+
+\[
+\boxed{352} \text{ square feet}.
+\]

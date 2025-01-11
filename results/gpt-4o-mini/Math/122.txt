@@ -1,0 +1,76 @@
+To find the meeting points, we first calculate the midpoint based on the locations Annie and Barbara initially believed they were at.
+
+Annie's coordinates are given as \( (3, 5) \) and Barbara's initially believed coordinates are \( (-6, 2) \).
+
+The formula for the midpoint \( M \) between two points \( (x_1, y_1) \) and \( (x_2, y_2) \) is:
+
+\[
+M = \left( \frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2} \right)
+\]
+
+Substituting in Annie's and Barbara's coordinates:
+
+\[
+M = \left( \frac{3 + (-6)}{2}, \frac{5 + 2}{2} \right)
+\]
+
+Calculating the \( x \)-coordinate:
+
+\[
+\frac{3 - 6}{2} = \frac{-3}{2} = -1.5
+\]
+
+Calculating the \( y \)-coordinate:
+
+\[
+\frac{5 + 2}{2} = \frac{7}{2} = 3.5
+\]
+
+Thus, the midpoint where they initially agreed to meet is:
+
+\[
+(-1.5, 3.5)
+\]
+
+Next, we find the actual meeting point based on Barbara's correct location, which is \( (-10, 4) \).
+
+Now we calculate the midpoint using Annie's coordinates \( (3, 5) \) and Barbara's actual coordinates \( (-10, 4) \):
+
+\[
+M' = \left( \frac{3 + (-10)}{2}, \frac{5 + 4}{2} \right)
+\]
+
+Calculating the \( x \)-coordinate:
+
+\[
+\frac{3 - 10}{2} = \frac{-7}{2} = -3.5
+\]
+
+Calculating the \( y \)-coordinate:
+
+\[
+\frac{5 + 4}{2} = \frac{9}{2} = 4.5
+\]
+
+Thus, the actual midpoint where they should meet is:
+
+\[
+(-3.5, 4.5)
+\]
+
+Now, we need to find the positive difference in the \( x \)-coordinates of the two midpoints:
+
+1. The \( x \)-coordinate of the agreed meeting point is \( -1.5 \).
+2. The \( x \)-coordinate of the actual meeting point is \( -3.5 \).
+
+Calculating the positive difference:
+
+\[
+|-1.5 - (-3.5)| = |-1.5 + 3.5| = |2| = 2
+\]
+
+Thus, the positive difference in the \( x \)-coordinates is:
+
+\[
+\boxed{2}
+\]

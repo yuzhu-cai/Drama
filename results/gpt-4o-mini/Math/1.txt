@@ -1,0 +1,110 @@
+To solve the problem, we start by analyzing the recursion given by 
+
+\[
+a_{n+1} = a_n^3 - 3a_n^2 + 3.
+\]
+
+We can rewrite this recursion in a more manageable form. Notice that we can factor the right-hand side:
+
+\[
+a_{n+1} = (a_n - 1)^3 + 2.
+\]
+
+This suggests a transformation. Let \( b_n = a_n - 1 \). Then we have:
+
+\[
+a_n = b_n + 1,
+\]
+
+and substituting this into the recursion gives:
+
+\[
+a_{n+1} = (b_n + 1)^3 - 3(b_n + 1)^2 + 3.
+\]
+
+Expanding this, we have:
+
+\[
+(b_n + 1)^3 = b_n^3 + 3b_n^2 + 3b_n + 1,
+\]
+\[
+-3(b_n + 1)^2 = -3(b_n^2 + 2b_n + 1) = -3b_n^2 - 6b_n - 3,
+\]
+\[
+a_{n+1} = b_n^3 + 3b_n^2 + 3b_n + 1 - 3b_n^2 - 6b_n - 3 + 3.
+\]
+
+Combining these terms results in:
+
+\[
+a_{n+1} = b_n^3 - 3b_n + 1.
+\]
+
+Thus, we have a new recursion for \( b_n \):
+
+\[
+b_{n+1} = b_n^3 - 3b_n.
+\]
+
+Next, we need to find the fixed points of this recursion, i.e., the values of \( b \) such that \( b = b^3 - 3b \). Rearranging gives:
+
+\[
+b^3 - 4b = 0,
+\]
+which factors as:
+
+\[
+b(b^2 - 4) = 0.
+\]
+
+This yields the solutions:
+
+\[
+b = 0, \quad b = 2, \quad b = -2.
+\]
+
+Returning to the original variable \( a \), we have:
+
+\[
+b = 0 \implies a = 1,
+\]
+\[
+b = 2 \implies a = 3,
+\]
+\[
+b = -2 \implies a = -1.
+\]
+
+Thus, the fixed points of the recursion for \( a_n \) are \( a = 1, 3, -1 \).
+
+Next, we need to determine how many initial values \( a_0 \) lead to \( a_{2007} = a_0 \). We will analyze the behavior of the recursion starting from each fixed point.
+
+1. **Starting from \( a_0 = 1 \)**:
+   \[
+   a_1 = 1, \quad a_2 = 1, \quad \ldots \quad a_{2007} = 1.
+   \]
+
+2. **Starting from \( a_0 = 3 \)**:
+   \[
+   a_1 = 3, \quad a_2 = 3, \quad \ldots \quad a_{2007} = 3.
+   \]
+
+3. **Starting from \( a_0 = -1 \)**:
+   \[
+   a_1 = -1, \quad a_2 = -1, \quad \ldots \quad a_{2007} = -1.
+   \]
+
+Next, we need to check if there are any other values of \( a_0 \) that lead to \( a_{2007} = a_0 \). The recursion \( b_{n+1} = b_n^3 - 3b_n \) is a continuous function, and since it has three fixed points, we can analyze the intervals between these points.
+
+- For \( b_0 \) in \( (-\infty, -2) \), \( b_n \) will tend to \( -\infty \).
+- For \( b_0 \) in \( (-2, 0) \), \( b_n \) will converge to \( -2 \).
+- For \( b_0 \) in \( (0, 2) \), \( b_n \) will converge to \( 0 \).
+- For \( b_0 \) in \( (2, \infty) \), \( b_n \) will tend to \( \infty \).
+
+Thus, the only values of \( a_0 \) that lead to \( a_{2007} = a_0 \) are the fixed points \( 1, 3, -1 \).
+
+In conclusion, the total number of values of \( a_0 \) for which \( a_{2007} = a_0 \) is 
+
+\[
+\boxed{3}.
+\]

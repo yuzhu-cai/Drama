@@ -1,0 +1,133 @@
+Given the equation 
+
+\[
+(x-1)P(x+1) = (x+2)P(x),
+\]
+
+we can analyze the degrees of both sides. Let \( P(x) \) be a polynomial of degree \( n \). Then the left-hand side, \( (x-1)P(x+1) \), has degree \( n+1 \) because \( P(x+1) \) is also a polynomial of degree \( n \). The right-hand side, \( (x+2)P(x) \), also has degree \( n+1 \). Thus, both sides are polynomials of the same degree.
+
+Next, we can find the roots of the equation. Setting \( x = 1 \) gives:
+
+\[
+(1-1)P(2) = (1+2)P(1) \implies 0 = 3P(1).
+\]
+
+This implies \( P(1) = 0 \), so \( x = 1 \) is a root of \( P(x) \).
+
+Next, we set \( x = -2 \):
+
+\[
+(-2-1)P(-1) = (-2+2)P(-2) \implies -3P(-1) = 0.
+\]
+
+This implies \( P(-1) = 0 \), so \( x = -1 \) is also a root of \( P(x) \).
+
+Since \( P(x) \) has roots at \( x = 1 \) and \( x = -1 \), we can express \( P(x) \) as:
+
+\[
+P(x) = (x-1)(x+1)Q(x) = (x^2 - 1)Q(x),
+\]
+
+where \( Q(x) \) is some polynomial.
+
+Substituting \( P(x) \) back into the original equation:
+
+\[
+(x-1)(x^2 - 1)Q(x+1) = (x+2)(x^2 - 1)Q(x).
+\]
+
+We can cancel \( x^2 - 1 \) from both sides (since \( x^2 - 1 \neq 0 \) for \( x \neq 1, -1 \)):
+
+\[
+(x-1)Q(x+1) = (x+2)Q(x).
+\]
+
+Now, we analyze the degrees again. If \( Q(x) \) is a polynomial of degree \( m \), then both sides are polynomials of degree \( m+1 \), and we can find roots similarly.
+
+Setting \( x = 1 \):
+
+\[
+(1-1)Q(2) = (1+2)Q(1) \implies 0 = 3Q(1) \implies Q(1) = 0.
+\]
+
+Setting \( x = -2 \):
+
+\[
+(-2-1)Q(-1) = (-2+2)Q(-2) \implies -3Q(-1) = 0 \implies Q(-1) = 0.
+\]
+
+Thus, \( Q(x) \) has roots at \( x = 1 \) and \( x = -1 \), so we can express \( Q(x) \) as:
+
+\[
+Q(x) = (x-1)(x+1)R(x) = (x^2 - 1)R(x).
+\]
+
+Thus, we have:
+
+\[
+P(x) = (x^2 - 1)^2 R(x).
+\]
+
+Now we substitute \( P(x) \) into the condition \( (P(2))^2 = P(3) \):
+
+Calculating \( P(2) \):
+
+\[
+P(2) = (2^2 - 1)^2 R(2) = (4 - 1)^2 R(2) = 3^2 R(2) = 9R(2).
+\]
+
+Calculating \( P(3) \):
+
+\[
+P(3) = (3^2 - 1)^2 R(3) = (9 - 1)^2 R(3) = 8^2 R(3) = 64 R(3).
+\]
+
+Setting up the equation:
+
+\[
+(9R(2))^2 = 64R(3) \implies 81R(2)^2 = 64R(3).
+\]
+
+Assuming \( R(x) \) is a constant (let \( R(x) = c \)), we have:
+
+\[
+81c^2 = 64c \implies 81c^2 - 64c = 0 \implies c(81c - 64) = 0.
+\]
+
+Thus, \( c = 0 \) or \( c = \frac{64}{81} \). Since \( P(x) \) is nonzero, we take \( c = \frac{64}{81} \).
+
+Now we can express \( P(x) \):
+
+\[
+P(x) = \frac{64}{81}(x^2 - 1)^2.
+\]
+
+Finally, we compute \( P\left(\frac{7}{2}\right) \):
+
+\[
+P\left(\frac{7}{2}\right) = \frac{64}{81}\left(\left(\frac{7}{2}\right)^2 - 1\right)^2 = \frac{64}{81}\left(\frac{49}{4} - 1\right)^2 = \frac{64}{81}\left(\frac{49}{4} - \frac{4}{4}\right)^2 = \frac{64}{81}\left(\frac{45}{4}\right)^2.
+\]
+
+Calculating \( \left(\frac{45}{4}\right)^2 = \frac{2025}{16} \):
+
+\[
+P\left(\frac{7}{2}\right) = \frac{64}{81} \cdot \frac{2025}{16} = \frac{64 \cdot 2025}{81 \cdot 16}.
+\]
+
+Calculating \( 81 \cdot 16 = 1296 \):
+
+\[
+P\left(\frac{7}{2}\right) = \frac{64 \cdot 2025}{1296}.
+\]
+
+Now simplifying \( \frac{64}{1296} = \frac{1}{20.25} = \frac{1}{81/4} = \frac{4}{81} \):
+
+\[
+P\left(\frac{7}{2}\right) = \frac{4 \cdot 2025}{81} = \frac{8100}{81} = 100.
+\]
+
+Thus, the final answer is:
+
+\[
+\boxed{100}.
+\]

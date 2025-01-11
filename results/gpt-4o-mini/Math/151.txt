@@ -1,0 +1,54 @@
+To find two positive whole numbers whose product is 2005 and neither of which is 1, we start by determining the prime factorization of 2005.
+
+First, we check for divisibility by small prime numbers:
+
+- **Divisibility by 2**: 2005 is odd, so it is not divisible by 2.
+- **Divisibility by 3**: The sum of the digits \(2 + 0 + 0 + 5 = 7\) is not divisible by 3, so 2005 is not divisible by 3.
+- **Divisibility by 5**: The last digit is 5, so 2005 is divisible by 5. We perform the division:
+  \[
+  2005 \div 5 = 401
+  \]
+  Thus, we have:
+  \[
+  2005 = 5 \times 401
+  \]
+
+Next, we need to check if 401 is a prime number. We check for divisibility by prime numbers up to the square root of 401 (approximately 20.02):
+
+- **Divisibility by 2**: 401 is odd, so it is not divisible by 2.
+- **Divisibility by 3**: The sum of the digits \(4 + 0 + 1 = 5\) is not divisible by 3.
+- **Divisibility by 5**: The last digit is not 0 or 5, so it is not divisible by 5.
+- **Divisibility by 7**: 
+  \[
+  401 \div 7 \approx 57.2857 \quad (\text{not an integer})
+  \]
+- **Divisibility by 11**: 
+  \[
+  401 \div 11 \approx 36.4545 \quad (\text{not an integer})
+  \]
+- **Divisibility by 13**: 
+  \[
+  401 \div 13 \approx 30.8462 \quad (\text{not an integer})
+  \]
+- **Divisibility by 17**: 
+  \[
+  401 \div 17 \approx 23.5882 \quad (\text{not an integer})
+  \]
+- **Divisibility by 19**: 
+  \[
+  401 \div 19 \approx 21.1053 \quad (\text{not an integer})
+  \]
+
+Since 401 is not divisible by any prime numbers up to its square root, we conclude that 401 is a prime number.
+
+Thus, the only factorization of 2005 into two positive whole numbers (other than 1) is:
+\[
+2005 = 5 \times 401
+\]
+
+Now, we calculate the sum of these two numbers:
+\[
+5 + 401 = 406
+\]
+
+Therefore, the sum of the two numbers is \(\boxed{406}\).

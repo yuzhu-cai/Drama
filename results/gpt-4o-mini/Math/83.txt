@@ -1,0 +1,96 @@
+Let \( a, b, c \) be the roots of the polynomial 
+
+\[
+x^3 - 6x^2 + 3x + 1 = 0.
+\]
+
+Using Vieta's formulas, we know:
+
+- \( a + b + c = 6 \)
+- \( ab + bc + ca = 3 \)
+- \( abc = -1 \)
+
+We need to find the value of \( a^2b + b^2c + c^2a \). We can express this in terms of symmetric sums. Notice that:
+
+\[
+a^2b + b^2c + c^2a = ab(a + b + c) - abc.
+\]
+
+Substituting the values from Vieta's formulas:
+
+1. \( a + b + c = 6 \)
+2. \( abc = -1 \)
+
+Thus, we have:
+
+\[
+a^2b + b^2c + c^2a = ab(6) - (-1) = 6ab + 1.
+\]
+
+Next, we need to find \( ab \). We can find \( ab \) using the identity:
+
+\[
+(ab + ac + bc)^2 = (ab)^2 + (ac)^2 + (bc)^2 + 2(ab \cdot ac + ac \cdot bc + bc \cdot ab).
+\]
+
+Let \( p = ab \), \( q = ac \), \( r = bc \). From Vieta's, we have:
+
+\[
+p + q + r = 3,
+\]
+
+and 
+
+\[
+pqr = abc \cdot (a + b + c) = -1 \cdot 6 = -6.
+\]
+
+We can express \( q \) and \( r \) in terms of \( p \):
+
+\[
+q + r = 3 - p.
+\]
+
+The product \( q \cdot r \) can be expressed as:
+
+\[
+qr = \frac{pqr}{p} = \frac{-6}{p}.
+\]
+
+Now, we can substitute \( q + r \) and \( qr \) into the quadratic equation formed by \( x^2 - (q + r)x + qr = 0 \):
+
+\[
+x^2 - (3 - p)x + \frac{-6}{p} = 0.
+\]
+
+The discriminant of this quadratic must be non-negative for \( q \) and \( r \) to be real:
+
+\[
+(3 - p)^2 - 4 \cdot \frac{-6}{p} \geq 0.
+\]
+
+This simplifies to:
+
+\[
+(3 - p)^2 + \frac{24}{p} \geq 0.
+\]
+
+This inequality is always satisfied since both terms are non-negative. We can find the values of \( ab \) by solving the cubic equation for \( ab \):
+
+Let \( ab = p \). Then we have:
+
+\[
+p + (3 - p) + \frac{-6}{p} = 0 \implies 3 - \frac{6}{p} = 0 \implies p = 2.
+\]
+
+Now substituting \( p = 2 \) back into our expression for \( a^2b + b^2c + c^2a \):
+
+\[
+a^2b + b^2c + c^2a = 6(2) + 1 = 12 + 1 = 13.
+\]
+
+Thus, the only possible value of \( a^2b + b^2c + c^2a \) is:
+
+\[
+\boxed{13}.
+\]

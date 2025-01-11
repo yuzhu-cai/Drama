@@ -1,0 +1,95 @@
+To solve for \( j \), \( k \), and \( l \) given the equations \( jk = 24 \), \( jl = 48 \), and \( kl = 18 \), we can start by expressing \( j \), \( k \), and \( l \) in terms of one variable.
+
+From the first equation, we can express \( k \) in terms of \( j \):
+
+\[
+k = \frac{24}{j}
+\]
+
+From the second equation, we can express \( l \) in terms of \( j \):
+
+\[
+l = \frac{48}{j}
+\]
+
+Now, we substitute \( k \) and \( l \) into the third equation \( kl = 18 \):
+
+\[
+\left(\frac{24}{j}\right) \left(\frac{48}{j}\right) = 18
+\]
+
+This simplifies to:
+
+\[
+\frac{24 \cdot 48}{j^2} = 18
+\]
+
+Calculating \( 24 \cdot 48 \):
+
+\[
+24 \cdot 48 = 1152
+\]
+
+Thus, we have:
+
+\[
+\frac{1152}{j^2} = 18
+\]
+
+To eliminate the fraction, we multiply both sides by \( j^2 \):
+
+\[
+1152 = 18j^2
+\]
+
+Now, we solve for \( j^2 \):
+
+\[
+j^2 = \frac{1152}{18}
+\]
+
+Calculating \( \frac{1152}{18} \):
+
+\[
+1152 \div 18 = 64
+\]
+
+Thus, we find:
+
+\[
+j^2 = 64
+\]
+
+Taking the positive square root (since \( j \) is positive):
+
+\[
+j = 8
+\]
+
+Now, we can find \( k \) and \( l \) using the expressions we derived earlier:
+
+\[
+k = \frac{24}{j} = \frac{24}{8} = 3
+\]
+
+\[
+l = \frac{48}{j} = \frac{48}{8} = 6
+\]
+
+Now we have \( j = 8 \), \( k = 3 \), and \( l = 6 \). We can find \( j + k + l \):
+
+\[
+j + k + l = 8 + 3 + 6 = 17
+\]
+
+Finally, we verify that these values satisfy the original equations:
+
+1. \( jk = 8 \cdot 3 = 24 \) (correct)
+2. \( jl = 8 \cdot 6 = 48 \) (correct)
+3. \( kl = 3 \cdot 6 = 18 \) (correct)
+
+Thus, the solution is confirmed. Therefore, the final answer is:
+
+\[
+\boxed{17}
+\]

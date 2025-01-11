@@ -1,0 +1,37 @@
+To solve the expression 
+
+\[
+\frac{7+21}{14+42},
+\]
+
+we first simplify the numerator and the denominator separately.
+
+Starting with the numerator:
+
+\[
+7 + 21 = 28.
+\]
+
+Next, we simplify the denominator:
+
+\[
+14 + 42 = 56.
+\]
+
+Now we can rewrite the expression with the simplified values:
+
+\[
+\frac{28}{56}.
+\]
+
+Next, we simplify the fraction \(\frac{28}{56}\). We can do this by finding the greatest common divisor (GCD) of 28 and 56. The GCD is 28, so we divide both the numerator and the denominator by 28:
+
+\[
+\frac{28 \div 28}{56 \div 28} = \frac{1}{2}.
+\]
+
+Thus, the value of the original expression is 
+
+\[
+\boxed{\frac{1}{2}}.
+\]

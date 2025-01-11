@@ -1,0 +1,81 @@
+To solve the recurrence relation defined by \( a_1 = 14 \) and 
+
+\[
+a_n = 24 - 5a_{n-1} \quad \text{for } n \geq 2,
+\]
+
+we start by rewriting the recurrence relation in a more standard form:
+
+\[
+a_n + 5a_{n-1} = 24.
+\]
+
+Next, we will find the homogeneous solution by solving the equation:
+
+\[
+a_n + 5a_{n-1} = 0.
+\]
+
+The characteristic equation for this is:
+
+\[
+r + 5 = 0 \implies r = -5.
+\]
+
+Thus, the general solution to the homogeneous part is:
+
+\[
+a_n^{(h)} = C(-5)^{n-1},
+\]
+
+where \( C \) is a constant.
+
+Now, we need to find a particular solution \( a_n^{(p)} \) to the non-homogeneous equation. We can try a constant solution \( a_n^{(p)} = A \). Substituting this into the recurrence gives:
+
+\[
+A + 5A = 24 \implies 6A = 24 \implies A = 4.
+\]
+
+Thus, a particular solution is \( a_n^{(p)} = 4 \).
+
+The general solution to the recurrence relation is then:
+
+\[
+a_n = a_n^{(h)} + a_n^{(p)} = C(-5)^{n-1} + 4.
+\]
+
+Next, we use the initial condition \( a_1 = 14 \) to find \( C \):
+
+\[
+a_1 = C(-5)^{1-1} + 4 = C + 4 = 14.
+\]
+
+Solving for \( C \):
+
+\[
+C + 4 = 14 \implies C = 10.
+\]
+
+Thus, the formula for \( a_n \) is:
+
+\[
+a_n = 10(-5)^{n-1} + 4.
+\]
+
+We can express this in the required form \( a_n = p \cdot q^n + r \). Here, we have:
+
+- \( p = 10 \),
+- \( q = -5 \),
+- \( r = 4 \).
+
+Now, we calculate \( p + q + r \):
+
+\[
+p + q + r = 10 + (-5) + 4 = 10 - 5 + 4 = 9.
+\]
+
+Thus, the final answer is:
+
+\[
+\boxed{9}.
+\]

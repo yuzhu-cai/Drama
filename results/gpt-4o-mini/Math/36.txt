@@ -1,0 +1,37 @@
+To find the positive difference between the greatest and least member of the set \(\left\{\frac{3}{7},\frac{4}{3},\frac{11}{8},\frac{6}{16}\right\}\), we first need to compare the fractions.
+
+1. **Convert each fraction to a decimal for easier comparison:**
+   - \(\frac{3}{7} \approx 0.4286\)
+   - \(\frac{4}{3} \approx 1.3333\)
+   - \(\frac{11}{8} = 1.375\)
+   - \(\frac{6}{16} = \frac{3}{8} = 0.375\)
+
+2. **List the decimal values:**
+   - \(\frac{3}{7} \approx 0.4286\)
+   - \(\frac{4}{3} \approx 1.3333\)
+   - \(\frac{11}{8} = 1.375\)
+   - \(\frac{6}{16} = 0.375\)
+
+3. **Identify the greatest and least values:**
+   - The least member is \(\frac{6}{16} = 0.375\).
+   - The greatest member is \(\frac{4}{3} \approx 1.3333\).
+
+4. **Calculate the positive difference:**
+   \[
+   \text{Difference} = \text{Greatest} - \text{Least} = \frac{4}{3} - \frac{6}{16}
+   \]
+
+5. **Convert \(\frac{6}{16}\) to a fraction with a common denominator:**
+   - Simplifying \(\frac{6}{16}\) gives \(\frac{3}{8}\).
+   - The least common multiple of the denominators \(3\) and \(8\) is \(24\).
+
+6. **Convert both fractions to have a denominator of \(24\):**
+   - \(\frac{4}{3} = \frac{4 \times 8}{3 \times 8} = \frac{32}{24}\)
+   - \(\frac{3}{8} = \frac{3 \times 3}{8 \times 3} = \frac{9}{24}\)
+
+7. **Subtract the two fractions:**
+   \[
+   \frac{32}{24} - \frac{9}{24} = \frac{32 - 9}{24} = \frac{23}{24}
+   \]
+
+Thus, the positive difference between the greatest and least member of the set is \(\boxed{\frac{23}{24}}\).

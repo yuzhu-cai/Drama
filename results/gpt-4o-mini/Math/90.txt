@@ -1,0 +1,48 @@
+To find the points of intersection of the parabolas defined by the equations \( y = x^2 + 4x + 6 \) and \( y = \frac{1}{2}x^2 + x + 6 \), we set the two equations equal to each other:
+
+\[
+x^2 + 4x + 6 = \frac{1}{2}x^2 + x + 6.
+\]
+
+Next, we simplify this equation by subtracting \( \frac{1}{2}x^2 + x + 6 \) from both sides:
+
+\[
+x^2 + 4x + 6 - \left(\frac{1}{2}x^2 + x + 6\right) = 0.
+\]
+
+This simplifies to:
+
+\[
+x^2 - \frac{1}{2}x^2 + 4x - x + 6 - 6 = 0,
+\]
+
+which further simplifies to:
+
+\[
+\frac{1}{2}x^2 + 3x = 0.
+\]
+
+Factoring out \( x \) gives:
+
+\[
+x\left(\frac{1}{2}x + 3\right) = 0.
+\]
+
+Setting each factor to zero, we find:
+
+1. \( x = 0 \)
+2. \( \frac{1}{2}x + 3 = 0 \) leads to \( \frac{1}{2}x = -3 \) or \( x = -6 \).
+
+Thus, the \( x \)-coordinates of the points of intersection are \( x = 0 \) and \( x = -6 \). We denote these points as \( (a, b) \) and \( (c, d) \) where \( a = -6 \) and \( c = 0 \).
+
+Next, we calculate \( c - a \):
+
+\[
+c - a = 0 - (-6) = 0 + 6 = 6.
+\]
+
+Finally, we conclude that the value of \( c - a \) is:
+
+\[
+\boxed{6}.
+\]

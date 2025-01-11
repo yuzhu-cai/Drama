@@ -1,0 +1,9 @@
+To convert the gestation period of the Asian elephant from days to weeks, you can divide the number of days by the number of days in a week (7 days).
+
+So, for a gestation period of 609 days:
+
+\[
+\text{Weeks} = \frac{609 \text{ days}}{7 \text{ days/week}} \approx 87 \text{ weeks}
+\]
+
+Therefore, the average gestation period of the Asian elephant is approximately 87 weeks.

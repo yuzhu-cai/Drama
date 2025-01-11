@@ -1,0 +1,83 @@
+To solve the problem, we start by placing triangle \( ABC \) in the coordinate plane. We can set the coordinates as follows:
+
+- \( A = (0, 0) \)
+- \( B = (0, 5) \)
+- \( C = (1, 0) \)
+
+Next, we need to find the angles in triangle \( ABC \). Since \( \angle A = 90^\circ \), we can find the other angles using the tangent function:
+
+\[
+\tan \angle CBA = \frac{AC}{AB} = \frac{1}{5}
+\]
+
+Let \( \angle CBA = \theta \). Then, we have:
+
+\[
+\tan \theta = \frac{1}{5}
+\]
+
+Using the double angle formula for tangent, we find \( \tan(2\theta) \):
+
+\[
+\tan(2\theta) = \frac{2 \tan \theta}{1 - \tan^2 \theta} = \frac{2 \cdot \frac{1}{5}}{1 - \left(\frac{1}{5}\right)^2} = \frac{\frac{2}{5}}{1 - \frac{1}{25}} = \frac{\frac{2}{5}}{\frac{24}{25}} = \frac{2 \cdot 25}{5 \cdot 24} = \frac{10}{24} = \frac{5}{12}
+\]
+
+Now, we know that \( \angle DBC = 2 \angle CBA = 2\theta \). We need to find the coordinates of point \( D \) on ray \( \overrightarrow{AC} \). Since \( D \) lies on ray \( \overrightarrow{AC} \), we can express the coordinates of \( D \) as:
+
+\[
+D = (t, 0) \quad \text{for some } t > 1
+\]
+
+Next, we calculate the slope of line \( DB \):
+
+\[
+\text{slope of } DB = \frac{0 - 5}{t - 0} = -\frac{5}{t}
+\]
+
+We also know that the slope of line \( BC \) is:
+
+\[
+\text{slope of } BC = \frac{0 - 5}{1 - 0} = -5
+\]
+
+Using the tangent of the angle between two lines, we have:
+
+\[
+\tan(2\theta) = \left| \frac{\text{slope of } DB - \text{slope of } BC}{1 + \text{slope of } DB \cdot \text{slope of } BC} \right|
+\]
+
+Substituting the slopes we found:
+
+\[
+\frac{-\frac{5}{t} + 5}{1 + \left(-\frac{5}{t}\right)(-5)} = \frac{5 - \frac{5}{t}}{1 + \frac{25}{t}} = \frac{5\left(1 - \frac{1}{t}\right)}{1 + \frac{25}{t}} = \frac{5 \cdot \frac{t-1}{t}}{\frac{t + 25}{t}} = \frac{5(t-1)}{t + 25}
+\]
+
+Setting this equal to \( \frac{5}{12} \):
+
+\[
+\frac{5(t-1)}{t + 25} = \frac{5}{12}
+\]
+
+We can simplify this by multiplying both sides by \( 12(t + 25) \):
+
+\[
+12(t - 1) = t + 25
+\]
+
+Expanding and rearranging gives:
+
+\[
+12t - 12 = t + 25 \implies 11t = 37 \implies t = \frac{37}{11}
+\]
+
+Now, we need to find \( AD \):
+
+\[
+AD = t = \frac{37}{11}
+\]
+
+Thus, the final answer is:
+
+\[
+\boxed{\frac{37}{11}}
+\]

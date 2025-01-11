@@ -1,0 +1,19 @@
+To find \(5\%\) of \(10\%\) of \(1200\), we can break the problem down into two steps.
+
+First, we calculate \(10\%\) of \(1200\):
+
+\[
+10\% \text{ of } 1200 = \frac{10}{100} \times 1200 = 0.1 \times 1200 = 120
+\]
+
+Next, we need to find \(5\%\) of the result we just calculated, which is \(120\):
+
+\[
+5\% \text{ of } 120 = \frac{5}{100} \times 120 = 0.05 \times 120 = 6
+\]
+
+Thus, \(5\%\) of \(10\%\) of \(1200\) is 
+
+\[
+\boxed{6}
+\]

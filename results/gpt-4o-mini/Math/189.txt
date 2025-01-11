@@ -1,0 +1,45 @@
+The given list is an arithmetic sequence where the first term \( a = 6 \) and the common difference \( d = 4 \). We need to determine how many terms are in this sequence up to the last term \( 86 \).
+
+The general formula for the \( n \)-th term of an arithmetic sequence is given by:
+
+\[
+a_n = a + (n-1)d
+\]
+
+Substituting the known values into the formula, we have:
+
+\[
+a_n = 6 + (n-1) \cdot 4
+\]
+
+We want to find \( n \) such that \( a_n = 86 \):
+
+\[
+86 = 6 + (n-1) \cdot 4
+\]
+
+To isolate \( (n-1) \cdot 4 \), we first subtract \( 6 \) from both sides:
+
+\[
+86 - 6 = (n-1) \cdot 4
+\]
+
+This simplifies to:
+
+\[
+80 = (n-1) \cdot 4
+\]
+
+Next, we divide both sides by \( 4 \):
+
+\[
+20 = n - 1
+\]
+
+Adding \( 1 \) to both sides gives:
+
+\[
+n = 21
+\]
+
+Thus, the total number of terms in the list is \( \boxed{21} \).

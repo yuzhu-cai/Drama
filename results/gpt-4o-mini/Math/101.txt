@@ -1,0 +1,56 @@
+To determine which point is farthest from the origin, we need to calculate the distance of each point from the origin \((0,0)\). The distance \(d\) from a point \((x,y)\) to the origin is given by the formula:
+
+\[
+d = \sqrt{x^2 + y^2}
+\]
+
+We will calculate the distance for each of the given points.
+
+1. For the point \((1,4)\):
+   \[
+   d = \sqrt{1^2 + 4^2} = \sqrt{1 + 16} = \sqrt{17}
+   \]
+
+2. For the point \((3,5)\):
+   \[
+   d = \sqrt{3^2 + 5^2} = \sqrt{9 + 25} = \sqrt{34}
+   \]
+
+3. For the point \((-6,0)\):
+   \[
+   d = \sqrt{(-6)^2 + 0^2} = \sqrt{36 + 0} = \sqrt{36} = 6
+   \]
+
+4. For the point \((-4,-2)\):
+   \[
+   d = \sqrt{(-4)^2 + (-2)^2} = \sqrt{16 + 4} = \sqrt{20} = 2\sqrt{5}
+   \]
+
+Now we will compare the distances:
+
+- Distance from \((1,4)\) is \(\sqrt{17}\).
+- Distance from \((3,5)\) is \(\sqrt{34}\).
+- Distance from \((-6,0)\) is \(6\).
+- Distance from \((-4,-2)\) is \(2\sqrt{5}\).
+
+Next, we will approximate the square roots to compare them more easily:
+
+- \(\sqrt{17} \approx 4.123\)
+- \(\sqrt{34} \approx 5.831\)
+- \(6\) is \(6\).
+- \(2\sqrt{5} \approx 2 \times 2.236 = 4.472\)
+
+Now we can see the approximate distances:
+
+- \(\sqrt{17} \approx 4.123\)
+- \(\sqrt{34} \approx 5.831\)
+- \(6\)
+- \(2\sqrt{5} \approx 4.472\)
+
+The largest distance is \(6\) from the point \((-6,0)\).
+
+Thus, the point that is farthest from the origin is 
+
+\[
+\boxed{(-6,0)}
+\]

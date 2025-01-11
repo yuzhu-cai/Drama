@@ -1,0 +1,31 @@
+To factor the expression \( 7x^3 - 21x^2 + 14x \), we start by identifying the greatest common factor (GCF) of the terms.
+
+The coefficients are \( 7, -21, \) and \( 14 \). The GCF of these coefficients is \( 7 \).
+
+Next, we look at the variable part. The terms \( x^3, x^2, \) and \( x \) all have \( x \) as a common factor. The lowest power of \( x \) among these terms is \( x \).
+
+Thus, the GCF of the entire expression is \( 7x \).
+
+Now we can factor \( 7x \) out of each term in the expression:
+
+\[
+7x^3 - 21x^2 + 14x = 7x(x^2 - 3x + 2)
+\]
+
+Next, we need to factor the quadratic \( x^2 - 3x + 2 \). We look for two numbers that multiply to \( 2 \) (the constant term) and add to \( -3 \) (the coefficient of \( x \)). The numbers \( -1 \) and \( -2 \) satisfy these conditions:
+
+\[
+x^2 - 3x + 2 = (x - 1)(x - 2)
+\]
+
+Putting it all together, we have:
+
+\[
+7x^3 - 21x^2 + 14x = 7x(x - 1)(x - 2)
+\]
+
+Thus, the fully factored form of the expression is:
+
+\[
+\boxed{7x(x - 1)(x - 2)}
+\]

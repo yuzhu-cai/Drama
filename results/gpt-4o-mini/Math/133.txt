@@ -1,0 +1,75 @@
+To solve the equation 
+
+\[
+\frac{x^{r-2} \cdot y^{2s} \cdot z^{3t+1}}{x^{2r} \cdot y^{s-4} \cdot z^{2t-3}} = xyz,
+\]
+
+we start by simplifying the left-hand side. We can rewrite it as:
+
+\[
+x^{r-2 - 2r} \cdot y^{2s - (s-4)} \cdot z^{3t+1 - (2t-3)}.
+\]
+
+Calculating the exponents for each variable:
+
+1. For \(x\):
+   \[
+   r - 2 - 2r = -r - 2.
+   \]
+
+2. For \(y\):
+   \[
+   2s - (s - 4) = 2s - s + 4 = s + 4.
+   \]
+
+3. For \(z\):
+   \[
+   3t + 1 - (2t - 3) = 3t + 1 - 2t + 3 = t + 4.
+   \]
+
+Thus, we can rewrite the left-hand side as:
+
+\[
+x^{-r-2} \cdot y^{s+4} \cdot z^{t+4}.
+\]
+
+Now, we equate this to the right-hand side \(xyz\), which can be expressed as:
+
+\[
+x^1 \cdot y^1 \cdot z^1.
+\]
+
+This gives us the following system of equations by equating the exponents of \(x\), \(y\), and \(z\):
+
+1. For \(x\):
+   \[
+   -r - 2 = 1 \implies -r = 3 \implies r = -3.
+   \]
+
+2. For \(y\):
+   \[
+   s + 4 = 1 \implies s = 1 - 4 = -3.
+   \]
+
+3. For \(z\):
+   \[
+   t + 4 = 1 \implies t = 1 - 4 = -3.
+   \]
+
+Now we have \(r = -3\), \(s = -3\), and \(t = -3\). We need to find \(r^s \cdot t\):
+
+\[
+r^s = (-3)^{-3} = -\frac{1}{27}.
+\]
+
+Now, we calculate \(r^s \cdot t\):
+
+\[
+r^s \cdot t = -\frac{1}{27} \cdot (-3) = \frac{3}{27} = \frac{1}{9}.
+\]
+
+Thus, the final answer is 
+
+\[
+\boxed{\frac{1}{9}}.
+\]

@@ -1,0 +1,45 @@
+Let \( f(x) = a(x - r_1)(x - r_2) \) be a second-degree polynomial with integer coefficients and integer zeros \( r_1 \) and \( r_2 \). The polynomial can be expanded as:
+
+\[
+f(x) = ax^2 - a(r_1 + r_2)x + ar_1r_2
+\]
+
+Given that \( f(0) = ar_1r_2 = 2010 \), we need to find integer pairs \( (r_1, r_2) \) such that \( ar_1r_2 = 2010 \).
+
+To solve this, we first find the integer factorizations of \( 2010 \). We start by determining the prime factorization of \( 2010 \):
+
+\[
+2010 = 2 \times 3 \times 5 \times 67
+\]
+
+Next, we calculate the number of divisors of \( 2010 \). The formula for the number of divisors given the prime factorization \( p_1^{e_1} p_2^{e_2} \cdots p_k^{e_k} \) is:
+
+\[
+(e_1 + 1)(e_2 + 1) \cdots (e_k + 1)
+\]
+
+For \( 2010 = 2^1 \times 3^1 \times 5^1 \times 67^1 \), we have:
+
+\[
+(1 + 1)(1 + 1)(1 + 1)(1 + 1) = 2 \times 2 \times 2 \times 2 = 16
+\]
+
+Thus, \( 2010 \) has \( 16 \) positive divisors. Each divisor \( d \) corresponds to a pair \( (r_1, r_2) \) such that \( r_1r_2 = \frac{2010}{a} \) for some integer \( a \).
+
+For each divisor \( d \), we can set \( r_1 = d \) and \( r_2 = \frac{2010}{ad} \). Since \( a \) can be any divisor of \( 2010 \), we need to consider both positive and negative values of \( a \).
+
+The total number of ways to choose \( (r_1, r_2) \) for each divisor \( d \) is \( 2 \) (since \( r_1 \) and \( r_2 \) can be swapped). Therefore, for each divisor \( d \), we can form two pairs \( (d, \frac{2010}{ad}) \) and \( (\frac{2010}{ad}, d) \).
+
+Since \( 2010 \) has \( 16 \) positive divisors, it also has \( 16 \) negative divisors. Thus, the total number of divisors (both positive and negative) is \( 16 + 16 = 32 \).
+
+For each divisor \( a \), we can form \( 2 \) pairs \( (r_1, r_2) \) corresponding to \( r_1r_2 = \frac{2010}{a} \). Therefore, the total number of second-degree polynomials \( f(x) \) with integer coefficients and integer zeros such that \( f(0) = 2010 \) is:
+
+\[
+32 \text{ (divisors)} \times 2 \text{ (orderings)} = 64
+\]
+
+Thus, the final answer is:
+
+\[
+\boxed{64}
+\]

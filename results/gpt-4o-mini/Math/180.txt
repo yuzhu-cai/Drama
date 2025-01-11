@@ -1,0 +1,40 @@
+To determine how many five-digit zip codes exist such that each of the first three digits is greater than 4, we start by identifying the possible values for each digit.
+
+The digits in a zip code can range from 0 to 9. For the first three digits, we want each digit to be greater than 4. The digits that satisfy this condition are 5, 6, 7, 8, and 9. Therefore, there are 5 possible choices for each of the first three digits.
+
+For the last two digits of the zip code, there are no restrictions, meaning each of these digits can be any digit from 0 to 9. Thus, there are 10 possible choices for each of the last two digits.
+
+Now, we can calculate the total number of valid five-digit zip codes by multiplying the number of choices for each digit:
+
+1. For the first digit (greater than 4): 5 choices (5, 6, 7, 8, 9)
+2. For the second digit (greater than 4): 5 choices (5, 6, 7, 8, 9)
+3. For the third digit (greater than 4): 5 choices (5, 6, 7, 8, 9)
+4. For the fourth digit (any digit): 10 choices (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
+5. For the fifth digit (any digit): 10 choices (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
+
+Now we multiply the number of choices together:
+
+\[
+\text{Total zip codes} = 5 \times 5 \times 5 \times 10 \times 10
+\]
+
+Calculating this step-by-step:
+
+\[
+5 \times 5 = 25
+\]
+\[
+25 \times 5 = 125
+\]
+\[
+125 \times 10 = 1250
+\]
+\[
+1250 \times 10 = 12500
+\]
+
+Thus, the total number of five-digit zip codes where each of the first three digits is greater than 4 is 
+
+\[
+\boxed{12500}.
+\]

@@ -1,0 +1,29 @@
+To solve for \( x \) in the given diagram, we start by analyzing the angles formed by the lines \( PRT \) and \( QRS \).
+
+1. **Identify the angles**:
+   - The angle at point \( Q \) is given as \( 40^\circ \).
+   - The angle at point \( T \) is labeled as \( x^\circ \).
+
+2. **Use the property of straight lines**:
+   Since \( PRT \) and \( QRS \) are straight lines, we know that the angles on a straight line sum up to \( 180^\circ \). Therefore, we can write the equation:
+
+   \[
+   x + 40^\circ = 180^\circ
+   \]
+
+3. **Solve for \( x \)**:
+   To find \( x \), we rearrange the equation:
+
+   \[
+   x = 180^\circ - 40^\circ
+   \]
+
+   \[
+   x = 140^\circ
+   \]
+
+Thus, the value of \( x \) is 
+
+\[
+\boxed{140}
+\]

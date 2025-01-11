@@ -1,0 +1,160 @@
+To find \( p + q \), we start with the function given:
+
+\[
+f(x) = \frac{-px - 3}{-qx + 3}.
+\]
+
+We know that the point \( (7, -22) \) lies on both the graph of \( y = f(x) \) and \( y = g(x) \). Since \( g(x) \) is the inverse of \( f(x) \), this means:
+
+\[
+f(7) = -22 \quad \text{and} \quad g(-22) = 7.
+\]
+
+First, we calculate \( f(7) \):
+
+\[
+f(7) = \frac{-p(7) - 3}{-q(7) + 3} = \frac{-7p - 3}{-7q + 3}.
+\]
+
+Setting this equal to \(-22\):
+
+\[
+\frac{-7p - 3}{-7q + 3} = -22.
+\]
+
+Cross-multiplying gives:
+
+\[
+-7p - 3 = 22(-7q + 3).
+\]
+
+Expanding the right side:
+
+\[
+-7p - 3 = -154q + 66.
+\]
+
+Rearranging this equation leads to:
+
+\[
+-7p + 154q = 69.
+\]
+
+Next, we need to find \( g(-22) \). Since \( g(x) \) is the inverse of \( f(x) \), we have:
+
+\[
+f(g(-22)) = -22.
+\]
+
+Thus, we need to find \( x \) such that \( f(x) = -22 \):
+
+\[
+\frac{-px - 3}{-qx + 3} = -22.
+\]
+
+Cross-multiplying gives:
+
+\[
+-px - 3 = -22(-qx + 3).
+\]
+
+Expanding the right side:
+
+\[
+-px - 3 = 22qx - 66.
+\]
+
+Rearranging this equation leads to:
+
+\[
+-px - 22qx = -66 + 3,
+\]
+
+which simplifies to:
+
+\[
+(-p - 22q)x = -63.
+\]
+
+Thus, we have:
+
+\[
+x = \frac{-63}{-p - 22q} = \frac{63}{p + 22q}.
+\]
+
+Since we know \( g(-22) = 7 \), we set:
+
+\[
+\frac{63}{p + 22q} = 7.
+\]
+
+Cross-multiplying gives:
+
+\[
+63 = 7(p + 22q).
+\]
+
+Dividing both sides by 7:
+
+\[
+9 = p + 22q.
+\]
+
+Now we have a system of two equations:
+
+1. \(-7p + 154q = 69\)
+2. \(p + 22q = 9\)
+
+We can solve this system. From the second equation, we can express \( p \) in terms of \( q \):
+
+\[
+p = 9 - 22q.
+\]
+
+Substituting this into the first equation:
+
+\[
+-7(9 - 22q) + 154q = 69.
+\]
+
+Expanding gives:
+
+\[
+-63 + 154q + 154q = 69,
+\]
+
+which simplifies to:
+
+\[
+308q - 63 = 69.
+\]
+
+Adding 63 to both sides:
+
+\[
+308q = 132.
+\]
+
+Dividing by 308:
+
+\[
+q = \frac{132}{308} = \frac{33}{77} = \frac{3}{7}.
+\]
+
+Now substituting \( q \) back into the equation for \( p \):
+
+\[
+p = 9 - 22 \left(\frac{3}{7}\right) = 9 - \frac{66}{7} = \frac{63}{7} - \frac{66}{7} = -\frac{3}{7}.
+\]
+
+Finally, we find \( p + q \):
+
+\[
+p + q = -\frac{3}{7} + \frac{3}{7} = 0.
+\]
+
+Thus, the answer is:
+
+\[
+\boxed{0}.
+\]

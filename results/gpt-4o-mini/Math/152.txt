@@ -1,0 +1,43 @@
+Let the number be represented as \( n \). According to the problem, when \( n \) is divided by 5, the remainder is 3. This can be expressed mathematically as:
+
+\[
+n \equiv 3 \pmod{5}
+\]
+
+We want to find the remainder when \( 2n \) is divided by 5. To do this, we can multiply both sides of the congruence by 2:
+
+\[
+2n \equiv 2 \cdot 3 \pmod{5}
+\]
+
+Calculating the right side gives:
+
+\[
+2n \equiv 6 \pmod{5}
+\]
+
+Next, we need to find the remainder of 6 when divided by 5. Performing the division:
+
+\[
+6 \div 5 = 1 \quad \text{with a remainder of } 1
+\]
+
+Thus, we can express this as:
+
+\[
+6 \equiv 1 \pmod{5}
+\]
+
+Therefore, we have:
+
+\[
+2n \equiv 1 \pmod{5}
+\]
+
+This means that when \( 2n \) is divided by 5, the remainder is 1. 
+
+Thus, the final answer is:
+
+\[
+\boxed{1}
+\]

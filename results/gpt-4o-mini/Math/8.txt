@@ -1,0 +1,62 @@
+To express the line given by the parameterization 
+
+\[
+\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} -3 \\ -4 \end{pmatrix} + t \begin{pmatrix} 7 \\ -2 \end{pmatrix},
+\]
+
+we can break this down into its components. The parameterization can be written as:
+
+\[
+x = -3 + 7t,
+\]
+\[
+y = -4 - 2t.
+\]
+
+Next, we need to eliminate the parameter \( t \) to express \( y \) in terms of \( x \). From the equation for \( x \), we can solve for \( t \):
+
+\[
+x + 3 = 7t \implies t = \frac{x + 3}{7}.
+\]
+
+Now we substitute this expression for \( t \) into the equation for \( y \):
+
+\[
+y = -4 - 2t = -4 - 2\left(\frac{x + 3}{7}\right).
+\]
+
+Simplifying this gives:
+
+\[
+y = -4 - \frac{2(x + 3)}{7} = -4 - \frac{2x + 6}{7}.
+\]
+
+To combine the terms, we express \(-4\) in terms of a fraction with a denominator of 7:
+
+\[
+-4 = -\frac{28}{7}.
+\]
+
+Thus, we have:
+
+\[
+y = -\frac{28}{7} - \frac{2x + 6}{7} = \frac{-28 - 2x - 6}{7} = \frac{-2x - 34}{7}.
+\]
+
+This can be rewritten as:
+
+\[
+y = -\frac{2}{7}x - \frac{34}{7}.
+\]
+
+From this equation, we can identify the slope \( m \) and the y-intercept \( b \):
+
+\[
+m = -\frac{2}{7}, \quad b = -\frac{34}{7}.
+\]
+
+Thus, the ordered pair \( (m, b) \) is:
+
+\[
+\boxed{\left(-\frac{2}{7}, -\frac{34}{7}\right)}.
+\]

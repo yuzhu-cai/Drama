@@ -1,0 +1,99 @@
+To find the product 
+
+\[
+10 \cdot \frac{4}{3} \cdot \frac{6}{4} \cdot \frac{8}{5} \cdot \frac{10}{6} \cdot \frac{12}{7} \cdot \frac{14}{8} \cdot \frac{16}{9} \cdot \frac{18}{10},
+\]
+
+we can start by simplifying the fractions. We will rewrite the product step by step.
+
+First, we can express the product as:
+
+\[
+10 \cdot \left( \frac{4}{3} \cdot \frac{6}{4} \cdot \frac{8}{5} \cdot \frac{10}{6} \cdot \frac{12}{7} \cdot \frac{14}{8} \cdot \frac{16}{9} \cdot \frac{18}{10} \right).
+\]
+
+Next, we can simplify the product of the fractions:
+
+\[
+\frac{4}{3} \cdot \frac{6}{4} \cdot \frac{8}{5} \cdot \frac{10}{6} \cdot \frac{12}{7} \cdot \frac{14}{8} \cdot \frac{16}{9} \cdot \frac{18}{10}.
+\]
+
+Notice that many terms will cancel out:
+
+- The \(4\) in the numerator of \(\frac{4}{3}\) cancels with the \(4\) in the denominator of \(\frac{6}{4}\).
+- The \(6\) in the numerator of \(\frac{6}{4}\) cancels with the \(6\) in the denominator of \(\frac{10}{6}\).
+- The \(8\) in the numerator of \(\frac{8}{5}\) cancels with the \(8\) in the denominator of \(\frac{14}{8}\).
+- The \(10\) in the numerator of \(\frac{10}{6}\) cancels with the \(10\) in the denominator of \(\frac{18}{10}\).
+
+After canceling, we are left with:
+
+\[
+\frac{4 \cdot 6 \cdot 8 \cdot 10 \cdot 12 \cdot 14 \cdot 16 \cdot 18}{3 \cdot 5 \cdot 7 \cdot 9 \cdot 10}.
+\]
+
+Now, we can rewrite the product as:
+
+\[
+\frac{4 \cdot 6 \cdot 8 \cdot 12 \cdot 14 \cdot 16 \cdot 18}{3 \cdot 5 \cdot 7 \cdot 9}.
+\]
+
+Next, we can calculate the numerator and denominator separately.
+
+Calculating the numerator:
+
+\[
+4 \cdot 6 = 24,
+\]
+\[
+24 \cdot 8 = 192,
+\]
+\[
+192 \cdot 12 = 2304,
+\]
+\[
+2304 \cdot 14 = 32256,
+\]
+\[
+32256 \cdot 16 = 517056,
+\]
+\[
+517056 \cdot 18 = 930048.
+\]
+
+Now, calculating the denominator:
+
+\[
+3 \cdot 5 = 15,
+\]
+\[
+15 \cdot 7 = 105,
+\]
+\[
+105 \cdot 9 = 945.
+\]
+
+So we have:
+
+\[
+\frac{930048}{945}.
+\]
+
+Now, we can simplify this fraction. We can divide both the numerator and the denominator by \(945\):
+
+Calculating \(930048 \div 945\):
+
+\[
+930048 \div 945 = 984.
+\]
+
+Thus, the product simplifies to:
+
+\[
+10 \cdot 984 = 9840.
+\]
+
+Therefore, the final answer is:
+
+\[
+\boxed{9840}.
+\]

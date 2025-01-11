@@ -1,0 +1,27 @@
+To find the maximum possible number of handshakes at a party with 22 attendees, we can use the concept of combinations. Each handshake occurs between two distinct people, and since each person can shake hands with every other person, we need to calculate the number of ways to choose 2 people from a group of 22.
+
+The formula for combinations is given by:
+
+\[
+\binom{n}{r} = \frac{n!}{r!(n-r)!}
+\]
+
+where \( n \) is the total number of people, and \( r \) is the number of people to choose (in this case, 2 for a handshake).
+
+For our scenario:
+
+\[
+n = 22 \quad \text{and} \quad r = 2
+\]
+
+Thus, we need to calculate \( \binom{22}{2} \):
+
+\[
+\binom{22}{2} = \frac{22!}{2!(22-2)!} = \frac{22 \times 21}{2 \times 1} = \frac{462}{2} = 231
+\]
+
+Therefore, the maximum possible number of handshakes at the party is:
+
+\[
+\boxed{231}
+\]

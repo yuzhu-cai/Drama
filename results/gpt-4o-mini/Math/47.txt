@@ -1,0 +1,41 @@
+To simplify the expression \(\frac{3a^2b}{5ac} \times \frac{10c}{6ab}\), we start by multiplying the two fractions together:
+
+\[
+\frac{3a^2b}{5ac} \times \frac{10c}{6ab} = \frac{3a^2b \cdot 10c}{5ac \cdot 6ab}
+\]
+
+Next, we can multiply the numerators and the denominators:
+
+\[
+= \frac{30a^2bc}{30abc^2}
+\]
+
+Now, we can simplify the fraction. First, we notice that \(30\) in the numerator and denominator cancels out:
+
+\[
+= \frac{a^2bc}{abc^2}
+\]
+
+Next, we can simplify the fraction further by canceling common factors in the numerator and the denominator. We have \(a\) in both the numerator and the denominator:
+
+\[
+= \frac{a^{2-1}bc}{bc^2} = \frac{abc}{bc^2}
+\]
+
+Now, we can cancel \(b\) from the numerator and denominator:
+
+\[
+= \frac{ac}{c^2}
+\]
+
+Finally, we can simplify \(c\) in the numerator and denominator:
+
+\[
+= \frac{a}{c}
+\]
+
+Thus, the simplified expression is:
+
+\[
+\boxed{\frac{a}{c}}
+\]

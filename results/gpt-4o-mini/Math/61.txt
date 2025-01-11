@@ -1,0 +1,91 @@
+Let the roots of the polynomial \(x^3 + 5x^2 + px + q = 0\) be \(r_1, r_2, r_3\) and the roots of the polynomial \(x^3 + x^2 + px + r = 0\) be \(r_1, r_2, r_4\). Here, \(r_3\) is the root that is unique to the first polynomial, and \(r_4\) is the root that is unique to the second polynomial.
+
+Using Vieta's formulas, we can express the sums of the roots for both polynomials.
+
+For the first polynomial \(x^3 + 5x^2 + px + q = 0\):
+- The sum of the roots \(r_1 + r_2 + r_3 = -5\).
+
+For the second polynomial \(x^3 + x^2 + px + r = 0\):
+- The sum of the roots \(r_1 + r_2 + r_4 = -1\).
+
+We can set up the following equations based on the sums of the roots:
+
+1. \(r_1 + r_2 + r_3 = -5\) (1)
+2. \(r_1 + r_2 + r_4 = -1\) (2)
+
+To find \(r_3 + r_4\), we can manipulate these equations. We can subtract equation (1) from equation (2):
+
+\[
+(r_1 + r_2 + r_4) - (r_1 + r_2 + r_3) = -1 - (-5)
+\]
+
+This simplifies to:
+
+\[
+r_4 - r_3 = 4
+\]
+
+From this, we can express \(r_4\) in terms of \(r_3\):
+
+\[
+r_4 = r_3 + 4
+\]
+
+Now, we want to find the sum of the two roots that are not common, \(r_3 + r_4\):
+
+\[
+r_3 + r_4 = r_3 + (r_3 + 4) = 2r_3 + 4
+\]
+
+Next, we need to express \(r_3\) in terms of \(r_1 + r_2\). From equation (1), we have:
+
+\[
+r_3 = -5 - (r_1 + r_2)
+\]
+
+Substituting this into the expression for \(r_3 + r_4\):
+
+\[
+r_3 + r_4 = 2(-5 - (r_1 + r_2)) + 4
+\]
+
+This simplifies to:
+
+\[
+= -10 - 2(r_1 + r_2) + 4 = -6 - 2(r_1 + r_2)
+\]
+
+Now, we can find \(r_1 + r_2\) using equation (2):
+
+From equation (2):
+
+\[
+r_1 + r_2 = -1 - r_4
+\]
+
+Substituting \(r_4 = r_3 + 4\):
+
+\[
+r_1 + r_2 = -1 - (r_3 + 4) = -1 - r_3 - 4 = -5 - r_3
+\]
+
+Now we can substitute this back into our expression for \(r_3 + r_4\):
+
+\[
+r_3 + r_4 = -6 - 2(-5 - r_3) = -6 + 10 + 2r_3 = 4 + 2r_3
+\]
+
+Now we have two expressions for \(r_3 + r_4\):
+
+1. \(r_3 + r_4 = 2r_3 + 4\)
+2. \(r_3 + r_4 = 4 + 2r_3\)
+
+Both expressions are equivalent, confirming our calculations. 
+
+To find \(r_3 + r_4\), we can use the fact that \(r_1 + r_2 = -1 - r_4\) and substitute \(r_4\) back into the equations. However, we can also directly compute \(r_3 + r_4\) from the earlier derived equations.
+
+Thus, the final answer for the sum of the two roots that are not common is:
+
+\[
+\boxed{4}
+\]

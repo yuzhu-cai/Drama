@@ -1,0 +1,39 @@
+To compute the expression \(\dfrac{2^{10}-2^8}{2^7-2^6}\), we start by simplifying both the numerator and the denominator.
+
+**Step 1: Simplify the numerator**
+
+The numerator is \(2^{10} - 2^8\). We can factor out the common term \(2^8\):
+
+\[
+2^{10} - 2^8 = 2^8(2^2 - 1) = 2^8(4 - 1) = 2^8 \cdot 3
+\]
+
+**Step 2: Simplify the denominator**
+
+The denominator is \(2^7 - 2^6\). We can factor out the common term \(2^6\):
+
+\[
+2^7 - 2^6 = 2^6(2 - 1) = 2^6 \cdot 1 = 2^6
+\]
+
+**Step 3: Substitute back into the expression**
+
+Now we substitute the simplified forms of the numerator and denominator back into the expression:
+
+\[
+\dfrac{2^{10}-2^8}{2^7-2^6} = \dfrac{2^8 \cdot 3}{2^6}
+\]
+
+**Step 4: Simplify the fraction**
+
+We can simplify the fraction by canceling \(2^6\) in the numerator and denominator:
+
+\[
+\dfrac{2^8 \cdot 3}{2^6} = 2^{8-6} \cdot 3 = 2^2 \cdot 3 = 4 \cdot 3 = 12
+\]
+
+Thus, the final answer is:
+
+\[
+\boxed{12}
+\]

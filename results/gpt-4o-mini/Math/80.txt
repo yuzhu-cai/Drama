@@ -1,0 +1,106 @@
+Let \( z_1 = r_1 e^{i\theta_1} \) and \( z_2 = r_2 e^{i\theta_2} \) be the polar forms of the complex numbers \( z_1 \) and \( z_2 \). Given that \( \frac{z_2}{z_1} \) is pure imaginary, we can express this condition mathematically:
+
+\[
+\frac{z_2}{z_1} = \frac{r_2 e^{i\theta_2}}{r_1 e^{i\theta_1}} = \frac{r_2}{r_1} e^{i(\theta_2 - \theta_1)}
+\]
+
+For this quotient to be pure imaginary, the real part must be zero. This occurs when:
+
+\[
+\theta_2 - \theta_1 = \frac{\pi}{2} + k\pi \quad \text{for some integer } k
+\]
+
+This means that \( \theta_2 = \theta_1 + \frac{\pi}{2} + k\pi \). Thus, we can write \( z_2 \) in terms of \( z_1 \):
+
+\[
+z_2 = r_2 e^{i\left(\theta_1 + \frac{\pi}{2}\right)} = r_2 \left( \cos\left(\theta_1 + \frac{\pi}{2}\right) + i \sin\left(\theta_1 + \frac{\pi}{2}\right) \right) = r_2 \left( -\sin\theta_1 + i \cos\theta_1 \right)
+\]
+
+Now, we can express \( z_2 \) as:
+
+\[
+z_2 = -r_2 \sin\theta_1 + i r_2 \cos\theta_1
+\]
+
+Next, we compute \( 2z_1 + 7z_2 \) and \( 2z_1 - 7z_2 \):
+
+\[
+2z_1 = 2r_1 e^{i\theta_1}
+\]
+\[
+7z_2 = 7(-r_2 \sin\theta_1 + i r_2 \cos\theta_1) = -7r_2 \sin\theta_1 + 7i r_2 \cos\theta_1
+\]
+
+Thus,
+
+\[
+2z_1 + 7z_2 = 2r_1 e^{i\theta_1} + (-7r_2 \sin\theta_1 + 7i r_2 \cos\theta_1)
+\]
+
+Separating the real and imaginary parts, we have:
+
+\[
+2z_1 + 7z_2 = 2r_1 (\cos\theta_1 + i \sin\theta_1) - 7r_2 \sin\theta_1 + 7i r_2 \cos\theta_1
+\]
+
+Combining these, the real part is:
+
+\[
+2r_1 \cos\theta_1 - 7r_2 \sin\theta_1
+\]
+
+And the imaginary part is:
+
+\[
+2r_1 \sin\theta_1 + 7r_2 \cos\theta_1
+\]
+
+Thus,
+
+\[
+2z_1 + 7z_2 = \left( 2r_1 \cos\theta_1 - 7r_2 \sin\theta_1 \right) + i \left( 2r_1 \sin\theta_1 + 7r_2 \cos\theta_1 \right)
+\]
+
+Now, for \( 2z_1 - 7z_2 \):
+
+\[
+2z_1 - 7z_2 = 2r_1 e^{i\theta_1} + 7r_2 \sin\theta_1 - 7i r_2 \cos\theta_1
+\]
+
+The real part is:
+
+\[
+2r_1 \cos\theta_1 + 7r_2 \sin\theta_1
+\]
+
+And the imaginary part is:
+
+\[
+2r_1 \sin\theta_1 - 7r_2 \cos\theta_1
+\]
+
+Thus,
+
+\[
+2z_1 - 7z_2 = \left( 2r_1 \cos\theta_1 + 7r_2 \sin\theta_1 \right) + i \left( 2r_1 \sin\theta_1 - 7r_2 \cos\theta_1 \right)
+\]
+
+Now we compute the modulus:
+
+\[
+\left| \frac{2z_1 + 7z_2}{2z_1 - 7z_2} \right| = \frac{\sqrt{(2r_1 \cos\theta_1 - 7r_2 \sin\theta_1)^2 + (2r_1 \sin\theta_1 + 7r_2 \cos\theta_1)^2}}{\sqrt{(2r_1 \cos\theta_1 + 7r_2 \sin\theta_1)^2 + (2r_1 \sin\theta_1 - 7r_2 \cos\theta_1)^2}}
+\]
+
+Notice that the numerator and denominator are both of the form \( a^2 + b^2 \), where \( a \) and \( b \) are linear combinations of \( r_1 \) and \( r_2 \). 
+
+Using the property that \( \left| \frac{z_1}{z_2} \right| = 1 \) when \( z_1 \) and \( z_2 \) are orthogonal, we find that:
+
+\[
+\left| \frac{2z_1 + 7z_2}{2z_1 - 7z_2} \right| = 1
+\]
+
+Thus, the final answer is:
+
+\[
+\boxed{1}
+\]

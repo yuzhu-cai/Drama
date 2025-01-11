@@ -1,0 +1,145 @@
+To solve the equation 
+
+\[
+1 - \sin^4 x - \cos^2 x = \frac{1}{16},
+\]
+
+we start by rearranging it:
+
+\[
+1 - \sin^4 x - \cos^2 x - \frac{1}{16} = 0.
+\]
+
+This simplifies to:
+
+\[
+1 - \frac{1}{16} - \sin^4 x - \cos^2 x = 0.
+\]
+
+Calculating \(1 - \frac{1}{16}\):
+
+\[
+1 - \frac{1}{16} = \frac{16}{16} - \frac{1}{16} = \frac{15}{16}.
+\]
+
+Thus, we rewrite the equation as:
+
+\[
+\frac{15}{16} - \sin^4 x - \cos^2 x = 0,
+\]
+
+or equivalently:
+
+\[
+\sin^4 x + \cos^2 x = \frac{15}{16}.
+\]
+
+Next, we use the identity \(\cos^2 x = 1 - \sin^2 x\) to express everything in terms of \(\sin x\):
+
+Let \(y = \sin^2 x\). Then \(\cos^2 x = 1 - y\), and we can rewrite the equation:
+
+\[
+\sin^4 x + \cos^2 x = y^2 + (1 - y) = y^2 + 1 - y.
+\]
+
+Substituting this into our equation gives:
+
+\[
+y^2 + 1 - y = \frac{15}{16}.
+\]
+
+Rearranging this, we have:
+
+\[
+y^2 - y + 1 - \frac{15}{16} = 0,
+\]
+
+which simplifies to:
+
+\[
+y^2 - y + \frac{1}{16} = 0.
+\]
+
+Next, we multiply the entire equation by 16 to eliminate the fraction:
+
+\[
+16y^2 - 16y + 1 = 0.
+\]
+
+Now, we apply the quadratic formula \(y = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}\):
+
+Here, \(a = 16\), \(b = -16\), and \(c = 1\):
+
+\[
+y = \frac{16 \pm \sqrt{(-16)^2 - 4 \cdot 16 \cdot 1}}{2 \cdot 16} = \frac{16 \pm \sqrt{256 - 64}}{32} = \frac{16 \pm \sqrt{192}}{32}.
+\]
+
+Calculating \(\sqrt{192}\):
+
+\[
+\sqrt{192} = \sqrt{64 \cdot 3} = 8\sqrt{3}.
+\]
+
+Thus, we have:
+
+\[
+y = \frac{16 \pm 8\sqrt{3}}{32} = \frac{2 \pm \sqrt{3}}{4}.
+\]
+
+This gives us two possible values for \(y\):
+
+\[
+y_1 = \frac{2 + \sqrt{3}}{4}, \quad y_2 = \frac{2 - \sqrt{3}}{4}.
+\]
+
+Since \(y = \sin^2 x\), we need to find \(x\) such that:
+
+\[
+\sin^2 x = \frac{2 + \sqrt{3}}{4} \quad \text{and} \quad \sin^2 x = \frac{2 - \sqrt{3}}{4}.
+\]
+
+Taking the square root, we find:
+
+1. For \(y_1 = \frac{2 + \sqrt{3}}{4}\):
+
+\[
+\sin x = \pm \sqrt{\frac{2 + \sqrt{3}}{4}} = \pm \frac{\sqrt{2 + \sqrt{3}}}{2}.
+\]
+
+2. For \(y_2 = \frac{2 - \sqrt{3}}{4}\):
+
+\[
+\sin x = \pm \sqrt{\frac{2 - \sqrt{3}}{4}} = \pm \frac{\sqrt{2 - \sqrt{3}}}{2}.
+\]
+
+Next, we find the angles corresponding to these sine values in the interval \(-\frac{\pi}{2} < x < \frac{\pi}{2}\):
+
+- For \(\sin x = \frac{\sqrt{2 + \sqrt{3}}}{2}\), we have:
+
+\[
+x = \arcsin\left(\frac{\sqrt{2 + \sqrt{3}}}{2}\right).
+\]
+
+- For \(\sin x = -\frac{\sqrt{2 + \sqrt{3}}}{2}\), we have:
+
+\[
+x = -\arcsin\left(\frac{\sqrt{2 + \sqrt{3}}}{2}\right).
+\]
+
+- For \(\sin x = \frac{\sqrt{2 - \sqrt{3}}}{2}\), we have:
+
+\[
+x = \arcsin\left(\frac{\sqrt{2 - \sqrt{3}}}{2}\right).
+\]
+
+- For \(\sin x = -\frac{\sqrt{2 - \sqrt{3}}}{2}\), we have:
+
+\[
+x = -\arcsin\left(\frac{\sqrt{2 - \sqrt{3}}}{2}\right).
+\]
+
+Thus, the solutions in the interval \(-\frac{\pi}{2} < x < \frac{\pi}{2}\) are:
+
+\[
+\boxed{\arcsin\left(\frac{\sqrt{2 + \sqrt{3}}}{2}\right), -\arcsin\left(\frac{\sqrt{2 + \sqrt{3}}}{2}\right), \arcsin\left(\frac{\sqrt{2 - \sqrt{3}}}{2}\right), -\arcsin\left(\frac{\sqrt{2 - \sqrt{3}}}{2}\right)}.
+\]

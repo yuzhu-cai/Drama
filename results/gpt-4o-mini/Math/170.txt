@@ -1,0 +1,100 @@
+To find the area of trapezoid \( BCDE \) in the regular octagon \( ABCDEFGH \) with side length \( 12 \) cm, we start by determining the coordinates of the vertices of the octagon.
+
+The octagon can be inscribed in a circle. The angle subtended by each side at the center of the circle is \( \frac{360^\circ}{8} = 45^\circ \). We can place the octagon in the coordinate system with its center at the origin and vertices at the following coordinates:
+
+- \( A = (6\sqrt{2}, 6\sqrt{2}) \)
+- \( B = (12, 0) \)
+- \( C = (6\sqrt{2}, -6\sqrt{2}) \)
+- \( D = (0, -12) \)
+- \( E = (-6\sqrt{2}, -6\sqrt{2}) \)
+- \( F = (-12, 0) \)
+- \( G = (-6\sqrt{2}, 6\sqrt{2}) \)
+- \( H = (0, 12) \)
+
+Next, we identify the coordinates of points \( B \), \( C \), \( D \), and \( E \):
+
+- \( B = (12, 0) \)
+- \( C = (6\sqrt{2}, -6\sqrt{2}) \)
+- \( D = (0, -12) \)
+- \( E = (-6\sqrt{2}, -6\sqrt{2}) \)
+
+Now, we calculate the lengths of the bases of trapezoid \( BCDE \):
+
+1. **Length of base \( BC \)**:
+   \[
+   BC = \sqrt{(6\sqrt{2} - 12)^2 + (-6\sqrt{2} - 0)^2}
+   \]
+   \[
+   = \sqrt{(6\sqrt{2} - 12)^2 + (-6\sqrt{2})^2}
+   \]
+   \[
+   = \sqrt{(6\sqrt{2} - 12)^2 + 72}
+   \]
+   \[
+   = \sqrt{(6\sqrt{2} - 12)^2 + (6\sqrt{2})^2}
+   \]
+   \[
+   = \sqrt{(6\sqrt{2} - 12)^2 + 72}
+   \]
+
+   To simplify \( (6\sqrt{2} - 12)^2 \):
+   \[
+   = 72 - 144\sqrt{2} + 144
+   \]
+   \[
+   = 216 - 144\sqrt{2}
+   \]
+   Thus,
+   \[
+   BC = \sqrt{216 - 144\sqrt{2} + 72} = \sqrt{288 - 144\sqrt{2}}
+   \]
+
+2. **Length of base \( DE \)**:
+   \[
+   DE = \sqrt{(-6\sqrt{2} - 0)^2 + (-6\sqrt{2} - (-12))^2}
+   \]
+   \[
+   = \sqrt{(6\sqrt{2})^2 + (6\sqrt{2} - 12)^2}
+   \]
+   \[
+   = \sqrt{72 + (6\sqrt{2} - 12)^2}
+   \]
+
+   We already calculated \( (6\sqrt{2} - 12)^2 \) as \( 216 - 144\sqrt{2} \), so:
+   \[
+   DE = \sqrt{72 + 216 - 144\sqrt{2}} = \sqrt{288 - 144\sqrt{2}}
+   \]
+
+Now, we can find the height of trapezoid \( BCDE \). The height is the vertical distance between the lines containing \( BC \) and \( DE \). The y-coordinates of points \( B \) and \( D \) are \( 0 \) and \( -12 \), respectively, so the height \( h \) is:
+\[
+h = 12
+\]
+
+Finally, we can calculate the area \( A \) of trapezoid \( BCDE \):
+\[
+A = \frac{1}{2} \times (BC + DE) \times h
+\]
+Since \( BC \) and \( DE \) are equal, we can denote them as \( x \):
+\[
+A = \frac{1}{2} \times (x + x) \times 12 = 12x
+\]
+
+To find \( x \):
+\[
+x = \sqrt{288 - 144\sqrt{2}}
+\]
+
+Thus, the area of trapezoid \( BCDE \) is:
+\[
+A = 12 \times \sqrt{288 - 144\sqrt{2}}
+\]
+
+This simplifies to:
+\[
+A = 12 \times 12\sqrt{2} = 144\sqrt{2}
+\]
+
+Thus, the area of trapezoid \( BCDE \) is:
+\[
+\boxed{144\sqrt{2}} \text{ cm}^2
+\]

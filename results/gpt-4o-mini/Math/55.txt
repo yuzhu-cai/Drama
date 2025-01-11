@@ -1,0 +1,45 @@
+To evaluate the expression \(\left|\dfrac{2-4i}{2+i}\right|\), we can use the property of absolute values that states \(\left|\frac{a}{b}\right| = \frac{|a|}{|b|}\). Therefore, we can rewrite the expression as:
+
+\[
+\left|\dfrac{2-4i}{2+i}\right| = \frac{|2-4i|}{|2+i|}
+\]
+
+Next, we need to calculate the absolute values of the complex numbers \(2-4i\) and \(2+i\).
+
+1. **Calculating \(|2-4i|\)**:
+
+The absolute value of a complex number \(a + bi\) is given by \(\sqrt{a^2 + b^2}\). For \(2-4i\):
+
+\[
+|2-4i| = \sqrt{2^2 + (-4)^2} = \sqrt{4 + 16} = \sqrt{20} = 2\sqrt{5}
+\]
+
+2. **Calculating \(|2+i|\)**:
+
+Now, for \(2+i\):
+
+\[
+|2+i| = \sqrt{2^2 + 1^2} = \sqrt{4 + 1} = \sqrt{5}
+\]
+
+3. **Substituting back into the expression**:
+
+Now we can substitute these values back into our expression:
+
+\[
+\left|\dfrac{2-4i}{2+i}\right| = \frac{|2-4i|}{|2+i|} = \frac{2\sqrt{5}}{\sqrt{5}}
+\]
+
+4. **Simplifying the fraction**:
+
+The \(\sqrt{5}\) in the numerator and denominator cancels out:
+
+\[
+\frac{2\sqrt{5}}{\sqrt{5}} = 2
+\]
+
+Thus, the final result is:
+
+\[
+\boxed{2}
+\]

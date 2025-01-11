@@ -1,0 +1,88 @@
+To find the possible rational roots of the polynomial 
+
+\[
+2x^3 + a_2 x^2 + a_1 x - 4 = 0,
+\]
+
+we can use the Rational Root Theorem. This theorem states that any rational root, expressed in the form \( \frac{p}{q} \), must have \( p \) as a factor of the constant term and \( q \) as a factor of the leading coefficient.
+
+In our polynomial, the constant term is \(-4\) and the leading coefficient is \(2\).
+
+**Step 1: Identify the factors of the constant term \(-4\)**
+
+The factors of \(-4\) are:
+\[
+\pm 1, \pm 2, \pm 4.
+\]
+
+Thus, the possible values for \( p \) (the numerator) are:
+\[
+p = \pm 1, \pm 2, \pm 4.
+\]
+
+**Step 2: Identify the factors of the leading coefficient \(2\)**
+
+The factors of \(2\) are:
+\[
+\pm 1, \pm 2.
+\]
+
+Thus, the possible values for \( q \) (the denominator) are:
+\[
+q = \pm 1, \pm 2.
+\]
+
+**Step 3: Formulate the possible rational roots**
+
+Using the Rational Root Theorem, the possible rational roots \( \frac{p}{q} \) can be formed by taking each \( p \) and dividing it by each \( q \):
+
+1. For \( p = 1 \):
+   - \( \frac{1}{1} = 1 \)
+   - \( \frac{1}{2} = \frac{1}{2} \)
+
+2. For \( p = -1 \):
+   - \( \frac{-1}{1} = -1 \)
+   - \( \frac{-1}{2} = -\frac{1}{2} \)
+
+3. For \( p = 2 \):
+   - \( \frac{2}{1} = 2 \)
+   - \( \frac{2}{2} = 1 \) (already counted)
+
+4. For \( p = -2 \):
+   - \( \frac{-2}{1} = -2 \)
+   - \( \frac{-2}{2} = -1 \) (already counted)
+
+5. For \( p = 4 \):
+   - \( \frac{4}{1} = 4 \)
+   - \( \frac{4}{2} = 2 \) (already counted)
+
+6. For \( p = -4 \):
+   - \( \frac{-4}{1} = -4 \)
+   - \( \frac{-4}{2} = -2 \) (already counted)
+
+**Step 4: List the unique possible rational roots**
+
+The unique possible rational roots we have found are:
+\[
+1, -1, \frac{1}{2}, -\frac{1}{2}, 2, -2, 4, -4.
+\]
+
+**Step 5: Count the unique possible rational roots**
+
+Counting these unique values, we have:
+- \( 1 \)
+- \( -1 \)
+- \( \frac{1}{2} \)
+- \( -\frac{1}{2} \)
+- \( 2 \)
+- \( -2 \)
+- \( 4 \)
+- \( -4 \)
+
+This gives us a total of \( 8 \) possible rational roots.
+
+Thus, the number of possible rational roots of the polynomial is 
+
+\[
+\boxed{8}.
+\]

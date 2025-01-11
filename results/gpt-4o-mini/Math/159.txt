@@ -1,0 +1,49 @@
+In triangle \( ABC \), we know that \( \angle A = 90^\circ \). The cosine of an angle in a right triangle is defined as the ratio of the length of the adjacent side to the hypotenuse. 
+
+In this case, since \( A \) is the right angle, we can analyze the sides:
+
+- \( AB \) is one of the legs of the triangle, with length \( 6 \).
+- \( BC \) is the hypotenuse, with length \( 10 \).
+- \( AC \) is the other leg, which we can find using the Pythagorean theorem.
+
+The Pythagorean theorem states that:
+
+\[
+AB^2 + AC^2 = BC^2
+\]
+
+Substituting the known values:
+
+\[
+6^2 + AC^2 = 10^2
+\]
+
+Calculating the squares:
+
+\[
+36 + AC^2 = 100
+\]
+
+Now, we isolate \( AC^2 \):
+
+\[
+AC^2 = 100 - 36 = 64
+\]
+
+Taking the square root gives:
+
+\[
+AC = \sqrt{64} = 8
+\]
+
+Now, we can find \( \cos A \). Since \( A \) is \( 90^\circ \), we know that:
+
+\[
+\cos 90^\circ = 0
+\]
+
+Thus, the value of \( \cos A \) is:
+
+\[
+\boxed{0}
+\]

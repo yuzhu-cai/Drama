@@ -1,0 +1,83 @@
+To solve the problem of dividing four identical oranges into at most three groups, we can use the "stars and bars" combinatorial method. We will consider the different cases based on the number of groups formed: one group, two groups, and three groups.
+
+### Case 1: One Group
+If all oranges are in one group, there is only one way to do this:
+- Group 1: 4 oranges
+
+Thus, there is **1 way** for this case.
+
+### Case 2: Two Groups
+In this case, we need to divide the 4 oranges into 2 groups. Let \( x_1 \) and \( x_2 \) represent the number of oranges in each group. We need to solve the equation:
+\[
+x_1 + x_2 = 4
+\]
+with the constraints \( x_1 \geq 1 \) and \( x_2 \geq 1 \).
+
+To simplify, we can set \( y_1 = x_1 - 1 \) and \( y_2 = x_2 - 1 \), which gives us:
+\[
+y_1 + y_2 = 2
+\]
+where \( y_1 \geq 0 \) and \( y_2 \geq 0 \).
+
+The number of non-negative integer solutions to this equation can be found using the stars and bars method. The number of solutions is given by:
+\[
+\binom{n+k-1}{k-1}
+\]
+where \( n \) is the total number of "stars" (oranges) and \( k \) is the number of "bars" (groups).
+
+Here, \( n = 2 \) (the remaining oranges after placing one in each group) and \( k = 2 \) (the two groups). Thus, we have:
+\[
+\binom{2 + 2 - 1}{2 - 1} = \binom{3}{1} = 3
+\]
+
+The possible distributions are:
+- Group 1: 1 orange, Group 2: 3 oranges
+- Group 1: 2 oranges, Group 2: 2 oranges
+- Group 1: 3 oranges, Group 2: 1 orange
+
+So, there are **3 ways** for this case.
+
+### Case 3: Three Groups
+Now we need to divide the 4 oranges into 3 groups. Let \( x_1, x_2, x_3 \) represent the number of oranges in each group. We need to solve the equation:
+\[
+x_1 + x_2 + x_3 = 4
+\]
+with the constraints \( x_1 \geq 1 \), \( x_2 \geq 1 \), and \( x_3 \geq 1 \).
+
+We can set \( y_1 = x_1 - 1 \), \( y_2 = x_2 - 1 \), and \( y_3 = x_3 - 1 \), which gives us:
+\[
+y_1 + y_2 + y_3 = 1
+\]
+where \( y_1 \geq 0 \), \( y_2 \geq 0 \), and \( y_3 \geq 0 \).
+
+The number of non-negative integer solutions to this equation is given by:
+\[
+\binom{n+k-1}{k-1}
+\]
+where \( n = 1 \) (the remaining oranges after placing one in each group) and \( k = 3 \) (the three groups). Thus, we have:
+\[
+\binom{1 + 3 - 1}{3 - 1} = \binom{3}{2} = 3
+\]
+
+The possible distributions are:
+- Group 1: 1 orange, Group 2: 1 orange, Group 3: 2 oranges
+- Group 1: 1 orange, Group 2: 2 oranges, Group 3: 1 orange
+- Group 1: 2 oranges, Group 2: 1 orange, Group 3: 1 orange
+
+So, there are **3 ways** for this case.
+
+### Total Count
+Now, we can sum the number of ways from all cases:
+- Case 1: 1 way
+- Case 2: 3 ways
+- Case 3: 3 ways
+
+Thus, the total number of ways to divide the oranges into at most three groups is:
+\[
+1 + 3 + 3 = 7
+\]
+
+Therefore, the final answer is:
+\[
+\boxed{7}
+\]

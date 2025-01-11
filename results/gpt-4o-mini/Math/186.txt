@@ -1,0 +1,64 @@
+To find the number of different bracelets that can be formed with 3 identical orange beads, 3 identical black beads, and 1 teal bead, we can use Burnside's lemma, which is useful for counting distinct arrangements under group actions such as rotations and reflections.
+
+First, we calculate the total number of beads:
+\[
+n = 3 + 3 + 1 = 7
+\]
+We will consider the symmetries of a bracelet, which include both rotations and reflections. The group of symmetries for a bracelet of 7 beads is the dihedral group \(D_7\), which has 14 elements (7 rotations and 7 reflections).
+
+### Step 1: Count fixed arrangements under rotations
+
+**Rotations:**
+1. **Rotation by 0 beads (identity rotation)**: All arrangements are fixed. The number of arrangements is given by the multinomial coefficient:
+   \[
+   \frac{7!}{3!3!1!} = \frac{5040}{6 \cdot 6 \cdot 1} = \frac{5040}{36} = 140
+   \]
+
+2. **Rotation by 1 bead**: No arrangement can remain fixed because the teal bead cannot be adjacent to itself. Thus, the count is 0.
+
+3. **Rotation by 2 beads**: Similar to the previous case, the teal bead cannot be adjacent to itself. Thus, the count is 0.
+
+4. **Rotation by 3 beads**: The arrangement must repeat every 3 beads. The only way to achieve this is to have the teal bead in one of the positions and the remaining beads must be identical. This is impossible with our bead configuration. Thus, the count is 0.
+
+5. **Rotation by 4 beads**: This is similar to rotation by 3 beads, and the count is also 0.
+
+6. **Rotation by 5 beads**: Similar to rotation by 2 beads, the count is 0.
+
+7. **Rotation by 6 beads**: Similar to rotation by 1 bead, the count is 0.
+
+**Total fixed arrangements under rotations**:
+\[
+140 + 0 + 0 + 0 + 0 + 0 + 0 = 140
+\]
+
+### Step 2: Count fixed arrangements under reflections
+
+**Reflections**: Each reflection will have a different fixed arrangement depending on the axis of reflection.
+
+1. **Reflection through a bead (7 cases)**: The teal bead must be on the axis of reflection. The remaining 6 beads (3 orange and 3 black) must be symmetric about this axis. The arrangement of the 3 orange and 3 black beads can be arranged in:
+   \[
+   \frac{6!}{3!3!} = \frac{720}{6 \cdot 6} = 20
+   \]
+   Since there are 7 such reflections, the total contribution from these reflections is:
+   \[
+   7 \times 20 = 140
+   \]
+
+### Step 3: Total fixed arrangements
+
+Now, we combine the contributions from rotations and reflections:
+\[
+\text{Total fixed arrangements} = 140 \text{ (from rotations)} + 140 \text{ (from reflections)} = 280
+\]
+
+### Step 4: Apply Burnside's lemma
+
+The number of distinct bracelets is given by the average number of fixed arrangements:
+\[
+\text{Number of distinct bracelets} = \frac{1}{|D_7|} \sum_{\text{g} \in D_7} \text{Fix(g)} = \frac{1}{14} \times 280 = 20
+\]
+
+Thus, the number of different bracelets that can be formed is:
+\[
+\boxed{20}
+\]

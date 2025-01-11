@@ -1,0 +1,68 @@
+To solve for \(\frac{x + y + w}{z}\), we start with the given ratios:
+
+1. \(\frac{x}{y} = \frac{4}{5}\)
+2. \(\frac{y}{z} = \frac{3}{10}\)
+3. \(\frac{z}{w} = \frac{6}{7}\)
+
+We can express \(x\), \(y\), \(z\), and \(w\) in terms of a common variable. Let's denote \(y\) as \(y = 5k\) for some \(k\). Then we can find \(x\) and \(z\):
+
+From \(\frac{x}{y} = \frac{4}{5}\):
+\[
+x = \frac{4}{5}y = \frac{4}{5}(5k) = 4k
+\]
+
+From \(\frac{y}{z} = \frac{3}{10}\):
+\[
+z = \frac{10}{3}y = \frac{10}{3}(5k) = \frac{50k}{3}
+\]
+
+From \(\frac{z}{w} = \frac{6}{7}\):
+\[
+w = \frac{7}{6}z = \frac{7}{6}\left(\frac{50k}{3}\right) = \frac{350k}{18} = \frac{175k}{9}
+\]
+
+Now we have:
+- \(x = 4k\)
+- \(y = 5k\)
+- \(z = \frac{50k}{3}\)
+- \(w = \frac{175k}{9}\)
+
+Next, we compute \(x + y + w\):
+\[
+x + y + w = 4k + 5k + \frac{175k}{9} = 9k + \frac{175k}{9}
+\]
+
+To combine these terms, we convert \(9k\) into a fraction with a denominator of 9:
+\[
+9k = \frac{81k}{9}
+\]
+Thus,
+\[
+x + y + w = \frac{81k}{9} + \frac{175k}{9} = \frac{256k}{9}
+\]
+
+Now we need to find \(\frac{x + y + w}{z}\):
+\[
+\frac{x + y + w}{z} = \frac{\frac{256k}{9}}{\frac{50k}{3}} = \frac{256k}{9} \cdot \frac{3}{50k}
+\]
+The \(k\) cancels out:
+\[
+= \frac{256 \cdot 3}{9 \cdot 50} = \frac{768}{450}
+\]
+
+Now we simplify \(\frac{768}{450}\):
+The greatest common divisor (GCD) of 768 and 450 can be found by factoring:
+- \(768 = 2^8 \times 3\)
+- \(450 = 2 \times 3^2 \times 5^2\)
+
+The GCD is \(2^1 \times 3^1 = 6\).
+
+Now we divide both the numerator and the denominator by 6:
+\[
+\frac{768 \div 6}{450 \div 6} = \frac{128}{75}
+\]
+
+Thus, the final answer is:
+\[
+\boxed{\frac{128}{75}}
+\]

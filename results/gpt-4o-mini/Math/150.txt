@@ -1,0 +1,75 @@
+Let the two consecutive positive even integers be \( x \) and \( x + 2 \). According to the problem, their product is given by:
+
+\[
+x(x + 2) = 288
+\]
+
+Expanding this equation, we have:
+
+\[
+x^2 + 2x = 288
+\]
+
+To form a standard quadratic equation, we can rearrange it:
+
+\[
+x^2 + 2x - 288 = 0
+\]
+
+Next, we will use the quadratic formula to solve for \( x \). The quadratic formula is given by:
+
+\[
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+\]
+
+In our equation, \( a = 1 \), \( b = 2 \), and \( c = -288 \). Plugging these values into the formula, we first calculate the discriminant:
+
+\[
+b^2 - 4ac = 2^2 - 4 \cdot 1 \cdot (-288) = 4 + 1152 = 1156
+\]
+
+Now we take the square root of the discriminant:
+
+\[
+\sqrt{1156} = 34
+\]
+
+Now we can substitute back into the quadratic formula:
+
+\[
+x = \frac{-2 \pm 34}{2}
+\]
+
+Calculating the two possible values for \( x \):
+
+1. Using the positive root:
+
+\[
+x = \frac{-2 + 34}{2} = \frac{32}{2} = 16
+\]
+
+2. Using the negative root:
+
+\[
+x = \frac{-2 - 34}{2} = \frac{-36}{2} = -18
+\]
+
+Since we are looking for positive integers, we take \( x = 16 \). Therefore, the two consecutive positive even integers are:
+
+\[
+16 \quad \text{and} \quad 18
+\]
+
+The greater of the two integers is:
+
+\[
+\boxed{18}
+\]
+
+To verify, we can check the product:
+
+\[
+16 \times 18 = 288
+\]
+
+Thus, the solution is confirmed, and the greater integer is indeed \( \boxed{18} \).

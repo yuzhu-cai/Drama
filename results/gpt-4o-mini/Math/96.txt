@@ -1,0 +1,40 @@
+To simplify the expression \(\dfrac{\sqrt{10}}{\sqrt[4]{10}}\), we start by rewriting the square root and the fourth root in terms of exponents:
+
+\[
+\sqrt{10} = 10^{1/2}
+\]
+\[
+\sqrt[4]{10} = 10^{1/4}
+\]
+
+Now we can substitute these into the original expression:
+
+\[
+\dfrac{\sqrt{10}}{\sqrt[4]{10}} = \dfrac{10^{1/2}}{10^{1/4}}
+\]
+
+Using the property of exponents that states \(\dfrac{a^m}{a^n} = a^{m-n}\), we can simplify the expression:
+
+\[
+\dfrac{10^{1/2}}{10^{1/4}} = 10^{1/2 - 1/4}
+\]
+
+Next, we need to perform the subtraction in the exponent:
+
+\[
+1/2 - 1/4 = \frac{2}{4} - \frac{1}{4} = \frac{2 - 1}{4} = \frac{1}{4}
+\]
+
+Thus, we have:
+
+\[
+10^{1/2 - 1/4} = 10^{1/4}
+\]
+
+Therefore, the expression \(\dfrac{\sqrt{10}}{\sqrt[4]{10}}\) equals \(10^{1/4}\).
+
+In conclusion, the expression \(\dfrac{\sqrt{10}}{\sqrt[4]{10}}\) equals \(10\) raised to the power of 
+
+\[
+\boxed{\frac{1}{4}}.
+\]

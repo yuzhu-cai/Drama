@@ -1,0 +1,31 @@
+To find the value of \( 2 * 6 \) using the operation defined by \( a * b = a^b + b^a \), we will substitute \( a = 2 \) and \( b = 6 \) into the expression.
+
+First, we calculate \( 2^6 \):
+
+\[
+2^6 = 64
+\]
+
+Next, we calculate \( 6^2 \):
+
+\[
+6^2 = 36
+\]
+
+Now, we can substitute these values back into the operation:
+
+\[
+2 * 6 = 2^6 + 6^2 = 64 + 36
+\]
+
+Now, we perform the addition:
+
+\[
+64 + 36 = 100
+\]
+
+Thus, the value of \( 2 * 6 \) is 
+
+\[
+\boxed{100}
+\]

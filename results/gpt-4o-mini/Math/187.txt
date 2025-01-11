@@ -1,0 +1,43 @@
+To solve the problem, we need to determine the number of ways Liz can choose 3 marbles from her collection of 11 marbles, with the condition that she cannot choose both the green marble and the purple marble at the same time.
+
+First, let's denote the total number of marbles as \( n = 11 \). We will denote the green marble as \( G \) and the purple marble as \( P \). The remaining marbles can be denoted as \( M_1, M_2, \ldots, M_9 \) (9 marbles that are neither green nor purple).
+
+We will break down the problem into cases based on whether Liz chooses the green marble, the purple marble, or neither.
+
+### Case 1: Liz chooses neither \( G \) nor \( P \)
+
+In this case, Liz can choose all 3 marbles from the 9 remaining marbles \( M_1, M_2, \ldots, M_9 \). The number of ways to choose 3 marbles from 9 is given by the combination formula:
+
+\[
+\binom{9}{3} = \frac{9 \times 8 \times 7}{3 \times 2 \times 1} = 84
+\]
+
+### Case 2: Liz chooses \( G \) but not \( P \)
+
+In this case, Liz has already chosen the green marble \( G \), so she needs to choose 2 more marbles from the remaining 9 marbles (which still includes \( P \)). The number of ways to choose 2 marbles from 9 is:
+
+\[
+\binom{9}{2} = \frac{9 \times 8}{2 \times 1} = 36
+\]
+
+### Case 3: Liz chooses \( P \) but not \( G \)
+
+This case is similar to Case 2. If Liz chooses the purple marble \( P \), she also needs to choose 2 more marbles from the remaining 9 marbles (which still includes \( G \)). The number of ways to choose 2 marbles from 9 is again:
+
+\[
+\binom{9}{2} = 36
+\]
+
+### Total Count
+
+Now, we can sum the number of ways from all three cases:
+
+\[
+\text{Total} = \text{Case 1} + \text{Case 2} + \text{Case 3} = 84 + 36 + 36 = 156
+\]
+
+Thus, the total number of ways Liz can choose 3 marbles, while adhering to her condition of not choosing both the green and purple marbles at the same time, is 
+
+\[
+\boxed{156}
+\]

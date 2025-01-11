@@ -1,0 +1,62 @@
+To find the one hundredth positive integer that can be written using only the digits 0 and 1 in base 3, we first need to understand how numbers are represented in base 3 using only the digits 0 and 1.
+
+In base 3, the digits 0 and 1 can be used to represent numbers in a binary-like fashion. Each number can be thought of as a binary number where each digit corresponds to a power of 3 instead of a power of 2.
+
+For example, the base 3 representation of the number \( 110_3 \) can be calculated as follows:
+
+\[
+110_3 = 1 \cdot 3^2 + 1 \cdot 3^1 + 0 \cdot 3^0 = 9 + 3 + 0 = 12_{10}
+\]
+
+To find the one hundredth positive integer that can be expressed in this way, we can list the numbers that can be formed using the digits 0 and 1 in base 3. The numbers will correspond to binary numbers, where each binary digit represents whether to include the corresponding power of 3.
+
+The first few numbers that can be formed using the digits 0 and 1 in base 3 are:
+
+- \( 1_3 = 1_{10} \)
+- \( 10_3 = 3_{10} \)
+- \( 11_3 = 4_{10} \)
+- \( 100_3 = 9_{10} \)
+- \( 101_3 = 10_{10} \)
+- \( 110_3 = 12_{10} \)
+- \( 111_3 = 13_{10} \)
+- \( 1000_3 = 27_{10} \)
+- \( 1001_3 = 28_{10} \)
+- \( 1010_3 = 30_{10} \)
+- \( 1011_3 = 31_{10} \)
+- \( 1100_3 = 36_{10} \)
+- \( 1101_3 = 37_{10} \)
+- \( 1110_3 = 39_{10} \)
+- \( 1111_3 = 40_{10} \)
+
+Continuing this process, we can generate numbers up to the one hundredth such number.
+
+To find the one hundredth number, we can note that the numbers correspond to binary counting from \( 1 \) to \( 100 \). The binary representation of \( 100 \) is \( 1100100_2 \).
+
+Now we convert \( 1100100_2 \) to base 3:
+
+1. The binary number \( 1100100_2 \) corresponds to the decimal number \( 100 \).
+2. We interpret this binary number as a base 3 number, where each digit corresponds to a power of 3.
+
+Calculating \( 1100100_2 \) in base 3:
+
+\[
+1100100_2 = 1 \cdot 3^6 + 1 \cdot 3^5 + 0 \cdot 3^4 + 0 \cdot 3^3 + 1 \cdot 3^2 + 0 \cdot 3^1 + 0 \cdot 3^0
+\]
+
+Calculating the powers of 3:
+
+\[
+= 1 \cdot 729 + 1 \cdot 243 + 0 \cdot 81 + 0 \cdot 27 + 1 \cdot 9 + 0 \cdot 3 + 0 \cdot 1
+\]
+
+Adding these values together:
+
+\[
+= 729 + 243 + 9 = 981
+\]
+
+Thus, the one hundredth positive integer that can be written using only the digits 0 and 1 in base 3 is:
+
+\[
+\boxed{981}
+\]

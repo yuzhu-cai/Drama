@@ -1,0 +1,88 @@
+To find the greatest common divisor \( h(x) = \gcd(f(x), g(x)) \) where \( f(x) = 12x + 7 \) and \( g(x) = 5x + 2 \), we will use the properties of the gcd.
+
+First, we can express \( h(x) \) using the Euclidean algorithm:
+
+\[
+h(x) = \gcd(f(x), g(x)) = \gcd(12x + 7, 5x + 2)
+\]
+
+We can apply the Euclidean algorithm:
+
+\[
+\gcd(12x + 7, 5x + 2) = \gcd(12x + 7 - 2(5x + 2), 5x + 2)
+\]
+
+Calculating \( 12x + 7 - 2(5x + 2) \):
+
+\[
+12x + 7 - 10x - 4 = 2x + 3
+\]
+
+Thus, we have:
+
+\[
+h(x) = \gcd(2x + 3, 5x + 2)
+\]
+
+Next, we apply the Euclidean algorithm again:
+
+\[
+\gcd(2x + 3, 5x + 2) = \gcd(2x + 3, 5x + 2 - 2(2x + 3))
+\]
+
+Calculating \( 5x + 2 - 2(2x + 3) \):
+
+\[
+5x + 2 - 4x - 6 = x - 4
+\]
+
+Now we have:
+
+\[
+h(x) = \gcd(2x + 3, x - 4)
+\]
+
+We apply the Euclidean algorithm once more:
+
+\[
+\gcd(2x + 3, x - 4) = \gcd(2x + 3 - 2(x - 4), x - 4)
+\]
+
+Calculating \( 2x + 3 - 2(x - 4) \):
+
+\[
+2x + 3 - 2x + 8 = 11
+\]
+
+Thus, we have:
+
+\[
+h(x) = \gcd(11, x - 4)
+\]
+
+The gcd of 11 and \( x - 4 \) can take values depending on \( x - 4 \). Since 11 is a prime number, \( \gcd(11, x - 4) \) can be either 1 or 11. Specifically:
+
+- \( h(x) = 11 \) if \( x - 4 \) is a multiple of 11, i.e., \( x - 4 = 11k \) for some integer \( k \).
+- \( h(x) = 1 \) if \( x - 4 \) is not a multiple of 11.
+
+Now, since \( x \) is a positive integer, we can express \( x \) as:
+
+\[
+x = 11k + 4
+\]
+
+for \( k \geq 0 \). This means \( x \) can take values 4, 15, 26, etc. For these values, \( h(x) = 11 \).
+
+For all other positive integers \( x \) that do not satisfy \( x - 4 \equiv 0 \mod 11 \), \( h(x) = 1 \).
+
+Thus, the possible values of \( h(x) \) are 1 and 11. The sum of all possible values of \( h(x) \) is:
+
+\[
+1 + 11 = 12
+\]
+
+Therefore, the final answer is:
+
+\[
+\boxed{12}
+\]

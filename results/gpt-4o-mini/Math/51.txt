@@ -1,0 +1,47 @@
+To solve the problem, we first need to determine the total number of parts in the ratio \(2:3:3:4\).
+
+We can calculate the total number of parts as follows:
+
+\[
+2 + 3 + 3 + 4 = 12
+\]
+
+Next, we will find out how many apples correspond to each part. Since they have a total of 36 apples, we divide the total number of apples by the total number of parts:
+
+\[
+\text{Apples per part} = \frac{36}{12} = 3
+\]
+
+Now, we can calculate the number of apples each person receives based on the ratio:
+
+- Amy receives \(2\) parts:
+  \[
+  2 \times 3 = 6 \text{ apples}
+  \]
+
+- Betty receives \(3\) parts:
+  \[
+  3 \times 3 = 9 \text{ apples}
+  \]
+
+- Cathy receives \(3\) parts:
+  \[
+  3 \times 3 = 9 \text{ apples}
+  \]
+
+- Daisy receives \(4\) parts:
+  \[
+  4 \times 3 = 12 \text{ apples}
+  \]
+
+Now, we need to find out how many apples Betty and Cathy have together. We add the number of apples they each receive:
+
+\[
+\text{Betty's apples} + \text{Cathy's apples} = 9 + 9 = 18
+\]
+
+Thus, the total number of apples that Betty and Cathy have together is 
+
+\[
+\boxed{18}
+\]

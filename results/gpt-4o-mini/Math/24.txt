@@ -1,0 +1,58 @@
+To find Tamara's score on the misplaced quiz, we start by using the information given about her quiz scores and the arithmetic mean.
+
+The arithmetic mean of her five quiz scores is given as 95%. This means that the total of all five quiz scores divided by 5 equals 95%. We can express this mathematically as follows:
+
+\[
+\frac{s_1 + s_2 + s_3 + s_4 + s_5}{5} = 95
+\]
+
+Multiplying both sides by 5 gives us:
+
+\[
+s_1 + s_2 + s_3 + s_4 + s_5 = 5 \times 95 = 475
+\]
+
+Let \( s_5 \) be the score of the misplaced quiz. The scores Tamara can find are 100%, 100%, 99%, and 98%. We can denote these scores as \( s_1 = 100 \), \( s_2 = 100 \), \( s_3 = 99 \), and \( s_4 = 98 \). Now we can calculate the sum of these known scores:
+
+\[
+s_1 + s_2 + s_3 + s_4 = 100 + 100 + 99 + 98
+\]
+
+Calculating this step-by-step:
+
+\[
+100 + 100 = 200
+\]
+\[
+200 + 99 = 299
+\]
+\[
+299 + 98 = 397
+\]
+
+Thus, the sum of the known scores is:
+
+\[
+s_1 + s_2 + s_3 + s_4 = 397
+\]
+
+Now we can substitute this into the equation for the total score:
+
+\[
+397 + s_5 = 475
+\]
+
+To find \( s_5 \), we solve for it by subtracting 397 from both sides:
+
+\[
+s_5 = 475 - 397
+\]
+\[
+s_5 = 78
+\]
+
+Therefore, Tamara's score on the misplaced quiz is 
+
+\[
+\boxed{78}
+\]

@@ -1,0 +1,96 @@
+To solve the equation 
+
+\[
+\frac{1}{a} + \frac{1}{b} = \frac{2}{17},
+\]
+
+we start by finding a common denominator for the left-hand side:
+
+\[
+\frac{b + a}{ab} = \frac{2}{17}.
+\]
+
+Cross-multiplying gives:
+
+\[
+17(a + b) = 2ab.
+\]
+
+Rearranging this equation, we have:
+
+\[
+2ab - 17a - 17b = 0.
+\]
+
+Next, we can rearrange it into a standard quadratic form:
+
+\[
+2ab - 17a - 17b + 289 = 289.
+\]
+
+This can be factored as:
+
+\[
+(2a - 17)(2b - 17) = 289.
+\]
+
+Now, we need to find the pairs of integers \((x, y)\) such that:
+
+\[
+xy = 289,
+\]
+
+where \(x = 2a - 17\) and \(y = 2b - 17\). The integer 289 can be factored as follows:
+
+\[
+289 = 17^2.
+\]
+
+The positive divisors of 289 are \(1, 17, 289\). Thus, the pairs \((x, y)\) that satisfy \(xy = 289\) are:
+
+1. \((1, 289)\)
+2. \((17, 17)\)
+3. \((289, 1)\)
+
+Now we will convert these pairs back to \((a, b)\):
+
+1. For the pair \((1, 289)\):
+   \[
+   2a - 17 = 1 \implies 2a = 18 \implies a = 9,
+   \]
+   \[
+   2b - 17 = 289 \implies 2b = 306 \implies b = 153.
+   \]
+   Thus, one solution is \((9, 153)\).
+
+2. For the pair \((17, 17)\):
+   \[
+   2a - 17 = 17 \implies 2a = 34 \implies a = 17,
+   \]
+   \[
+   2b - 17 = 17 \implies 2b = 34 \implies b = 17.
+   \]
+   Thus, another solution is \((17, 17)\).
+
+3. For the pair \((289, 1)\):
+   \[
+   2a - 17 = 289 \implies 2a = 306 \implies a = 153,
+   \]
+   \[
+   2b - 17 = 1 \implies 2b = 18 \implies b = 9.
+   \]
+   Thus, the final solution is \((153, 9)\).
+
+Now we summarize the pairs of positive integers \((a, b)\):
+
+- \((9, 153)\)
+- \((17, 17)\)
+- \((153, 9)\)
+
+Since \((9, 153)\) and \((153, 9)\) are distinct pairs, we count them as separate solutions.
+
+Thus, the total number of pairs of positive integers \((a, b)\) that satisfy the equation is 
+
+\[
+\boxed{3}.
+\]

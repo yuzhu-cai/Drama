@@ -1,0 +1,77 @@
+To determine the value of \( K \) such that the system of equations 
+
+\[
+6x + 4y = 7
+\]
+\[
+Kx + 8y = 7
+\]
+
+has no solutions, we need to analyze the conditions under which a system of linear equations is inconsistent. A system of two linear equations is inconsistent if the lines represented by the equations are parallel but not coincident.
+
+First, we can express both equations in the standard form \( Ax + By = C \):
+
+1. The first equation is already in the form \( 6x + 4y = 7 \).
+2. The second equation is \( Kx + 8y = 7 \).
+
+Next, we find the slopes of the lines represented by these equations. The slope-intercept form of a line is given by \( y = mx + b \), where \( m \) is the slope.
+
+For the first equation \( 6x + 4y = 7 \):
+
+\[
+4y = -6x + 7 \implies y = -\frac{6}{4}x + \frac{7}{4} \implies y = -\frac{3}{2}x + \frac{7}{4}
+\]
+
+Thus, the slope of the first line is \( -\frac{3}{2} \).
+
+For the second equation \( Kx + 8y = 7 \):
+
+\[
+8y = -Kx + 7 \implies y = -\frac{K}{8}x + \frac{7}{8}
+\]
+
+Thus, the slope of the second line is \( -\frac{K}{8} \).
+
+For the lines to be parallel, their slopes must be equal:
+
+\[
+-\frac{3}{2} = -\frac{K}{8}
+\]
+
+Removing the negative sign from both sides gives:
+
+\[
+\frac{3}{2} = \frac{K}{8}
+\]
+
+To solve for \( K \), we cross-multiply:
+
+\[
+3 \cdot 8 = 2K \implies 24 = 2K \implies K = \frac{24}{2} = 12
+\]
+
+Now, we need to ensure that the lines are not coincident. For the lines to be parallel and not coincident, the constant terms must differ when the equations are expressed in the same form. 
+
+We can check the constant terms by substituting \( K = 12 \) into the second equation:
+
+The first equation is \( 6x + 4y = 7 \).
+
+The second equation with \( K = 12 \) becomes:
+
+\[
+12x + 8y = 7
+\]
+
+To check if these lines are coincident, we can multiply the first equation by 2:
+
+\[
+2(6x + 4y) = 2 \cdot 7 \implies 12x + 8y = 14
+\]
+
+The equations \( 12x + 8y = 14 \) and \( 12x + 8y = 7 \) are clearly not the same, confirming that the lines are parallel and not coincident.
+
+Thus, the value of \( K \) such that the system has no solutions is 
+
+\[
+\boxed{12}.
+\]

@@ -1,0 +1,66 @@
+Let the four consecutive integers be represented as \( n, n+1, n+2, n+3 \).
+
+The sum of these integers can be expressed as:
+\[
+n + (n+1) + (n+2) + (n+3) = 4n + 6
+\]
+We know that this sum equals 22:
+\[
+4n + 6 = 22
+\]
+To solve for \( n \), we first subtract 6 from both sides:
+\[
+4n = 22 - 6
+\]
+\[
+4n = 16
+\]
+Next, we divide both sides by 4:
+\[
+n = 4
+\]
+
+Thus, the four consecutive integers are:
+\[
+4, 5, 6, 7
+\]
+
+Next, we increase each integer by 2:
+\[
+4 + 2 = 6, \quad 5 + 2 = 7, \quad 6 + 2 = 8, \quad 7 + 2 = 9
+\]
+This gives us the new set of integers:
+\[
+6, 7, 8, 9
+\]
+
+Now, we multiply each of these integers by 20:
+\[
+6 \times 20 = 120, \quad 7 \times 20 = 140, \quad 8 \times 20 = 160, \quad 9 \times 20 = 180
+\]
+
+The new set of integers is:
+\[
+120, 140, 160, 180
+\]
+
+Finally, we find the sum of this new set:
+\[
+120 + 140 + 160 + 180
+\]
+
+Calculating this step-by-step:
+\[
+120 + 140 = 260
+\]
+\[
+260 + 160 = 420
+\]
+\[
+420 + 180 = 600
+\]
+
+Thus, the sum of the new set of integers is:
+\[
+\boxed{600}
+\]

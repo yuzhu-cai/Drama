@@ -1,0 +1,53 @@
+To solve the quadratic equation \( x^2 - 8x - 49 = 0 \) by completing the square, we first isolate the quadratic and linear terms on one side of the equation:
+
+\[
+x^2 - 8x = 49
+\]
+
+Next, we complete the square for the left-hand side. To do this, we take the coefficient of \( x \), which is \(-8\), divide it by 2, and then square it:
+
+\[
+\left(-\frac{8}{2}\right)^2 = (-4)^2 = 16
+\]
+
+We add and subtract this square (16) on the left-hand side:
+
+\[
+x^2 - 8x + 16 - 16 = 49
+\]
+
+This simplifies to:
+
+\[
+(x - 4)^2 - 16 = 49
+\]
+
+Next, we move \(-16\) to the right side:
+
+\[
+(x - 4)^2 = 49 + 16
+\]
+
+Calculating the right side gives:
+
+\[
+(x - 4)^2 = 65
+\]
+
+Now, we have rewritten the equation in the form of \((ax + b)^2 + c\). Here, we can identify:
+
+- \(a = 1\) (since the coefficient of \(x\) in \((x - 4)\) is 1),
+- \(b = -4\),
+- \(c = -65\) (since we can rewrite \(65\) as \(-(-65)\)).
+
+Now we need to find \(ab\):
+
+\[
+ab = 1 \cdot (-4) = -4
+\]
+
+Thus, the final answer is:
+
+\[
+\boxed{-4}
+\]

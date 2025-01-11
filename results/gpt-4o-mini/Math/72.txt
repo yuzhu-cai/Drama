@@ -1,0 +1,120 @@
+To find \( x + y + z \) given the equations \( xy = 24 \), \( xz = 48 \), and \( yz = 72 \), we can start by multiplying all three equations together:
+
+\[
+(xy)(xz)(yz) = 24 \cdot 48 \cdot 72
+\]
+
+This simplifies to:
+
+\[
+x^2y^2z^2 = 24 \cdot 48 \cdot 72
+\]
+
+Taking the square root of both sides gives:
+
+\[
+xyz = \sqrt{24 \cdot 48 \cdot 72}
+\]
+
+Next, we can calculate \( 24 \cdot 48 \cdot 72 \). First, we can factor each number:
+
+\[
+24 = 2^3 \cdot 3^1, \quad 48 = 2^4 \cdot 3^1, \quad 72 = 2^3 \cdot 3^2
+\]
+
+Now, we multiply these factorizations together:
+
+\[
+24 \cdot 48 \cdot 72 = (2^3 \cdot 3^1)(2^4 \cdot 3^1)(2^3 \cdot 3^2)
+\]
+
+Combining the powers of 2 and 3:
+
+\[
+= 2^{3+4+3} \cdot 3^{1+1+2} = 2^{10} \cdot 3^4
+\]
+
+Now we can find \( xyz \):
+
+\[
+xyz = \sqrt{2^{10} \cdot 3^4} = 2^{5} \cdot 3^{2} = 32 \cdot 9 = 288
+\]
+
+Now we have \( xyz = 288 \).
+
+Next, we can express \( z \) in terms of \( x \) and \( y \) using the equations we have:
+
+From \( xy = 24 \), we can express \( y \) as:
+
+\[
+y = \frac{24}{x}
+\]
+
+From \( xz = 48 \), we can express \( z \) as:
+
+\[
+z = \frac{48}{x}
+\]
+
+Now substituting \( y \) and \( z \) into \( yz = 72 \):
+
+\[
+\left(\frac{24}{x}\right)\left(\frac{48}{x}\right) = 72
+\]
+
+This simplifies to:
+
+\[
+\frac{24 \cdot 48}{x^2} = 72
+\]
+
+Multiplying both sides by \( x^2 \):
+
+\[
+24 \cdot 48 = 72x^2
+\]
+
+Calculating \( 24 \cdot 48 \):
+
+\[
+24 \cdot 48 = 1152
+\]
+
+So we have:
+
+\[
+1152 = 72x^2
+\]
+
+Dividing both sides by 72:
+
+\[
+x^2 = \frac{1152}{72} = 16
+\]
+
+Taking the square root gives:
+
+\[
+x = 4
+\]
+
+Now substituting \( x = 4 \) back to find \( y \) and \( z \):
+
+\[
+y = \frac{24}{x} = \frac{24}{4} = 6
+\]
+\[
+z = \frac{48}{x} = \frac{48}{4} = 12
+\]
+
+Now we have \( x = 4 \), \( y = 6 \), and \( z = 12 \). Finally, we can find \( x + y + z \):
+
+\[
+x + y + z = 4 + 6 + 12 = 22
+\]
+
+Thus, the final answer is:
+
+\[
+\boxed{22}
+\]

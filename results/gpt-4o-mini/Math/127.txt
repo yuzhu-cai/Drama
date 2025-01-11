@@ -1,0 +1,67 @@
+To find \( n \) such that the sum of the first \( n \) terms of the geometric sequence \( \left\{ \frac{1}{4}, \frac{1}{8}, \frac{1}{16}, \dots \right\} \) equals \( \frac{255}{512} \), we start by identifying the first term and the common ratio of the sequence.
+
+The first term \( a \) is:
+
+\[
+a = \frac{1}{4}
+\]
+
+The common ratio \( r \) is:
+
+\[
+r = \frac{\frac{1}{8}}{\frac{1}{4}} = \frac{1}{2}
+\]
+
+The formula for the sum of the first \( n \) terms \( S_n \) of a geometric series is given by:
+
+\[
+S_n = a \frac{1 - r^n}{1 - r}
+\]
+
+Substituting the values of \( a \) and \( r \):
+
+\[
+S_n = \frac{1}{4} \frac{1 - \left( \frac{1}{2} \right)^n}{1 - \frac{1}{2}} = \frac{1}{4} \frac{1 - \left( \frac{1}{2} \right)^n}{\frac{1}{2}} = \frac{1}{4} \cdot 2 \left( 1 - \left( \frac{1}{2} \right)^n \right) = \frac{1}{2} \left( 1 - \left( \frac{1}{2} \right)^n \right)
+\]
+
+Thus, we have:
+
+\[
+S_n = \frac{1}{2} \left( 1 - \left( \frac{1}{2} \right)^n \right)
+\]
+
+We set this equal to \( \frac{255}{512} \):
+
+\[
+\frac{1}{2} \left( 1 - \left( \frac{1}{2} \right)^n \right) = \frac{255}{512}
+\]
+
+Multiplying both sides by 2:
+
+\[
+1 - \left( \frac{1}{2} \right)^n = \frac{510}{512}
+\]
+
+Simplifying the right side:
+
+\[
+1 - \left( \frac{1}{2} \right)^n = \frac{255}{256}
+\]
+
+Rearranging gives:
+
+\[
+\left( \frac{1}{2} \right)^n = 1 - \frac{255}{256} = \frac{1}{256}
+\]
+
+Recognizing that \( \frac{1}{256} = \left( \frac{1}{2} \right)^8 \), we equate the exponents:
+
+\[
+n = 8
+\]
+
+Thus, the value of \( n \) is:
+
+\[
+\boxed{8}
+\]

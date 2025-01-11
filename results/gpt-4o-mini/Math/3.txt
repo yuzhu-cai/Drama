@@ -1,0 +1,39 @@
+To analyze the curve defined by the equation 
+
+\[
+r^2 \cos 2\theta = 4,
+\]
+
+we can start by using the double angle identity for cosine, which states that 
+
+\[
+\cos 2\theta = \cos^2 \theta - \sin^2 \theta.
+\]
+
+In polar coordinates, we have \(r^2 = x^2 + y^2\), where \(x = r \cos \theta\) and \(y = r \sin \theta\). We can express \(\cos 2\theta\) in terms of \(x\) and \(y\):
+
+\[
+\cos 2\theta = \frac{x^2 - y^2}{r^2}.
+\]
+
+Substituting this into the original equation gives:
+
+\[
+r^2 \left(\frac{x^2 - y^2}{r^2}\right) = 4.
+\]
+
+This simplifies to:
+
+\[
+x^2 - y^2 = 4.
+\]
+
+The equation \(x^2 - y^2 = 4\) is the standard form of a hyperbola. 
+
+Thus, the curve defined by the equation \(r^2 \cos 2\theta = 4\) is a hyperbola.
+
+The correct option is 
+
+\[
+\boxed{E}.
+\]

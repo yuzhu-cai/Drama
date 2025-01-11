@@ -1,0 +1,70 @@
+We start with the two equations given in the problem:
+
+1. \( x + y = 153 \)
+2. \( \frac{x}{y} = 0.7 \)
+
+From the second equation, we can express \( x \) in terms of \( y \):
+
+\[
+x = 0.7y
+\]
+
+Next, we substitute this expression for \( x \) into the first equation:
+
+\[
+0.7y + y = 153
+\]
+
+Combining the terms on the left side gives:
+
+\[
+1.7y = 153
+\]
+
+Now, we solve for \( y \):
+
+\[
+y = \frac{153}{1.7}
+\]
+
+To simplify \( \frac{153}{1.7} \), we can multiply the numerator and denominator by 10:
+
+\[
+y = \frac{1530}{17}
+\]
+
+Now, we perform the division:
+
+\[
+1530 \div 17 = 90
+\]
+
+Thus, we find:
+
+\[
+y = 90
+\]
+
+Next, we substitute \( y \) back into the equation for \( x \):
+
+\[
+x = 0.7y = 0.7 \times 90 = 63
+\]
+
+Now we have both \( x \) and \( y \):
+
+\[
+x = 63, \quad y = 90
+\]
+
+We need to find the value of \( y - x \):
+
+\[
+y - x = 90 - 63 = 27
+\]
+
+Thus, the final answer is:
+
+\[
+\boxed{27}
+\]

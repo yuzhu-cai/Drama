@@ -1,0 +1,42 @@
+To solve the problem, we start by labeling the faces of the cube with integers \( a, b, c, d, e, f \). Each face is assigned a different integer. The cube has 8 vertices, and each vertex is formed by the intersection of 3 faces.
+
+The vertices of the cube can be represented as follows, based on the faces that meet at each vertex:
+
+- Vertex 1: \( a + b + e \)
+- Vertex 2: \( a + b + f \)
+- Vertex 3: \( a + c + e \)
+- Vertex 4: \( a + c + f \)
+- Vertex 5: \( d + b + e \)
+- Vertex 6: \( d + b + f \)
+- Vertex 7: \( d + c + e \)
+- Vertex 8: \( d + c + f \)
+
+Next, we calculate the total sum of the values at all vertices:
+
+\[
+\text{Total Sum} = (a + b + e) + (a + b + f) + (a + c + e) + (a + c + f) + (d + b + e) + (d + b + f) + (d + c + e) + (d + c + f)
+\]
+
+We can simplify this expression by grouping similar terms:
+
+\[
+\text{Total Sum} = 4a + 4b + 4c + 4d + 4e + 4f
+\]
+
+This can be factored as:
+
+\[
+\text{Total Sum} = 4(a + b + c + d + e + f)
+\]
+
+From this expression, we can see that the total sum is always divisible by 4, regardless of the specific integers assigned to the faces.
+
+To determine if there is a larger number that must divide the total sum for every possible numbering of the faces, we need to consider the nature of the integers assigned. Since \( a, b, c, d, e, f \) can be any distinct integers, the sum \( a + b + c + d + e + f \) can take on various values, and thus the total sum \( 4(a + b + c + d + e + f) \) can also take on various values that are multiples of 4.
+
+However, there is no guarantee that \( a + b + c + d + e + f \) will always be even or odd, which means that the total sum could be any multiple of 4, but not necessarily a multiple of 8 or any larger number.
+
+Therefore, the largest number that must divide the final sum for every possible numbering of the faces is:
+
+\[
+\boxed{4}
+\]

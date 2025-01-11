@@ -33,6 +33,7 @@ if __name__ == "__main__":
     print("Problem:", sample["problem"])
     print("Solution:", sample["solution"])
     print("Type:", sample["type"])
+    print("ID:", sample["id"])
 
     # 获取所有样本
     all_samples = dataloader.get_all_samples()

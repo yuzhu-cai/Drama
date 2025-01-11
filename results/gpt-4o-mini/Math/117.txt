@@ -1,0 +1,59 @@
+To solve the equation 
+
+\[
+\frac{2}{x} - \frac{3}{5} + \frac{1}{x} = \frac{1}{5},
+\]
+
+we first combine the terms involving \(x\). The left-hand side can be rewritten as:
+
+\[
+\frac{2}{x} + \frac{1}{x} - \frac{3}{5} = \frac{3}{x} - \frac{3}{5}.
+\]
+
+Thus, the equation simplifies to:
+
+\[
+\frac{3}{x} - \frac{3}{5} = \frac{1}{5}.
+\]
+
+Next, we can isolate the term involving \(x\) by adding \(\frac{3}{5}\) to both sides:
+
+\[
+\frac{3}{x} = \frac{1}{5} + \frac{3}{5}.
+\]
+
+Calculating the right-hand side gives:
+
+\[
+\frac{1}{5} + \frac{3}{5} = \frac{4}{5}.
+\]
+
+Now we have:
+
+\[
+\frac{3}{x} = \frac{4}{5}.
+\]
+
+To solve for \(x\), we can cross-multiply:
+
+\[
+3 \cdot 5 = 4 \cdot x.
+\]
+
+This simplifies to:
+
+\[
+15 = 4x.
+\]
+
+Now, we divide both sides by 4:
+
+\[
+x = \frac{15}{4}.
+\]
+
+Thus, the solution is 
+
+\[
+\boxed{\frac{15}{4}}.
+\]

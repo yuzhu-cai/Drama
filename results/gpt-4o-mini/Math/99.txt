@@ -1,0 +1,64 @@
+Given that the arithmetic mean of \( x \) and \( y \) is 7, we have:
+
+\[
+\frac{x+y}{2} = 7
+\]
+
+Multiplying both sides by 2 gives:
+
+\[
+x + y = 14
+\]
+
+Next, we know that the geometric mean of \( x \) and \( y \) is \( \sqrt{19} \):
+
+\[
+\sqrt{xy} = \sqrt{19}
+\]
+
+Squaring both sides yields:
+
+\[
+xy = 19
+\]
+
+Now we have a system of equations:
+
+1. \( x + y = 14 \)
+2. \( xy = 19 \)
+
+We can use these equations to find \( x^2 + y^2 \). We know that:
+
+\[
+x^2 + y^2 = (x+y)^2 - 2xy
+\]
+
+Substituting the values we have:
+
+\[
+x^2 + y^2 = (14)^2 - 2(19)
+\]
+
+Calculating \( (14)^2 \):
+
+\[
+(14)^2 = 196
+\]
+
+Calculating \( 2(19) \):
+
+\[
+2(19) = 38
+\]
+
+Now substituting these values into the equation for \( x^2 + y^2 \):
+
+\[
+x^2 + y^2 = 196 - 38 = 158
+\]
+
+Thus, the value of \( x^2 + y^2 \) is:
+
+\[
+\boxed{158}
+\]

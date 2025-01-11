@@ -1,0 +1,93 @@
+To evaluate \( \sqrt{5 \cdot 10 \cdot 14 \cdot 21 \cdot 15 \cdot 20} \), we start by simplifying the product inside the square root.
+
+First, we can factor each number into its prime factors:
+
+- \( 5 = 5 \)
+- \( 10 = 2 \cdot 5 \)
+- \( 14 = 2 \cdot 7 \)
+- \( 21 = 3 \cdot 7 \)
+- \( 15 = 3 \cdot 5 \)
+- \( 20 = 2^2 \cdot 5 \)
+
+Now, we can express the product \( 5 \cdot 10 \cdot 14 \cdot 21 \cdot 15 \cdot 20 \) in terms of its prime factors:
+
+\[
+5 \cdot 10 \cdot 14 \cdot 21 \cdot 15 \cdot 20 = 5 \cdot (2 \cdot 5) \cdot (2 \cdot 7) \cdot (3 \cdot 7) \cdot (3 \cdot 5) \cdot (2^2 \cdot 5)
+\]
+
+Now, we can combine all the factors:
+
+- The factor of \( 5 \) appears in \( 5 \), \( 10 \), \( 15 \), and \( 20 \):
+  - From \( 5 \): \( 5^1 \)
+  - From \( 10 \): \( 5^1 \)
+  - From \( 15 \): \( 5^1 \)
+  - From \( 20 \): \( 5^1 \)
+  
+  Total for \( 5 \): \( 5^4 \)
+
+- The factor of \( 2 \) appears in \( 10 \), \( 14 \), and \( 20 \):
+  - From \( 10 \): \( 2^1 \)
+  - From \( 14 \): \( 2^1 \)
+  - From \( 20 \): \( 2^2 \)
+  
+  Total for \( 2 \): \( 2^{1+1+2} = 2^4 \)
+
+- The factor of \( 3 \) appears in \( 21 \) and \( 15 \):
+  - From \( 21 \): \( 3^1 \)
+  - From \( 15 \): \( 3^1 \)
+  
+  Total for \( 3 \): \( 3^{1+1} = 3^2 \)
+
+- The factor of \( 7 \) appears in \( 14 \) and \( 21 \):
+  - From \( 14 \): \( 7^1 \)
+  - From \( 21 \): \( 7^1 \)
+  
+  Total for \( 7 \): \( 7^{1+1} = 7^2 \)
+
+Putting this all together, we have:
+
+\[
+5 \cdot 10 \cdot 14 \cdot 21 \cdot 15 \cdot 20 = 2^4 \cdot 3^2 \cdot 5^4 \cdot 7^2
+\]
+
+Now we can take the square root:
+
+\[
+\sqrt{5 \cdot 10 \cdot 14 \cdot 21 \cdot 15 \cdot 20} = \sqrt{2^4 \cdot 3^2 \cdot 5^4 \cdot 7^2}
+\]
+
+Using the property of square roots:
+
+\[
+\sqrt{a^2} = a
+\]
+
+We can simplify:
+
+\[
+\sqrt{2^4} = 2^2 = 4, \quad \sqrt{3^2} = 3, \quad \sqrt{5^4} = 5^2 = 25, \quad \sqrt{7^2} = 7
+\]
+
+Thus, we have:
+
+\[
+\sqrt{2^4 \cdot 3^2 \cdot 5^4 \cdot 7^2} = 4 \cdot 3 \cdot 25 \cdot 7
+\]
+
+Now we compute this step by step:
+
+1. Calculate \( 4 \cdot 3 = 12 \)
+2. Calculate \( 12 \cdot 25 = 300 \)
+3. Calculate \( 300 \cdot 7 = 2100 \)
+
+Therefore, the final result is:
+
+\[
+\sqrt{5 \cdot 10 \cdot 14 \cdot 21 \cdot 15 \cdot 20} = 2100
+\]
+
+Thus, the answer is:
+
+\[
+\boxed{2100}
+\]

@@ -1,0 +1,65 @@
+To simplify the expression 
+
+\[
+\cos \left( \frac{2 \pi}{15} \right) \cos \left( \frac{4 \pi}{15} \right) \cos \left( \frac{8 \pi}{15} \right) \cos \left( \frac{16 \pi}{15} \right),
+\]
+
+we start by noticing that 
+
+\[
+\cos \left( \frac{16 \pi}{15} \right) = \cos \left( 2\pi - \frac{16 \pi}{15} \right) = \cos \left( -\frac{4 \pi}{15} \right) = \cos \left( \frac{4 \pi}{15} \right).
+\]
+
+Thus, we can rewrite the expression as:
+
+\[
+\cos \left( \frac{2 \pi}{15} \right) \cos \left( \frac{4 \pi}{15} \right) \cos \left( \frac{8 \pi}{15} \right) \cos \left( \frac{4 \pi}{15} \right) = \cos^2 \left( \frac{4 \pi}{15} \right) \cos \left( \frac{2 \pi}{15} \right) \cos \left( \frac{8 \pi}{15} \right).
+\]
+
+Next, we can simplify \( \cos \left( \frac{8 \pi}{15} \right) \):
+
+\[
+\cos \left( \frac{8 \pi}{15} \right) = \cos \left( \pi - \frac{2 \pi}{15} \right) = -\cos \left( \frac{2 \pi}{15} \right).
+\]
+
+Substituting this back into our expression gives:
+
+\[
+\cos^2 \left( \frac{4 \pi}{15} \right) \cos \left( \frac{2 \pi}{15} \right) (-\cos \left( \frac{2 \pi}{15} \right)) = -\cos^2 \left( \frac{4 \pi}{15} \right) \cos^2 \left( \frac{2 \pi}{15} \right).
+\]
+
+Now we need to find the product \( \cos^2 \left( \frac{2 \pi}{15} \right) \cos^2 \left( \frac{4 \pi}{15} \right) \).
+
+Using the identity for the product of cosines, we can express this in terms of sine:
+
+\[
+\cos x \cos y = \frac{1}{2} \left( \cos(x+y) + \cos(x-y) \right).
+\]
+
+However, we can also use the fact that the angles \( \frac{2\pi}{15}, \frac{4\pi}{15}, \frac{8\pi}{15}, \frac{16\pi}{15} \) are roots of the polynomial \( \cos(15\theta) = 0 \). The roots of this polynomial can be expressed in terms of the sine function.
+
+The product of cosines can also be computed using the formula:
+
+\[
+\prod_{k=1}^{n-1} \cos \left( \frac{k \pi}{n} \right) = \frac{1}{2^{n-1}}.
+\]
+
+For \( n = 15 \):
+
+\[
+\prod_{k=1}^{14} \cos \left( \frac{k \pi}{15} \right) = \frac{1}{2^{14}}.
+\]
+
+Since we only need the product of cosines for \( k = 1, 2, 4, 8 \), we can find this by recognizing that the angles \( \frac{2\pi}{15}, \frac{4\pi}{15}, \frac{8\pi}{15}, \frac{16\pi}{15} \) correspond to half of the angles in the product.
+
+Thus, we can conclude that:
+
+\[
+\cos \left( \frac{2 \pi}{15} \right) \cos \left( \frac{4 \pi}{15} \right) \cos \left( \frac{8 \pi}{15} \right) \cos \left( \frac{16 \pi}{15} \right) = -\frac{1}{16}.
+\]
+
+Therefore, the simplified expression is:
+
+\[
+\boxed{\frac{1}{16}}.
+\]

@@ -1,0 +1,75 @@
+To find the reflection of the point \( P(11, 16, 22) \) across the plane given by the equation \( 3x + 4y + 5z = 7 \), we can follow these steps:
+
+1. **Identify the normal vector of the plane**: The coefficients of \( x \), \( y \), and \( z \) in the plane equation give us the normal vector \( \mathbf{n} = (3, 4, 5) \).
+
+2. **Find a point on the plane**: We can find a point on the plane by substituting values for \( x \), \( y \), and solving for \( z \). For simplicity, let’s set \( x = 0 \) and \( y = 0 \):
+   \[
+   3(0) + 4(0) + 5z = 7 \implies 5z = 7 \implies z = \frac{7}{5}.
+   \]
+   Thus, the point \( Q(0, 0, \frac{7}{5}) \) lies on the plane.
+
+3. **Find the vector from \( Q \) to \( P \)**: The vector from \( Q \) to \( P \) is given by:
+   \[
+   \overrightarrow{QP} = P - Q = (11 - 0, 16 - 0, 22 - \frac{7}{5}) = (11, 16, 22 - \frac{7}{5}).
+   \]
+   To simplify \( 22 - \frac{7}{5} \):
+   \[
+   22 = \frac{110}{5} \implies 22 - \frac{7}{5} = \frac{110}{5} - \frac{7}{5} = \frac{103}{5}.
+   \]
+   Therefore, 
+   \[
+   \overrightarrow{QP} = (11, 16, \frac{103}{5}).
+   \]
+
+4. **Project \( \overrightarrow{QP} \) onto the normal vector**: The projection of \( \overrightarrow{QP} \) onto \( \mathbf{n} \) is calculated using the formula:
+   \[
+   \text{proj}_{\mathbf{n}} \overrightarrow{QP} = \frac{\overrightarrow{QP} \cdot \mathbf{n}}{\mathbf{n} \cdot \mathbf{n}} \mathbf{n}.
+   \]
+   First, we compute \( \overrightarrow{QP} \cdot \mathbf{n} \):
+   \[
+   \overrightarrow{QP} \cdot \mathbf{n} = (11, 16, \frac{103}{5}) \cdot (3, 4, 5) = 11 \cdot 3 + 16 \cdot 4 + \frac{103}{5} \cdot 5.
+   \]
+   Calculating each term:
+   \[
+   11 \cdot 3 = 33, \quad 16 \cdot 4 = 64, \quad \frac{103}{5} \cdot 5 = 103.
+   \]
+   Thus,
+   \[
+   \overrightarrow{QP} \cdot \mathbf{n} = 33 + 64 + 103 = 200.
+   \]
+   Next, we compute \( \mathbf{n} \cdot \mathbf{n} \):
+   \[
+   \mathbf{n} \cdot \mathbf{n} = 3^2 + 4^2 + 5^2 = 9 + 16 + 25 = 50.
+   \]
+   Now we can find the projection:
+   \[
+   \text{proj}_{\mathbf{n}} \overrightarrow{QP} = \frac{200}{50} \mathbf{n} = 4 \mathbf{n} = 4(3, 4, 5) = (12, 16, 20).
+   \]
+
+5. **Find the foot of the perpendicular**: The foot of the perpendicular \( F \) from \( P \) to the plane is given by:
+   \[
+   F = Q + \text{proj}_{\mathbf{n}} \overrightarrow{QP} = (0, 0, \frac{7}{5}) + (12, 16, 20) = (12, 16, 20 + \frac{7}{5}).
+   \]
+   To simplify \( 20 + \frac{7}{5} \):
+   \[
+   20 = \frac{100}{5} \implies 20 + \frac{7}{5} = \frac{100}{5} + \frac{7}{5} = \frac{107}{5}.
+   \]
+   Thus, \( F = (12, 16, \frac{107}{5}) \).
+
+6. **Find the reflection point \( R \)**: The reflection \( R \) of point \( P \) across the plane is given by:
+   \[
+   R = F + (F - P) = F + (F - P).
+   \]
+   First, we calculate \( F - P \):
+   \[
+   F - P = (12 - 11, 16 - 16, \frac{107}{5} - 22) = (1, 0, \frac{107}{5} - \frac{110}{5}) = (1, 0, -\frac{3}{5}).
+   \]
+   Therefore,
+   \[
+   R = F + (1, 0, -\frac{3}{5}) = (12, 16, \frac{107}{5}) + (1, 0, -\frac{3}{5}) = (12 + 1, 16 + 0, \frac{107}{5} - \frac{3}{5}) = (13, 16, \frac{104}{5}).
+   \]
+
+Thus, the reflection of the point \( (11, 16, 22) \) across the plane \( 3x + 4y + 5z = 7 \) is 
+\[
+\boxed{\left( 13, 16, \frac{104}{5} \right)}.
+\]

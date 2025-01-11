@@ -1,0 +1,36 @@
+To find the measure of minor arc \( AD \) in the given regular pentagon \( ABCDE \), we start by determining the angles associated with the pentagon.
+
+1. **Calculate the interior angle of the pentagon**:
+   The formula for the interior angle of a regular polygon with \( n \) sides is given by:
+   \[
+   \text{Interior angle} = \frac{(n-2) \times 180^\circ}{n}
+   \]
+   For a pentagon (\( n = 5 \)):
+   \[
+   \text{Interior angle} = \frac{(5-2) \times 180^\circ}{5} = \frac{3 \times 180^\circ}{5} = 108^\circ
+   \]
+
+2. **Determine the central angle**:
+   The central angle corresponding to each side of the pentagon is:
+   \[
+   \text{Central angle} = \frac{360^\circ}{5} = 72^\circ
+   \]
+
+3. **Identify the angles at the center of the circle**:
+   The circle is tangent to line segments \( AB \) and \( DC \) at points \( A \) and \( D \), respectively. The angles subtended by the arcs at the center of the circle can be analyzed as follows:
+   - The arc \( AD \) is subtended by the angle formed at the center of the circle by the points \( A \) and \( D \).
+   - The points \( A \) and \( D \) are separated by two sides of the pentagon, namely \( AB \) and \( BC \).
+
+4. **Calculate the angle subtended by arc \( AD \)**:
+   Since \( A \) and \( D \) are separated by two sides of the pentagon, the angle subtended at the center by arc \( AD \) is:
+   \[
+   \text{Angle subtended by arc } AD = 2 \times \text{Central angle} = 2 \times 72^\circ = 144^\circ
+   \]
+
+5. **Determine the measure of minor arc \( AD \)**:
+   Since \( AD \) is less than half the circle, the measure of minor arc \( AD \) is simply the angle we calculated:
+   \[
+   \text{Measure of minor arc } AD = 144^\circ
+   \]
+
+Thus, the measure of minor arc \( AD \) is \( \boxed{144} \).

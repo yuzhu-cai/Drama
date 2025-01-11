@@ -1,0 +1,80 @@
+To compute \(\dbinom{12}{9}\), we can use the property of binomial coefficients that states:
+
+\[
+\dbinom{n}{k} = \dbinom{n}{n-k}
+\]
+
+In this case, we have \(n = 12\) and \(k = 9\). Therefore, we can rewrite the binomial coefficient as:
+
+\[
+\dbinom{12}{9} = \dbinom{12}{12-9} = \dbinom{12}{3}
+\]
+
+Now, we will compute \(\dbinom{12}{3}\) using the formula for binomial coefficients:
+
+\[
+\dbinom{n}{k} = \frac{n!}{k!(n-k)!}
+\]
+
+Substituting \(n = 12\) and \(k = 3\):
+
+\[
+\dbinom{12}{3} = \frac{12!}{3!(12-3)!} = \frac{12!}{3! \cdot 9!}
+\]
+
+Next, we can simplify this expression. The factorial \(12!\) can be expressed as:
+
+\[
+12! = 12 \times 11 \times 10 \times 9!
+\]
+
+Thus, we have:
+
+\[
+\dbinom{12}{3} = \frac{12 \times 11 \times 10 \times 9!}{3! \cdot 9!}
+\]
+
+The \(9!\) in the numerator and denominator cancels out:
+
+\[
+\dbinom{12}{3} = \frac{12 \times 11 \times 10}{3!}
+\]
+
+Now, we compute \(3!\):
+
+\[
+3! = 3 \times 2 \times 1 = 6
+\]
+
+Substituting this back into our expression gives:
+
+\[
+\dbinom{12}{3} = \frac{12 \times 11 \times 10}{6}
+\]
+
+Now, we calculate the numerator:
+
+\[
+12 \times 11 = 132
+\]
+\[
+132 \times 10 = 1320
+\]
+
+Now, we divide by \(6\):
+
+\[
+\dbinom{12}{3} = \frac{1320}{6} = 220
+\]
+
+Thus, we find:
+
+\[
+\dbinom{12}{9} = 220
+\]
+
+Therefore, the final answer is:
+
+\[
+\boxed{220}
+\]

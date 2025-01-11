@@ -1,0 +1,36 @@
+To find the probability of rolling the same number on both dice when rolling two fair six-sided dice, we first determine the total number of possible outcomes when rolling the two dice.
+
+Each die has 6 faces, so when rolling two dice, the total number of outcomes is:
+
+\[
+6 \times 6 = 36
+\]
+
+Next, we need to count the number of favorable outcomes where both dice show the same number. The possible pairs where the numbers are the same are:
+
+- (1, 1)
+- (2, 2)
+- (3, 3)
+- (4, 4)
+- (5, 5)
+- (6, 6)
+
+There are 6 favorable outcomes in total.
+
+Now, we can calculate the probability of rolling the same number on both dice by dividing the number of favorable outcomes by the total number of outcomes:
+
+\[
+\text{Probability} = \frac{\text{Number of favorable outcomes}}{\text{Total number of outcomes}} = \frac{6}{36}
+\]
+
+We can simplify this fraction:
+
+\[
+\frac{6}{36} = \frac{1}{6}
+\]
+
+Thus, the probability of rolling the same number on both dice is:
+
+\[
+\boxed{\frac{1}{6}}
+\]

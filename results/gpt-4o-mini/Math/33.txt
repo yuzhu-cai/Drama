@@ -1,0 +1,70 @@
+To find the sum of all the digits used to write the whole numbers from 1 to 110, we can break the problem down into manageable parts by considering the contributions from different ranges of numbers.
+
+### Step 1: Count the digits from 1 to 9
+The numbers from 1 to 9 are single-digit numbers. The sum of these digits is:
+
+\[
+1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 = \frac{9 \times (9 + 1)}{2} = 45
+\]
+
+### Step 2: Count the digits from 10 to 99
+Next, we consider the two-digit numbers from 10 to 99. Each two-digit number can be represented as \(ab\), where \(a\) is the tens digit and \(b\) is the units digit.
+
+#### Tens digits (from 10 to 99):
+- The tens digits can be 1 through 9.
+- Each tens digit appears 10 times (for example, the digit 1 appears in 10, 11, ..., 19).
+- The contribution from the tens digits is:
+
+\[
+10 \times (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9) = 10 \times 45 = 450
+\]
+
+#### Units digits (from 10 to 99):
+- The units digits can be 0 through 9.
+- Each units digit appears in each complete set of ten numbers (10-19, 20-29, ..., 90-99).
+- There are 9 complete sets of ten numbers (10-19, ..., 90-99), so each units digit appears 9 times.
+- The contribution from the units digits is:
+
+\[
+9 \times (0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9) = 9 \times 45 = 405
+\]
+
+### Step 3: Count the digits from 100 to 110
+Now, we consider the numbers from 100 to 110. Each number can be represented as \(1bc\), where \(b\) and \(c\) are the digits of the numbers from 0 to 10.
+
+- The hundreds digit contributes \(1\) for each of the 11 numbers (100 to 110):
+
+\[
+1 \times 11 = 11
+\]
+
+- The tens digit \(b\) is \(0\) for 100 to 109 and \(1\) for 110. Thus, the contribution from the tens digits is:
+
+\[
+0 \times 10 + 1 \times 1 = 0 + 1 = 1
+\]
+
+- The units digits \(c\) range from \(0\) to \(9\) for 100 to 109 and \(0\) for 110. Thus, the contribution from the units digits is:
+
+\[
+0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 0 = 45 + 0 = 45
+\]
+
+### Step 4: Combine all contributions
+Now, we can sum all the contributions:
+
+- From 1 to 9: \(45\)
+- From 10 to 99: \(450 + 405 = 855\)
+- From 100 to 110: \(11 + 1 + 45 = 57\)
+
+Adding these together gives:
+
+\[
+45 + 855 + 57 = 957
+\]
+
+Thus, the sum of all the digits used to write the whole numbers from 1 to 110 is:
+
+\[
+\boxed{957}
+\]

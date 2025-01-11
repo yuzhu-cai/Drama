@@ -1,0 +1,61 @@
+To find the probability that Joe will get three hits in three at-bats, we can use the concept of independent events in probability.
+
+Given that Joe's batting average is \(0.323\), the probability of him getting a hit in a single at-bat is:
+
+\[
+P(\text{hit}) = 0.323
+\]
+
+The probability of him not getting a hit in a single at-bat is:
+
+\[
+P(\text{no hit}) = 1 - P(\text{hit}) = 1 - 0.323 = 0.677
+\]
+
+Since we want to find the probability of Joe getting three hits in three at-bats, we can denote the probability of getting a hit in each at-bat as \(P(\text{hit})\).
+
+The probability of getting three hits in three at-bats is calculated as follows:
+
+\[
+P(\text{3 hits in 3 at-bats}) = P(\text{hit}) \times P(\text{hit}) \times P(\text{hit}) = P(\text{hit})^3
+\]
+
+Substituting the value of \(P(\text{hit})\):
+
+\[
+P(\text{3 hits in 3 at-bats}) = (0.323)^3
+\]
+
+Now we calculate \(0.323^3\):
+
+\[
+0.323^3 = 0.323 \times 0.323 \times 0.323
+\]
+
+Calculating step-by-step:
+
+1. First, calculate \(0.323 \times 0.323\):
+
+\[
+0.323 \times 0.323 = 0.104329
+\]
+
+2. Next, multiply the result by \(0.323\):
+
+\[
+0.104329 \times 0.323 \approx 0.033703
+\]
+
+Thus, the probability that Joe will get three hits in three at-bats is approximately \(0.033703\).
+
+Finally, rounding this to the nearest hundredth:
+
+\[
+\text{Probability} \approx 0.03
+\]
+
+Therefore, the probability that Joe will get three hits in three at-bats is:
+
+\[
+\boxed{0.03}
+\]

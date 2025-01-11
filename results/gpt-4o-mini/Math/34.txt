@@ -1,0 +1,38 @@
+To solve for the length of \( AC \) in the given configuration of squares, we start by analyzing the positions of points \( A \), \( B \), and \( C \).
+
+1. **Understanding the Configuration**:
+   - The squares are identical, and we denote the side length of each square as \( s \).
+   - The coordinates of the points based on the squares' arrangement can be established as follows:
+     - Point \( A \) is at \( (0, s) \).
+     - Point \( B \) is at \( (2s, 0) \).
+     - Point \( C \) is at \( (3s, 0) \).
+
+2. **Finding the Length of \( AB \)**:
+   - The distance \( AB \) can be calculated using the distance formula:
+     \[
+     AB = \sqrt{(2s - 0)^2 + (0 - s)^2} = \sqrt{(2s)^2 + (-s)^2} = \sqrt{4s^2 + s^2} = \sqrt{5s^2} = s\sqrt{5}
+     \]
+   - We are given that \( AB = 2\sqrt{5} \) cm. Therefore, we can set up the equation:
+     \[
+     s\sqrt{5} = 2\sqrt{5}
+     \]
+   - Dividing both sides by \( \sqrt{5} \) gives:
+     \[
+     s = 2 \text{ cm}
+     \]
+
+3. **Finding the Length of \( AC \)**:
+   - Now that we know \( s = 2 \) cm, we can find the coordinates of points \( A \), \( B \), and \( C \):
+     - \( A = (0, 2) \)
+     - \( B = (4, 0) \)
+     - \( C = (6, 0) \)
+   - We calculate the distance \( AC \):
+     \[
+     AC = \sqrt{(6 - 0)^2 + (0 - 2)^2} = \sqrt{6^2 + (-2)^2} = \sqrt{36 + 4} = \sqrt{40} = \sqrt{4 \cdot 10} = 2\sqrt{10}
+     \]
+
+4. **Final Answer**:
+   - The length of \( AC \) is:
+     \[
+     \boxed{2\sqrt{10}} \text{ cm}
+     \]

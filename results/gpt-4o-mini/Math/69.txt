@@ -1,0 +1,87 @@
+To find the range of the function 
+
+\[
+p(x) = \frac{x^2 + x + 1}{x^2 + 1},
+\]
+
+we start by rewriting the function in a more manageable form. We can express \( p(x) \) as follows:
+
+\[
+p(x) = 1 + \frac{x}{x^2 + 1}.
+\]
+
+Next, we need to analyze the term \( \frac{x}{x^2 + 1} \). To do this, we will find the maximum and minimum values of this term.
+
+Let 
+
+\[
+y = \frac{x}{x^2 + 1}.
+\]
+
+To find the critical points, we differentiate \( y \) with respect to \( x \):
+
+\[
+y' = \frac{(x^2 + 1)(1) - x(2x)}{(x^2 + 1)^2} = \frac{x^2 + 1 - 2x^2}{(x^2 + 1)^2} = \frac{1 - x^2}{(x^2 + 1)^2}.
+\]
+
+Setting the numerator equal to zero gives us the critical points:
+
+\[
+1 - x^2 = 0 \implies x^2 = 1 \implies x = 1 \text{ or } x = -1.
+\]
+
+Next, we evaluate \( y \) at these critical points:
+
+1. For \( x = 1 \):
+
+\[
+y(1) = \frac{1}{1^2 + 1} = \frac{1}{2}.
+\]
+
+2. For \( x = -1 \):
+
+\[
+y(-1) = \frac{-1}{(-1)^2 + 1} = \frac{-1}{2}.
+\]
+
+Now we also need to check the behavior of \( y \) as \( x \) approaches \( \pm \infty \):
+
+\[
+\lim_{x \to \infty} y = \lim_{x \to \infty} \frac{x}{x^2 + 1} = \lim_{x \to \infty} \frac{1}{x + \frac{1}{x}} = 0,
+\]
+
+\[
+\lim_{x \to -\infty} y = \lim_{x \to -\infty} \frac{x}{x^2 + 1} = \lim_{x \to -\infty} \frac{1}{x + \frac{1}{x}} = 0.
+\]
+
+Thus, the maximum value of \( y \) occurs at \( x = 1 \) and is \( \frac{1}{2} \), while the minimum value occurs at \( x = -1 \) and is \( -\frac{1}{2} \).
+
+Now, since 
+
+\[
+p(x) = 1 + y,
+\]
+
+the maximum value of \( p(x) \) is 
+
+\[
+1 + \frac{1}{2} = \frac{3}{2},
+\]
+
+and the minimum value of \( p(x) \) is 
+
+\[
+1 - \frac{1}{2} = \frac{1}{2}.
+\]
+
+Thus, the range of \( p(x) \) is 
+
+\[
+\left[-\frac{1}{2} + 1, \frac{1}{2} + 1\right] = \left[\frac{1}{2}, \frac{3}{2}\right].
+\]
+
+Therefore, the final answer is:
+
+\[
+\boxed{\left[\frac{1}{2}, \frac{3}{2}\right]}.
+\]

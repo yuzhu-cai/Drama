@@ -1,0 +1,32 @@
+To compute \( e^{\pi i} \), we can use Euler's formula, which states:
+
+\[
+e^{ix} = \cos(x) + i\sin(x)
+\]
+
+In this case, we set \( x = \pi \). Therefore, we have:
+
+\[
+e^{\pi i} = \cos(\pi) + i\sin(\pi)
+\]
+
+Next, we evaluate \( \cos(\pi) \) and \( \sin(\pi) \):
+
+\[
+\cos(\pi) = -1
+\]
+\[
+\sin(\pi) = 0
+\]
+
+Substituting these values back into the equation gives:
+
+\[
+e^{\pi i} = -1 + i \cdot 0 = -1
+\]
+
+Thus, we conclude that:
+
+\[
+\boxed{-1}
+\]

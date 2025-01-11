@@ -1,0 +1,30 @@
+To find the number of ways to distribute 4 indistinguishable balls into 2 distinguishable boxes, we can use the "stars and bars" theorem from combinatorics.
+
+In this scenario, we can represent the 4 indistinguishable balls as stars (****), and we need to place a divider (bar) to separate the balls into two boxes. The number of stars will represent the balls in one box, and the remaining stars will represent the balls in the other box.
+
+We can visualize the problem as follows:
+- We have 4 stars (balls).
+- We need to place 1 bar to create 2 sections (for the two boxes).
+
+The total number of symbols (stars + bar) is \(4 + 1 = 5\). We need to choose 1 position for the bar out of these 5 positions.
+
+The number of ways to choose 1 position for the bar from 5 positions is given by the binomial coefficient:
+
+\[
+\binom{5}{1} = 5
+\]
+
+Thus, there are 5 different ways to distribute the 4 indistinguishable balls into 2 distinguishable boxes. 
+
+To enumerate these distributions:
+1. All 4 balls in box 1 and 0 in box 2: (4, 0)
+2. 3 balls in box 1 and 1 in box 2: (3, 1)
+3. 2 balls in box 1 and 2 in box 2: (2, 2)
+4. 1 ball in box 1 and 3 in box 2: (1, 3)
+5. 0 balls in box 1 and 4 in box 2: (0, 4)
+
+Thus, the final answer is:
+
+\[
+\boxed{5}
+\]

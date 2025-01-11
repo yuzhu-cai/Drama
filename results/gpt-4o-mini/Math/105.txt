@@ -1,0 +1,29 @@
+To solve the equation \((3^k)^6 = 3^6\), we can start by simplifying the left side using the property of exponents that states \((a^m)^n = a^{m \cdot n}\). Applying this property, we have:
+
+\[
+(3^k)^6 = 3^{k \cdot 6} = 3^{6k}
+\]
+
+Now, we can rewrite the equation as:
+
+\[
+3^{6k} = 3^6
+\]
+
+Since the bases are the same, we can set the exponents equal to each other:
+
+\[
+6k = 6
+\]
+
+To isolate \(k\), we divide both sides by 6:
+
+\[
+k = 1
+\]
+
+Thus, the value of \(k\) is 
+
+\[
+\boxed{1}
+\]

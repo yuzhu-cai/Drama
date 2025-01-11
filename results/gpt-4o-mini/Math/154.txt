@@ -1,0 +1,70 @@
+To solve the problem, we start with the congruence given:
+
+\[
+4n \equiv 2 \pmod{6}
+\]
+
+We can simplify this congruence. First, we can divide both sides of the congruence by 2 (since 2 is a common factor of both sides and does not affect the modulo operation):
+
+\[
+2n \equiv 1 \pmod{3}
+\]
+
+Next, we need to find integers \( n \) that satisfy this new congruence. To do this, we can test values of \( n \) modulo 3:
+
+- If \( n \equiv 0 \pmod{3} \), then \( 2n \equiv 0 \pmod{3} \).
+- If \( n \equiv 1 \pmod{3} \), then \( 2n \equiv 2 \pmod{3} \).
+- If \( n \equiv 2 \pmod{3} \), then \( 2n \equiv 1 \pmod{3} \).
+
+From this, we see that \( n \equiv 2 \pmod{3} \) is the only case that satisfies \( 2n \equiv 1 \pmod{3} \).
+
+Next, we express \( n \) in terms of \( k \) where \( k \) is an integer:
+
+\[
+n = 3k + 2
+\]
+
+Now, we need to find the integers \( n \) that satisfy the condition \( 0 < n < 60 \). Substituting our expression for \( n \):
+
+\[
+0 < 3k + 2 < 60
+\]
+
+We can break this into two inequalities:
+
+1. \( 3k + 2 > 0 \)
+2. \( 3k + 2 < 60 \)
+
+Starting with the first inequality:
+
+\[
+3k + 2 > 0 \implies 3k > -2 \implies k > -\frac{2}{3}
+\]
+
+Since \( k \) must be an integer, the smallest integer satisfying this is \( k \geq 0 \).
+
+Now, for the second inequality:
+
+\[
+3k + 2 < 60 \implies 3k < 58 \implies k < \frac{58}{3} \approx 19.33
+\]
+
+Thus, the largest integer \( k \) can take is \( k \leq 19 \).
+
+Now we have the range for \( k \):
+
+\[
+0 \leq k \leq 19
+\]
+
+The integers \( k \) can take are \( 0, 1, 2, \ldots, 19 \). This gives us a total of:
+
+\[
+19 - 0 + 1 = 20
+\]
+
+Thus, the number of integers \( n \) that satisfy \( 0 < n < 60 \) and \( 4n \equiv 2 \pmod{6} \) is:
+
+\[
+\boxed{20}
+\]

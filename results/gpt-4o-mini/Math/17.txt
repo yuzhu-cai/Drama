@@ -1,0 +1,121 @@
+To solve the equation 
+
+\[
+\arctan \frac{1}{x} + \arctan \frac{1}{x + 2} = \arctan \frac{4}{x + 3},
+\]
+
+we can use the tangent addition formula. Recall that 
+
+\[
+\arctan a + \arctan b = \arctan \frac{a + b}{1 - ab}
+\]
+
+if \( ab < 1 \). Let \( a = \frac{1}{x} \) and \( b = \frac{1}{x + 2} \). We first compute \( ab \):
+
+\[
+ab = \frac{1}{x} \cdot \frac{1}{x + 2} = \frac{1}{x(x + 2)}.
+\]
+
+We need \( ab < 1 \), which is true if \( x(x + 2) > 1 \). 
+
+Now, applying the tangent addition formula, we have:
+
+\[
+\arctan \frac{1}{x} + \arctan \frac{1}{x + 2} = \arctan \frac{\frac{1}{x} + \frac{1}{x + 2}}{1 - \frac{1}{x} \cdot \frac{1}{x + 2}}.
+\]
+
+Calculating the numerator:
+
+\[
+\frac{1}{x} + \frac{1}{x + 2} = \frac{x + 2 + x}{x(x + 2)} = \frac{2x + 2}{x(x + 2)} = \frac{2(x + 1)}{x(x + 2)}.
+\]
+
+Calculating the denominator:
+
+\[
+1 - \frac{1}{x(x + 2)} = \frac{x(x + 2) - 1}{x(x + 2)} = \frac{x^2 + 2x - 1}{x(x + 2)}.
+\]
+
+Thus, we have:
+
+\[
+\arctan \frac{1}{x} + \arctan \frac{1}{x + 2} = \arctan \frac{\frac{2(x + 1)}{x(x + 2)}}{\frac{x^2 + 2x - 1}{x(x + 2)}} = \arctan \frac{2(x + 1)}{x^2 + 2x - 1}.
+\]
+
+Setting this equal to \( \arctan \frac{4}{x + 3} \), we have:
+
+\[
+\frac{2(x + 1)}{x^2 + 2x - 1} = \frac{4}{x + 3}.
+\]
+
+Cross-multiplying gives:
+
+\[
+2(x + 1)(x + 3) = 4(x^2 + 2x - 1).
+\]
+
+Expanding both sides:
+
+\[
+2(x^2 + 4x + 3) = 4x^2 + 8x - 4.
+\]
+
+This simplifies to:
+
+\[
+2x^2 + 8x + 6 = 4x^2 + 8x - 4.
+\]
+
+Subtracting \( 2x^2 + 8x + 6 \) from both sides results in:
+
+\[
+0 = 2x^2 - 10.
+\]
+
+Dividing by 2 gives:
+
+\[
+x^2 - 5 = 0,
+\]
+
+which factors to:
+
+\[
+(x - \sqrt{5})(x + \sqrt{5}) = 0.
+\]
+
+Thus, the solutions are:
+
+\[
+x = \sqrt{5}, \quad x = -\sqrt{5}.
+\]
+
+Next, we check if these solutions satisfy the condition \( x(x + 2) > 1 \):
+
+1. For \( x = \sqrt{5} \):
+
+\[
+\sqrt{5}(\sqrt{5} + 2) = \sqrt{5}(2 + \sqrt{5}) = 2\sqrt{5} + 5 > 1.
+\]
+
+2. For \( x = -\sqrt{5} \):
+
+\[
+-\sqrt{5}(-\sqrt{5} + 2) = -\sqrt{5}(2 - \sqrt{5}) = -2\sqrt{5} + 5.
+\]
+
+Calculating \( -2\sqrt{5} + 5 \):
+
+Since \( \sqrt{5} \approx 2.236 \), we have:
+
+\[
+-2(2.236) + 5 \approx -4.472 + 5 = 0.528 > 1.
+\]
+
+Thus, both solutions satisfy the condition \( x(x + 2) > 1 \).
+
+Finally, the solutions to the equation are:
+
+\[
+\boxed{\sqrt{5}, -\sqrt{5}}.
+\]

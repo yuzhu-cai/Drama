@@ -1,0 +1,62 @@
+To find the value of \( n \) for the point \( (1001, n) \) on the line shown in the graph, we first need to determine the equation of the line.
+
+From the graph, we can identify two points through which the line passes. The endpoints of the line segment appear to be approximately at \( (-10, -2.71) \) and \( (10, 8.71) \).
+
+Next, we calculate the slope \( m \) of the line using these two points:
+
+\[
+m = \frac{y_2 - y_1}{x_2 - x_1} = \frac{8.71 - (-2.71)}{10 - (-10)} = \frac{8.71 + 2.71}{10 + 10} = \frac{11.42}{20} = 0.571
+\]
+
+Now that we have the slope, we can use one of the points to find the equation of the line. Let's use the point \( (10, 8.71) \).
+
+The point-slope form of the equation of a line is given by:
+
+\[
+y - y_1 = m(x - x_1)
+\]
+
+Substituting \( m = 0.571 \), \( x_1 = 10 \), and \( y_1 = 8.71 \):
+
+\[
+y - 8.71 = 0.571(x - 10)
+\]
+
+Now, we simplify this equation:
+
+\[
+y - 8.71 = 0.571x - 5.71
+\]
+\[
+y = 0.571x + 3
+\]
+
+Now we have the equation of the line in slope-intercept form:
+
+\[
+y = 0.571x + 3
+\]
+
+Next, we need to find \( n \) when \( x = 1001 \):
+
+\[
+n = 0.571(1001) + 3
+\]
+
+Calculating \( 0.571 \times 1001 \):
+
+\[
+0.571 \times 1001 = 571.571
+\]
+
+Now adding 3:
+
+\[
+n = 571.571 + 3 = 574.571
+\]
+
+Thus, the value of \( n \) is:
+
+\[
+\boxed{574.571}
+\]

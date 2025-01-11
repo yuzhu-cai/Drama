@@ -1,0 +1,71 @@
+To find the product \( ab \) where \( a = 2012_3 \) and \( b = 201_3 \), we first need to convert these base-three numbers into base-ten.
+
+Starting with \( a = 2012_3 \):
+\[
+a = 2 \cdot 3^3 + 0 \cdot 3^2 + 1 \cdot 3^1 + 2 \cdot 3^0
+\]
+Calculating each term:
+\[
+2 \cdot 3^3 = 2 \cdot 27 = 54,
+\]
+\[
+0 \cdot 3^2 = 0,
+\]
+\[
+1 \cdot 3^1 = 3,
+\]
+\[
+2 \cdot 3^0 = 2.
+\]
+Adding these values together:
+\[
+a = 54 + 0 + 3 + 2 = 59.
+\]
+
+Next, we convert \( b = 201_3 \):
+\[
+b = 2 \cdot 3^2 + 0 \cdot 3^1 + 1 \cdot 3^0
+\]
+Calculating each term:
+\[
+2 \cdot 3^2 = 2 \cdot 9 = 18,
+\]
+\[
+0 \cdot 3^1 = 0,
+\]
+\[
+1 \cdot 3^0 = 1.
+\]
+Adding these values together:
+\[
+b = 18 + 0 + 1 = 19.
+\]
+
+Now we can find the product \( ab \):
+\[
+ab = 59 \cdot 19.
+\]
+Calculating this product:
+\[
+59 \cdot 19 = 1121.
+\]
+
+Next, we need to convert \( 1121 \) from base ten back to base three. We do this by repeatedly dividing by 3 and recording the remainders.
+
+1. \( 1121 \div 3 = 373 \) remainder \( 2 \)
+2. \( 373 \div 3 = 124 \) remainder \( 1 \)
+3. \( 124 \div 3 = 41 \) remainder \( 1 \)
+4. \( 41 \div 3 = 13 \) remainder \( 2 \)
+5. \( 13 \div 3 = 4 \) remainder \( 1 \)
+6. \( 4 \div 3 = 1 \) remainder \( 1 \)
+7. \( 1 \div 3 = 0 \) remainder \( 1 \)
+
+Now we collect the remainders from bottom to top:
+\[
+1121_{10} = 1112112_3.
+\]
+
+Thus, the product \( ab \) expressed in the base-three number system is:
+\[
+\boxed{1112112_3}.
+\]

@@ -1,0 +1,78 @@
+To determine the maximum degree of a polynomial of the form 
+
+\[
+P(x) = \sum_{i=0}^n a_i x^{n-i}
+\]
+
+where \( a_i = \pm 1 \) for \( 0 \leq i \leq n \) and \( n \geq 1 \), such that all the zeros are real, we can analyze the properties of such polynomials.
+
+The polynomial can be rewritten as:
+
+\[
+P(x) = a_n x^n + a_{n-1} x^{n-1} + \ldots + a_1 x + a_0
+\]
+
+with \( a_i \in \{ -1, 1 \} \).
+
+### Step 1: Consider the case \( n = 1 \)
+
+For \( n = 1 \):
+
+\[
+P(x) = a_1 x + a_0
+\]
+
+This is a linear polynomial, which always has one real root. Thus, the maximum degree with all real roots is \( 1 \).
+
+### Step 2: Consider the case \( n = 2 \)
+
+For \( n = 2 \):
+
+\[
+P(x) = a_2 x^2 + a_1 x + a_0
+\]
+
+This is a quadratic polynomial. The condition for it to have real roots is given by the discriminant:
+
+\[
+D = a_1^2 - 4a_2 a_0
+\]
+
+Since \( a_2, a_1, a_0 \in \{ -1, 1 \} \), we can check the combinations:
+
+- If \( a_2 = 1 \), \( a_1 = 1 \), \( a_0 = 1 \): \( D = 1 - 4 = -3 \) (no real roots)
+- If \( a_2 = 1 \), \( a_1 = 1 \), \( a_0 = -1 \): \( D = 1 - 4(-1) = 5 \) (two real roots)
+- If \( a_2 = 1 \), \( a_1 = -1 \), \( a_0 = 1 \): \( D = 1 - 4 = -3 \) (no real roots)
+- If \( a_2 = 1 \), \( a_1 = -1 \), \( a_0 = -1 \): \( D = 1 - 4(-1) = 5 \) (two real roots)
+- If \( a_2 = -1 \), \( a_1 = 1 \), \( a_0 = 1 \): \( D = 1 - 4(-1) = 5 \) (two real roots)
+- If \( a_2 = -1 \), \( a_1 = 1 \), \( a_0 = -1 \): \( D = 1 - 4(-1) = 5 \) (two real roots)
+- If \( a_2 = -1 \), \( a_1 = -1 \), \( a_0 = 1 \): \( D = 1 - 4 = -3 \) (no real roots)
+- If \( a_2 = -1 \), \( a_1 = -1 \), \( a_0 = -1 \): \( D = 1 - 4 = -3 \) (no real roots)
+
+From this analysis, we find that for \( n = 2 \), we can have polynomials with two real roots.
+
+### Step 3: Consider the case \( n = 3 \)
+
+For \( n = 3 \):
+
+\[
+P(x) = a_3 x^3 + a_2 x^2 + a_1 x + a_0
+\]
+
+A cubic polynomial can have either one real root and two complex conjugate roots or three real roots. However, it is known that not all combinations of \( a_i \) will yield three real roots. 
+
+### Step 4: General case and conclusion
+
+The general result from algebraic theory states that for polynomials with coefficients in \( \{ -1, 1 \} \), the maximum degree for which all roots can be guaranteed to be real is \( n = 2 \). 
+
+Thus, the maximum degree of a polynomial of the form 
+
+\[
+\sum_{i=0}^n a_i x^{n-i}
+\]
+
+with \( a_i = \pm 1 \) and all roots real is 
+
+\[
+\boxed{2}.
+\]

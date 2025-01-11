@@ -1,0 +1,85 @@
+Let the lengths of the altitudes from point \( P \) to the sides \( AB \), \( BC \), and \( CA \) be denoted as \( h_a = 5 \), \( h_b = 6 \), and \( h_c = 7 \) respectively. The area \( A \) of triangle \( ABC \) can be expressed in terms of these altitudes and the lengths of the sides of the triangle.
+
+Let \( a \), \( b \), and \( c \) be the lengths of sides \( BC \), \( CA \), and \( AB \) respectively. The area \( A \) of triangle \( ABC \) can be calculated using the formula:
+
+\[
+A = \frac{1}{2} a h_a = \frac{1}{2} b h_b = \frac{1}{2} c h_c
+\]
+
+From these equations, we can express the sides in terms of the area \( A \):
+
+\[
+a = \frac{2A}{h_a}, \quad b = \frac{2A}{h_b}, \quad c = \frac{2A}{h_c}
+\]
+
+Substituting the values of the altitudes:
+
+\[
+a = \frac{2A}{5}, \quad b = \frac{2A}{6}, \quad c = \frac{2A}{7}
+\]
+
+Next, we will use the fact that in an equilateral triangle, the sum of the altitudes from any point inside the triangle to the sides is equal to the altitude of the triangle itself. The altitude \( h \) of triangle \( ABC \) can be calculated using the formula for the altitude of an equilateral triangle with side length \( s \):
+
+\[
+h = \frac{s \sqrt{3}}{2}
+\]
+
+The sum of the distances from point \( P \) to the sides of triangle \( ABC \) is:
+
+\[
+h_a + h_b + h_c = 5 + 6 + 7 = 18
+\]
+
+Thus, we have:
+
+\[
+h = 18
+\]
+
+Now, we can relate the area \( A \) of triangle \( ABC \) to its side length \( s \):
+
+\[
+A = \frac{1}{2} s h = \frac{1}{2} s \cdot 18 = 9s
+\]
+
+We also know that the area \( A \) can be expressed in terms of the side length \( s \) of the equilateral triangle:
+
+\[
+A = \frac{s^2 \sqrt{3}}{4}
+\]
+
+Setting the two expressions for \( A \) equal gives:
+
+\[
+9s = \frac{s^2 \sqrt{3}}{4}
+\]
+
+Multiplying both sides by 4 to eliminate the fraction:
+
+\[
+36s = s^2 \sqrt{3}
+\]
+
+Assuming \( s \neq 0 \), we can divide both sides by \( s \):
+
+\[
+36 = s \sqrt{3}
+\]
+
+Solving for \( s \):
+
+\[
+s = \frac{36}{\sqrt{3}} = 12\sqrt{3}
+\]
+
+Now, substituting \( s \) back into the area formula:
+
+\[
+A = \frac{(12\sqrt{3})^2 \sqrt{3}}{4} = \frac{144 \cdot 3 \sqrt{3}}{4} = 108\sqrt{3}
+\]
+
+Thus, the area of triangle \( ABC \) is:
+
+\[
+\boxed{108\sqrt{3}}
+\]

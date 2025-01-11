@@ -1,0 +1,95 @@
+To solve the equation 
+
+\[
+\frac{1}{5} \log_2 x = \sin(5\pi x),
+\]
+
+we start by rewriting it in a more manageable form. Multiplying both sides by 5 gives us:
+
+\[
+\log_2 x = 5 \sin(5\pi x).
+\]
+
+Next, we analyze the left-hand side, \( \log_2 x \). This function is defined for \( x > 0 \) and is increasing. As \( x \) approaches 0 from the right, \( \log_2 x \) approaches \(-\infty\), and as \( x \) approaches \( \infty \), \( \log_2 x \) approaches \( \infty \).
+
+Now, we consider the right-hand side, \( 5 \sin(5\pi x) \). The sine function oscillates between -1 and 1, so \( 5 \sin(5\pi x) \) oscillates between -5 and 5. 
+
+Next, we need to find the intersections of the two functions:
+
+1. The left-hand side \( \log_2 x \) starts from \(-\infty\) when \( x \to 0^+\) and increases without bound as \( x \to \infty\).
+2. The right-hand side \( 5 \sin(5\pi x) \) oscillates between -5 and 5.
+
+To find the number of intersections, we need to determine the intervals where \( \log_2 x \) can equal \( 5 \sin(5\pi x) \).
+
+### Step 1: Finding the range of \( \log_2 x \)
+
+Since \( \log_2 x \) is increasing and can take any value from \(-\infty\) to \( \infty\), we need to find where \( \log_2 x \) intersects the oscillating function \( 5 \sin(5\pi x) \).
+
+### Step 2: Analyzing the oscillation of \( 5 \sin(5\pi x) \)
+
+The function \( 5 \sin(5\pi x) \) has a period of 
+
+\[
+\frac{2}{5} \text{ (since the period of } \sin(kx) \text{ is } \frac{2\pi}{k}).
+\]
+
+This means that \( 5 \sin(5\pi x) \) will complete one full oscillation from -5 to 5 and back to -5 in every interval of length \( \frac{2}{5} \).
+
+### Step 3: Finding intersections in each period
+
+In each period \( \left[ n \frac{2}{5}, (n+1) \frac{2}{5} \right) \) for \( n \in \mathbb{Z} \), the function \( 5 \sin(5\pi x) \) will cross the horizontal lines \( y = -5 \) and \( y = 5 \) exactly once. 
+
+- For \( \log_2 x \) to equal \( 5 \sin(5\pi x) \), we need \( \log_2 x \) to be in the range \([-5, 5]\).
+- This corresponds to the values of \( x \) such that:
+
+\[
+-5 \leq \log_2 x \leq 5.
+\]
+
+### Step 4: Solving for \( x \)
+
+Converting the logarithmic inequalities to exponential form gives:
+
+\[
+2^{-5} \leq x \leq 2^5.
+\]
+
+Calculating these values:
+
+\[
+\frac{1}{32} \leq x \leq 32.
+\]
+
+### Step 5: Counting the periods
+
+Now we need to find how many complete periods fit within the interval \( \left[\frac{1}{32}, 32\right] \).
+
+The length of the interval is:
+
+\[
+32 - \frac{1}{32} = \frac{1024 - 1}{32} = \frac{1023}{32}.
+\]
+
+The length of one period is \( \frac{2}{5} \). The number of complete periods in the interval is:
+
+\[
+\frac{\frac{1023}{32}}{\frac{2}{5}} = \frac{1023 \cdot 5}{32 \cdot 2} = \frac{5115}{64} \approx 79.6875.
+\]
+
+Thus, there are 79 complete periods, and since each period contributes 2 intersections (one for each crossing from below and above), we have:
+
+\[
+2 \times 79 = 158.
+\]
+
+### Step 6: Considering the last partial period
+
+In the last partial period, we need to check if there is an intersection. The last period starts at \( 79 \cdot \frac{2}{5} = \frac{158}{5} = 31.6 \) and ends at \( 32 \). Since \( \log_2(32) = 5 \) and \( 5 \sin(5\pi \cdot 32) = 0 \), there is one more intersection at \( x = 32 \).
+
+### Conclusion
+
+Thus, the total number of real solutions to the equation is:
+
+\[
+\boxed{159}.
+\]

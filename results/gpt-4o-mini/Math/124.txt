@@ -1,0 +1,62 @@
+To solve the equation \( x(x-3) = 1 \), we start by rearranging it into standard quadratic form:
+
+\[
+x^2 - 3x - 1 = 0
+\]
+
+Next, we apply the quadratic formula, which is given by:
+
+\[
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+\]
+
+In our equation, \( a = 1 \), \( b = -3 \), and \( c = -1 \). Plugging these values into the quadratic formula, we first calculate the discriminant:
+
+\[
+b^2 - 4ac = (-3)^2 - 4 \cdot 1 \cdot (-1) = 9 + 4 = 13
+\]
+
+Now substituting back into the quadratic formula:
+
+\[
+x = \frac{-(-3) \pm \sqrt{13}}{2 \cdot 1} = \frac{3 \pm \sqrt{13}}{2}
+\]
+
+This gives us the two solutions:
+
+\[
+x_1 = \frac{3 + \sqrt{13}}{2}, \quad x_2 = \frac{3 - \sqrt{13}}{2}
+\]
+
+We can express these solutions in the form \( \frac{a+\sqrt{b}}{c} \) and \( \frac{a-\sqrt{b}}{c} \). Here, we identify:
+
+- \( a = 3 \)
+- \( b = 13 \)
+- \( c = 2 \)
+
+Next, we need to verify that \( a \), \( b \), and \( c \) are all prime numbers:
+
+- \( 3 \) is prime.
+- \( 13 \) is prime.
+- \( 2 \) is prime.
+
+Now, we calculate the product \( abc \):
+
+\[
+abc = 3 \cdot 13 \cdot 2
+\]
+
+Calculating step-by-step:
+
+\[
+3 \cdot 13 = 39
+\]
+\[
+39 \cdot 2 = 78
+\]
+
+Thus, the final answer is:
+
+\[
+\boxed{78}
+\]

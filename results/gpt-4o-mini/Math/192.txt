@@ -1,0 +1,65 @@
+To find the expected winnings from one flip of the unfair coin, we will calculate the expected value \( E \) based on the probabilities and outcomes of each possible result.
+
+The outcomes and their associated probabilities and winnings are as follows:
+
+- **Heads**: 
+  - Probability: \( P(H) = \frac{3}{5} \)
+  - Winnings: \( W(H) = 4 \) dollars
+
+- **Tails**: 
+  - Probability: \( P(T) = \frac{1}{5} \)
+  - Winnings: \( W(T) = -1 \) dollar (since it's a loss)
+
+- **Edge**: 
+  - Probability: \( P(E) = \frac{1}{5} \)
+  - Winnings: \( W(E) = -10 \) dollars (since it's a loss)
+
+The expected value \( E \) can be calculated using the formula:
+
+\[
+E = P(H) \cdot W(H) + P(T) \cdot W(T) + P(E) \cdot W(E)
+\]
+
+Substituting the values we have:
+
+\[
+E = \left( \frac{3}{5} \cdot 4 \right) + \left( \frac{1}{5} \cdot (-1) \right) + \left( \frac{1}{5} \cdot (-10) \right)
+\]
+
+Calculating each term:
+
+1. For heads:
+   \[
+   \frac{3}{5} \cdot 4 = \frac{12}{5} = 2.4
+   \]
+
+2. For tails:
+   \[
+   \frac{1}{5} \cdot (-1) = -\frac{1}{5} = -0.2
+   \]
+
+3. For edge:
+   \[
+   \frac{1}{5} \cdot (-10) = -\frac{10}{5} = -2
+   \]
+
+Now, we combine these results:
+
+\[
+E = 2.4 - 0.2 - 2
+\]
+
+Calculating this step-by-step:
+
+\[
+E = 2.4 - 0.2 = 2.2
+\]
+\[
+E = 2.2 - 2 = 0.2
+\]
+
+Thus, the expected winnings from one flip of the coin is:
+
+\[
+\boxed{0.20} \text{ dollars}
+\]

@@ -1,0 +1,95 @@
+Let \( y = \sqrt{x + \sqrt{x + \sqrt{x + \ldots}}} \). According to the problem, we have:
+
+\[
+y = 5
+\]
+
+This implies:
+
+\[
+5 = \sqrt{x + \sqrt{x + \sqrt{x + \ldots}}}
+\]
+
+Since \( y \) represents the entire nested radical, we can substitute \( y \) back into the equation:
+
+\[
+5 = \sqrt{x + y}
+\]
+
+Substituting \( y = 5 \) into the equation gives:
+
+\[
+5 = \sqrt{x + 5}
+\]
+
+Next, we square both sides to eliminate the square root:
+
+\[
+5^2 = x + 5
+\]
+
+This simplifies to:
+
+\[
+25 = x + 5
+\]
+
+Now, we solve for \( x \) by subtracting 5 from both sides:
+
+\[
+x = 25 - 5 = 20
+\]
+
+Thus, the value of \( x \) is:
+
+\[
+\boxed{20}
+\]
+
+To verify, we substitute \( x = 20 \) back into the original equation:
+
+\[
+\sqrt{20 + \sqrt{20 + \sqrt{20 + \ldots}}}
+\]
+
+Let \( z = \sqrt{20 + \sqrt{20 + \sqrt{20 + \ldots}}} \). Then we have:
+
+\[
+z = \sqrt{20 + z}
+\]
+
+Squaring both sides gives:
+
+\[
+z^2 = 20 + z
+\]
+
+Rearranging this results in:
+
+\[
+z^2 - z - 20 = 0
+\]
+
+We can solve this quadratic equation using the quadratic formula:
+
+\[
+z = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} = \frac{1 \pm \sqrt{1 + 80}}{2} = \frac{1 \pm \sqrt{81}}{2} = \frac{1 \pm 9}{2}
+\]
+
+Calculating the two possible values:
+
+\[
+z = \frac{10}{2} = 5 \quad \text{and} \quad z = \frac{-8}{2} = -4
+\]
+
+Since \( z \) represents a square root, we discard the negative solution. Thus, \( z = 5 \), confirming that:
+
+\[
+\sqrt{20 + \sqrt{20 + \sqrt{20 + \ldots}}} = 5
+\]
+
+This verifies our solution, and the value of \( x \) is indeed:
+
+\[
+\boxed{20}
+\]

@@ -1,0 +1,52 @@
+To find the cosine of the angle \(\theta\) between the two lines, we first need to identify the direction vectors of each line.
+
+The first line is parameterized by:
+\[
+\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 5 \\ -1 \end{pmatrix} + t \begin{pmatrix} 2 \\ 1 \end{pmatrix}.
+\]
+The direction vector of the first line is:
+\[
+\mathbf{v_1} = \begin{pmatrix} 2 \\ 1 \end{pmatrix}.
+\]
+
+The second line is parameterized by:
+\[
+\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} -7 \\ 3 \end{pmatrix} + u \begin{pmatrix} -1 \\ 1 \end{pmatrix}.
+\]
+The direction vector of the second line is:
+\[
+\mathbf{v_2} = \begin{pmatrix} -1 \\ 1 \end{pmatrix}.
+\]
+
+Next, we calculate the cosine of the angle \(\theta\) between the two lines using the formula:
+\[
+\cos \theta = \frac{\mathbf{v_1} \cdot \mathbf{v_2}}{\|\mathbf{v_1}\| \|\mathbf{v_2}\|}.
+\]
+
+First, we compute the dot product \(\mathbf{v_1} \cdot \mathbf{v_2}\):
+\[
+\mathbf{v_1} \cdot \mathbf{v_2} = \begin{pmatrix} 2 \\ 1 \end{pmatrix} \cdot \begin{pmatrix} -1 \\ 1 \end{pmatrix} = 2 \cdot (-1) + 1 \cdot 1 = -2 + 1 = -1.
+\]
+
+Next, we find the magnitudes of \(\mathbf{v_1}\) and \(\mathbf{v_2}\):
+\[
+\|\mathbf{v_1}\| = \sqrt{2^2 + 1^2} = \sqrt{4 + 1} = \sqrt{5},
+\]
+\[
+\|\mathbf{v_2}\| = \sqrt{(-1)^2 + 1^2} = \sqrt{1 + 1} = \sqrt{2}.
+\]
+
+Now we can substitute these values into the cosine formula:
+\[
+\cos \theta = \frac{-1}{\sqrt{5} \cdot \sqrt{2}} = \frac{-1}{\sqrt{10}}.
+\]
+
+Since we are interested in the acute angle, we take the absolute value:
+\[
+\cos \theta = \left| \frac{-1}{\sqrt{10}} \right| = \frac{1}{\sqrt{10}}.
+\]
+
+Thus, the final answer is:
+\[
+\boxed{\frac{1}{\sqrt{10}}}.
+\]

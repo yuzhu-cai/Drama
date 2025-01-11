@@ -1,0 +1,47 @@
+To find the units digit of \(2^{2010}\), we can look for a pattern in the units digits of the powers of 2.
+
+Let's calculate the units digits of the first few powers of 2:
+
+\[
+\begin{align*}
+2^1 & = 2 \quad \text{(units digit is 2)} \\
+2^2 & = 4 \quad \text{(units digit is 4)} \\
+2^3 & = 8 \quad \text{(units digit is 8)} \\
+2^4 & = 16 \quad \text{(units digit is 6)} \\
+2^5 & = 32 \quad \text{(units digit is 2)} \\
+2^6 & = 64 \quad \text{(units digit is 4)} \\
+2^7 & = 128 \quad \text{(units digit is 8)} \\
+2^8 & = 256 \quad \text{(units digit is 6)} \\
+\end{align*}
+\]
+
+From this, we can observe the following pattern in the units digits:
+
+- \(2^1\) has a units digit of 2
+- \(2^2\) has a units digit of 4
+- \(2^3\) has a units digit of 8
+- \(2^4\) has a units digit of 6
+- \(2^5\) has a units digit of 2
+- \(2^6\) has a units digit of 4
+- \(2^7\) has a units digit of 8
+- \(2^8\) has a units digit of 6
+
+The units digits repeat every 4 terms: \(2, 4, 8, 6\).
+
+To find the units digit of \(2^{2010}\), we need to determine the position of \(2010\) in this cycle. We do this by calculating \(2010 \mod 4\):
+
+\[
+2010 \div 4 = 502 \quad \text{(remainder 2)}
+\]
+
+Thus, \(2010 \mod 4 = 2\).
+
+According to our pattern:
+- If \(n \equiv 1 \mod 4\), the units digit is \(2\).
+- If \(n \equiv 2 \mod 4\), the units digit is \(4\).
+- If \(n \equiv 3 \mod 4\), the units digit is \(8\).
+- If \(n \equiv 0 \mod 4\), the units digit is \(6\).
+
+Since \(2010 \equiv 2 \mod 4\), the units digit of \(2^{2010}\) is \(4\).
+
+Thus, the units digit of \(2^{2010}\) is \(\boxed{4}\).

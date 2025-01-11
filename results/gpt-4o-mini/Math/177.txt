@@ -1,0 +1,30 @@
+To find the probability that Morgan selects a shirt that is not a baseball shirt, we first need to determine the total number of shirts she has and the number of shirts that are not baseball shirts.
+
+Morgan has the following shirts:
+- Hockey shirts: 3
+- Football shirts: 2
+- Baseball shirts: 7
+
+Now, we calculate the total number of shirts:
+
+\[
+\text{Total shirts} = \text{Hockey shirts} + \text{Football shirts} + \text{Baseball shirts} = 3 + 2 + 7 = 12
+\]
+
+Next, we find the number of shirts that are not baseball shirts. This includes the hockey and football shirts:
+
+\[
+\text{Shirts that are not baseball} = \text{Hockey shirts} + \text{Football shirts} = 3 + 2 = 5
+\]
+
+Now, we can calculate the probability that Morgan selects a shirt that is not a baseball shirt. The probability \( P \) is given by the ratio of the number of favorable outcomes (not baseball shirts) to the total number of outcomes (total shirts):
+
+\[
+P(\text{not a baseball shirt}) = \frac{\text{Number of shirts that are not baseball}}{\text{Total number of shirts}} = \frac{5}{12}
+\]
+
+Thus, the probability that Morgan randomly selects a shirt that is not a baseball shirt is 
+
+\[
+\boxed{\frac{5}{12}}.
+\]

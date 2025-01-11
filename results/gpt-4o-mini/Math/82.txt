@@ -1,0 +1,97 @@
+To solve the equation 
+
+\[
+\sqrt{5 |x| + 8} = \sqrt{x^2 - 16},
+\]
+
+we start by squaring both sides to eliminate the square roots:
+
+\[
+5 |x| + 8 = x^2 - 16.
+\]
+
+Rearranging this gives:
+
+\[
+x^2 - 5 |x| - 24 = 0.
+\]
+
+Next, we consider two cases based on the definition of absolute value.
+
+**Case 1: \(x \geq 0\)**
+
+In this case, \(|x| = x\). The equation simplifies to:
+
+\[
+x^2 - 5x - 24 = 0.
+\]
+
+We can solve this quadratic equation using the quadratic formula:
+
+\[
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} = \frac{5 \pm \sqrt{(-5)^2 - 4 \cdot 1 \cdot (-24)}}{2 \cdot 1} = \frac{5 \pm \sqrt{25 + 96}}{2} = \frac{5 \pm \sqrt{121}}{2} = \frac{5 \pm 11}{2}.
+\]
+
+Calculating the two possible values:
+
+1. \(x = \frac{16}{2} = 8\),
+2. \(x = \frac{-6}{2} = -3\) (not valid in this case since \(x \geq 0\)).
+
+Thus, from Case 1, we have the root \(x = 8\).
+
+**Case 2: \(x < 0\)**
+
+In this case, \(|x| = -x\). The equation becomes:
+
+\[
+x^2 + 5x - 24 = 0.
+\]
+
+Again, we apply the quadratic formula:
+
+\[
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} = \frac{-5 \pm \sqrt{5^2 - 4 \cdot 1 \cdot (-24)}}{2 \cdot 1} = \frac{-5 \pm \sqrt{25 + 96}}{2} = \frac{-5 \pm \sqrt{121}}{2} = \frac{-5 \pm 11}{2}.
+\]
+
+Calculating the two possible values:
+
+1. \(x = \frac{6}{2} = 3\) (not valid in this case since \(x < 0\)),
+2. \(x = \frac{-16}{2} = -8\).
+
+Thus, from Case 2, we have the root \(x = -8\).
+
+Now we have found the roots of the original equation: \(x = 8\) and \(x = -8\).
+
+To find the product of all the roots, we compute:
+
+\[
+8 \times (-8) = -64.
+\]
+
+Finally, we confirm that both roots satisfy the original equation:
+
+For \(x = 8\):
+
+\[
+\sqrt{5 \cdot 8 + 8} = \sqrt{40 + 8} = \sqrt{48} = 4\sqrt{3},
+\]
+\[
+\sqrt{8^2 - 16} = \sqrt{64 - 16} = \sqrt{48} = 4\sqrt{3}.
+\]
+
+For \(x = -8\):
+
+\[
+\sqrt{5 \cdot 8 + 8} = \sqrt{40 + 8} = \sqrt{48} = 4\sqrt{3},
+\]
+\[
+\sqrt{(-8)^2 - 16} = \sqrt{64 - 16} = \sqrt{48} = 4\sqrt{3}.
+\]
+
+Both roots satisfy the original equation.
+
+Thus, the product of all the roots is 
+
+\[
+\boxed{-64}.
+\]

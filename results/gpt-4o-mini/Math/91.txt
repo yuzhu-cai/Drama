@@ -1,0 +1,89 @@
+To find the value of \( f(3) \), we start with the function given by 
+
+\[
+f(x) = ax^4 - bx^2 + x + 5.
+\]
+
+We know that \( f(-3) = 2 \). We will first calculate \( f(-3) \):
+
+\[
+f(-3) = a(-3)^4 - b(-3)^2 + (-3) + 5.
+\]
+
+Calculating each term:
+
+\[
+(-3)^4 = 81, \quad (-3)^2 = 9,
+\]
+
+so we have:
+
+\[
+f(-3) = a \cdot 81 - b \cdot 9 - 3 + 5.
+\]
+
+This simplifies to:
+
+\[
+f(-3) = 81a - 9b + 2.
+\]
+
+Setting this equal to 2, we get:
+
+\[
+81a - 9b + 2 = 2.
+\]
+
+Subtracting 2 from both sides gives:
+
+\[
+81a - 9b = 0.
+\]
+
+This can be simplified to:
+
+\[
+9a - b = 0 \quad \text{or} \quad b = 9a.
+\]
+
+Next, we will calculate \( f(3) \):
+
+\[
+f(3) = a(3)^4 - b(3)^2 + 3 + 5.
+\]
+
+Calculating each term:
+
+\[
+(3)^4 = 81, \quad (3)^2 = 9,
+\]
+
+so we have:
+
+\[
+f(3) = a \cdot 81 - b \cdot 9 + 3 + 5.
+\]
+
+This simplifies to:
+
+\[
+f(3) = 81a - 9b + 8.
+\]
+
+Now, substituting \( b = 9a \) into the expression for \( f(3) \):
+
+\[
+f(3) = 81a - 9(9a) + 8.
+\]
+
+This simplifies to:
+
+\[
+f(3) = 81a - 81a + 8 = 8.
+\]
+
+Thus, the value of \( f(3) \) is 
+
+\[
+\boxed{8}.
+\]

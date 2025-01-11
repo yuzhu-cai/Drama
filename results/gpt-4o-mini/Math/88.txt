@@ -1,0 +1,59 @@
+To find the range of the function 
+
+\[
+j(x) = \frac{5x + 3}{x},
+\]
+
+we can first simplify the expression. We can rewrite \( j(x) \) as follows:
+
+\[
+j(x) = \frac{5x}{x} + \frac{3}{x} = 5 + \frac{3}{x}.
+\]
+
+Next, we analyze the term \( \frac{3}{x} \). The function \( j(x) \) is defined for all \( x \neq 0 \). As \( x \) approaches 0 from the positive side, \( \frac{3}{x} \) approaches \( +\infty \), and as \( x \) approaches 0 from the negative side, \( \frac{3}{x} \) approaches \( -\infty \).
+
+Now, let's consider the behavior of \( j(x) \) as \( x \) varies:
+
+1. **As \( x \to \infty \)**: 
+   \[
+   j(x) = 5 + \frac{3}{x} \to 5 + 0 = 5.
+   \]
+
+2. **As \( x \to -\infty \)**: 
+   \[
+   j(x) = 5 + \frac{3}{x} \to 5 + 0 = 5.
+   \]
+
+3. **As \( x \to 0^+ \)** (approaching from the right):
+   \[
+   j(x) = 5 + \frac{3}{x} \to 5 + \infty = +\infty.
+   \]
+
+4. **As \( x \to 0^- \)** (approaching from the left):
+   \[
+   j(x) = 5 + \frac{3}{x} \to 5 - \infty = -\infty.
+   \]
+
+From this analysis, we see that \( j(x) \) can take on values from \( -\infty \) to \( +\infty \), but it approaches 5 from both sides as \( x \) goes to \( \pm \infty \).
+
+To determine if \( j(x) \) can equal 5, we set the equation:
+
+\[
+5 + \frac{3}{x} = 5.
+\]
+
+Subtracting 5 from both sides gives:
+
+\[
+\frac{3}{x} = 0.
+\]
+
+This equation has no solution since \( \frac{3}{x} \) cannot be zero for any \( x \neq 0 \).
+
+Thus, the function \( j(x) \) approaches 5 but never actually reaches it. Therefore, the range of the function is all real numbers except 5.
+
+In interval notation, the range of \( j(x) \) is:
+
+\[
+\boxed{(-\infty, 5) \cup (5, \infty)}.
+\]

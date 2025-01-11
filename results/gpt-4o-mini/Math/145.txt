@@ -1,0 +1,47 @@
+To solve for the last digit of \( a - b \) given the conditions \( a + b \equiv 2 \pmod{10} \) and \( 2a + b \equiv 1 \pmod{10} \), we start by rewriting the congruences in a more manageable form.
+
+1. From the first congruence:
+   \[
+   a + b \equiv 2 \pmod{10}
+   \]
+   We can express \( b \) in terms of \( a \):
+   \[
+   b \equiv 2 - a \pmod{10}
+   \]
+
+2. Substitute \( b \) into the second congruence:
+   \[
+   2a + b \equiv 1 \pmod{10}
+   \]
+   Replacing \( b \) gives:
+   \[
+   2a + (2 - a) \equiv 1 \pmod{10}
+   \]
+   Simplifying this:
+   \[
+   2a - a + 2 \equiv 1 \pmod{10}
+   \]
+   \[
+   a + 2 \equiv 1 \pmod{10}
+   \]
+   Subtracting 2 from both sides:
+   \[
+   a \equiv -1 \equiv 9 \pmod{10}
+   \]
+
+3. Now that we have \( a \equiv 9 \pmod{10} \), we can substitute back to find \( b \):
+   \[
+   b \equiv 2 - a \equiv 2 - 9 \equiv -7 \equiv 3 \pmod{10}
+   \]
+
+4. We now have:
+   \[
+   a \equiv 9 \pmod{10}, \quad b \equiv 3 \pmod{10}
+   \]
+
+5. To find \( a - b \):
+   \[
+   a - b \equiv 9 - 3 \equiv 6 \pmod{10}
+   \]
+
+Thus, the last digit of \( a - b \) is \( \boxed{6} \).

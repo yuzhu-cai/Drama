@@ -1,0 +1,79 @@
+Let the three consecutive terms in the arithmetic sequence be represented as \( a - d \), \( a \), and \( a + d \), where \( a \) is the middle term and \( d \) is the common difference.
+
+1. **Finding the difference between the largest and smallest terms:**
+   The largest term is \( a + d \) and the smallest term is \( a - d \). The difference between them is:
+   \[
+   (a + d) - (a - d) = 2d
+   \]
+   According to the problem, this difference is equal to 14:
+   \[
+   2d = 14
+   \]
+   Dividing both sides by 2 gives:
+   \[
+   d = 7
+   \]
+
+2. **Expressing the terms in terms of \( a \):**
+   Now we can express the three terms:
+   \[
+   a - d = a - 7, \quad a, \quad a + d = a + 7
+   \]
+
+3. **Adding half of the smallest term to each term:**
+   The smallest term is \( a - 7 \). Half of this term is:
+   \[
+   \frac{1}{2}(a - 7) = \frac{a - 7}{2}
+   \]
+   Adding this to each term gives:
+   - First term: 
+     \[
+     (a - 7) + \frac{a - 7}{2} = \frac{2(a - 7) + (a - 7)}{2} = \frac{3a - 21}{2}
+     \]
+   - Second term:
+     \[
+     a + \frac{a - 7}{2} = \frac{2a + (a - 7)}{2} = \frac{3a - 7}{2}
+     \]
+   - Third term:
+     \[
+     (a + 7) + \frac{a - 7}{2} = \frac{2(a + 7) + (a - 7)}{2} = \frac{3a + 7}{2}
+     \]
+
+4. **Calculating the sum of the new terms:**
+   The sum of the new terms is:
+   \[
+   \frac{3a - 21}{2} + \frac{3a - 7}{2} + \frac{3a + 7}{2}
+   \]
+   Combining these:
+   \[
+   = \frac{(3a - 21) + (3a - 7) + (3a + 7)}{2} = \frac{3a - 21 + 3a - 7 + 3a + 7}{2} = \frac{9a - 21}{2}
+   \]
+
+5. **Setting the sum equal to 120:**
+   According to the problem, this sum equals 120:
+   \[
+   \frac{9a - 21}{2} = 120
+   \]
+   Multiplying both sides by 2 gives:
+   \[
+   9a - 21 = 240
+   \]
+   Adding 21 to both sides:
+   \[
+   9a = 261
+   \]
+   Dividing by 9:
+   \[
+   a = 29
+   \]
+
+6. **Finding the smallest term:**
+   The smallest term is:
+   \[
+   a - d = 29 - 7 = 22
+   \]
+
+Thus, the value of the original smallest term is:
+\[
+\boxed{22}
+\]
