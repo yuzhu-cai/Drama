@@ -8,4 +8,3 @@ venv/
 webserver_config.py
 .pytest/
 *cache*
-results/*
