@@ -41,3 +41,22 @@ def function_with_timeout(func, args, timeout):
         raise TimeoutError()
     else:
         return result_container[0]
+
+
+def evaluate_functional_correctness(
+    sample: dict,
+    completion: str,
+    timeout: int = 5,
+):
+    try:
+        code = ("from typing import *\n" if "from typing import *" not in completion else "") + \
+            completion + "\n" + sample['test'] + \
+            "\n" + f"check({sample['entry_point']})"
+        function_with_timeout(
+            exec,
+            (code, globals()),
+            timeout
+        )
+        return "passed"
+    except Exception as e:
+        return f"failed: {e}"
