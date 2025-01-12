@@ -38,6 +38,31 @@ class OpenAILLM:
         )
         
         return completion.choices[0].message.content
+    
+    def mt_call(
+            self, 
+            messages: list, 
+            model: str="gpt-4o-mini", 
+            temperature: float = 0.2, 
+            top_p: float = 1.0, 
+            max_tokens: int = 4096, 
+            frequency_penalty: float = 0.0
+    ):
+        message = [
+            {"role": "system", "content": self.system_prompt},
+        ]
+        message.extend(messages)
+        breakpoint()
+        completion = self.client.chat.completions.create(
+            model=model,
+            messages=message,
+            temperature=temperature,
+            top_p=top_p,
+            max_tokens=max_tokens,
+            frequency_penalty=frequency_penalty
+        )
+        
+        return completion.choices[0].message.content
 
 
 if __name__ == "__main__":
