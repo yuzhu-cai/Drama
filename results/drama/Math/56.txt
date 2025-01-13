@@ -1,0 +1,56 @@
+To factor the expression \( 7x^3 - 21x^2 + 14x \), we will follow these steps:
+
+### Step 1: Identify the Greatest Common Factor (GCF)
+
+1. **Identify the coefficients**:
+   - The coefficients of the terms are \( 7 \), \( -21 \), and \( 14 \).
+
+2. **Find the GCF of the coefficients**:
+   - The GCF of \( 7 \), \( -21 \), and \( 14 \) is \( 7 \).
+
+3. **Identify the variable part**:
+   - The variable parts of the terms are \( x^3 \), \( x^2 \), and \( x \).
+   - The lowest power of \( x \) is \( x^1 \).
+
+4. **Combine the GCF of the coefficients and the variable part**:
+   - The overall GCF is \( 7x \).
+
+### Step 2: Factor Out the GCF
+
+Now, we will factor out \( 7x \) from the expression:
+
+\[
+7x^3 - 21x^2 + 14x = 7x(x^2 - 3x + 2)
+\]
+
+### Step 3: Factor the Resulting Polynomial
+
+Next, we will factor the polynomial \( x^2 - 3x + 2 \).
+
+1. **Look for two numbers that multiply to \( 2 \) (the constant term) and add to \( -3 \) (the coefficient of \( x \))**:
+   - The numbers \( -1 \) and \( -2 \) fit this requirement because:
+     - \( -1 \times -2 = 2 \)
+     - \( -1 + (-2) = -3 \)
+
+2. **Write the polynomial in factored form**:
+   \[
+   x^2 - 3x + 2 = (x - 1)(x - 2)
+   \]
+
+### Step 4: Combine the Factors
+
+Now, we can write the complete factored form of the original expression:
+
+\[
+7x^3 - 21x^2 + 14x = 7x(x - 1)(x - 2)
+\]
+
+### Final Answer
+
+Thus, the fully factored form of the expression \( 7x^3 - 21x^2 + 14x \) is:
+
+\[
+\boxed{7x(x - 1)(x - 2)}
+\] 
+
+This solution clearly outlines the steps taken to factor the expression, ensuring accuracy and clarity.

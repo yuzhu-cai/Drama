@@ -1,0 +1,75 @@
+To simplify the expression \(\sqrt{(\sqrt{56})(\sqrt{126})}\), we can follow these steps:
+
+1. **Combine the Square Roots**:
+   Using the property of square roots, we can combine the square roots:
+   \[
+   \sqrt{(\sqrt{56})(\sqrt{126})} = \sqrt{\sqrt{56} \cdot \sqrt{126}} = \sqrt{\sqrt{56 \cdot 126}}.
+   \]
+
+2. **Calculate \(56 \cdot 126\)**:
+   We need to compute the product \(56 \cdot 126\). First, we can factor both numbers:
+   \[
+   56 = 2^3 \cdot 7,
+   \]
+   \[
+   126 = 2 \cdot 3^2 \cdot 7.
+   \]
+   Now, we multiply these factorizations:
+   \[
+   56 \cdot 126 = (2^3 \cdot 7) \cdot (2 \cdot 3^2 \cdot 7) = 2^{3+1} \cdot 3^2 \cdot 7^{1+1} = 2^4 \cdot 3^2 \cdot 7^2.
+   \]
+
+3. **Take the Square Root**:
+   Now we compute the square root of this product:
+   \[
+   \sqrt{56 \cdot 126} = \sqrt{2^4 \cdot 3^2 \cdot 7^2}.
+   \]
+   Using the property of square roots:
+   \[
+   \sqrt{2^4} \cdot \sqrt{3^2} \cdot \sqrt{7^2} = 2^{4/2} \cdot 3^{2/2} \cdot 7^{2/2} = 2^2 \cdot 3^1 \cdot 7^1 = 4 \cdot 3 \cdot 7.
+   \]
+
+4. **Calculate the Final Value**:
+   Now we calculate \(4 \cdot 3 \cdot 7\):
+   \[
+   4 \cdot 3 = 12,
+   \]
+   \[
+   12 \cdot 7 = 84.
+   \]
+   Thus, we have:
+   \[
+   \sqrt{56 \cdot 126} = 84.
+   \]
+
+5. **Final Simplification**:
+   Now substituting back, we have:
+   \[
+   \sqrt{(\sqrt{56})(\sqrt{126})} = \sqrt{84}.
+   \]
+   We can simplify \(\sqrt{84}\):
+   \[
+   84 = 4 \cdot 21 = 4 \cdot 3 \cdot 7.
+   \]
+   Therefore,
+   \[
+   \sqrt{84} = \sqrt{4 \cdot 21} = \sqrt{4} \cdot \sqrt{21} = 2\sqrt{21}.
+   \]
+
+6. **Identify \(a\) and \(b\)**:
+   In the expression \(2\sqrt{21}\), we identify:
+   \[
+   a = 2, \quad b = 21.
+   \]
+
+7. **Calculate \(a + b\)**:
+   Now, we calculate \(a + b\):
+   \[
+   a + b = 2 + 21 = 23.
+   \]
+
+Thus, the final answer is:
+
+\[
+\boxed{23}.
+\]

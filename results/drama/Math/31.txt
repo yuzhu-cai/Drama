@@ -1,0 +1,34 @@
+To determine how many four-digit positive integers can be formed where each digit is a prime number, we first identified the valid prime digits that can be used. The single-digit prime numbers are:
+
+- 2
+- 3
+- 5
+- 7
+
+These digits are the only options available for constructing our four-digit integers.
+
+### Steps to Calculate the Total Combinations:
+
+1. **Identify the Digits**: The valid prime digits are 2, 3, 5, and 7.
+2. **Determine the Number of Positions**: A four-digit integer has four positions: thousands, hundreds, tens, and units.
+3. **Choices for Each Position**:
+   - For the thousands place, we can choose any of the 4 prime digits (2, 3, 5, 7).
+   - For the hundreds place, we can again choose any of the 4 prime digits.
+   - For the tens place, we can choose any of the 4 prime digits.
+   - For the units place, we can also choose any of the 4 prime digits.
+
+Since the choice for each digit is independent, we multiply the number of choices for each digit:
+
+\[
+\text{Total combinations} = 4 \times 4 \times 4 \times 4 = 4^4
+\]
+
+Calculating \(4^4\):
+
+\[
+4^4 = 256
+\]
+
+### Conclusion:
+
+Thus, the total number of four-digit positive integers where each digit is a prime number is **256**. This comprehensive solution addresses all aspects of the problem, confirming that each digit can be any of the identified prime digits and that the total combinations are calculated correctly.

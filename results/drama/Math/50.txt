@@ -1,0 +1,53 @@
+To solve the problem, we will follow these steps:
+
+1. **Calculate the circumference of the ceiling fan.**
+2. **Determine the distance traveled by the housefly in one minute.**
+3. **Calculate the total time it took for the housefly to travel \( 19,404\pi \) feet.**
+
+### Step 1: Calculate the Circumference of the Ceiling Fan
+
+The diameter of the ceiling fan is given as 6 feet. The circumference \( C \) can be calculated using the formula:
+
+\[
+C = \pi \times d = \pi \times 6 = 6\pi \text{ feet}
+\]
+
+### Step 2: Determine the Distance Traveled by the Housefly in One Minute
+
+The fan rotates at a rate of 20 revolutions per minute. Therefore, the distance traveled by the housefly in one minute is:
+
+\[
+\text{Distance per minute} = \text{Circumference} \times \text{Revolutions per minute} = 6\pi \times 20 = 120\pi \text{ feet}
+\]
+
+### Step 3: Calculate the Total Time to Travel \( 19,404\pi \) Feet
+
+Now, we need to find the time it took for the housefly to travel \( 19,404\pi \) feet. We use the formula for time:
+
+\[
+\text{Time} = \frac{\text{Distance}}{\text{Speed}} = \frac{19,404\pi}{120\pi}
+\]
+
+The \( \pi \) cancels out:
+
+\[
+\text{Time} = \frac{19,404}{120}
+\]
+
+Now, we perform the division:
+
+\[
+\text{Time} = 161.7 \text{ minutes}
+\]
+
+### Final Step: Round to the Nearest Whole Number
+
+Rounding \( 161.7 \) to the nearest whole number gives us:
+
+\[
+\text{Time} \approx 162 \text{ minutes}
+\]
+
+### Conclusion
+
+The total time the housefly had been on the fan during the time it took to travel \( 19,404\pi \) feet is approximately **162 minutes**.

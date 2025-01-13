@@ -1,0 +1,59 @@
+To solve the original query, we need to find the sum of all integers \( n \) such that \( \frac{12}{n} \) is also an integer. This condition implies that \( n \) must be a divisor of 12.
+
+### Step 1: Identify the Divisors of 12
+The divisors of 12 can be found by determining all integers that can divide 12 without leaving a remainder. The prime factorization of 12 is:
+
+\[
+12 = 2^2 \times 3^1
+\]
+
+From this factorization, we can list the positive divisors of 12:
+- \( 1 \)
+- \( 2 \)
+- \( 3 \)
+- \( 4 \)
+- \( 6 \)
+- \( 12 \)
+
+Including the negative divisors, we have:
+- \( -1 \)
+- \( -2 \)
+- \( -3 \)
+- \( -4 \)
+- \( -6 \)
+- \( -12 \)
+
+Thus, the complete list of integers \( n \) such that \( \frac{12}{n} \) is an integer is:
+
+\[
+1, 2, 3, 4, 6, 12, -1, -2, -3, -4, -6, -12
+\]
+
+### Step 2: Sum the Divisors
+Next, we will sum all of these integers:
+
+**Positive Divisors:**
+\[
+1 + 2 + 3 + 4 + 6 + 12 = 28
+\]
+
+**Negative Divisors:**
+\[
+-1 - 2 - 3 - 4 - 6 - 12 = -28
+\]
+
+### Step 3: Combine the Sums
+Now, we combine the sums of the positive and negative divisors:
+
+\[
+28 + (-28) = 0
+\]
+
+### Conclusion
+The sum of all integers \( n \) such that \( \frac{12}{n} \) is also an integer is:
+
+\[
+\boxed{0}
+\] 
+
+This comprehensive solution addresses all aspects of the problem, clearly identifying the divisors of 12 and calculating their sum accurately.

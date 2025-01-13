@@ -1,0 +1,109 @@
+To solve the recurrence relation given by 
+
+\[
+a_n = 24 - 5a_{n - 1}
+\]
+
+with the initial condition \( a_1 = 14 \), we will first find a general formula for \( a_n \) and then express it in the form \( a_n = p \cdot q^n + r \).
+
+### Step 1: Finding the Characteristic Equation
+
+The recurrence relation can be rearranged as:
+
+\[
+a_n + 5a_{n - 1} = 24
+\]
+
+This is a non-homogeneous linear recurrence relation. To solve it, we first find the homogeneous part:
+
+\[
+a_n + 5a_{n - 1} = 0
+\]
+
+The characteristic equation for this homogeneous part is:
+
+\[
+r + 5 = 0 \implies r = -5
+\]
+
+### Step 2: Finding the Particular Solution
+
+Next, we look for a particular solution to the non-homogeneous equation. Since the non-homogeneous part is a constant (24), we can try a constant solution \( a_n = A \). Substituting this into the recurrence gives:
+
+\[
+A = 24 - 5A
+\]
+
+Solving for \( A \):
+
+\[
+A + 5A = 24 \implies 6A = 24 \implies A = 4
+\]
+
+### Step 3: General Solution
+
+The general solution to the recurrence relation is the sum of the homogeneous solution and the particular solution:
+
+\[
+a_n = C(-5)^n + 4
+\]
+
+where \( C \) is a constant determined by the initial condition.
+
+### Step 4: Applying the Initial Condition
+
+Using the initial condition \( a_1 = 14 \):
+
+\[
+a_1 = C(-5)^1 + 4 = 14
+\]
+
+This simplifies to:
+
+\[
+-5C + 4 = 14
+\]
+
+Solving for \( C \):
+
+\[
+-5C = 14 - 4 \implies -5C = 10 \implies C = -2
+\]
+
+### Step 5: Final Formula for \( a_n \)
+
+Substituting \( C \) back into the general solution gives:
+
+\[
+a_n = -2(-5)^n + 4
+\]
+
+This can be rewritten as:
+
+\[
+a_n = 2 \cdot 5^n + 4
+\]
+
+### Step 6: Identifying Constants \( p \), \( q \), and \( r \)
+
+From the expression \( a_n = p \cdot q^n + r \), we can identify:
+
+- \( p = 2 \)
+- \( q = 5 \)
+- \( r = 4 \)
+
+### Step 7: Calculating \( p + q + r \)
+
+Now, we calculate:
+
+\[
+p + q + r = 2 + 5 + 4 = 11
+\]
+
+### Conclusion
+
+Thus, the final answer is:
+
+\[
+\boxed{11}
+\]

@@ -1,0 +1,49 @@
+To determine how many two-digit positive integers have a product of their digits equal to 12, we can follow a systematic approach based on the analysis of the digits.
+
+### Step 1: Define the Problem
+A two-digit integer can be expressed as \( ab \), where:
+- \( a \) is the tens digit (ranging from 1 to 9)
+- \( b \) is the units digit (ranging from 0 to 9)
+
+We need to find pairs of digits \( (a, b) \) such that:
+
+\[
+a \times b = 12
+\]
+
+### Step 2: Identify Valid Digit Pairs
+Next, we will identify the pairs of digits \( (a, b) \) that satisfy the equation \( a \times b = 12 \). The factors of 12 that are valid digits are:
+
+1. \( 1 \times 12 \) (not valid, as 12 is not a digit)
+2. \( 2 \times 6 \) (valid)
+3. \( 3 \times 4 \) (valid)
+4. \( 4 \times 3 \) (valid)
+5. \( 6 \times 2 \) (valid)
+6. \( 12 \times 1 \) (not valid, as 12 is not a digit)
+
+### Step 3: List Valid Two-Digit Integers
+From the valid pairs identified, we can derive the corresponding two-digit integers:
+
+- From \( 2 \times 6 \): The integer is \( 26 \).
+- From \( 3 \times 4 \): The integer is \( 34 \).
+- From \( 4 \times 3 \): The integer is \( 43 \).
+- From \( 6 \times 2 \): The integer is \( 62 \).
+
+### Step 4: Count the Valid Integers
+Now, we will count the valid two-digit integers obtained from the pairs:
+
+1. \( 26 \)
+2. \( 34 \)
+3. \( 43 \)
+4. \( 62 \)
+
+### Conclusion
+In total, there are **4 two-digit positive integers** whose digits multiply to give 12. 
+
+Thus, the final answer to the original query is:
+
+\[
+\boxed{4}
+\] 
+
+This solution comprehensively addresses the problem by clearly defining the requirements, identifying valid digit pairs, listing the resulting integers, and providing a final count of those integers.

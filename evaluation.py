@@ -31,10 +31,20 @@ def eval(mode: str, test_path: str):
         return cnt / 196
 
 if __name__ == "__main__":
+    # single agent: gpt-4o-mini
     # HumanEval 0.8658536585365854
     # pass_at_1 = eval(mode="code", test_path='results/gpt-4o-mini/HumanEval')
     # print(pass_at_1)
 
     # MATH 0.7551020408163265
-    acc = eval(mode="math", test_path='results/gpt-4o-mini/Math')
-    print(acc)
+    # acc = eval(mode="math", test_path='results/gpt-4o-mini/Math')
+    # print(acc)
+
+    # DRAMA: gpt-4o-mini
+    # HumanEval 
+    pass_at_1 = eval(mode="code", test_path='results/drama/HumanEval')
+    print(pass_at_1)
+
+    # MATH 
+    # acc = eval(mode="math", test_path='results/drama/Math')
+    # print(acc)

@@ -1,0 +1,41 @@
+To determine how many students in the group of 30 high school students take neither French nor Spanish, we can follow these steps:
+
+1. **Identify the given data:**
+   - Total number of students: \( 30 \)
+   - Students taking French (\( |A| \)): \( 8 \)
+   - Students taking Spanish (\( |B| \)): \( 12 \)
+   - Students taking both languages (\( |A \cap B| \)): \( 3 \)
+
+2. **Calculate the total number of students taking at least one language using the principle of inclusion-exclusion:**
+
+   \[
+   |A \cup B| = |A| + |B| - |A \cap B|
+   \]
+
+   Substituting the values:
+
+   \[
+   |A \cup B| = 8 + 12 - 3 = 17
+   \]
+
+   This means that 17 students are taking at least one language (either French or Spanish or both).
+
+3. **Calculate the number of students taking neither language:**
+
+   To find the number of students taking neither French nor Spanish, we subtract the number of students taking at least one language from the total number of students:
+
+   \[
+   \text{Students taking neither language} = \text{Total students} - |A \cup B|
+   \]
+
+   Substituting the values:
+
+   \[
+   \text{Students taking neither language} = 30 - 17 = 13
+   \]
+
+4. **Conclusion:**
+
+   Therefore, the number of students in the group who take neither French nor Spanish is **13**. 
+
+This solution clearly outlines the steps taken to arrive at the answer, ensuring that all aspects of the problem are addressed accurately.

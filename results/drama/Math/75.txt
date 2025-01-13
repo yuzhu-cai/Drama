@@ -1,0 +1,145 @@
+To solve the problem, we need to find the polynomial \( P(x) \) that satisfies the functional equation 
+
+\[
+(x-1)P(x+1) = (x+2)P(x)
+\]
+
+for every real \( x \), and the condition 
+
+\[
+(P(2))^2 = P(3).
+\]
+
+### Step 1: Analyze the Functional Equation
+
+We start with the functional equation:
+
+\[
+(x-1)P(x+1) = (x+2)P(x).
+\]
+
+1. **Degree Analysis**: Let \( P(x) \) be a polynomial of degree \( n \). The left-hand side \( (x-1)P(x+1) \) will have degree \( n+1 \), and the right-hand side \( (x+2)P(x) \) will also have degree \( n+1 \). Thus, both sides are polynomials of the same degree.
+
+2. **Finding Roots**: We can substitute specific values for \( x \) to find roots of \( P(x) \).
+
+   - **Substituting \( x = 1 \)**:
+     \[
+     (1-1)P(2) = (1+2)P(1) \implies 0 = 3P(1) \implies P(1) = 0.
+     \]
+     Thus, \( P(x) \) has \( (x-1) \) as a factor.
+
+   - **Substituting \( x = -2 \)**:
+     \[
+     (-2-1)P(-1) = (-2+2)P(-2) \implies -3P(-1) = 0 \implies P(-1) = 0.
+     \]
+     Thus, \( P(x) \) has \( (x+1) \) as a factor.
+
+From these substitutions, we can express \( P(x) \) as:
+
+\[
+P(x) = c(x-1)(x+1)Q(x) = c(x^2 - 1)Q(x),
+\]
+
+where \( Q(x) \) is some polynomial.
+
+### Step 2: Substitute Back into the Functional Equation
+
+Now we substitute \( P(x) = c(x^2 - 1)Q(x) \) back into the original functional equation:
+
+\[
+(x-1)c((x+1)^2 - 1)Q(x+1) = (x+2)c(x^2 - 1)Q(x).
+\]
+
+This simplifies to:
+
+\[
+(x-1)c(x^2 + 2x)Q(x+1) = (x+2)c(x^2 - 1)Q(x).
+\]
+
+### Step 3: Analyze the Condition \( (P(2))^2 = P(3) \)
+
+Next, we need to satisfy the condition:
+
+\[
+(P(2))^2 = P(3).
+\]
+
+Calculating \( P(2) \) and \( P(3) \):
+
+1. **Calculate \( P(2) \)**:
+   \[
+   P(2) = c(2^2 - 1)Q(2) = c(4 - 1)Q(2) = 3cQ(2).
+   \]
+
+2. **Calculate \( P(3) \)**:
+   \[
+   P(3) = c(3^2 - 1)Q(3) = c(9 - 1)Q(3) = 8cQ(3).
+   \]
+
+Now substituting into the condition:
+
+\[
+(3cQ(2))^2 = 8cQ(3).
+\]
+
+This simplifies to:
+
+\[
+9c^2(Q(2))^2 = 8cQ(3).
+\]
+
+Assuming \( c \neq 0 \) (since \( P(x) \) is a nonzero polynomial), we can divide both sides by \( c \):
+
+\[
+9cQ(2)^2 = 8Q(3).
+\]
+
+### Step 4: Choose \( Q(x) \)
+
+To simplify the problem, we can assume \( Q(x) \) is a constant polynomial, say \( Q(x) = k \). Then:
+
+1. **Substituting \( Q(x) = k \)**:
+   \[
+   P(x) = c(x^2 - 1)k = ck(x^2 - 1).
+   \]
+
+2. **Revisiting the condition**:
+   \[
+   9c^2k^2 = 8ck \implies 9ck = 8 \implies k = \frac{8}{9c}.
+   \]
+
+### Step 5: Final Form of \( P(x) \)
+
+Substituting \( k \) back into \( P(x) \):
+
+\[
+P(x) = c \left(\frac{8}{9c}\right)(x^2 - 1) = \frac{8}{9}(x^2 - 1).
+\]
+
+### Step 6: Evaluate \( P\left(\frac{7}{2}\right) \)
+
+Now we can evaluate \( P\left(\frac{7}{2}\right) \):
+
+\[
+P\left(\frac{7}{2}\right) = \frac{8}{9}\left(\left(\frac{7}{2}\right)^2 - 1\right).
+\]
+
+Calculating \( \left(\frac{7}{2}\right)^2 \):
+
+\[
+\left(\frac{7}{2}\right)^2 = \frac{49}{4}.
+\]
+
+Thus,
+
+\[
+P\left(\frac{7}{2}\right) = \frac{8}{9}\left(\frac{49}{4} - 1\right) = \frac{8}{9}\left(\frac{49}{4} - \frac{4}{4}\right) = \frac{8}{9}\left(\frac{45}{4}\right) = \frac{360}{36} = 10.
+\]
+
+### Conclusion
+
+The value of \( P\left(\frac{7}{2}\right) \) is 
+
+\[
+\boxed{10}.
+\]

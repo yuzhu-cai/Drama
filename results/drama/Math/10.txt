@@ -1,0 +1,94 @@
+To compute \( \mathbf{a} \cdot (\mathbf{a} \times \mathbf{b}) \) for the given vectors 
+
+\[
+\mathbf{a} = \begin{pmatrix} 4 \\ \sqrt{\pi} \\ -14 \end{pmatrix}, \quad \mathbf{b} = \begin{pmatrix} -1 \\ 3 \\ 10 \end{pmatrix},
+\]
+
+we will follow these steps:
+
+### Step 1: Compute the Cross Product \( \mathbf{a} \times \mathbf{b} \)
+
+Using the formula for the cross product:
+
+\[
+\mathbf{a} \times \mathbf{b} = \begin{vmatrix}
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+4 & \sqrt{\pi} & -14 \\
+-1 & 3 & 10
+\end{vmatrix}
+\]
+
+Calculating the determinant, we expand it as follows:
+
+\[
+\mathbf{a} \times \mathbf{b} = \mathbf{i} \begin{vmatrix} \sqrt{\pi} & -14 \\ 3 & 10 \end{vmatrix} - \mathbf{j} \begin{vmatrix} 4 & -14 \\ -1 & 10 \end{vmatrix} + \mathbf{k} \begin{vmatrix} 4 & \sqrt{\pi} \\ -1 & 3 \end{vmatrix}
+\]
+
+Calculating each of the 2x2 determinants:
+
+1. For \( \mathbf{i} \):
+   \[
+   \begin{vmatrix} \sqrt{\pi} & -14 \\ 3 & 10 \end{vmatrix} = \sqrt{\pi} \cdot 10 - (-14) \cdot 3 = 10\sqrt{\pi} + 42
+   \]
+
+2. For \( \mathbf{j} \):
+   \[
+   \begin{vmatrix} 4 & -14 \\ -1 & 10 \end{vmatrix} = 4 \cdot 10 - (-14) \cdot (-1) = 40 - 14 = 26
+   \]
+
+3. For \( \mathbf{k} \):
+   \[
+   \begin{vmatrix} 4 & \sqrt{\pi} \\ -1 & 3 \end{vmatrix} = 4 \cdot 3 - \sqrt{\pi} \cdot (-1) = 12 + \sqrt{\pi}
+   \]
+
+Putting it all together, we have:
+
+\[
+\mathbf{a} \times \mathbf{b} = \begin{pmatrix}
+10\sqrt{\pi} + 42 \\
+-26 \\
+12 + \sqrt{\pi}
+\end{pmatrix}
+\]
+
+### Step 2: Compute the Dot Product \( \mathbf{a} \cdot (\mathbf{a} \times \mathbf{b}) \)
+
+Now we compute the dot product:
+
+\[
+\mathbf{a} \cdot (\mathbf{a} \times \mathbf{b}) = \begin{pmatrix} 4 \\ \sqrt{\pi} \\ -14 \end{pmatrix} \cdot \begin{pmatrix} 10\sqrt{\pi} + 42 \\ -26 \\ 12 + \sqrt{\pi} \end{pmatrix}
+\]
+
+Calculating the dot product:
+
+\[
+= 4(10\sqrt{\pi} + 42) + \sqrt{\pi}(-26) + (-14)(12 + \sqrt{\pi})
+\]
+
+Expanding each term:
+
+1. \( 4(10\sqrt{\pi} + 42) = 40\sqrt{\pi} + 168 \)
+2. \( \sqrt{\pi}(-26) = -26\sqrt{\pi} \)
+3. \( -14(12 + \sqrt{\pi}) = -168 - 14\sqrt{\pi} \)
+
+Combining these results:
+
+\[
+= (40\sqrt{\pi} - 26\sqrt{\pi} - 14\sqrt{\pi}) + (168 - 168)
+\]
+
+This simplifies to:
+
+\[
+= 0\sqrt{\pi} + 0 = 0
+\]
+
+### Conclusion
+
+Thus, the final result for the computation \( \mathbf{a} \cdot (\mathbf{a} \times \mathbf{b}) \) is:
+
+\[
+\boxed{0}
+\]
+
+This confirms that the dot product of a vector with the cross product of itself and another vector is always zero, as the cross product is orthogonal to both vectors.

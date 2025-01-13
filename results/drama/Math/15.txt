@@ -1,0 +1,93 @@
+To find the reflection of the point \( P(11, 16, 22) \) across the plane given by the equation \( 3x + 4y + 5z = 7 \), we will follow these steps:
+
+1. **Find the normal vector of the plane**.
+2. **Determine the equation of the line that passes through the point and is perpendicular to the plane**.
+3. **Find the intersection point of this line with the plane**.
+4. **Calculate the reflection of the point across the intersection point**.
+
+### Step 1: Normal Vector of the Plane
+
+The equation of the plane is \( 3x + 4y + 5z = 7 \). The normal vector \( \mathbf{n} \) of the plane is given by the coefficients of \( x \), \( y \), and \( z \):
+
+\[
+\mathbf{n} = \langle 3, 4, 5 \rangle
+\]
+
+### Step 2: Equation of the Line
+
+The line that passes through the point \( P(11, 16, 22) \) and is perpendicular to the plane can be expressed in parametric form. The direction vector of the line is the normal vector of the plane:
+
+\[
+\begin{align*}
+x &= 11 + 3t \\
+y &= 16 + 4t \\
+z &= 22 + 5t
+\end{align*}
+\]
+
+### Step 3: Find the Intersection Point
+
+To find the intersection point of the line with the plane, we substitute the parametric equations of the line into the plane equation:
+
+\[
+3(11 + 3t) + 4(16 + 4t) + 5(22 + 5t) = 7
+\]
+
+Expanding this:
+
+\[
+3 \cdot 11 + 9t + 4 \cdot 16 + 16t + 5 \cdot 22 + 25t = 7
+\]
+\[
+33 + 9t + 64 + 16t + 110 + 25t = 7
+\]
+\[
+(9t + 16t + 25t) + (33 + 64 + 110) = 7
+\]
+\[
+50t + 207 = 7
+\]
+\[
+50t = 7 - 207
+\]
+\[
+50t = -200 \implies t = -4
+\]
+
+Now, substitute \( t = -4 \) back into the parametric equations to find the intersection point \( I \):
+
+\[
+\begin{align*}
+x_i &= 11 + 3(-4) = 11 - 12 = -1 \\
+y_i &= 16 + 4(-4) = 16 - 16 = 0 \\
+z_i &= 22 + 5(-4) = 22 - 20 = 2
+\end{align*}
+\]
+
+So, the intersection point is \( I(-1, 0, 2) \).
+
+### Step 4: Calculate the Reflection Point
+
+To find the reflection \( R \) of point \( P(11, 16, 22) \) across the intersection point \( I(-1, 0, 2) \), we use the reflection formula:
+
+\[
+R(x_r, y_r, z_r) = (2x_i - x_p, 2y_i - y_p, 2z_i - z_p)
+\]
+
+Substituting the values:
+
+\[
+\begin{align*}
+x_r &= 2(-1) - 11 = -2 - 11 = -13 \\
+y_r &= 2(0) - 16 = 0 - 16 = -16 \\
+z_r &= 2(2) - 22 = 4 - 22 = -18
+\end{align*}
+\]
+
+### Final Result
+
+The reflection of the point \( (11, 16, 22) \) across the plane \( 3x + 4y + 5z = 7 \) is:
+
+\[
+\boxed{(-13, -16, -18)}
+\]

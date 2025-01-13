@@ -1,0 +1,40 @@
+To find the positive difference between the greatest and least members of the set \(\left\{\frac{3}{7}, \frac{4}{3}, \frac{11}{8}, \frac{6}{16}\right\}\), we will follow these steps:
+
+### Step 1: Identify the Greatest Member
+We previously calculated the decimal values of each fraction in the set:
+
+1. \(\frac{3}{7} \approx 0.4286\)
+2. \(\frac{4}{3} \approx 1.3333\)
+3. \(\frac{11}{8} = 1.375\)
+4. \(\frac{6}{16} = \frac{3}{8} = 0.375\)
+
+From these values, we identified that the greatest member is:
+\[
+\text{Greatest Member} = \frac{11}{8}
+\]
+
+### Step 2: Identify the Least Member
+From the same decimal values, we found that the least member is:
+\[
+\text{Least Member} = \frac{6}{16} = \frac{3}{8}
+\]
+
+### Step 3: Calculate the Positive Difference
+Now, we calculate the positive difference between the greatest and least members:
+\[
+\text{Positive Difference} = \text{Greatest Member} - \text{Least Member} = \frac{11}{8} - \frac{3}{8}
+\]
+
+Since both fractions have the same denominator, we can subtract them directly:
+\[
+\text{Positive Difference} = \frac{11 - 3}{8} = \frac{8}{8} = 1
+\]
+
+### Step 4: Express the Answer in Simplest Form
+The positive difference calculated is \(1\), which is already in its simplest form.
+
+### Conclusion
+The positive difference between the greatest and least members of the set \(\left\{\frac{3}{7}, \frac{4}{3}, \frac{11}{8}, \frac{6}{16}\right\}\) is:
+\[
+\boxed{1}
+\]

@@ -1,0 +1,35 @@
+To solve the original query, we need to evaluate the expression:
+
+\[
+\frac{7 + 21}{14 + 42}
+\]
+
+We have already calculated the numerator and denominator in the previous subtasks:
+
+1. **Numerator**: 
+   \[
+   7 + 21 = 28
+   \]
+
+2. **Denominator**: 
+   \[
+   14 + 42 = 56
+   \]
+
+Now, we can substitute these results into the fraction:
+
+\[
+\frac{28}{56}
+\]
+
+Next, we simplify the fraction. Both the numerator and the denominator can be divided by their greatest common divisor, which is 28:
+
+\[
+\frac{28 \div 28}{56 \div 28} = \frac{1}{2}
+\]
+
+Thus, the value of the expression \(\frac{7 + 21}{14 + 42}\) is 
+
+\[
+\boxed{\frac{1}{2}}.
+\]

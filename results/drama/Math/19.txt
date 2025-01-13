@@ -1,0 +1,63 @@
+To convert the point \((1, -1, -6)\) from rectangular coordinates to cylindrical coordinates, we will use the results obtained from the previous calculations.
+
+### Step 1: Calculate \(r\)
+
+Using the formula for radial distance:
+
+\[
+r = \sqrt{x^2 + y^2}
+\]
+
+Substituting \(x = 1\) and \(y = -1\):
+
+\[
+r = \sqrt{(1)^2 + (-1)^2} = \sqrt{1 + 1} = \sqrt{2}
+\]
+
+### Step 2: Calculate \(\theta\)
+
+Using the formula for the angle:
+
+\[
+\theta = \text{atan2}(y, x)
+\]
+
+Substituting \(y = -1\) and \(x = 1\):
+
+\[
+\theta = \text{atan2}(-1, 1)
+\]
+
+Since the point \((1, -1)\) is in the fourth quadrant, we find:
+
+\[
+\theta = -\frac{\pi}{4}
+\]
+
+To express \(\theta\) in the range \(0 \leq \theta < 2\pi\), we can add \(2\pi\):
+
+\[
+\theta = -\frac{\pi}{4} + 2\pi = \frac{7\pi}{4}
+\]
+
+### Step 3: Identify \(z\)
+
+The \(z\)-coordinate remains the same in cylindrical coordinates:
+
+\[
+z = -6
+\]
+
+### Final Result
+
+Combining all the results, we express the point in cylindrical coordinates as:
+
+\[
+(r, \theta, z) = \left(\sqrt{2}, \frac{7\pi}{4}, -6\right)
+\]
+
+Thus, the point \((1, -1, -6)\) in rectangular coordinates is represented in cylindrical coordinates as:
+
+\[
+\boxed{\left(\sqrt{2}, \frac{7\pi}{4}, -6\right)}
+\]

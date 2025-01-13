@@ -1,0 +1,109 @@
+To find the common root of the polynomials \( P(x) = x^2 - 7x + b \) and \( Q(x) = x^2 + 2x - 2b \), we will follow these steps:
+
+### Step 1: Set the Polynomials Equal to Each Other
+
+Since both polynomials have a common root, we can set them equal to each other:
+
+\[
+x^2 - 7x + b = x^2 + 2x - 2b
+\]
+
+### Step 2: Simplify the Equation
+
+Subtract \( x^2 \) from both sides:
+
+\[
+-7x + b = 2x - 2b
+\]
+
+Rearranging gives:
+
+\[
+b + 2b = 2x + 7x
+\]
+
+This simplifies to:
+
+\[
+3b = 9x
+\]
+
+### Step 3: Solve for \( b \)
+
+From the equation \( 3b = 9x \), we can express \( b \) in terms of \( x \):
+
+\[
+b = 3x
+\]
+
+### Step 4: Substitute \( b \) Back into One of the Polynomials
+
+Now, we substitute \( b = 3x \) back into one of the original polynomial equations. Let's use \( P(x) \):
+
+\[
+P(x) = x^2 - 7x + 3x = x^2 - 4x
+\]
+
+### Step 5: Factor the Polynomial
+
+Factoring \( P(x) \):
+
+\[
+P(x) = x(x - 4)
+\]
+
+### Step 6: Find the Roots of \( P(x) \)
+
+Setting \( P(x) = 0 \):
+
+\[
+x(x - 4) = 0
+\]
+
+This gives us the roots:
+
+\[
+x = 0 \quad \text{or} \quad x = 4
+\]
+
+### Step 7: Find Corresponding Values of \( b \)
+
+Now, we can find the corresponding values of \( b \) for each root:
+
+1. For \( x = 0 \):
+   \[
+   b = 3(0) = 0
+   \]
+
+2. For \( x = 4 \):
+   \[
+   b = 3(4) = 12
+   \]
+
+### Step 8: Verify the Common Roots
+
+Now we need to verify that these values of \( b \) yield a common root in both polynomials.
+
+**For \( b = 0 \)**:
+
+- \( P(x) = x^2 - 7x + 0 = x(x - 7) \) (roots: \( 0, 7 \))
+- \( Q(x) = x^2 + 2x - 0 = x(x + 2) \) (roots: \( 0, -2 \))
+
+Common root: \( 0 \)
+
+**For \( b = 12 \)**:
+
+- \( P(x) = x^2 - 7x + 12 = (x - 3)(x - 4) \) (roots: \( 3, 4 \))
+- \( Q(x) = x^2 + 2x - 24 = (x - 4)(x + 6) \) (roots: \( 4, -6 \))
+
+Common root: \( 4 \)
+
+### Final Result
+
+The possible values of the common root for the polynomials \( x^2 - 7x + b = 0 \) and \( x^2 + 2x - 2b = 0 \) are:
+
+\[
+\boxed{0, 4}
+\] 
+
+This comprehensive solution addresses all aspects of the problem, providing the values of the common root clearly and accurately.

@@ -1,0 +1,50 @@
+To determine the type of curve defined by the equation 
+
+\[
+r^2 \cos 2\theta = 4,
+\]
+
+we first converted the polar equation into Cartesian coordinates. 
+
+### Step 1: Conversion to Cartesian Coordinates
+
+Using the relationships between polar and Cartesian coordinates:
+
+1. \( r^2 = x^2 + y^2 \)
+2. \( \cos 2\theta = \frac{x^2 - y^2}{r^2} \)
+
+We substitute these into the original equation:
+
+\[
+r^2 \cos 2\theta = 4 \implies r^2 \left( \frac{x^2 - y^2}{r^2} \right) = 4.
+\]
+
+This simplifies to:
+
+\[
+x^2 - y^2 = 4.
+\]
+
+### Step 2: Identify the Type of Curve
+
+The equation \( x^2 - y^2 = 4 \) can be recognized as the standard form of a hyperbola. Specifically, it can be rewritten as:
+
+\[
+\frac{x^2}{4} - \frac{y^2}{4} = 1,
+\]
+
+which matches the standard form of a hyperbola:
+
+\[
+\frac{(x - h)^2}{a^2} - \frac{(y - k)^2}{b^2} = 1.
+\]
+
+### Conclusion
+
+Based on the analysis, the equation \( r^2 \cos 2\theta = 4 \) represents a hyperbola.
+
+### Final Answer
+
+The correct option is:
+
+**(E) Hyperbola**

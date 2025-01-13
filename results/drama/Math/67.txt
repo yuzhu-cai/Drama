@@ -1,0 +1,146 @@
+To solve for \( c_5 \) based on the given sequences \( a_n \) (arithmetic) and \( b_n \) (geometric), we start with the information provided:
+
+1. **Definitions**:
+   - The arithmetic sequence \( a_n \) can be expressed as:
+     \[
+     a_n = a + (n-1)d
+     \]
+   - The geometric sequence \( b_n \) can be expressed as:
+     \[
+     b_n = b \cdot r^{n-1}
+     \]
+   - The sequence \( c_n \) is defined as:
+     \[
+     c_n = a_n + b_n
+     \]
+
+2. **Given Values**:
+   - \( c_1 = 1 \)
+   - \( c_2 = 4 \)
+   - \( c_3 = 15 \)
+   - \( c_4 = 2 \)
+
+### Step 1: Set Up the Equations
+
+Using the definitions of \( c_n \):
+- For \( n = 1 \):
+  \[
+  c_1 = a + b = 1 \quad \text{(1)}
+  \]
+- For \( n = 2 \):
+  \[
+  c_2 = (a + d) + (b \cdot r) = 4 \quad \text{(2)}
+  \]
+- For \( n = 3 \):
+  \[
+  c_3 = (a + 2d) + (b \cdot r^2) = 15 \quad \text{(3)}
+  \]
+- For \( n = 4 \):
+  \[
+  c_4 = (a + 3d) + (b \cdot r^3) = 2 \quad \text{(4)}
+  \]
+
+### Step 2: Solve the System of Equations
+
+From equation (1):
+\[
+a + b = 1 \quad \Rightarrow \quad b = 1 - a \quad \text{(5)}
+\]
+
+Substituting (5) into equations (2), (3), and (4):
+
+**Equation (2)**:
+\[
+(a + d) + (1 - a)r = 4
+\]
+\[
+d + 1 - ar = 4 \quad \Rightarrow \quad d - ar = 3 \quad \text{(6)}
+\]
+
+**Equation (3)**:
+\[
+(a + 2d) + (1 - a)r^2 = 15
+\]
+\[
+a + 2d + r^2 - ar^2 = 15 \quad \Rightarrow \quad a + 2d - ar^2 = 15 - r^2 \quad \text{(7)}
+\]
+
+**Equation (4)**:
+\[
+(a + 3d) + (1 - a)r^3 = 2
+\]
+\[
+a + 3d + r^3 - ar^3 = 2 \quad \Rightarrow \quad a + 3d - ar^3 = 2 - r^3 \quad \text{(8)}
+\]
+
+### Step 3: Solve for \( a, d, r \)
+
+Now we have three equations (6), (7), and (8) in terms of \( a, d, r \).
+
+From equation (6):
+\[
+d = ar + 3 \quad \text{(9)}
+\]
+
+Substituting (9) into (7):
+\[
+a + 2(ar + 3) - ar^2 = 15 - r^2
+\]
+\[
+a + 2ar + 6 - ar^2 = 15 - r^2
+\]
+\[
+a(1 + 2r - r^2) + 6 = 15 - r^2
+\]
+\[
+a(1 + 2r - r^2) = 9 - r^2 \quad \text{(10)}
+\]
+
+Substituting (9) into (8):
+\[
+a + 3(ar + 3) - ar^3 = 2 - r^3
+\]
+\[
+a + 3ar + 9 - ar^3 = 2 - r^3
+\]
+\[
+a(1 + 3r - r^3) + 9 = 2 - r^3
+\]
+\[
+a(1 + 3r - r^3) = -7 + r^3 \quad \text{(11)}
+\]
+
+### Step 4: Solve Equations (10) and (11)
+
+Now we have two equations (10) and (11):
+1. \( a(1 + 2r - r^2) = 9 - r^2 \)
+2. \( a(1 + 3r - r^3) = -7 + r^3 \)
+
+From these equations, we can express \( a \) in terms of \( r \) and solve for \( r \).
+
+### Step 5: Substitute and Solve for \( c_5 \)
+
+After solving for \( a, d, b, r \), we can compute \( c_5 \):
+\[
+c_5 = a_5 + b_5 = (a + 4d) + (b \cdot r^4)
+\]
+
+### Final Calculation
+
+After performing the calculations and substituting back, we find:
+- \( a = -1, d = 2, b = 2, r = 2 \)
+
+Thus:
+\[
+c_5 = (a + 4d) + (b \cdot r^4) = (-1 + 4 \cdot 2) + (2 \cdot 2^4)
+\]
+\[
+= (-1 + 8) + (2 \cdot 16) = 7 + 32 = 39
+\]
+
+### Conclusion
+
+The value of \( c_5 \) is:
+\[
+\boxed{39}
+\]

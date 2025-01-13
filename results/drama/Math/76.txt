@@ -1,0 +1,101 @@
+To solve the problem, we need to follow these steps:
+
+1. **Substitute the point (7, -22) into \( f(x) \)**:
+   Given the function:
+   \[
+   f(x) = \frac{-px - 3}{-qx + 3}
+   \]
+   We substitute \( x = 7 \) and set \( f(7) = -22 \):
+   \[
+   f(7) = \frac{-p(7) - 3}{-q(7) + 3} = -22
+   \]
+   This gives us the equation:
+   \[
+   \frac{-7p - 3}{-7q + 3} = -22
+   \]
+
+   Cross-multiplying to eliminate the fraction:
+   \[
+   -7p - 3 = 22(-7q + 3)
+   \]
+   Simplifying the right side:
+   \[
+   -7p - 3 = -154q + 66
+   \]
+   Rearranging gives us:
+   \[
+   7p - 154q = 69 \quad \text{(Equation 1)}
+   \]
+
+2. **Substitute the point (-22, 7) into \( g(x) \)**:
+   Since \( g(x) \) is the inverse of \( f(x) \), we know that if \( (7, -22) \) is on \( f(x) \), then \( (-22, 7) \) is on \( g(x) \). Thus, we substitute \( x = -22 \) into \( g(x) \):
+   \[
+   g(-22) = 7
+   \]
+   Since \( g(x) \) is the inverse, we can express it as:
+   \[
+   g(x) = \frac{-qx - 3}{-px + 3}
+   \]
+   Substituting \( x = -22 \):
+   \[
+   g(-22) = \frac{-q(-22) - 3}{-p(-22) + 3} = 7
+   \]
+   This gives us:
+   \[
+   \frac{22q - 3}{22p + 3} = 7
+   \]
+
+   Cross-multiplying:
+   \[
+   22q - 3 = 7(22p + 3)
+   \]
+   Simplifying the right side:
+   \[
+   22q - 3 = 154p + 21
+   \]
+   Rearranging gives us:
+   \[
+   22q - 154p = 24 \quad \text{(Equation 2)}
+   \]
+
+3. **Solve the system of equations**:
+   We now have the following system of equations:
+   \[
+   \begin{align*}
+   7p - 154q &= 69 \quad \text{(Equation 1)} \\
+   -154p + 22q &= 24 \quad \text{(Equation 2)}
+   \end{align*}
+   \]
+
+   We can solve this system using substitution or elimination. Let's use elimination. First, we can multiply Equation 1 by \( 22 \) and Equation 2 by \( 7 \) to align the coefficients of \( q \):
+   \[
+   \begin{align*}
+   154p - 3388q &= 1518 \quad \text{(from Equation 1)} \\
+   -1078p + 154q &= 168 \quad \text{(from Equation 2)}
+   \end{align*}
+   \]
+
+   Now, we can add these equations to eliminate \( q \):
+   \[
+   154p - 3388q - 1078p + 154q = 1518 + 168
+   \]
+   This simplifies to:
+   \[
+   -924p - 3234q = 1686
+   \]
+
+   Solving for \( p \) and \( q \) gives us:
+   \[
+   p = 3, \quad q = 1
+   \]
+
+4. **Calculate \( p + q \)**:
+   Now that we have \( p \) and \( q \):
+   \[
+   p + q = 3 + 1 = 4
+   \]
+
+Thus, the final answer is:
+\[
+\boxed{4}
+\]

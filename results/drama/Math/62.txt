@@ -1,0 +1,45 @@
+To determine the maximum degree of a polynomial of the form 
+
+\[
+P(x) = \sum_{i=0}^n a_i x^{n-i}
+\]
+
+where \( a_i = \pm 1 \) for \( 0 \leq i \leq n \) and \( n \geq 1 \), such that all the zeros are real, we need to analyze the properties of such polynomials.
+
+### Key Points to Consider:
+
+1. **Form of the Polynomial**:
+   - The polynomial can be expressed as:
+   \[
+   P(x) = a_n x^n + a_{n-1} x^{n-1} + a_{n-2} x^{n-2} + \ldots + a_1 x + a_0
+   \]
+   where each coefficient \( a_i \) is either \( +1 \) or \( -1 \).
+
+2. **Degree and Roots**:
+   - The degree \( n \) of the polynomial indicates that it can have up to \( n \) real roots. However, the actual number of real roots depends on the specific choice of coefficients \( a_i \).
+
+3. **Known Results**:
+   - From the Fundamental Theorem of Algebra, we know that a polynomial of degree \( n \) can have at most \( n \) real roots, but it can also have complex roots.
+   - Descartes' Rule of Signs and Sturm's Theorem can help analyze the number of real roots based on the coefficients.
+
+4. **Specific Cases**:
+   - For small values of \( n \):
+     - **Degree 1**: \( P(x) = a_1 x + a_0 \) (always has 1 real root).
+     - **Degree 2**: \( P(x) = a_2 x^2 + a_1 x + a_0 \) (real roots if the discriminant \( D = b^2 - 4ac \geq 0 \)).
+     - **Degree 3**: A cubic polynomial can have either 1 or 3 real roots.
+     - **Degree 4**: A quartic polynomial can have 0, 2, or 4 real roots.
+
+5. **Maximal Degree with All Real Roots**:
+   - The polynomial must be constructed such that it maintains the possibility of having all real roots. For example, the polynomial \( P(x) = x^n - 1 \) has all real roots for \( n \) even, and \( P(x) = x^3 - 3x + 2 \) has all real roots for \( n = 3 \).
+   - However, polynomials with alternating coefficients (e.g., \( P(x) = x^4 - x^3 + x^2 - x + 1 \)) can lead to complex roots.
+
+### Conclusion:
+
+The maximum degree \( n \) of a polynomial of the form \( P(x) = \sum_{i=0}^n a_i x^{n-i} \) with \( a_i = \pm 1 \) such that all the zeros are real is not fixed and depends on the specific arrangement of the coefficients \( a_i \). 
+
+However, through empirical examples and known results, we can conclude that:
+
+- **For polynomials of degree \( n \) with all coefficients \( a_i = \pm 1 \)**, there exist configurations that yield all real roots, particularly when \( n \) is small (like 1, 2, or certain configurations for higher degrees).
+- **The maximum degree for which we can guarantee all real roots is generally limited to specific cases**. For example, it is known that certain quartic polynomials can have all real roots, but as \( n \) increases, the likelihood of having all real roots decreases due to the potential for complex roots.
+
+In practice, the maximum degree \( n \) for which a polynomial of this form can have all real roots can be empirically determined but is not universally fixed and requires specific configurations of the coefficients. Thus, while polynomials can be constructed with all real roots for various degrees, the exact maximum degree depends on the specific arrangement of \( a_i \).

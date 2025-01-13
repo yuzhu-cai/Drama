@@ -1,0 +1,36 @@
+To compute \( e^{\pi i} \), we can utilize Euler's formula, which is a fundamental equation in complex analysis. Euler's formula states:
+
+\[
+e^{ix} = \cos(x) + i\sin(x)
+\]
+
+where \( i \) is the imaginary unit and \( x \) is a real number. For our specific case, we will substitute \( x = \pi \):
+
+\[
+e^{\pi i} = \cos(\pi) + i\sin(\pi)
+\]
+
+Next, we need to evaluate the trigonometric functions \( \cos(\pi) \) and \( \sin(\pi) \):
+
+- The value of \( \cos(\pi) \) is \( -1 \).
+- The value of \( \sin(\pi) \) is \( 0 \).
+
+Substituting these values back into the equation gives:
+
+\[
+e^{\pi i} = -1 + i \cdot 0
+\]
+
+This simplifies to:
+
+\[
+e^{\pi i} = -1
+\]
+
+Thus, the comprehensive solution to the original query is:
+
+\[
+\boxed{-1}
+\]
+
+This result is significant in mathematics, as it is a special case of Euler's identity, which states that \( e^{i\pi} + 1 = 0 \).

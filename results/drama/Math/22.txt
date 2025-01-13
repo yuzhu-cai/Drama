@@ -1,0 +1,51 @@
+To determine the probability that all four coins (a penny, a nickel, a dime, and a quarter) come up heads when flipped simultaneously, we can follow these steps:
+
+### Step 1: Determine the Total Number of Possible Outcomes
+
+When flipping a coin, there are 2 possible outcomes: heads (H) or tails (T). Since we are flipping four coins, the total number of possible outcomes can be calculated using the formula:
+
+\[
+\text{Total outcomes} = 2^{\text{number of coins}} = 2^4
+\]
+
+Calculating this gives:
+
+\[
+2^4 = 16
+\]
+
+So, there are **16 possible outcomes** when flipping four coins.
+
+### Step 2: Determine the Number of Favorable Outcomes
+
+Next, we need to find the number of favorable outcomes where all coins come up heads. There is only one way for all four coins to show heads, which is the outcome \( HHHH \).
+
+Thus, the number of favorable outcomes is:
+
+\[
+\text{Favorable outcomes} = 1
+\]
+
+### Step 3: Calculate the Probability
+
+Now, we can calculate the probability of the event where all coins come up heads using the formula:
+
+\[
+P(E) = \frac{\text{Number of favorable outcomes}}{\text{Total number of possible outcomes}}
+\]
+
+Substituting the values we found:
+
+\[
+P(\text{all heads}) = \frac{1 \text{ (favorable outcome)}}{16 \text{ (total outcomes)}} = \frac{1}{16}
+\]
+
+### Conclusion
+
+The probability that all four coins (a penny, a nickel, a dime, and a quarter) come up heads when flipped simultaneously is:
+
+\[
+\boxed{\frac{1}{16}}
+\] 
+
+This solution clearly outlines the steps taken to arrive at the answer, ensuring that all aspects of the problem are addressed accurately.

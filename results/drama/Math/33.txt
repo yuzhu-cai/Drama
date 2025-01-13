@@ -1,0 +1,57 @@
+To find the sum of all the digits used to write the whole numbers from 1 to 110, we can break down the task into manageable parts. We will analyze the numbers in groups based on their digit counts and then sum the digits accordingly.
+
+### Step 1: Analyze the Range
+
+1. **Single-digit numbers (1 to 9)**:
+   - The numbers are: 1, 2, 3, 4, 5, 6, 7, 8, 9.
+   - The sum of these digits is:
+     \[
+     1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 = 45.
+     \]
+
+2. **Two-digit numbers (10 to 99)**:
+   - For the tens place (10 to 99), the tens digits are 1 through 9, each appearing 10 times:
+     - 1 appears in 10-19 (10 times)
+     - 2 appears in 20-29 (10 times)
+     - ...
+     - 9 appears in 90-99 (10 times)
+   - The sum of the tens digits is:
+     \[
+     (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9) \times 10 = 45 \times 10 = 450.
+     \]
+   - For the units place, each digit from 0 to 9 appears 9 times (for each complete set of ten):
+     - 0 appears in 10, 20, ..., 90 (9 times)
+     - 1 appears in 11, 21, ..., 91 (9 times)
+     - ...
+     - 9 appears in 19, 29, ..., 99 (9 times)
+   - The sum of the units digits is:
+     \[
+     (0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9) \times 9 = 45 \times 9 = 405.
+     \]
+
+3. **Three-digit number (100)**:
+   - The number 100 has the digits 1, 0, and 0.
+   - The sum of the digits is:
+     \[
+     1 + 0 + 0 = 1.
+     \]
+
+### Step 2: Combine the Results
+
+Now, we can sum all the contributions from each range:
+
+- Sum from single-digit numbers: \( 45 \)
+- Sum from two-digit numbers (tens + units): \( 450 + 405 = 855 \)
+- Sum from the number 100: \( 1 \)
+
+### Final Calculation
+
+Now, we sum all these results together:
+
+\[
+45 + 855 + 1 = 901.
+\]
+
+### Conclusion
+
+The sum of all the digits used to write the whole numbers from 1 to 110 is \( \boxed{901} \).

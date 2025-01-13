@@ -1,0 +1,52 @@
+To find the sum of the quotient and remainder when dividing the polynomial \( 6x^3 + 9x^2 - 17x + 11 \) by \( 2x^2 + 5x - 1 \), we first need to perform the polynomial long division, which we have already done in a previous step.
+
+### Step 1: Polynomial Long Division
+
+1. **Divide the leading terms**:
+   - Divide \( 6x^3 \) by \( 2x^2 \) to get \( 3x \).
+
+2. **Multiply and subtract**:
+   - Multiply \( 3x \) by \( 2x^2 + 5x - 1 \):
+     \[
+     3x(2x^2 + 5x - 1) = 6x^3 + 15x^2 - 3x
+     \]
+   - Subtract this from the original polynomial:
+     \[
+     (6x^3 + 9x^2 - 17x + 11) - (6x^3 + 15x^2 - 3x) = -6x^2 - 14x + 11
+     \]
+
+3. **Repeat the process**:
+   - Divide \( -6x^2 \) by \( 2x^2 \) to get \( -3 \).
+   - Multiply \( -3 \) by \( 2x^2 + 5x - 1 \):
+     \[
+     -3(2x^2 + 5x - 1) = -6x^2 - 15x + 3
+     \]
+   - Subtract this from the current polynomial:
+     \[
+     (-6x^2 - 14x + 11) - (-6x^2 - 15x + 3) = x + 8
+     \]
+
+### Step 2: Identify the Quotient and Remainder
+
+From the division, we have:
+- **Quotient**: \( 3x - 3 \)
+- **Remainder**: \( x + 8 \)
+
+### Step 3: Calculate the Sum of the Quotient and Remainder
+
+Now, we need to find the sum of the quotient and the remainder:
+\[
+\text{Sum} = (3x - 3) + (x + 8)
+\]
+
+Combining like terms:
+\[
+\text{Sum} = 3x - 3 + x + 8 = 4x + 5
+\]
+
+### Final Result
+
+Thus, the sum of the quotient and the remainder when dividing \( 6x^3 + 9x^2 - 17x + 11 \) by \( 2x^2 + 5x - 1 \) is:
+\[
+\boxed{4x + 5}
+\]

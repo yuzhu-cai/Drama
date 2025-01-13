@@ -52,7 +52,6 @@ class OpenAILLM:
             {"role": "system", "content": self.system_prompt},
         ]
         message.extend(messages)
-        breakpoint()
         completion = self.client.chat.completions.create(
             model=model,
             messages=message,

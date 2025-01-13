@@ -1,0 +1,27 @@
+The original query was to add 313.9 to 12.6 and express the result as a decimal. 
+
+Here’s the step-by-step breakdown of the addition:
+
+1. **Align the numbers by their decimal points**:
+   ```
+     313.9
+   +  12.6
+   ```
+
+2. **Add the numbers column by column**:
+   - **Tenths place**: \(9 + 6 = 15\). Write down 5 and carry over 1.
+   - **Units place**: \(3 + 2 + 1 \text{ (carry)} = 6\).
+   - **Tens place**: \(1 + 1 = 2\).
+   - **Hundreds place**: \(3 + 0 = 3\).
+
+3. **Combine the results**:
+   ```
+     313.9
+   +  12.6
+   ---------
+     326.5
+   ```
+
+The final result of adding 313.9 and 12.6 is **326.5**.
+
+Thus, expressed as a decimal, the answer is **326.5**.

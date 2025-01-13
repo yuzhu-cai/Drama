@@ -1,0 +1,20 @@
+To determine the value of \( y \) based on the provided diagram and the relationships between angles, we can analyze the situation as follows:
+
+1. **Understanding the Diagram**: The diagram depicts a right angle formed by two lines, with an arc indicating a rotation. The angle \( y \) is positioned in the third quadrant, suggesting that it is measured from the positive x-axis in a counterclockwise direction.
+
+2. **Identifying the Angle Relationships**: 
+   - The right angle formed at the origin (0 degrees) is \( 90^\circ \).
+   - The angle \( y \) is measured in the counterclockwise direction from the positive x-axis, which means it is related to the full rotation of \( 360^\circ \).
+
+3. **Calculating the Value of \( y \)**:
+   - Since \( y \) is in the third quadrant, we can express it as:
+     \[
+     y = 360^\circ - 90^\circ = 270^\circ
+     \]
+
+4. **Conclusion**: Therefore, the value of \( y \) is:
+   \[
+   \boxed{270^\circ}
+   \]
+
+This solution synthesizes the relationships and principles relevant to the angle \( y \) in the context of the diagram, confirming that \( y \) measures \( 270^\circ \).

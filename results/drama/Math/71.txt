@@ -1,0 +1,86 @@
+To find the remainder when dividing \( 6y^3 + 5y^2 - 16y + 8 \) by \( 2y + 3 \), we can use the polynomial long division we previously performed, and we will also incorporate the information given about the quotient.
+
+### Step 1: Recall the Division Algorithm
+
+The division algorithm states that for any polynomial \( f(y) \) (the dividend) and \( g(y) \) (the divisor), we can express the relationship as:
+
+\[
+f(y) = g(y) \cdot q(y) + r(y)
+\]
+
+where:
+- \( f(y) = 6y^3 + 5y^2 - 16y + 8 \)
+- \( g(y) = 2y + 3 \)
+- \( q(y) = 3y^2 + cy + \frac{5}{2}c \) (the quotient)
+- \( r(y) \) is the remainder, which we need to find.
+
+### Step 2: Substitute into the Division Algorithm
+
+Substituting the known values into the division algorithm, we have:
+
+\[
+6y^3 + 5y^2 - 16y + 8 = (2y + 3)(3y^2 + cy + \frac{5}{2}c) + r(y)
+\]
+
+### Step 3: Calculate \( (2y + 3)(3y^2 + cy + \frac{5}{2}c) \)
+
+We will first expand the product \( (2y + 3)(3y^2 + cy + \frac{5}{2}c) \):
+
+\[
+(2y + 3)(3y^2) = 6y^3 + 9y^2
+\]
+\[
+(2y + 3)(cy) = 2cy^2 + 3cy
+\]
+\[
+(2y + 3)\left(\frac{5}{2}c\right) = 5cy + \frac{15}{2}c
+\]
+
+Now, combine these results:
+
+\[
+(2y + 3)(3y^2 + cy + \frac{5}{2}c) = 6y^3 + (9 + 2c)y^2 + (3c + 5c)y + \frac{15}{2}c
+\]
+
+This simplifies to:
+
+\[
+6y^3 + (9 + 2c)y^2 + (8c)y + \frac{15}{2}c
+\]
+
+### Step 4: Set Up the Equation
+
+Now we can set up the equation:
+
+\[
+6y^3 + 5y^2 - 16y + 8 = 6y^3 + (9 + 2c)y^2 + (8c)y + \frac{15}{2}c + r(y)
+\]
+
+### Step 5: Compare Coefficients
+
+Since the left-hand side and right-hand side must be equal for all coefficients, we can compare coefficients for \( y^2 \), \( y \), and the constant term.
+
+1. **For \( y^2 \)**:
+   \[
+   5 = 9 + 2c \implies 2c = 5 - 9 \implies 2c = -4 \implies c = -2
+   \]
+
+2. **For \( y \)**:
+   \[
+   -16 = 8c \implies -16 = 8(-2) \implies -16 = -16 \quad \text{(This is consistent)}
+   \]
+
+3. **For the constant term**:
+   \[
+   8 = \frac{15}{2}c + r \implies 8 = \frac{15}{2}(-2) + r \implies 8 = -15 + r \implies r = 8 + 15 = 23
+   \]
+
+### Conclusion
+
+Thus, the remainder when \( 6y^3 + 5y^2 - 16y + 8 \) is divided by \( 2y + 3 \) is:
+
+\[
+\text{Remainder: } 23
+\]
+
+In summary, when \( 6y^3 + 5y^2 - 16y + 8 \) is divided by \( 2y + 3 \), the quotient is \( 3y^2 - 2y - 5 \) and the remainder is \( 23 \).

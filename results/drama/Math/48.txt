@@ -1,0 +1,63 @@
+To evaluate \(\sqrt{5 \cdot 10 \cdot 14 \cdot 21 \cdot 15 \cdot 20}\), we will follow these steps:
+
+1. **Calculate the product** of the numbers \(5\), \(10\), \(14\), \(21\), \(15\), and \(20\).
+2. **Take the square root** of the resulting product.
+
+### Step 1: Calculate the Product
+
+We already calculated the product in the previous task:
+
+\[
+5 \cdot 10 = 50
+\]
+\[
+50 \cdot 14 = 700
+\]
+\[
+700 \cdot 21 = 14700
+\]
+\[
+14700 \cdot 15 = 220500
+\]
+\[
+220500 \cdot 20 = 4410000
+\]
+
+Thus, the product of the numbers is:
+
+\[
+P = 5 \cdot 10 \cdot 14 \cdot 21 \cdot 15 \cdot 20 = 4410000
+\]
+
+### Step 2: Take the Square Root
+
+Now, we will take the square root of the product:
+
+\[
+\sqrt{4410000}
+\]
+
+To simplify this calculation, we can factor \(4410000\) into its prime factors or use a calculator. However, we can also break it down as follows:
+
+\[
+4410000 = 441 \times 10000
+\]
+
+Calculating the square roots separately:
+
+1. \(\sqrt{441} = 21\) (since \(21^2 = 441\))
+2. \(\sqrt{10000} = 100\) (since \(100^2 = 10000\))
+
+Now, we multiply these results:
+
+\[
+\sqrt{4410000} = \sqrt{441} \cdot \sqrt{10000} = 21 \cdot 100 = 2100
+\]
+
+### Final Result
+
+Thus, the final answer is:
+
+\[
+\sqrt{5 \cdot 10 \cdot 14 \cdot 21 \cdot 15 \cdot 20} = \boxed{2100}
+\]

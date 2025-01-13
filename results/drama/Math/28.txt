@@ -1,0 +1,43 @@
+To find the height \( h \) of triangle \( PQR \) given its area and base, we can use the formula for the area of a triangle:
+
+\[
+A = \frac{1}{2} \times \text{base} \times \text{height}
+\]
+
+### Given:
+- Area \( A = 27 \, \text{cm}^2 \)
+- Base \( b = 6 \, \text{cm} \)
+
+### Step-by-Step Solution:
+
+1. **Substitute the known values into the area formula:**
+
+   \[
+   27 = \frac{1}{2} \times 6 \times h
+   \]
+
+2. **Simplify the equation:**
+
+   First, calculate \( \frac{1}{2} \times 6 \):
+
+   \[
+   27 = 3h
+   \]
+
+3. **Isolate \( h \):**
+
+   Divide both sides by 3:
+
+   \[
+   h = \frac{27}{3}
+   \]
+
+4. **Calculate the value of \( h \):**
+
+   \[
+   h = 9 \, \text{cm}
+   \]
+
+### Conclusion:
+
+The height \( h \) of triangle \( PQR \) is \( 9 \, \text{cm} \). This solution accurately uses the area formula and provides a clear step-by-step calculation to arrive at the final answer.

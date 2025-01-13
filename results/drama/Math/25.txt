@@ -1,0 +1,63 @@
+To find the largest possible number of cupcakes that had none of the specified ingredients, we will first summarize the information provided and then apply the principle of inclusion-exclusion.
+
+### Step 1: Determine the Total Number of Cupcakes
+
+Ellen baked \( 2 \) dozen cupcakes, which is:
+\[
+T = 2 \times 12 = 24 \text{ cupcakes}
+\]
+
+### Step 2: Define the Sets
+
+Let:
+- \( A \): the set of cupcakes containing chocolate
+- \( B \): the set of cupcakes containing raisins
+- \( C \): the set of cupcakes containing chocolate chips
+- \( D \): the set of cupcakes containing nuts
+
+From the information given:
+- Half contained chocolate: 
+  \[
+  |A| = \frac{1}{2} \times 24 = 12
+  \]
+- Two-thirds contained raisins: 
+  \[
+  |B| = \frac{2}{3} \times 24 = 16
+  \]
+- One-fourth contained chocolate chips: 
+  \[
+  |C| = \frac{1}{4} \times 24 = 6
+  \]
+- One-sixth contained nuts: 
+  \[
+  |D| = \frac{1}{6} \times 24 = 4
+  \]
+
+### Step 3: Apply the Principle of Inclusion-Exclusion
+
+To find the number of cupcakes that contained at least one of the ingredients, we need to calculate \( |A \cup B \cup C \cup D| \). However, we do not have the intersection values (e.g., cupcakes that contain multiple ingredients). To find the largest possible number of cupcakes that had none of these ingredients, we will assume the worst-case scenario where there is maximum overlap among the sets.
+
+### Step 4: Calculate the Maximum Overlap
+
+In the worst-case scenario, we can assume that all cupcakes that contain chocolate, raisins, chocolate chips, and nuts overlap as much as possible. Thus, we can take the maximum of the individual counts:
+
+\[
+N = \max(|A|, |B|, |C|, |D|) = \max(12, 16, 6, 4) = 16
+\]
+
+### Step 5: Calculate the Number of Cupcakes with No Ingredients
+
+Now, we can find the number of cupcakes that had none of these ingredients:
+
+\[
+\text{Cupcakes with no ingredients} = T - N = 24 - 16 = 8
+\]
+
+### Conclusion
+
+The largest possible number of cupcakes that had none of these ingredients is:
+\[
+\boxed{8}
+\] 
+
+This solution considers the maximum overlap of the ingredients, leading to the conclusion that 8 cupcakes could potentially contain none of the specified ingredients.

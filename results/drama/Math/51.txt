@@ -1,0 +1,37 @@
+To solve the problem of how many apples Betty and Cathy will have together when splitting 36 apples in the ratio of 2:3:3:4, we will follow these steps:
+
+### Step 1: Determine the Total Parts of the Ratio
+The ratio of apples for Amy, Betty, Cathy, and Daisy is given as 2:3:3:4. 
+
+Calculating the total parts:
+\[
+\text{Total parts} = 2 + 3 + 3 + 4 = 12
+\]
+
+### Step 2: Calculate the Value of One Part
+Now, we will find the value of one part by dividing the total number of apples by the total parts:
+\[
+\text{Value of one part} = \frac{\text{Total number of apples}}{\text{Total parts}} = \frac{36}{12} = 3
+\]
+
+### Step 3: Calculate the Number of Apples for Betty and Cathy
+Now we can calculate how many apples Betty and Cathy will receive based on their respective parts in the ratio.
+
+- **Betty's ratio part** is 3:
+\[
+\text{Betty's share} = 3 \times \text{Value of one part} = 3 \times 3 = 9
+\]
+
+- **Cathy's ratio part** is also 3:
+\[
+\text{Cathy's share} = 3 \times \text{Value of one part} = 3 \times 3 = 9
+\]
+
+### Step 4: Calculate the Total Apples for Betty and Cathy Together
+Now, we can find the total number of apples that Betty and Cathy have together:
+\[
+\text{Total for Betty and Cathy} = \text{Betty's share} + \text{Cathy's share} = 9 + 9 = 18
+\]
+
+### Conclusion
+Betty and Cathy will have a total of **18 apples** together.

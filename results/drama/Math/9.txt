@@ -1,0 +1,116 @@
+To simplify the expression 
+
+\[
+\cos \left( \frac{2 \pi}{15} \right) \cos \left( \frac{4 \pi}{15} \right) \cos \left( \frac{8 \pi}{15} \right) \cos \left( \frac{16 \pi}{15} \right),
+\]
+
+we can use the product-to-sum identities. 
+
+### Step 1: Simplify \(\cos \left( \frac{16 \pi}{15} \right)\)
+
+First, note that:
+
+\[
+\cos \left( \frac{16 \pi}{15} \right) = \cos \left( 2\pi - \frac{14 \pi}{15} \right) = \cos \left( -\frac{14 \pi}{15} \right) = \cos \left( \frac{14 \pi}{15} \right).
+\]
+
+### Step 2: Rewrite the Expression
+
+Now we can rewrite the original expression as:
+
+\[
+\cos \left( \frac{2 \pi}{15} \right) \cos \left( \frac{4 \pi}{15} \right) \cos \left( \frac{8 \pi}{15} \right) \cos \left( \frac{14 \pi}{15} \right).
+\]
+
+### Step 3: Pairing Cosines
+
+Next, we can pair the cosines:
+
+1. Pair \(\cos \left( \frac{2 \pi}{15} \right)\) with \(\cos \left( \frac{14 \pi}{15} \right)\).
+2. Pair \(\cos \left( \frac{4 \pi}{15} \right)\) with \(\cos \left( \frac{8 \pi}{15} \right)\).
+
+#### Pair 1: \(\cos \left( \frac{2 \pi}{15} \right) \cos \left( \frac{14 \pi}{15} \right)\)
+
+Using the product-to-sum identity:
+
+\[
+\cos A \cos B = \frac{1}{2} \left( \cos(A + B) + \cos(A - B) \right),
+\]
+
+we have:
+
+- Let \(A = \frac{2\pi}{15}\) and \(B = \frac{14\pi}{15}\).
+
+Calculating:
+
+\[
+A + B = \frac{2\pi}{15} + \frac{14\pi}{15} = \frac{16\pi}{15},
+\]
+\[
+A - B = \frac{2\pi}{15} - \frac{14\pi}{15} = -\frac{12\pi}{15} = -\frac{4\pi}{5}.
+\]
+
+Thus,
+
+\[
+\cos \left( \frac{2 \pi}{15} \right) \cos \left( \frac{14 \pi}{15} \right) = \frac{1}{2} \left( \cos \left( \frac{16 \pi}{15} \right) + \cos \left( -\frac{4 \pi}{5} \right) \right).
+\]
+
+Since \(\cos \left( -\frac{4 \pi}{5} \right) = \cos \left( \frac{4 \pi}{5} \right)\):
+
+\[
+= \frac{1}{2} \left( \cos \left( \frac{16 \pi}{15} \right) + \cos \left( \frac{4 \pi}{5} \right) \right).
+\]
+
+#### Pair 2: \(\cos \left( \frac{4 \pi}{15} \right) \cos \left( \frac{8 \pi}{15} \right)\)
+
+Using the same product-to-sum identity:
+
+- Let \(A = \frac{4\pi}{15}\) and \(B = \frac{8\pi}{15}\).
+
+Calculating:
+
+\[
+A + B = \frac{4\pi}{15} + \frac{8\pi}{15} = \frac{12\pi}{15} = \frac{4\pi}{5},
+\]
+\[
+A - B = \frac{4\pi}{15} - \frac{8\pi}{15} = -\frac{4\pi}{15}.
+\]
+
+Thus,
+
+\[
+\cos \left( \frac{4 \pi}{15} \right) \cos \left( \frac{8 \pi}{15} \right) = \frac{1}{2} \left( \cos \left( \frac{4 \pi}{5} \right) + \cos \left( -\frac{4 \pi}{15} \right) \right).
+\]
+
+Since \(\cos \left( -\frac{4 \pi}{15} \right) = \cos \left( \frac{4 \pi}{15} \right)\):
+
+\[
+= \frac{1}{2} \left( \cos \left( \frac{4 \pi}{5} \right) + \cos \left( \frac{4 \pi}{15} \right) \right).
+\]
+
+### Step 4: Combine Results
+
+Now we can combine the results from both pairs:
+
+1. From the first pair:
+   \[
+   \cos \left( \frac{2 \pi}{15} \right) \cos \left( \frac{14 \pi}{15} \right) = \frac{1}{2} \left( \cos \left( \frac{16 \pi}{15} \right) + \cos \left( \frac{4 \pi}{5} \right) \right).
+   \]
+
+2. From the second pair:
+   \[
+   \cos \left( \frac{4 \pi}{15} \right) \cos \left( \frac{8 \pi}{15} \right) = \frac{1}{2} \left( \cos \left( \frac{4 \pi}{5} \right) + \cos \left( \frac{4 \pi}{15} \right) \right).
+   \]
+
+### Final Result
+
+Combining all these results leads to a more complex expression. However, we can conclude that the product of the four cosines simplifies down to a manageable form, but it may not yield a simple numerical value without further specific evaluations or numerical approximations.
+
+Thus, the final result of the original expression is:
+
+\[
+\cos \left( \frac{2 \pi}{15} \right) \cos \left( \frac{4 \pi}{15} \right) \cos \left( \frac{8 \pi}{15} \right) \cos \left( \frac{16 \pi}{15} \right) = \frac{1}{4} \left( \cos \left( \frac{16 \pi}{15} \right) + 2 \cos \left( \frac{4 \pi}{5} \right) + \cos \left( \frac{4 \pi}{15} \right) \right).
+\]
+
+For a numerical approximation, you can evaluate the cosines at specific angles using a calculator.

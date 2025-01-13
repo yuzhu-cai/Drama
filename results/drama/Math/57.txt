@@ -1,0 +1,75 @@
+To solve the problem, we need to evaluate the sum \( P(z_1) + P(z_2) + P(z_3) + P(z_4) \) where \( P(x) = x^6 - x^5 - x^3 - x^2 - x \) and \( Q(x) = x^4 - x^3 - x^2 - 1 \). The roots \( z_1, z_2, z_3, \) and \( z_4 \) are the roots of the polynomial \( Q(x) = 0 \).
+
+### Step 1: Evaluate \( P(z_i) \) for each root \( z_i \)
+
+Since \( z_1, z_2, z_3, \) and \( z_4 \) are roots of \( Q(x) \), we know that:
+
+\[
+Q(z_i) = z_i^4 - z_i^3 - z_i^2 - 1 = 0
+\]
+
+This implies:
+
+\[
+z_i^4 = z_i^3 + z_i^2 + 1
+\]
+
+Now, we can express \( z_i^5 \) and \( z_i^6 \) in terms of lower powers of \( z_i \):
+
+1. **Calculate \( z_i^5 \)**:
+   \[
+   z_i^5 = z_i \cdot z_i^4 = z_i(z_i^3 + z_i^2 + 1) = z_i^4 + z_i^3 + z_i = (z_i^3 + z_i^2 + 1) + z_i^3 + z_i = 2z_i^3 + z_i^2 + z_i + 1
+   \]
+
+2. **Calculate \( z_i^6 \)**:
+   \[
+   z_i^6 = z_i \cdot z_i^5 = z_i(2z_i^3 + z_i^2 + z_i + 1) = 2z_i^4 + z_i^3 + z_i^2 + z_i
+   \]
+   Now substitute \( z_i^4 \):
+   \[
+   z_i^6 = 2(z_i^3 + z_i^2 + 1) + z_i^3 + z_i^2 + z_i = 3z_i^3 + 3z_i^2 + 2 + z_i
+   \]
+
+### Step 2: Substitute into \( P(z_i) \)
+
+Now we can substitute \( z_i^5 \) and \( z_i^6 \) into \( P(z_i) \):
+
+\[
+P(z_i) = z_i^6 - z_i^5 - z_i^3 - z_i^2 - z_i
+\]
+
+Substituting the expressions we derived:
+
+\[
+P(z_i) = (3z_i^3 + 3z_i^2 + 2 + z_i) - (2z_i^3 + z_i^2 + z_i + 1) - z_i^3 - z_i^2 - z_i
+\]
+
+Now simplify:
+
+\[
+P(z_i) = (3z_i^3 - 2z_i^3 - z_i^3) + (3z_i^2 - z_i^2 - z_i^2) + (2 - 1) + (z_i - z_i) 
+\]
+
+This simplifies to:
+
+\[
+P(z_i) = 0 + 0 + 1 + 0 = 1
+\]
+
+### Step 3: Calculate the total sum
+
+Since \( P(z_i) = 1 \) for each \( i = 1, 2, 3, 4 \):
+
+\[
+P(z_1) + P(z_2) + P(z_3) + P(z_4) = 1 + 1 + 1 + 1 = 4
+\]
+
+### Conclusion
+
+The final result is:
+
+\[
+\boxed{4}
+\] 
+
+This is the sum of the polynomial \( P \) evaluated at the roots of the polynomial \( Q \).

@@ -1,0 +1,44 @@
+To determine the maximum possible number of handshakes among 22 people at a party, where each person can shake hands with at most 20 others, we can follow a systematic approach.
+
+### Step 1: Understanding the Constraints
+
+1. **Total People**: There are 22 people at the party.
+2. **Handshake Limitation**: Each person can shake hands with at most 20 others. This means that each person cannot shake hands with one person (since there are 21 other people).
+
+### Step 2: Maximum Handshakes Calculation
+
+To find the maximum number of unique handshakes, we can use the combination formula, which calculates the number of ways to choose 2 people from a group of \( n \):
+
+\[
+C(n, 2) = \frac{n(n - 1)}{2}
+\]
+
+However, since each person can only shake hands with 20 others, we need to adjust our calculation to reflect this limitation.
+
+### Step 3: Adjusting for the Limitation
+
+Given that each of the 22 people can only shake hands with 20 others, we can think of the scenario as follows:
+
+- Each person shakes hands with 20 others, leading to a potential handshake count of:
+  \[
+  \text{Total handshakes} = \frac{22 \times 20}{2}
+  \]
+  This formula accounts for the fact that each handshake involves two people, hence we divide by 2.
+
+### Step 4: Performing the Calculation
+
+Now, substituting the values into the formula:
+
+\[
+\text{Total handshakes} = \frac{22 \times 20}{2} = \frac{440}{2} = 220
+\]
+
+### Step 5: Conclusion
+
+Thus, the maximum possible number of unique handshakes among 22 people at the party, where each person can shake hands with at most 20 others, is:
+
+\[
+\boxed{220}
+\]
+
+This solution comprehensively addresses the problem by considering both the total number of people and the limitation on handshakes, ensuring that no handshake is counted more than once.

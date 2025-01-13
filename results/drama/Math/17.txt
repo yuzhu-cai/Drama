@@ -1,0 +1,130 @@
+To solve the equation 
+
+\[
+\arctan \frac{1}{x} + \arctan \frac{1}{x + 2} = \arctan \frac{4}{x + 3},
+\]
+
+we can use the properties of the arctangent function to combine the left-hand side. 
+
+### Step 1: Combine the Left-Hand Side
+
+Using the formula for the sum of arctangents:
+
+\[
+\arctan(a) + \arctan(b) = \arctan\left(\frac{a + b}{1 - ab}\right) \quad \text{if } ab < 1,
+\]
+
+we set \( a = \frac{1}{x} \) and \( b = \frac{1}{x + 2} \).
+
+Calculating \( ab \):
+
+\[
+ab = \frac{1}{x} \cdot \frac{1}{x + 2} = \frac{1}{x(x + 2)}.
+\]
+
+For \( ab < 1 \), we need \( x(x + 2) > 1 \).
+
+Now, we can combine the arctangents:
+
+\[
+\arctan \frac{1}{x} + \arctan \frac{1}{x + 2} = \arctan\left(\frac{\frac{1}{x} + \frac{1}{x + 2}}{1 - \frac{1}{x(x + 2)}}\right).
+\]
+
+Calculating the numerator:
+
+\[
+\frac{1}{x} + \frac{1}{x + 2} = \frac{x + 2 + x}{x(x + 2)} = \frac{2x + 2}{x(x + 2)} = \frac{2(x + 1)}{x(x + 2)}.
+\]
+
+Calculating the denominator:
+
+\[
+1 - \frac{1}{x(x + 2)} = \frac{x(x + 2) - 1}{x(x + 2)} = \frac{x^2 + 2x - 1}{x(x + 2)}.
+\]
+
+Thus, we have:
+
+\[
+\arctan \frac{2(x + 1)}{x^2 + 2x - 1}.
+\]
+
+### Step 2: Set the Combined Expression Equal to the Right-Hand Side
+
+Now we equate this to the right-hand side:
+
+\[
+\arctan \frac{2(x + 1)}{x^2 + 2x - 1} = \arctan \frac{4}{x + 3}.
+\]
+
+Since the arctangent function is one-to-one, we can set the arguments equal to each other:
+
+\[
+\frac{2(x + 1)}{x^2 + 2x - 1} = \frac{4}{x + 3}.
+\]
+
+### Step 3: Cross-Multiply
+
+Cross-multiplying gives us:
+
+\[
+2(x + 1)(x + 3) = 4(x^2 + 2x - 1).
+\]
+
+Expanding both sides:
+
+Left-hand side:
+
+\[
+2(x^2 + 3x + x + 3) = 2(x^2 + 4x + 3) = 2x^2 + 8x + 6.
+\]
+
+Right-hand side:
+
+\[
+4(x^2 + 2x - 1) = 4x^2 + 8x - 4.
+\]
+
+### Step 4: Set the Equation to Zero
+
+Setting the equation to zero:
+
+\[
+2x^2 + 8x + 6 - 4x^2 - 8x + 4 = 0,
+\]
+
+which simplifies to:
+
+\[
+-2x^2 + 10 = 0.
+\]
+
+### Step 5: Solve for \( x \)
+
+Rearranging gives:
+
+\[
+2x^2 = 10 \implies x^2 = 5 \implies x = \sqrt{5} \text{ or } x = -\sqrt{5}.
+\]
+
+### Step 6: Check for Restrictions
+
+We need to check if these solutions satisfy the condition \( ab < 1 \):
+
+1. For \( x = \sqrt{5} \):
+   \[
+   ab = \frac{1}{\sqrt{5}} \cdot \frac{1}{\sqrt{5} + 2} = \frac{1}{\sqrt{5}(\sqrt{5} + 2)} < 1.
+   \]
+
+2. For \( x = -\sqrt{5} \):
+   \[
+   ab = \frac{1}{-\sqrt{5}} \cdot \frac{1}{-\sqrt{5} + 2} = \frac{1}{-\sqrt{5}(-\sqrt{5} + 2)}.
+   \]
+   Here, we need to check if \( -\sqrt{5} + 2 < 0 \) (which it is), so \( ab > 1 \) does not hold.
+
+### Final Valid Solutions
+
+Thus, the only valid solution is:
+
+\[
+\boxed{\sqrt{5}}.
+\]

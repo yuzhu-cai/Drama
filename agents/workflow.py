@@ -1,4 +1,4 @@
-import json
+import ast
 from utils.llm_call import OpenAILLM
 from agents.base_agent import BaseAgent
 from config.prompts import math_system, code_system, orginzer_system, work_template
@@ -43,7 +43,7 @@ class Drama:
     def run(self, query: str):
         instruct = work_template.format(query=query)
         json_str = extract_json(self.organizer_agent.chat(instruct))
-        workflow = json.loads(json_str)
+        workflow = ast.literal_eval(json_str)
 
         subtasks = workflow['tasks']
         if workflow['type'] == 'code':

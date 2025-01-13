@@ -1,0 +1,83 @@
+To solve the equation 
+
+\[
+\frac{1}{a} + \frac{1}{b} = \frac{2}{17}
+\]
+
+we first rearranged it to find a common denominator, leading us to:
+
+\[
+\frac{a + b}{ab} = \frac{2}{17}
+\]
+
+Next, we multiplied both sides by \(17ab\) to eliminate the fractions:
+
+\[
+17(a + b) = 2ab
+\]
+
+Rearranging this gives us:
+
+\[
+2ab - 17a - 17b = 0
+\]
+
+To make this easier to work with, we can rearrange it into a standard quadratic form:
+
+\[
+2ab - 17a - 17b + 289 = 289
+\]
+
+This can be factored as:
+
+\[
+(2a - 17)(2b - 17) = 289
+\]
+
+Next, we need to find the integer factor pairs of \(289\). The number \(289\) can be factored as:
+
+\[
+289 = 17^2
+\]
+
+The positive factor pairs of \(289\) are:
+
+1. \( (1, 289) \)
+2. \( (17, 17) \)
+3. \( (289, 1) \)
+
+Now, we will use these factor pairs to find corresponding values of \(a\) and \(b\):
+
+1. **For the factor pair \((1, 289)\)**:
+   - Set \(2a - 17 = 1\) and \(2b - 17 = 289\):
+     - \(2a = 18 \Rightarrow a = 9\)
+     - \(2b = 306 \Rightarrow b = 153\)
+   - This gives the pair \((9, 153)\).
+
+2. **For the factor pair \((17, 17)\)**:
+   - Set \(2a - 17 = 17\) and \(2b - 17 = 17\):
+     - \(2a = 34 \Rightarrow a = 17\)
+     - \(2b = 34 \Rightarrow b = 17\)
+   - This gives the pair \((17, 17)\).
+
+3. **For the factor pair \((289, 1)\)**:
+   - Set \(2a - 17 = 289\) and \(2b - 17 = 1\):
+     - \(2a = 306 \Rightarrow a = 153\)
+     - \(2b = 18 \Rightarrow b = 9\)
+   - This gives the pair \((153, 9)\).
+
+Now we have the following pairs of positive integers \((a, b)\):
+
+1. \((9, 153)\)
+2. \((17, 17)\)
+3. \((153, 9)\)
+
+### Conclusion
+
+The pairs of positive integers \((a, b)\) that satisfy the equation \(\frac{1}{a} + \frac{1}{b} = \frac{2}{17}\) are:
+
+- \((9, 153)\)
+- \((17, 17)\)
+- \((153, 9)\)
+
+Thus, there are a total of **3 pairs** of positive integers \((a, b)\) that satisfy the given equation.

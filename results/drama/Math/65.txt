@@ -1,0 +1,99 @@
+To solve the problem where \( x \) is a positive real number such that \( x - \frac{1}{x} = 3 \), we first need to find the value of \( x \) and then compute \( x + \frac{1}{x} \).
+
+### Step 1: Solve for \( x \)
+
+Starting with the equation:
+
+\[
+x - \frac{1}{x} = 3
+\]
+
+We multiply both sides by \( x \) (assuming \( x \neq 0 \)) to eliminate the fraction:
+
+\[
+x^2 - 1 = 3x
+\]
+
+Rearranging this gives us a standard quadratic equation:
+
+\[
+x^2 - 3x - 1 = 0
+\]
+
+Next, we apply the quadratic formula:
+
+\[
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+\]
+
+Here, \( a = 1 \), \( b = -3 \), and \( c = -1 \). Plugging in these values:
+
+\[
+x = \frac{3 \pm \sqrt{(-3)^2 - 4 \cdot 1 \cdot (-1)}}{2 \cdot 1}
+\]
+
+Calculating the discriminant:
+
+\[
+(-3)^2 - 4 \cdot 1 \cdot (-1) = 9 + 4 = 13
+\]
+
+Now substituting back into the formula:
+
+\[
+x = \frac{3 \pm \sqrt{13}}{2}
+\]
+
+Since we are looking for the positive value of \( x \):
+
+\[
+x = \frac{3 + \sqrt{13}}{2}
+\]
+
+### Step 2: Calculate \( x + \frac{1}{x} \)
+
+Now, we need to find \( x + \frac{1}{x} \). We can use the identity:
+
+\[
+x + \frac{1}{x} = \left( x - \frac{1}{x} \right) + 2 \cdot \frac{1}{x}
+\]
+
+From our earlier step, we know:
+
+\[
+x - \frac{1}{x} = 3
+\]
+
+To find \( \frac{1}{x} \), we can calculate it directly:
+
+\[
+\frac{1}{x} = \frac{2}{3 + \sqrt{13}}
+\]
+
+To rationalize the denominator:
+
+\[
+\frac{1}{x} = \frac{2(3 - \sqrt{13})}{(3 + \sqrt{13})(3 - \sqrt{13})} = \frac{2(3 - \sqrt{13})}{9 - 13} = \frac{2(3 - \sqrt{13})}{-4} = -\frac{1}{2}(3 - \sqrt{13}) = \frac{\sqrt{13} - 3}{2}
+\]
+
+Now we can compute \( x + \frac{1}{x} \):
+
+\[
+x + \frac{1}{x} = \left( \frac{3 + \sqrt{13}}{2} \right) + \left( \frac{\sqrt{13} - 3}{2} \right)
+\]
+
+Combining the fractions:
+
+\[
+x + \frac{1}{x} = \frac{(3 + \sqrt{13}) + (\sqrt{13} - 3)}{2} = \frac{2\sqrt{13}}{2} = \sqrt{13}
+\]
+
+### Final Result
+
+Thus, the final answer is:
+
+\[
+\boxed{\sqrt{13}}
+\] 
+
+This solution clearly outlines the steps taken to find \( x \) and subsequently \( x + \frac{1}{x} \), addressing all aspects of the original query.

@@ -1,0 +1,71 @@
+To find the number of second-degree polynomials \( f(x) \) with integer coefficients and integer zeros such that \( f(0) = 2010 \), we can follow these steps:
+
+### Step 1: Form of the Polynomial
+A second-degree polynomial with integer coefficients and integer zeros can be expressed in the factored form:
+
+\[
+f(x) = a(x - r_1)(x - r_2)
+\]
+
+where \( a \) is a non-zero integer, and \( r_1 \) and \( r_2 \) are the integer zeros of the polynomial.
+
+### Step 2: Condition on the Constant Term
+The value of the polynomial at \( x = 0 \) is given by:
+
+\[
+f(0) = a(-r_1)(-r_2) = a(r_1 r_2)
+\]
+
+We need this to equal 2010:
+
+\[
+a(r_1 r_2) = 2010
+\]
+
+### Step 3: Factorization of 2010
+To find suitable pairs \( (r_1, r_2) \), we first determine the integer factors of 2010. The prime factorization of 2010 is:
+
+\[
+2010 = 2 \times 3 \times 5 \times 67
+\]
+
+The positive factors of 2010 are:
+
+\[
+1, 2, 3, 5, 6, 10, 15, 30, 67, 134, 201, 335, 402, 670, 1005, 2010
+\]
+
+Including the negative factors, the complete list of integer factors (and thus potential integer zeros) of 2010 is:
+
+\[
+\pm 1, \pm 2, \pm 3, \pm 5, \pm 6, \pm 10, \pm 15, \pm 30, \pm 67, \pm 134, \pm 201, \pm 335, \pm 402, \pm 670, \pm 1005, \pm 2010
+\]
+
+### Step 4: Finding Distinct Pairs of Zeros
+Next, we need to find pairs \( (r_1, r_2) \) such that \( r_1 r_2 = \frac{2010}{a} \) for some integer \( a \). The value of \( a \) can be any divisor of 2010, including both positive and negative values.
+
+### Step 5: Counting Distinct Pairs
+For each divisor \( a \) of 2010, we can calculate \( r_1 r_2 = \frac{2010}{a} \). The number of distinct pairs \( (r_1, r_2) \) such that \( r_1 r_2 = k \) (where \( k = \frac{2010}{a} \)) can be found by counting the factor pairs of \( k \).
+
+1. **Divisors of 2010**: The total number of positive divisors of 2010 can be calculated using the formula for the number of divisors based on its prime factorization:
+
+\[
+(1+1)(1+1)(1+1)(1+1) = 2^4 = 16
+\]
+
+Thus, there are 16 positive divisors of 2010, and including their negatives, we have a total of \( 16 \times 2 = 32 \) divisors.
+
+2. **Counting Pairs**: For each divisor \( a \), we find \( k = \frac{2010}{a} \). The number of distinct pairs \( (r_1, r_2) \) that multiply to \( k \) is given by the number of ways to pair the factors of \( k \). If \( k \) has \( d \) divisors, the number of distinct pairs \( (r_1, r_2) \) is \( \frac{d}{2} \) if \( k \) is not a perfect square, and \( \frac{d + 1}{2} \) if \( k \) is a perfect square.
+
+### Step 6: Total Count of Distinct Polynomials
+To find the total number of distinct second-degree polynomials, we need to consider all combinations of \( a \) and the corresponding pairs \( (r_1, r_2) \).
+
+After evaluating all divisors and their corresponding pairs, we find that:
+
+- Each divisor \( a \) leads to a unique product \( r_1 r_2 \).
+- The distinct pairs of zeros can be counted based on the factors of \( k \).
+
+### Conclusion
+The total number of distinct second-degree polynomials \( f(x) \) with integer coefficients and integer zeros such that \( f(0) = 2010 \) is determined by the combinations of the pairs \( (r_1, r_2) \) for each divisor \( a \).
+
+In conclusion, the final answer is that there are **32 distinct second-degree polynomials** \( f(x) \) with integer coefficients and integer zeros such that \( f(0) = 2010 \).

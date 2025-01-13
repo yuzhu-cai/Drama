@@ -1,0 +1,93 @@
+To find the direction vector of the line \(\ell\) corresponding to the reflection matrix 
+
+\[
+R = \begin{pmatrix} -\frac{2}{3} & -\frac{2}{3} & -\frac{1}{3} \\ -\frac{2}{3} & \frac{1}{3} & \frac{2}{3} \\ -\frac{1}{3} & \frac{2}{3} & -\frac{2}{3} \end{pmatrix},
+\]
+
+we will follow these steps:
+
+### Step 1: Find the Eigenvalues
+
+We start by calculating the eigenvalues of the matrix \(R\). The eigenvalues can be found by solving the characteristic polynomial given by:
+
+\[
+\det(R - \lambda I) = 0,
+\]
+
+where \(I\) is the identity matrix. 
+
+Calculating \(R - \lambda I\):
+
+\[
+R - \lambda I = \begin{pmatrix} -\frac{2}{3} - \lambda & -\frac{2}{3} & -\frac{1}{3} \\ -\frac{2}{3} & \frac{1}{3} - \lambda & \frac{2}{3} \\ -\frac{1}{3} & \frac{2}{3} & -\frac{2}{3} - \lambda \end{pmatrix}.
+\]
+
+The determinant can be computed, but we already know that for reflection matrices, the eigenvalues are typically \(1\) and \(-1\). 
+
+### Step 2: Find the Eigenvector Corresponding to Eigenvalue 1
+
+Next, we need to find the eigenvector corresponding to the eigenvalue \(1\). We solve the equation:
+
+\[
+(R - I) \mathbf{v} = 0.
+\]
+
+Calculating \(R - I\):
+
+\[
+R - I = \begin{pmatrix} -\frac{2}{3} - 1 & -\frac{2}{3} & -\frac{1}{3} \\ -\frac{2}{3} & \frac{1}{3} - 1 & \frac{2}{3} \\ -\frac{1}{3} & \frac{2}{3} & -\frac{2}{3} - 1 \end{pmatrix} = \begin{pmatrix} -\frac{5}{3} & -\frac{2}{3} & -\frac{1}{3} \\ -\frac{2}{3} & -\frac{2}{3} & \frac{2}{3} \\ -\frac{1}{3} & \frac{2}{3} & -\frac{5}{3} \end{pmatrix}.
+\]
+
+We set up the system:
+
+\[
+\begin{pmatrix} -\frac{5}{3} & -\frac{2}{3} & -\frac{1}{3} \\ -\frac{2}{3} & -\frac{2}{3} & \frac{2}{3} \\ -\frac{1}{3} & \frac{2}{3} & -\frac{5}{3} \end{pmatrix} \begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \\ 0 \end{pmatrix}.
+\]
+
+### Step 3: Solve the System
+
+To find the null space, we can simplify the matrix. Multiplying through by 3 to eliminate the fractions gives:
+
+\[
+\begin{pmatrix} -5 & -2 & -1 \\ -2 & -2 & 2 \\ -1 & 2 & -5 \end{pmatrix}.
+\]
+
+We can row-reduce this matrix to find the eigenvector. After performing row operations, we find that the system reduces to:
+
+\[
+\begin{pmatrix} 1 & 0 & 1 \\ 0 & 1 & -1 \\ 0 & 0 & 0 \end{pmatrix}.
+\]
+
+From this, we can express the solutions as:
+
+1. \(x + z = 0 \implies z = -x\)
+2. \(y - z = 0 \implies y = z = -x\)
+
+Thus, the eigenvector can be expressed as:
+
+\[
+\begin{pmatrix} x \\ -x \\ -x \end{pmatrix} = x \begin{pmatrix} 1 \\ -1 \\ -1 \end{pmatrix}.
+\]
+
+### Step 4: Normalize the Eigenvector
+
+To express this in the required form \(\begin{pmatrix} a \\ b \\ c \end{pmatrix}\) with integers \(a, b, c\), where \(a > 0\) and \(\gcd(|a|, |b|, |c|) = 1\), we take:
+
+\[
+\begin{pmatrix} 1 \\ -1 \\ -1 \end{pmatrix}.
+\]
+
+### Step 5: Ensure Conditions
+
+1. The first component \(1 > 0\).
+2. The GCD is \(\gcd(1, 1, 1) = 1\).
+
+### Final Result
+
+Thus, the direction vector of the line \(\ell\) is:
+
+\[
+\boxed{\begin{pmatrix} 1 \\ -1 \\ -1 \end{pmatrix}}.
+\] 
+
+This satisfies all the conditions specified in the problem.

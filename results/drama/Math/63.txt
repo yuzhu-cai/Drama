@@ -1,0 +1,93 @@
+To find the smallest positive real number \( a \) such that the polynomial 
+
+\[
+P(x) = x^6 + 3ax^5 + (3a^2 + 3)x^4 + (a^3 + 6a)x^3 + (3a^2 + 3)x^2 + 3ax + 1 = 0
+\]
+
+has at least one real root, we will analyze the polynomial using the following steps:
+
+### Step 1: Analyze the Polynomial
+
+The polynomial \( P(x) \) is a degree 6 polynomial, which means it can have up to 6 real roots. To ensure that it has at least one real root, we can use the **Intermediate Value Theorem** or analyze the behavior of the polynomial at specific points.
+
+### Step 2: Evaluate the Polynomial at Specific Points
+
+Let's evaluate \( P(x) \) at \( x = 0 \) and \( x = -1 \):
+
+1. **At \( x = 0 \)**:
+   \[
+   P(0) = 1
+   \]
+
+2. **At \( x = -1 \)**:
+   \[
+   P(-1) = (-1)^6 + 3a(-1)^5 + (3a^2 + 3)(-1)^4 + (a^3 + 6a)(-1)^3 + (3a^2 + 3)(-1)^2 + 3a(-1) + 1
+   \]
+   Simplifying this:
+   \[
+   P(-1) = 1 - 3a + (3a^2 + 3) - (a^3 + 6a) + (3a^2 + 3) - 3a + 1
+   \]
+   \[
+   = 1 - 3a + 3a^2 + 3 - a^3 - 6a + 3a^2 + 3 - 3a + 1
+   \]
+   \[
+   = 1 - a^3 + 6a^2 - 12a + 8
+   \]
+
+Thus, we have:
+
+\[
+P(-1) = -a^3 + 6a^2 - 12a + 8
+\]
+
+### Step 3: Set Conditions for Roots
+
+For \( P(x) \) to have at least one real root, we need \( P(0) \) and \( P(-1) \) to have opposite signs. Since \( P(0) = 1 \), we need:
+
+\[
+P(-1) < 0
+\]
+
+This leads to the inequality:
+
+\[
+-a^3 + 6a^2 - 12a + 8 < 0
+\]
+
+### Step 4: Solve the Inequality
+
+Rearranging gives:
+
+\[
+-a^3 + 6a^2 - 12a + 8 < 0 \implies a^3 - 6a^2 + 12a - 8 > 0
+\]
+
+Now, we will find the roots of the cubic polynomial \( a^3 - 6a^2 + 12a - 8 \) to determine where it is positive.
+
+### Step 5: Finding Roots
+
+Using the Rational Root Theorem, we can test possible rational roots. Testing \( a = 2 \):
+
+\[
+2^3 - 6(2^2) + 12(2) - 8 = 8 - 24 + 24 - 8 = 0
+\]
+
+Thus, \( a = 2 \) is a root. We can factor the polynomial as follows:
+
+\[
+a^3 - 6a^2 + 12a - 8 = (a - 2)(a^2 - 4a + 4) = (a - 2)(a - 2)^2 = (a - 2)^3
+\]
+
+### Step 6: Analyze the Sign of the Polynomial
+
+The polynomial \( (a - 2)^3 > 0 \) when \( a > 2 \). 
+
+### Conclusion
+
+The smallest positive real number \( a \) such that the polynomial \( P(x) \) has at least one real root is:
+
+\[
+\boxed{2}
+\] 
+
+This value ensures that \( P(-1) < 0 \) while \( P(0) = 1 > 0 \), confirming the existence of at least one real root in the interval \((-1, 0)\) by the Intermediate Value Theorem.

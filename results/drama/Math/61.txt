@@ -1,0 +1,98 @@
+To solve the problem, we need to analyze the two cubic polynomials given:
+
+1. \( P(x) = x^3 + 5x^2 + px + q \)
+2. \( Q(x) = x^3 + x^2 + px + r \)
+
+### Step 1: Identify the Roots
+
+Let the common roots of both polynomials be \( r_1 \) and \( r_2 \), and let the unique root of \( P(x) \) be \( r_3 \) and the unique root of \( Q(x) \) be \( r_4 \).
+
+### Step 2: Apply Vieta's Formulas
+
+Using Vieta's formulas for both polynomials:
+
+For \( P(x) \):
+- The sum of the roots \( r_1 + r_2 + r_3 = -5 \) (coefficient of \( x^2 \) is 5)
+- The sum of the products of the roots taken two at a time \( r_1 r_2 + r_1 r_3 + r_2 r_3 = p \)
+- The product of the roots \( r_1 r_2 r_3 = -q \)
+
+For \( Q(x) \):
+- The sum of the roots \( r_1 + r_2 + r_4 = -1 \) (coefficient of \( x^2 \) is 1)
+- The sum of the products of the roots taken two at a time \( r_1 r_2 + r_1 r_4 + r_2 r_4 = p \)
+- The product of the roots \( r_1 r_2 r_4 = -r \)
+
+### Step 3: Set Up the Equations
+
+From the sums of the roots, we can set up the following equations:
+
+1. From \( P(x) \):
+   \[
+   r_1 + r_2 + r_3 = -5 \quad (1)
+   \]
+
+2. From \( Q(x) \):
+   \[
+   r_1 + r_2 + r_4 = -1 \quad (2)
+   \]
+
+### Step 4: Solve for \( r_3 \) and \( r_4 \)
+
+Subtract equation (1) from equation (2):
+
+\[
+(r_1 + r_2 + r_4) - (r_1 + r_2 + r_3) = -1 - (-5)
+\]
+
+This simplifies to:
+
+\[
+r_4 - r_3 = 4
+\]
+
+Thus, we can express \( r_4 \) in terms of \( r_3 \):
+
+\[
+r_4 = r_3 + 4 \quad (3)
+\]
+
+### Step 5: Find the Sum of the Unique Roots
+
+The sum of the unique roots \( r_3 \) and \( r_4 \) can be calculated as follows:
+
+Using equation (3):
+
+\[
+r_3 + r_4 = r_3 + (r_3 + 4) = 2r_3 + 4
+\]
+
+### Step 6: Express \( r_3 \) in Terms of Known Values
+
+From equation (1), we can express \( r_3 \):
+
+\[
+r_3 = -5 - (r_1 + r_2)
+\]
+
+Substituting this into the sum of the unique roots:
+
+\[
+r_3 + r_4 = 2(-5 - (r_1 + r_2)) + 4
+\]
+\[
+= -10 - 2(r_1 + r_2) + 4
+\]
+\[
+= -6 - 2(r_1 + r_2)
+\]
+
+### Step 7: Final Result
+
+To find the exact value of \( r_1 + r_2 \), we would need additional information about \( p \) and \( q \) or specific values for the roots. However, we have established the relationship between the unique roots.
+
+Thus, the sum of the two roots that are not common to both polynomials is expressed as:
+
+\[
+\text{Sum of unique roots} = -6 - 2(r_1 + r_2)
+\]
+
+If \( r_1 + r_2 \) can be determined from the values of \( p \) and \( q \), we can substitute that value to find the numerical answer. If you have specific values for \( p \), \( q \), or any additional conditions, please provide them for a complete numerical solution!

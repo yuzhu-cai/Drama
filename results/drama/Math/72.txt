@@ -1,0 +1,107 @@
+To solve the problem where \( x \), \( y \), and \( z \) are positive numbers satisfying the equations \( xy = 24 \), \( xz = 48 \), and \( yz = 72 \), we will follow these steps:
+
+### Step 1: Express \( y \) and \( z \) in terms of \( x \)
+
+From the equations given:
+
+1. From \( xy = 24 \):
+   \[
+   y = \frac{24}{x}
+   \]
+
+2. From \( xz = 48 \):
+   \[
+   z = \frac{48}{x}
+   \]
+
+### Step 2: Substitute \( y \) and \( z \) into the third equation
+
+Now we substitute the expressions for \( y \) and \( z \) into the equation \( yz = 72 \):
+
+\[
+yz = \left(\frac{24}{x}\right) \left(\frac{48}{x}\right) = \frac{24 \cdot 48}{x^2}
+\]
+
+Calculating \( 24 \cdot 48 \):
+
+\[
+24 \cdot 48 = 1152
+\]
+
+Thus, we have:
+
+\[
+yz = \frac{1152}{x^2}
+\]
+
+### Step 3: Set the equation equal to 72
+
+Now we set this equal to 72:
+
+\[
+\frac{1152}{x^2} = 72
+\]
+
+### Step 4: Solve for \( x^2 \)
+
+Multiply both sides by \( x^2 \):
+
+\[
+1152 = 72x^2
+\]
+
+Now divide both sides by 72:
+
+\[
+x^2 = \frac{1152}{72}
+\]
+
+Calculating \( \frac{1152}{72} \):
+
+\[
+\frac{1152}{72} = 16
+\]
+
+Thus, we find:
+
+\[
+x^2 = 16 \implies x = 4 \quad (\text{since } x \text{ is positive})
+\]
+
+### Step 5: Calculate \( y \) and \( z \)
+
+Now we can substitute \( x = 4 \) back into the expressions for \( y \) and \( z \):
+
+1. For \( y \):
+   \[
+   y = \frac{24}{x} = \frac{24}{4} = 6
+   \]
+
+2. For \( z \):
+   \[
+   z = \frac{48}{x} = \frac{48}{4} = 12
+   \]
+
+### Step 6: Calculate \( x + y + z \)
+
+Now we can find the sum:
+
+\[
+x + y + z = 4 + 6 + 12
+\]
+
+Calculating the sum:
+
+\[
+x + y + z = 22
+\]
+
+### Conclusion
+
+Thus, the final result is:
+
+\[
+\boxed{22}
+\] 
+
+This comprehensive solution addresses all aspects of the problem and confirms that \( x + y + z = 22 \).

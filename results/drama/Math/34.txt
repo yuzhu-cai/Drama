@@ -1,0 +1,41 @@
+To find the length of segment \( AC \) based on the provided information, we will follow these steps:
+
+1. **Identify the Coordinates of Points A, B, and C**:
+   - Point \( A \) is at the top left corner of the first square, which we can assign the coordinates \( A(0, 10) \).
+   - Point \( B \) is at the bottom right corner of the second square, which is located at \( B(20, 0) \).
+   - Point \( C \) is at the bottom right corner of the third square, which is at \( C(30, 0) \).
+
+2. **Use the Distance Formula**:
+   The distance formula to calculate the length of segment \( AC \) is given by:
+   \[
+   d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
+   \]
+   Here, \( A(0, 10) \) and \( C(30, 0) \).
+
+   Substituting the coordinates into the formula:
+   \[
+   AC = \sqrt{(30 - 0)^2 + (0 - 10)^2}
+   \]
+   \[
+   = \sqrt{30^2 + (-10)^2}
+   \]
+   \[
+   = \sqrt{900 + 100}
+   \]
+   \[
+   = \sqrt{1000}
+   \]
+
+3. **Simplify the Radical**:
+   We can simplify \( \sqrt{1000} \):
+   \[
+   \sqrt{1000} = \sqrt{100 \times 10} = \sqrt{100} \times \sqrt{10} = 10\sqrt{10}
+   \]
+
+4. **Final Answer**:
+   Therefore, the length of segment \( AC \) is:
+   \[
+   \boxed{10\sqrt{10}} \text{ cm}
+   \]
+
+This solution clearly identifies the coordinates of the points, applies the distance formula correctly, and simplifies the result to provide the final answer in simplest radical form.

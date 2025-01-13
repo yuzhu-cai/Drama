@@ -1,0 +1,30 @@
+To solve the original query, we need to simplify the expression \(\frac{3a^2b}{5ac} \times \frac{10c}{6ab}\). We will follow these steps:
+
+1. **Simplify each fraction** (which we have already done):
+   - The first fraction \(\frac{3a^2b}{5ac}\) simplifies to \(\frac{3ab}{5c}\).
+   - The second fraction \(\frac{10c}{6ab}\) simplifies to \(\frac{5c}{3ab}\).
+
+2. **Multiply the simplified fractions**:
+   Now we multiply the two simplified fractions:
+   \[
+   \frac{3ab}{5c} \times \frac{5c}{3ab}
+   \]
+
+3. **Multiply the numerators and denominators**:
+   \[
+   = \frac{3ab \cdot 5c}{5c \cdot 3ab}
+   \]
+
+4. **Cancel common factors**:
+   In this multiplication, we can see that \(3ab\) in the numerator and denominator cancels out, as well as \(5c\):
+   \[
+   = \frac{(3ab) \cdot (5c)}{(5c) \cdot (3ab)} = 1
+   \]
+
+5. **Final result**:
+   Therefore, the final result of the expression \(\frac{3a^2b}{5ac} \times \frac{10c}{6ab}\) is:
+   \[
+   \boxed{1}
+   \]
+
+This comprehensive solution shows that the product of the two simplified fractions results in \(1\), confirming that the original expression simplifies completely.

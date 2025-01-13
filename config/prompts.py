@@ -23,7 +23,9 @@ work_template = """You are an organizer responsible for analyzing and breaking d
 
 2. Divide the task into smaller, actionable subtasks that can be assigned to the appropriate agent.
 
-3. Output the result in the following dictionary format:
+3. Note, if it is a coding task, the decomposed subtasks do not need to include the implementation of test code, but should focus solely on the solution.
+
+4. Output the result in the following dictionary format:
 
 ```json
 {{

@@ -1,0 +1,61 @@
+To evaluate the expression \(\left|\dfrac{2-4i}{2+i}\right|\), we can use the property of moduli of complex numbers, which states that:
+
+\[
+\left|\dfrac{z_1}{z_2}\right| = \frac{|z_1|}{|z_2|}
+\]
+
+where \(z_1\) and \(z_2\) are complex numbers. In this case, \(z_1 = 2 - 4i\) and \(z_2 = 2 + i\).
+
+### Step 1: Calculate the modulus of \(2 - 4i\)
+
+Using the formula for the modulus of a complex number:
+
+\[
+|z| = \sqrt{a^2 + b^2}
+\]
+
+For \(2 - 4i\):
+- Real part \(a = 2\)
+- Imaginary part \(b = -4\)
+
+Calculating the modulus:
+
+\[
+|2 - 4i| = \sqrt{2^2 + (-4)^2} = \sqrt{4 + 16} = \sqrt{20} = 2\sqrt{5}
+\]
+
+### Step 2: Calculate the modulus of \(2 + i\)
+
+For \(2 + i\):
+- Real part \(a = 2\)
+- Imaginary part \(b = 1\)
+
+Calculating the modulus:
+
+\[
+|2 + i| = \sqrt{2^2 + 1^2} = \sqrt{4 + 1} = \sqrt{5}
+\]
+
+### Step 3: Divide the moduli
+
+Now we can find the modulus of the quotient:
+
+\[
+\left|\dfrac{2-4i}{2+i}\right| = \frac{|2 - 4i|}{|2 + i|} = \frac{2\sqrt{5}}{\sqrt{5}}
+\]
+
+### Step 4: Simplify the result
+
+The \(\sqrt{5}\) in the numerator and denominator cancels out:
+
+\[
+\frac{2\sqrt{5}}{\sqrt{5}} = 2
+\]
+
+### Final Result
+
+Thus, the comprehensive solution to the original query is:
+
+\[
+\left|\dfrac{2-4i}{2+i}\right| = \boxed{2}
+\]

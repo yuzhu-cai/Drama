@@ -1,0 +1,115 @@
+To solve for \( f(2015) \) given the functional equation 
+
+\[
+f(4xy) = 2y[f(x + y) + f(x - y)]
+\]
+
+and the known value \( f(5) = 3 \), we will analyze the functional equation and derive more values of \( f \).
+
+### Step 1: Substitute \( x = 1 \) and \( y = 1 \)
+
+Substituting \( x = 1 \) and \( y = 1 \) into the functional equation gives:
+
+\[
+f(4 \cdot 1 \cdot 1) = 2 \cdot 1 [f(1 + 1) + f(1 - 1)]
+\]
+
+This simplifies to:
+
+\[
+f(4) = 2[f(2) + f(0)]
+\]
+
+### Step 2: Substitute \( x = 0 \) and \( y = 0 \)
+
+Substituting \( x = 0 \) and \( y = 0 \):
+
+\[
+f(4 \cdot 0 \cdot 0) = 2 \cdot 0 [f(0 + 0) + f(0 - 0)]
+\]
+
+This gives us:
+
+\[
+f(0) = 0
+\]
+
+### Step 3: Substitute \( y = 1 \)
+
+Now substituting \( y = 1 \):
+
+\[
+f(4x) = 2[f(x + 1) + f(x - 1)]
+\]
+
+### Step 4: Substitute \( x = 2 \) and \( y = 1 \)
+
+Next, substituting \( x = 2 \) and \( y = 1 \):
+
+\[
+f(8) = 2[f(3) + f(1)]
+\]
+
+### Step 5: Substitute \( x = 5 \) and \( y = 1 \)
+
+Now substituting \( x = 5 \) and \( y = 1 \):
+
+\[
+f(20) = 2[f(6) + f(4)]
+\]
+
+### Step 6: Find \( f(4) \)
+
+From the earlier equation \( f(4) = 2[f(2) + f(0)] \) and knowing \( f(0) = 0 \):
+
+\[
+f(4) = 2f(2)
+\]
+
+### Step 7: Find \( f(2) \)
+
+Next, we need to find \( f(2) \). We can substitute \( x = 1 \) and \( y = 2 \):
+
+\[
+f(8) = 2[f(3) + f(-1)]
+\]
+
+### Step 8: Assume a Form for \( f \)
+
+Given the structure of the functional equation, we can assume \( f(x) \) is a linear function of the form \( f(x) = ax + b \). We already know \( f(5) = 3 \), which gives us:
+
+\[
+5a + b = 3
+\]
+
+From \( f(0) = 0 \), we have \( b = 0 \). Thus, \( f(x) = ax \).
+
+### Step 9: Substitute Back to Find \( a \)
+
+Using \( f(5) = 3 \):
+
+\[
+5a = 3 \implies a = \frac{3}{5}
+\]
+
+Thus, the function is:
+
+\[
+f(x) = \frac{3}{5}x
+\]
+
+### Step 10: Calculate \( f(2015) \)
+
+Now we can calculate \( f(2015) \):
+
+\[
+f(2015) = \frac{3}{5} \cdot 2015 = \frac{3 \cdot 2015}{5} = \frac{6045}{5} = 1209
+\]
+
+### Conclusion
+
+The value of \( f(2015) \) is 
+
+\[
+\boxed{1209}.
+\]

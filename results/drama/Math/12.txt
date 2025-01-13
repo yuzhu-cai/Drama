@@ -1,0 +1,82 @@
+To determine how many real numbers \( x \) satisfy the equation 
+
+\[
+\frac{1}{5} \log_2 x = \sin(5\pi x),
+\]
+
+we will analyze both sides of the equation and find their points of intersection.
+
+### Step 1: Analyze the Functions
+
+1. **Left Side: \( f(x) = \frac{1}{5} \log_2 x \)**
+   - **Domain**: \( x > 0 \)
+   - **Range**: \( (-\infty, \infty) \)
+   - **Behavior**: 
+     - As \( x \to 0^+ \), \( f(x) \to -\infty \).
+     - As \( x \to \infty \), \( f(x) \to \infty \).
+   - **Monotonicity**: The function is increasing for \( x > 0 \).
+
+2. **Right Side: \( g(x) = \sin(5\pi x) \)**
+   - **Domain**: \( x \in \mathbb{R} \)
+   - **Range**: \( [-1, 1] \)
+   - **Period**: \( \frac{2}{5} \)
+   - **Behavior**: The sine function oscillates between -1 and 1.
+
+### Step 2: Set Up the Equation
+
+We need to find the points of intersection of \( f(x) \) and \( g(x) \):
+
+\[
+\frac{1}{5} \log_2 x = \sin(5\pi x).
+\]
+
+### Step 3: Graphical Analysis
+
+To estimate the number of solutions, we can graph both functions:
+
+- **Graph of \( f(x) \)**: This function starts from \( -\infty \) when \( x \) approaches 0 and increases without bound as \( x \) increases.
+- **Graph of \( g(x) \)**: This function oscillates between -1 and 1 with a period of \( \frac{2}{5} \).
+
+### Step 4: Finding Intersections
+
+1. **Behavior of \( f(x) \)**:
+   - Since \( f(x) \) is increasing and can take any value from \( -\infty \) to \( \infty \), it will intersect the oscillating sine function multiple times.
+
+2. **Range of \( g(x) \)**:
+   - The sine function oscillates between -1 and 1. Therefore, we need to find where \( f(x) \) intersects this range.
+
+3. **Finding Intervals**:
+   - Set \( \frac{1}{5} \log_2 x = 1 \) and \( \frac{1}{5} \log_2 x = -1 \) to find the bounds for \( x \):
+     - For \( \frac{1}{5} \log_2 x = 1 \):
+       \[
+       \log_2 x = 5 \implies x = 2^5 = 32.
+       \]
+     - For \( \frac{1}{5} \log_2 x = -1 \):
+       \[
+       \log_2 x = -5 \implies x = 2^{-5} = \frac{1}{32}.
+       \]
+
+### Step 5: Count the Intersections
+
+- The function \( g(x) \) oscillates between -1 and 1, and since \( f(x) \) is increasing from \( -\infty \) to \( \infty \), it will intersect \( g(x) \) multiple times in the interval \( \left(\frac{1}{32}, 32\right) \).
+- The period of \( g(x) \) is \( \frac{2}{5} \), which means it completes several cycles in this interval.
+
+### Step 6: Estimate the Number of Solutions
+
+To estimate the number of solutions:
+- The interval \( \left(\frac{1}{32}, 32\right) \) has a length of \( 32 - \frac{1}{32} \approx 31.96875 \).
+- The number of complete cycles of \( g(x) \) in this interval is approximately:
+  \[
+  \text{Number of cycles} = \frac{31.96875}{\frac{2}{5}} = 31.96875 \times \frac{5}{2} \approx 79.921875.
+  \]
+- Since \( g(x) \) oscillates between -1 and 1, it will intersect \( f(x) \) twice per cycle (once when increasing and once when decreasing).
+
+### Conclusion
+
+Thus, the total number of real solutions is approximately:
+
+\[
+2 \times 79 \approx 158.
+\]
+
+Therefore, the equation \( \frac{1}{5} \log_2 x = \sin(5\pi x) \) has approximately **158 real solutions**.

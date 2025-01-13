@@ -1,0 +1,27 @@
+To simplify the expression \( 19x + 1 - 4x - 81 \), we will follow these steps:
+
+1. **Identify Like Terms**: We have two types of terms in the expression:
+   - The \( x \) terms: \( 19x \) and \( -4x \)
+   - The constant terms: \( 1 \) and \( -81 \)
+
+2. **Combine the \( x \) Terms**:
+   \[
+   19x - 4x = (19 - 4)x = 15x
+   \]
+
+3. **Combine the Constant Terms**:
+   \[
+   1 - 81 = -80
+   \]
+
+4. **Combine the Results**: Now we can put the combined \( x \) terms and the constant terms together:
+   \[
+   15x - 80
+   \]
+
+Thus, the expression \( 19x + 1 - 4x - 81 \) simplifies to:
+\[
+\boxed{15x - 80}
+\]
+
+This is the simplest form of the given expression, clearly showing the combined \( x \) terms and the constant term.

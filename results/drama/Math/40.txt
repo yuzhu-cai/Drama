@@ -1,0 +1,85 @@
+To solve the problem, we will follow these steps:
+
+1. **Set up the perimeter equation** using the given expressions for length and width.
+2. **Solve for \( x \)** using the perimeter equation.
+3. **Calculate the length and width** using the value of \( x \).
+4. **Compute the area** of the rectangle using the formula for area.
+
+### Step 1: Set up the perimeter equation
+
+The perimeter \( P \) of a rectangle is given by the formula:
+
+\[
+P = 2(\text{length} + \text{width})
+\]
+
+Given:
+- Length \( L = 3x + 10 \) feet
+- Width \( W = x + 12 \) feet
+
+Substituting these into the perimeter formula:
+
+\[
+76 = 2((3x + 10) + (x + 12))
+\]
+
+### Step 2: Solve for \( x \)
+
+First, simplify the equation:
+
+\[
+76 = 2(3x + 10 + x + 12)
+\]
+\[
+76 = 2(4x + 22)
+\]
+\[
+76 = 8x + 44
+\]
+
+Now, isolate \( x \):
+
+\[
+76 - 44 = 8x
+\]
+\[
+32 = 8x
+\]
+\[
+x = 4
+\]
+
+### Step 3: Calculate the length and width
+
+Now that we have \( x = 4 \), we can find the length and width:
+
+- Length:
+\[
+L = 3x + 10 = 3(4) + 10 = 12 + 10 = 22 \text{ feet}
+\]
+
+- Width:
+\[
+W = x + 12 = 4 + 12 = 16 \text{ feet}
+\]
+
+### Step 4: Compute the area
+
+Now, we can calculate the area using the formula:
+
+\[
+\text{Area} = \text{length} \times \text{width}
+\]
+\[
+\text{Area} = 22 \times 16
+\]
+
+Calculating the area:
+
+\[
+\text{Area} = 352 \text{ square feet}
+\]
+
+### Comprehensive Solution
+
+The area of the rectangle, given that the length is \( 3x + 10 \) feet, the width is \( x + 12 \) feet, and the perimeter is 76 feet, is **352 square feet**.

@@ -1,0 +1,26 @@
+To determine the greatest possible length of each piece when cutting two ropes of lengths 18 meters and 24 meters into pieces of equal length, we need to find the greatest common divisor (GCD) of the two lengths.
+
+### Steps to Solve the Problem:
+
+1. **Identify the lengths of the ropes:**
+   - Rope 1: 18 meters
+   - Rope 2: 24 meters
+
+2. **Calculate the GCD:**
+   - We previously found the GCD of 18 and 24 using prime factorization:
+     - Prime factorization of 18: \( 2^1 \times 3^2 \)
+     - Prime factorization of 24: \( 2^3 \times 3^1 \)
+   - The common prime factors are 2 and 3.
+   - The lowest powers of these common factors are:
+     - For 2: \( 2^1 \)
+     - For 3: \( 3^1 \)
+   - Therefore, the GCD is calculated as:
+     \[
+     \text{GCD} = 2^1 \times 3^1 = 2 \times 3 = 6
+     \]
+
+3. **Interpret the result:**
+   - The GCD of 18 meters and 24 meters is 6 meters. This means that the greatest possible length of each piece, when cutting both ropes into equal lengths, is **6 meters**.
+
+### Conclusion:
+The greatest possible length of each piece that both ropes can be cut into, ensuring all pieces are of equal length, is **6 meters**. This allows both ropes to be divided evenly without any leftover material.

@@ -1,0 +1,47 @@
+To find the total number of students in the Math Club (\( M \)), we can use the information provided in the problem and the equations we derived earlier.
+
+### Given Information:
+1. **Total students in the Science Club**: 15
+2. **30% of students in the Math Club are in the Science Club**: This can be expressed as:
+   \[
+   \text{Number of students in Science Club} = 0.30M
+   \]
+3. **80% of students in the Science Club are in the Math Club**: This can be expressed as:
+   \[
+   \text{Number of students in Math Club who are also in Science Club} = 0.80 \times 15 = 12
+   \]
+
+### Setting Up the Equations:
+From the first piece of information, we can set up the equation:
+\[
+0.30M = 12
+\]
+
+### Solving for \( M \):
+To find \( M \), we can rearrange the equation:
+\[
+M = \frac{12}{0.30}
+\]
+
+Calculating this gives:
+\[
+M = \frac{12}{0.30} = 40
+\]
+
+### Conclusion:
+The total number of students in the Math Club is \( \boxed{40} \).
+
+### Verification:
+1. **Calculating 30% of \( M \)**:
+   \[
+   0.30 \times 40 = 12
+   \]
+   This matches the number of students in the Science Club who are also in the Math Club.
+
+2. **Calculating 80% of the Science Club**:
+   \[
+   0.80 \times 15 = 12
+   \]
+   This confirms that 12 students in the Science Club are also in the Math Club.
+
+Both calculations are consistent with the information provided, confirming that our solution is accurate. Thus, the total number of students in the Math Club is indeed \( \boxed{40} \).
