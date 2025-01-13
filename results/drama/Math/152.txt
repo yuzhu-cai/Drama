@@ -1,0 +1,50 @@
+To solve the problem, we start with the given condition that when a number \( n \) is divided by 5, the remainder is 3. This can be expressed mathematically as:
+
+\[
+n \equiv 3 \mod 5
+\]
+
+### Step 1: Express \( n \) in terms of modular arithmetic
+From the condition, we can express \( n \) as:
+
+\[
+n = 5k + 3
+\]
+
+for some integer \( k \).
+
+### Step 2: Calculate \( 2n \)
+Next, we want to find \( 2n \):
+
+\[
+2n = 2(5k + 3) = 10k + 6
+\]
+
+### Step 3: Find \( 2n \mod 5 \)
+Now, we need to determine the remainder when \( 2n \) is divided by 5. We can simplify \( 10k + 6 \) modulo 5:
+
+1. The term \( 10k \) is divisible by 5, so:
+   \[
+   10k \mod 5 \equiv 0
+   \]
+
+2. Now, consider the term \( 6 \mod 5 \):
+   \[
+   6 \mod 5 \equiv 1
+   \]
+
+### Step 4: Combine the results
+Putting it all together, we have:
+
+\[
+2n \equiv 10k + 6 \equiv 0 + 1 \equiv 1 \mod 5
+\]
+
+### Conclusion
+Thus, the remainder when twice the number \( n \) is divided by 5 is:
+
+\[
+\boxed{1}
+\] 
+
+This comprehensive solution clearly outlines the steps taken to arrive at the final answer, addressing all aspects of the original query.

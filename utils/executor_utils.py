@@ -52,8 +52,6 @@ def evaluate_functional_correctness(
         code = ("from typing import *\n" if "from typing import *" not in completion else "") + \
             completion + "\n" + sample['test'] + \
             "\n" + f"check({sample['entry_point']})"
-        print(code)
-        breakpoint()
         function_with_timeout(
             exec,
             (code, globals()),

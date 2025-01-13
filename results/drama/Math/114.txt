@@ -1,0 +1,68 @@
+To solve the problem, we start with the two given equations:
+
+1. \( x + y = 153 \)
+2. \( \frac{x}{y} = 0.7 \)
+
+### Step 1: Express \( x \) in terms of \( y \)
+
+From the second equation, we can express \( x \) in terms of \( y \):
+
+\[
+x = 0.7y
+\]
+
+### Step 2: Substitute \( x \) into the first equation
+
+Now, we substitute this expression for \( x \) into the first equation:
+
+\[
+0.7y + y = 153
+\]
+
+### Step 3: Combine like terms
+
+Combining the terms on the left side gives:
+
+\[
+1.7y = 153
+\]
+
+### Step 4: Solve for \( y \)
+
+Now, we can solve for \( y \):
+
+\[
+y = \frac{153}{1.7}
+\]
+
+Calculating this gives:
+
+\[
+y = 90
+\]
+
+### Step 5: Find \( x \)
+
+Now that we have \( y \), we can find \( x \) using the expression we derived earlier:
+
+\[
+x = 0.7y = 0.7 \times 90 = 63
+\]
+
+### Step 6: Calculate \( y - x \)
+
+Now we can calculate \( y - x \):
+
+\[
+y - x = 90 - 63 = 27
+\]
+
+### Conclusion
+
+The value of \( y - x \) is:
+
+\[
+\boxed{27}
+\]
+
+This comprehensive solution addresses all aspects of the problem, providing clear steps and calculations to arrive at the final answer.

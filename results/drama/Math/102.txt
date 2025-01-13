@@ -1,0 +1,57 @@
+To find the value of \( x \) for which 
+
+\[
+\sqrt{x + \sqrt{x + \sqrt{x + \ldots}}} = 5,
+\]
+
+we can follow these steps:
+
+1. **Set up the equation**: We denote the infinite nested square root as \( y \), so we have:
+
+   \[
+   y = \sqrt{x + y}.
+   \]
+
+   Given that \( y = 5 \), we can substitute this into the equation:
+
+   \[
+   5 = \sqrt{x + 5}.
+   \]
+
+2. **Square both sides**: To eliminate the square root, we square both sides:
+
+   \[
+   5^2 = (\sqrt{x + 5})^2.
+   \]
+
+   This simplifies to:
+
+   \[
+   25 = x + 5.
+   \]
+
+3. **Isolate \( x \)**: Next, we isolate \( x \) by subtracting 5 from both sides:
+
+   \[
+   25 - 5 = x,
+   \]
+
+   which simplifies to:
+
+   \[
+   x = 20.
+   \]
+
+4. **Final result**: Thus, the value of \( x \) for which 
+
+   \[
+   \sqrt{x + \sqrt{x + \sqrt{x + \ldots}}} = 5
+   \]
+
+   is 
+
+   \[
+   \boxed{20}.
+   \]
+
+This solution is clear and addresses all aspects of the problem, confirming that \( x = 20 \) satisfies the original equation.

@@ -1,0 +1,39 @@
+To solve the problem \(81_9 - 72_9\) and express the answer in base 9, we will follow these steps:
+
+1. **Convert \(81_9\) and \(72_9\) from base 9 to base 10.**
+2. **Perform the subtraction in base 10.**
+3. **Convert the result back from base 10 to base 9.**
+
+### Step 1: Convert \(81_9\) and \(72_9\) to base 10
+
+**Converting \(81_9\):**
+\[
+81_9 = 8 \cdot 9^1 + 1 \cdot 9^0 = 8 \cdot 9 + 1 \cdot 1 = 72 + 1 = 73
+\]
+
+**Converting \(72_9\):**
+\[
+72_9 = 7 \cdot 9^1 + 2 \cdot 9^0 = 7 \cdot 9 + 2 \cdot 1 = 63 + 2 = 65
+\]
+
+### Step 2: Perform the subtraction in base 10
+Now we subtract the two base 10 numbers obtained:
+\[
+73 - 65 = 8
+\]
+
+### Step 3: Convert the result back from base 10 to base 9
+Now we need to convert \(8\) from base 10 to base 9. 
+
+Since \(8\) is less than \(9\), it can be directly represented in base 9 as:
+\[
+8_{10} = 8_9
+\]
+
+### Final Result
+Thus, the result of \(81_9 - 72_9\) expressed in base 9 is:
+\[
+\boxed{8_9}
+\] 
+
+This solution clearly outlines each step taken to arrive at the final answer, ensuring accuracy and clarity throughout the process.

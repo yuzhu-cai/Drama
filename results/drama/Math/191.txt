@@ -1,0 +1,41 @@
+To determine how many numbers are in the list \( 6, 7, 10, 11, 14, 15, \ldots, 94, 95, 98 \), we first need to identify the pattern in the sequence.
+
+### Step 1: Identify the Pattern
+The numbers in the list can be grouped as follows:
+- The first group consists of \( 6, 7 \).
+- The second group consists of \( 10, 11 \).
+- The third group consists of \( 14, 15 \).
+- This pattern continues, with each group containing two consecutive numbers.
+
+### Step 2: Identify the Starting and Ending Points
+From the list, we can see:
+- The first number is \( 6 \).
+- The last number is \( 98 \).
+
+### Step 3: Determine the Groups
+The groups can be identified by their starting points:
+- The first group starts at \( 6 \) (Group 1).
+- The second group starts at \( 10 \) (Group 2).
+- The third group starts at \( 14 \) (Group 3).
+- Continuing this pattern, we can see that each group starts at \( 6 + 4n \) where \( n \) is the group number starting from \( 0 \).
+
+### Step 4: Find the Last Group
+To find the last group, we need to determine how many groups fit into the range up to \( 98 \):
+- The starting points of the groups are \( 6, 10, 14, \ldots \).
+- This sequence can be expressed as \( 6 + 4n \) where \( n \) is a non-negative integer.
+
+Setting \( 6 + 4n \leq 98 \):
+\[
+4n \leq 92 \\
+n \leq 23
+\]
+Thus, \( n \) can take values from \( 0 \) to \( 23 \), giving us \( 24 \) groups.
+
+### Step 5: Count the Numbers
+Since each group contains \( 2 \) numbers:
+\[
+\text{Total numbers} = 24 \text{ groups} \times 2 \text{ numbers/group} = 48
+\]
+
+### Conclusion
+The total number of terms in the list \( 6, 7, 10, 11, 14, 15, \ldots, 94, 95, 98 \) is \( \boxed{48} \).

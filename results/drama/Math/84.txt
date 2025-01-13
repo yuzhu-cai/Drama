@@ -1,0 +1,93 @@
+To determine the number of possible rational roots for the polynomial 
+
+\[
+2x^3 + a_2 x^2 + a_1 x - 4 = 0,
+\]
+
+we will apply the Rational Root Theorem. This theorem helps us identify potential rational roots based on the coefficients of the polynomial.
+
+### Step 1: Identify the Coefficients
+
+From the polynomial, we can identify:
+- The leading coefficient \( a_n = 2 \) (the coefficient of \( x^3 \)).
+- The constant term \( a_0 = -4 \) (the term without \( x \)).
+
+### Step 2: Find the Factors
+
+Next, we need to find the factors of the constant term and the leading coefficient:
+
+1. **Factors of the constant term \( -4 \)**:
+   - The integer factors of \( -4 \) are: 
+     \[
+     \pm 1, \pm 2, \pm 4.
+     \]
+
+2. **Factors of the leading coefficient \( 2 \)**:
+   - The integer factors of \( 2 \) are:
+     \[
+     \pm 1, \pm 2.
+     \]
+
+### Step 3: Form Possible Rational Roots
+
+Using the Rational Root Theorem, the possible rational roots \( \frac{p}{q} \) can be formed where \( p \) is a factor of the constant term \( -4 \) and \( q \) is a factor of the leading coefficient \( 2 \).
+
+#### Possible Values of \( p \) (factors of \( -4 \)):
+- \( \pm 1, \pm 2, \pm 4 \)
+
+#### Possible Values of \( q \) (factors of \( 2 \)):
+- \( \pm 1, \pm 2 \)
+
+### Step 4: Calculate All Possible Rational Roots
+
+Now, we will calculate all combinations of \( \frac{p}{q} \):
+
+1. **Using \( p = 1 \)**:
+   - \( \frac{1}{1} = 1 \)
+   - \( \frac{1}{2} = \frac{1}{2} \)
+
+2. **Using \( p = -1 \)**:
+   - \( \frac{-1}{1} = -1 \)
+   - \( \frac{-1}{2} = -\frac{1}{2} \)
+
+3. **Using \( p = 2 \)**:
+   - \( \frac{2}{1} = 2 \)
+   - \( \frac{2}{2} = 1 \) (duplicate)
+
+4. **Using \( p = -2 \)**:
+   - \( \frac{-2}{1} = -2 \)
+   - \( \frac{-2}{2} = -1 \) (duplicate)
+
+5. **Using \( p = 4 \)**:
+   - \( \frac{4}{1} = 4 \)
+   - \( \frac{4}{2} = 2 \) (duplicate)
+
+6. **Using \( p = -4 \)**:
+   - \( \frac{-4}{1} = -4 \)
+   - \( \frac{-4}{2} = -2 \) (duplicate)
+
+### Step 5: List Unique Possible Rational Roots
+
+Combining all unique possible rational roots, we have:
+
+\[
+\pm 1, \pm 2, \pm 4, \pm \frac{1}{2}, \pm -\frac{1}{2}, -2, -4
+\]
+
+### Final Count of Unique Possible Rational Roots
+
+The unique possible rational roots are:
+
+- \( 1, -1, 2, -2, 4, -4, \frac{1}{2}, -\frac{1}{2} \)
+
+Counting these, we find a total of **8 unique possible rational roots**.
+
+### Conclusion
+
+Thus, the number of possible rational roots for the polynomial 
+
+\[
+2x^3 + a_2 x^2 + a_1 x - 4 = 0
+\]
+
+is **8**.

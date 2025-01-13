@@ -1,0 +1,59 @@
+To solve the original equation \( x(x - 3) = 1 \) and express the solutions in the specified form, we followed these steps:
+
+1. **Rearranging the Equation**: 
+   We started with the equation:
+   \[
+   x(x - 3) = 1
+   \]
+   Rearranging it into standard quadratic form gives:
+   \[
+   x^2 - 3x - 1 = 0
+   \]
+   Here, we identified \( a = 1 \), \( b = -3 \), and \( c = -1 \).
+
+2. **Using the Quadratic Formula**:
+   The quadratic formula is:
+   \[
+   x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+   \]
+   Substituting \( a = 1 \), \( b = -3 \), and \( c = -1 \):
+   \[
+   x = \frac{-(-3) \pm \sqrt{(-3)^2 - 4 \cdot 1 \cdot (-1)}}{2 \cdot 1}
+   \]
+   Simplifying this:
+   \[
+   x = \frac{3 \pm \sqrt{9 + 4}}{2} = \frac{3 \pm \sqrt{13}}{2}
+   \]
+
+3. **Expressing in the Required Form**:
+   The solutions can be expressed as:
+   \[
+   x_1 = \frac{3 + \sqrt{13}}{2} \quad \text{and} \quad x_2 = \frac{3 - \sqrt{13}}{2}
+   \]
+   Here, we identify:
+   - \( a = 3 \)
+   - \( b = 13 \)
+   - \( c = 2 \)
+
+4. **Identifying Prime Numbers**:
+   All identified values \( a = 3 \), \( b = 13 \), and \( c = 2 \) are indeed prime numbers.
+
+5. **Calculating the Product \( abc \)**:
+   Now, we calculate the product:
+   \[
+   abc = 3 \times 13 \times 2
+   \]
+   Performing the multiplication:
+   \[
+   abc = 3 \times 13 = 39
+   \]
+   \[
+   abc = 39 \times 2 = 78
+   \]
+
+Thus, the final answer is:
+\[
+\boxed{78}
+\] 
+
+This comprehensive solution addresses all aspects of the original query, providing clear steps and calculations.

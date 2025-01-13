@@ -1,0 +1,77 @@
+To solve the problem, we have two distance equations based on the information provided:
+
+1. **Distance to the park** (going there):
+   \[
+   \text{Distance} = 3x^2
+   \]
+
+2. **Distance back from the park** (coming back):
+   \[
+   \text{Distance} = 64 - 16x
+   \]
+
+Since the distance to the park and the distance back from the park are the same, we can set these two equations equal to each other:
+
+\[
+3x^2 = 64 - 16x
+\]
+
+Now, let's rearrange this equation to form a standard quadratic equation:
+
+\[
+3x^2 + 16x - 64 = 0
+\]
+
+Next, we will solve this quadratic equation using the quadratic formula, which is given by:
+
+\[
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+\]
+
+In our equation, \(a = 3\), \(b = 16\), and \(c = -64\). First, we need to calculate the discriminant \(b^2 - 4ac\):
+
+\[
+b^2 - 4ac = 16^2 - 4 \cdot 3 \cdot (-64)
+\]
+\[
+= 256 + 768
+\]
+\[
+= 1024
+\]
+
+Now, we can substitute the values into the quadratic formula:
+
+\[
+x = \frac{-16 \pm \sqrt{1024}}{2 \cdot 3}
+\]
+\[
+= \frac{-16 \pm 32}{6}
+\]
+
+This gives us two potential solutions for \(x\):
+
+1. 
+\[
+x = \frac{-16 + 32}{6} = \frac{16}{6} = \frac{8}{3}
+\]
+
+2. 
+\[
+x = \frac{-16 - 32}{6} = \frac{-48}{6} = -8
+\]
+
+Since we are given that \(x > 0\), we discard the negative solution. Thus, the only valid solution is:
+
+\[
+x = \frac{8}{3}
+\]
+
+### Conclusion
+The value of \(x\) is:
+
+\[
+\boxed{\frac{8}{3}}
+\]
+
+This solution is clear and addresses all aspects of the problem, confirming that \(x\) is expressed as a common fraction. If you have any further questions or need additional assistance, feel free to ask!

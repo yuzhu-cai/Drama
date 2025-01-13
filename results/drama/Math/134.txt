@@ -1,0 +1,65 @@
+To find the distance between the vertex of the parabola represented by the equation \( y = x^2 + 2x - 6 \) and the point \( (4, 5) \), we will follow these steps:
+
+1. **Determine the vertex of the parabola**.
+2. **Use the distance formula to find the distance between the vertex and the point \( (4, 5) \)**.
+
+### Step 1: Determine the Vertex
+
+From our previous calculation, we found the vertex of the parabola \( y = x^2 + 2x - 6 \) using the vertex formula:
+
+- The x-coordinate of the vertex is given by:
+  \[
+  x = -\frac{b}{2a} = -\frac{2}{2 \cdot 1} = -1
+  \]
+
+- To find the y-coordinate, we substitute \( x = -1 \) back into the equation:
+  \[
+  y = (-1)^2 + 2(-1) - 6 = 1 - 2 - 6 = -7
+  \]
+
+Thus, the vertex of the parabola is at the point:
+\[
+(-1, -7)
+\]
+
+### Step 2: Calculate the Distance to the Point \( (4, 5) \)
+
+Now, we will use the distance formula to find the distance \( d \) between the vertex \( (-1, -7) \) and the point \( (4, 5) \):
+
+The distance formula is:
+\[
+d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
+\]
+
+Substituting the coordinates:
+- \( (x_1, y_1) = (-1, -7) \)
+- \( (x_2, y_2) = (4, 5) \)
+
+We have:
+\[
+d = \sqrt{(4 - (-1))^2 + (5 - (-7))^2}
+\]
+
+Calculating the differences:
+\[
+d = \sqrt{(4 + 1)^2 + (5 + 7)^2}
+\]
+\[
+d = \sqrt{(5)^2 + (12)^2}
+\]
+\[
+d = \sqrt{25 + 144}
+\]
+\[
+d = \sqrt{169}
+\]
+\[
+d = 13
+\]
+
+### Conclusion
+
+The distance between the vertex of the parabola \( y = x^2 + 2x - 6 \) at the point \( (-1, -7) \) and the point \( (4, 5) \) is:
+\[
+\boxed{13}
+\]

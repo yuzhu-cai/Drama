@@ -1,0 +1,78 @@
+To find the value of \( n \) for the point \( (1001, n) \) on the line shown in the graph, we need to follow these steps:
+
+### Step 1: Determine the Slope of the Line
+
+From the graph, we can identify two points on the line. Let's assume we have the following points based on the grid lines:
+- Point A: \( (-10, -2.71) \)
+- Point B: \( (10, 8.71) \)
+
+Using these points, we can calculate the slope \( m \) of the line using the slope formula:
+
+\[
+m = \frac{y_2 - y_1}{x_2 - x_1}
+\]
+
+Substituting the coordinates of points A and B:
+
+\[
+m = \frac{8.71 - (-2.71)}{10 - (-10)} = \frac{8.71 + 2.71}{10 + 10} = \frac{11.42}{20} = 0.571
+\]
+
+### Step 2: Use the Point-Slope Form to Find the Equation of the Line
+
+Now that we have the slope \( m \), we can use the point-slope form of the equation of a line. We can use either point A or point B. Let's use point A \( (-10, -2.71) \):
+
+\[
+y - y_1 = m(x - x_1)
+\]
+
+Substituting in the values:
+
+\[
+y - (-2.71) = 0.571(x - (-10))
+\]
+
+This simplifies to:
+
+\[
+y + 2.71 = 0.571(x + 10)
+\]
+
+Distributing the slope:
+
+\[
+y + 2.71 = 0.571x + 5.71
+\]
+
+Now, isolating \( y \):
+
+\[
+y = 0.571x + 5.71 - 2.71
+\]
+\[
+y = 0.571x + 3
+\]
+
+### Step 3: Substitute \( x = 1001 \) to Find \( n \)
+
+Now that we have the equation of the line \( y = 0.571x + 3 \), we can substitute \( x = 1001 \) to find \( n \):
+
+\[
+n = 0.571(1001) + 3
+\]
+
+Calculating this:
+
+\[
+n = 571.571 + 3 = 574.571
+\]
+
+### Conclusion
+
+Thus, the corresponding value of \( n \) when \( x = 1001 \) is:
+
+\[
+\boxed{574.571}
+\] 
+
+This solution synthesizes the results from the subtasks, providing a clear and accurate answer to the original query.

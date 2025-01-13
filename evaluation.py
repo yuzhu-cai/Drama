@@ -42,9 +42,9 @@ if __name__ == "__main__":
 
     # DRAMA: gpt-4o-mini
     # HumanEval 
-    pass_at_1 = eval(mode="code", test_path='results/drama/HumanEval')
-    print(pass_at_1)
+    # pass_at_1 = eval(mode="code", test_path='results/drama/HumanEval')
+    # print(pass_at_1)
 
     # MATH 
-    # acc = eval(mode="math", test_path='results/drama/Math')
-    # print(acc)
+    acc = eval(mode="math", test_path='results/drama/Math')
+    print(acc)

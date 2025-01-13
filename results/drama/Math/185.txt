@@ -1,0 +1,28 @@
+To determine how many perfect squares have a value between 10 and 1000, we will follow a systematic approach based on the previously identified smallest and largest perfect squares within this range.
+
+### Step 1: Identify the smallest perfect square greater than 10
+From our previous analysis, the smallest perfect square greater than 10 is:
+- \( 4^2 = 16 \)
+
+### Step 2: Identify the largest perfect square less than 1000
+We also established that the largest perfect square less than 1000 is:
+- \( 31^2 = 961 \)
+
+### Step 3: Count the perfect squares between 16 and 961
+Now, we need to count all the perfect squares from \( 4^2 \) to \( 31^2 \).
+
+1. **Identify the range of integers**:
+   - The smallest integer \( n \) such that \( n^2 \) is greater than or equal to 16 is \( n = 4 \).
+   - The largest integer \( m \) such that \( m^2 \) is less than or equal to 961 is \( m = 31 \).
+
+2. **Count the integers from 4 to 31**:
+   - The integers in this range are \( 4, 5, 6, \ldots, 31 \).
+   - To find the count of these integers, we use the formula:
+     \[
+     \text{Count} = m - n + 1 = 31 - 4 + 1 = 28
+     \]
+
+### Conclusion
+Thus, the total number of perfect squares that have a value between 10 and 1000 is **28**.
+
+In summary, the perfect squares in this range are \( 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225, 256, 289, 324, 361, 400, 441, 484, 529, 576, 625, 676, 729, 784, 841, 900, 961 \), confirming that there are indeed **28 perfect squares** between 10 and 1000.

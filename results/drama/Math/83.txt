@@ -1,0 +1,59 @@
+To find all possible values of the expression \( E = a^2 b + b^2 c + c^2 a \) where \( a, b, c \) are the roots of the polynomial 
+
+\[
+x^3 - 6x^2 + 3x + 1 = 0,
+\]
+
+we can utilize the properties of symmetric sums and the relationships between the roots and coefficients of the polynomial.
+
+### Step 1: Identify the Roots and Their Relationships
+
+From Vieta's formulas, for the polynomial \( x^3 - 6x^2 + 3x + 1 = 0 \), we have:
+
+- \( a + b + c = 6 \)
+- \( ab + bc + ca = 3 \)
+- \( abc = -1 \)
+
+### Step 2: Express \( E \) in Terms of Symmetric Sums
+
+The expression \( E = a^2 b + b^2 c + c^2 a \) can be rewritten using the roots and their symmetric sums. We can factor \( E \) as follows:
+
+\[
+E = ab(a + b) + bc(b + c) + ca(c + a).
+\]
+
+However, a more straightforward approach is to use the identity:
+
+\[
+E = \frac{1}{2} \left( (a+b+c)(ab + ac + bc) - 3abc \right).
+\]
+
+### Step 3: Substitute the Values from Vieta's Formulas
+
+Now, substituting the values from Vieta's formulas into the expression for \( E \):
+
+1. \( a + b + c = 6 \)
+2. \( ab + ac + bc = 3 \)
+3. \( abc = -1 \)
+
+Substituting these into the expression for \( E \):
+
+\[
+E = \frac{1}{2} \left( 6 \cdot 3 - 3(-1) \right)
+\]
+
+Calculating this gives:
+
+\[
+E = \frac{1}{2} \left( 18 + 3 \right) = \frac{1}{2} \cdot 21 = 10.5.
+\]
+
+### Conclusion
+
+Thus, the only possible value of the expression \( a^2 b + b^2 c + c^2 a \) for the roots \( a, b, c \) of the polynomial \( x^3 - 6x^2 + 3x + 1 = 0 \) is:
+
+\[
+\boxed{10.5}.
+\] 
+
+This value is derived from the relationships established by Vieta's formulas and confirms that \( E \) has a unique value based on the roots of the given polynomial.

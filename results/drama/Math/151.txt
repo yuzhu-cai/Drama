@@ -1,0 +1,33 @@
+To solve the problem, we need to find two positive whole numbers whose product is 2005, and neither of the numbers can be 1. We have already determined the factors of 2005 in the previous steps.
+
+### Step 1: Identify the Factors of 2005
+From the prime factorization, we found:
+\[
+2005 = 5 \times 401
+\]
+The positive whole number factors of 2005 are:
+- 1
+- 5
+- 401
+- 2005
+
+Since we are looking for factors greater than 1, the relevant factors are:
+- 5
+- 401
+- 2005
+
+### Step 2: Identify the Pair of Factors
+We need to find a pair of factors that multiply to give 2005. The only pair of factors that meet the criteria (both greater than 1) is:
+- \(5\) and \(401\)
+
+### Step 3: Calculate the Sum of the Two Factors
+Now, we calculate the sum of the two identified factors:
+\[
+5 + 401 = 406
+\]
+
+### Conclusion
+The sum of the two positive whole numbers whose product is 2005 (and neither of which is 1) is:
+\[
+\boxed{406}
+\]

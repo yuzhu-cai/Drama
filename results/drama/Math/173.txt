@@ -1,0 +1,87 @@
+To solve the problem of finding how many rectangles can be formed with the given nonadjacent vertices \( (4, 3) \) and \( (-4, -3) \), where the other two vertices must have integer coordinates, we will follow these steps:
+
+### Step 1: Identify the Midpoint
+First, we calculate the midpoint of the diagonal formed by the two given vertices. The midpoint \( M \) is calculated using the midpoint formula:
+
+\[
+M = \left( \frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2} \right)
+\]
+
+Substituting the coordinates of the vertices \( (4, 3) \) and \( (-4, -3) \):
+
+\[
+M = \left( \frac{4 + (-4)}{2}, \frac{3 + (-3)}{2} \right) = \left( \frac{0}{2}, \frac{0}{2} \right) = (0, 0)
+\]
+
+### Step 2: Calculate the Lengths of the Sides
+Next, we calculate the lengths of the sides of the rectangle. The distance between the two given vertices (the diagonal) can be calculated using the distance formula:
+
+\[
+d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
+\]
+
+Substituting the coordinates:
+
+\[
+d = \sqrt{((-4) - 4)^2 + ((-3) - 3)^2} = \sqrt{(-8)^2 + (-6)^2} = \sqrt{64 + 36} = \sqrt{100} = 10
+\]
+
+### Step 3: Determine the Side Lengths
+Let the lengths of the sides of the rectangle be \( l \) and \( w \). According to the properties of rectangles, the relationship between the diagonal \( d \) and the sides is given by:
+
+\[
+d = \sqrt{l^2 + w^2}
+\]
+
+From our calculation, we have \( d = 10 \):
+
+\[
+10 = \sqrt{l^2 + w^2}
+\]
+
+Squaring both sides gives:
+
+\[
+100 = l^2 + w^2
+\]
+
+### Step 4: Find Integer Solutions for \( l \) and \( w \)
+We need to find pairs of integers \( (l, w) \) such that:
+
+\[
+l^2 + w^2 = 100
+\]
+
+This is equivalent to finding integer solutions to the equation. We can list the pairs \( (l, w) \) that satisfy this equation:
+
+- \( (10, 0) \)
+- \( (0, 10) \)
+- \( (6, 8) \)
+- \( (8, 6) \)
+- \( (7, 7) \)
+
+### Step 5: Count Valid Rectangles
+For each pair \( (l, w) \), we can find the coordinates of the other two vertices \( B \) and \( C \) based on the properties of rectangles. The coordinates of the other two vertices can be determined by moving \( l \) units horizontally and \( w \) units vertically from the midpoint \( (0, 0) \).
+
+1. **For \( (10, 0) \)**:
+   - Vertices: \( (5, 0) \) and \( (-5, 0) \)
+2. **For \( (0, 10) \)**:
+   - Vertices: \( (0, 5) \) and \( (0, -5) \)
+3. **For \( (6, 8) \)**:
+   - Vertices: \( (3, 4) \) and \( (-3, -4) \)
+4. **For \( (8, 6) \)**:
+   - Vertices: \( (4, 3) \) and \( (-4, -3) \) (already given)
+5. **For \( (7, 7) \)**:
+   - Vertices: \( (3.5, 3.5) \) and \( (-3.5, -3.5) \) (not valid since not integers)
+
+### Conclusion
+The valid pairs of integer coordinates for the other two vertices are derived from the pairs \( (6, 8) \) and \( (8, 6) \). 
+
+Thus, the total number of rectangles that can be formed with the given conditions is **4**:
+
+1. Rectangle with vertices \( (4, 3), (-4, -3), (5, 0), (-5, 0) \)
+2. Rectangle with vertices \( (4, 3), (-4, -3), (0, 5), (0, -5) \)
+3. Rectangle with vertices \( (4, 3), (-4, -3), (3, 4), (-3, -4) \)
+4. Rectangle with vertices \( (4, 3), (-4, -3), (4, -3), (-4, 3) \)
+
+Therefore, the final answer is that there are **3 valid rectangles** that satisfy the conditions of the problem.

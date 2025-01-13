@@ -1,0 +1,61 @@
+To compute the expression 
+
+\[
+\frac{2^{10} - 2^8}{2^7 - 2^6},
+\]
+
+we will first calculate the values of \(2^{10}\), \(2^{8}\), \(2^{7}\), and \(2^{6}\) based on our previous calculations.
+
+1. **Calculate \(2^{10}\)**:
+   \[
+   2^{10} = 1024
+   \]
+
+2. **Calculate \(2^{8}\)**:
+   \[
+   2^{8} = 256
+   \]
+
+3. **Calculate \(2^{7}\)**:
+   \[
+   2^{7} = 128
+   \]
+
+4. **Calculate \(2^{6}\)**:
+   \[
+   2^{6} = 64
+   \]
+
+Now, we can substitute these values into the expression:
+
+### Step 1: Calculate the Numerator
+\[
+2^{10} - 2^{8} = 1024 - 256 = 768
+\]
+
+### Step 2: Calculate the Denominator
+\[
+2^{7} - 2^{6} = 128 - 64 = 64
+\]
+
+### Step 3: Substitute into the Expression
+Now we substitute the results back into the expression:
+
+\[
+\frac{2^{10} - 2^{8}}{2^{7} - 2^{6}} = \frac{768}{64}
+\]
+
+### Step 4: Simplify the Fraction
+Now we simplify \( \frac{768}{64} \):
+
+\[
+768 \div 64 = 12
+\]
+
+Thus, the final result of the computation is 
+
+\[
+\boxed{12}.
+\] 
+
+This is the simplest form of the expression.

@@ -1,0 +1,57 @@
+To find the total area of the shaded regions in the figure consisting of four semicircles, we will follow these steps:
+
+1. **Identify the diameters and radii of the semicircles**:
+   - The largest semicircle has a diameter of 16 cm, so its radius \( R_1 \) is:
+     \[
+     R_1 = \frac{16 \text{ cm}}{2} = 8 \text{ cm}
+     \]
+   - The second semicircle has a diameter of 12 cm, so its radius \( R_2 \) is:
+     \[
+     R_2 = \frac{12 \text{ cm}}{2} = 6 \text{ cm}
+     \]
+   - The third semicircle has a diameter of 8 cm, so its radius \( R_3 \) is:
+     \[
+     R_3 = \frac{8 \text{ cm}}{2} = 4 \text{ cm}
+     \]
+   - The smallest semicircle has a diameter of 4 cm, so its radius \( R_4 \) is:
+     \[
+     R_4 = \frac{4 \text{ cm}}{2} = 2 \text{ cm}
+     \]
+
+2. **Calculate the areas of the semicircles**:
+   - The area \( A_1 \) of the largest semicircle:
+     \[
+     A_1 = \frac{1}{2} \pi R_1^2 = \frac{1}{2} \pi (8 \text{ cm})^2 = \frac{1}{2} \pi (64 \text{ cm}^2) = 32\pi \text{ cm}^2
+     \]
+   - The area \( A_2 \) of the second semicircle:
+     \[
+     A_2 = \frac{1}{2} \pi R_2^2 = \frac{1}{2} \pi (6 \text{ cm})^2 = \frac{1}{2} \pi (36 \text{ cm}^2) = 18\pi \text{ cm}^2
+     \]
+   - The area \( A_3 \) of the third semicircle:
+     \[
+     A_3 = \frac{1}{2} \pi R_3^2 = \frac{1}{2} \pi (4 \text{ cm})^2 = \frac{1}{2} \pi (16 \text{ cm}^2) = 8\pi \text{ cm}^2
+     \]
+   - The area \( A_4 \) of the smallest semicircle:
+     \[
+     A_4 = \frac{1}{2} \pi R_4^2 = \frac{1}{2} \pi (2 \text{ cm})^2 = \frac{1}{2} \pi (4 \text{ cm}^2) = 2\pi \text{ cm}^2
+     \]
+
+3. **Calculate the total area of the shaded regions**:
+   The shaded areas consist of the areas of the largest and third semicircles minus the areas of the second and smallest semicircles:
+   \[
+   \text{Total Shaded Area} = A_1 + A_3 - (A_2 + A_4)
+   \]
+   Substituting the areas calculated:
+   \[
+   \text{Total Shaded Area} = 32\pi + 8\pi - (18\pi + 2\pi) = 40\pi - 20\pi = 20\pi \text{ cm}^2
+   \]
+
+4. **Convert to decimal using \( \pi \approx 3.14 \)**:
+   \[
+   \text{Total Shaded Area} \approx 20 \times 3.14 = 62.8 \text{ cm}^2
+   \]
+
+Thus, the total area of the shaded regions is:
+\[
+\boxed{62.8 \text{ cm}^2}
+\]

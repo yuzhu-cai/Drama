@@ -1,0 +1,56 @@
+To determine how many numbers are in the list \( 6, 10, 14, \ldots, 82, 86 \), we can follow these steps:
+
+### Step 1: Identify the First Term and Common Difference
+From the given sequence:
+- The **first term** \( a_1 \) is \( 6 \).
+- The **common difference** \( d \) is \( 4 \) (since \( 10 - 6 = 4 \)).
+
+### Step 2: Identify the Last Term
+The **last term** \( a_n \) in the sequence is \( 86 \).
+
+### Step 3: Use the Formula for the \( n \)-th Term
+The formula for the \( n \)-th term of an arithmetic sequence is:
+
+\[
+a_n = a_1 + (n - 1) \cdot d
+\]
+
+We can rearrange this formula to solve for \( n \):
+
+\[
+n = \frac{a_n - a_1}{d} + 1
+\]
+
+### Step 4: Substitute the Values
+Now we can substitute the known values into the rearranged formula:
+
+- \( a_n = 86 \)
+- \( a_1 = 6 \)
+- \( d = 4 \)
+
+Substituting these values gives:
+
+\[
+n = \frac{86 - 6}{4} + 1
+\]
+
+### Step 5: Calculate
+1. Calculate \( 86 - 6 \):
+   \[
+   86 - 6 = 80
+   \]
+
+2. Divide by the common difference \( d \):
+   \[
+   \frac{80}{4} = 20
+   \]
+
+3. Add 1:
+   \[
+   20 + 1 = 21
+   \]
+
+### Conclusion
+Thus, the total number of terms in the list \( 6, 10, 14, \ldots, 82, 86 \) is **21**.
+
+This comprehensive solution confirms that there are **21 numbers** in the given arithmetic sequence.

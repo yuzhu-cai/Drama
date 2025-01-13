@@ -1,0 +1,60 @@
+To solve the problem of determining the greatest possible value of the greatest common divisor (GCD) of two consecutive Fibonacci numbers, we start by recalling the definition of the Fibonacci sequence:
+
+- \( F_0 = 0 \)
+- \( F_1 = 1 \)
+- For \( n \geq 2 \), \( F_n = F_{n-1} + F_{n-2} \)
+
+### Step 1: Calculate the GCD of Consecutive Fibonacci Numbers
+
+We want to find \( \gcd(F_n, F_{n+1}) \) for \( n \geq 0 \). A key property of Fibonacci numbers is that:
+
+\[
+\gcd(F_n, F_{n+1}) = \gcd(F_n, F_{n+1} - F_n) = \gcd(F_n, F_{n-2})
+\]
+
+This property allows us to reduce the GCD calculation repeatedly until we reach the base cases of the Fibonacci sequence.
+
+### Step 2: Reduce the GCD Calculation
+
+Using the property mentioned, we can continue reducing:
+
+\[
+\gcd(F_n, F_{n+1}) = \gcd(F_n, F_{n-2}) = \gcd(F_{n-2}, F_{n-3}) = \ldots
+\]
+
+Eventually, this process will lead us to:
+
+\[
+\gcd(F_n, F_{n+1}) = \gcd(F_1, F_0)
+\]
+
+### Step 3: Calculate the GCD of Base Cases
+
+From the Fibonacci sequence, we know:
+
+- \( F_0 = 0 \)
+- \( F_1 = 1 \)
+
+Thus, we have:
+
+\[
+\gcd(F_0, F_1) = \gcd(0, 1) = 1
+\]
+
+### Step 4: General Conclusion
+
+Since the GCD of any two consecutive Fibonacci numbers reduces to the GCD of \( F_0 \) and \( F_1 \), we conclude that:
+
+\[
+\gcd(F_n, F_{n+1}) = 1 \quad \text{for all } n \geq 0
+\]
+
+### Final Answer
+
+Therefore, the greatest possible value of the greatest common divisor of two consecutive Fibonacci numbers is:
+
+\[
+\boxed{1}
+\] 
+
+This result indicates that consecutive Fibonacci numbers are coprime, meaning they share no common divisors other than 1.

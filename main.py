@@ -49,6 +49,6 @@ if __name__ == "__main__":
 
     # DRAMA: gpt-4o-mini
     # Humaneva1101l
-    infer_drama(mode="code")
+    # infer_drama(mode="code")
     # MATH
-    # infer_drama(mode="math")
+    infer_drama(mode="math")

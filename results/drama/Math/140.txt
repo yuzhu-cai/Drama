@@ -1,0 +1,113 @@
+To solve the problem regarding the number of quarters Wendy has, we need to address the following conditions:
+
+1. When stacked in piles of 5, she has 3 left over:
+   \[
+   x \equiv 3 \mod{5}
+   \]
+   
+2. When stacked in piles of 7, she has 5 left over:
+   \[
+   x \equiv 5 \mod{7}
+   \]
+
+3. The total value of the quarters must be less than 10 dollars, which translates to:
+   \[
+   x < 40 \quad (\text{since } 10 \text{ dollars } = 40 \text{ quarters})
+   \]
+
+### Step 1: Set Up the Congruences
+
+From the congruences, we can express \( x \) in terms of integers \( k \) and \( m \):
+
+1. From \( x \equiv 3 \mod{5} \):
+   \[
+   x = 5k + 3 \quad \text{for some integer } k
+   \]
+
+2. From \( x \equiv 5 \mod{7} \):
+   \[
+   x = 7m + 5 \quad \text{for some integer } m
+   \]
+
+### Step 2: Solve the Congruences
+
+We can set the two expressions for \( x \) equal to each other:
+\[
+5k + 3 = 7m + 5
+\]
+
+Rearranging gives:
+\[
+5k - 7m = 2
+\]
+
+### Step 3: Find Integer Solutions
+
+To find integer solutions for \( k \) and \( m \), we can express \( k \) in terms of \( m \):
+\[
+5k = 7m + 2 \implies k = \frac{7m + 2}{5}
+\]
+
+For \( k \) to be an integer, \( 7m + 2 \) must be divisible by 5. We can check values of \( m \) to find suitable integers:
+
+- For \( m = 0 \):
+  \[
+  7(0) + 2 = 2 \quad \text{(not divisible by 5)}
+  \]
+  
+- For \( m = 1 \):
+  \[
+  7(1) + 2 = 9 \quad \text{(not divisible by 5)}
+  \]
+
+- For \( m = 2 \):
+  \[
+  7(2) + 2 = 16 \quad \text{(not divisible by 5)}
+  \]
+
+- For \( m = 3 \):
+  \[
+  7(3) + 2 = 23 \quad \text{(not divisible by 5)}
+  \]
+
+- For \( m = 4 \):
+  \[
+  7(4) + 2 = 30 \quad \text{(divisible by 5, } k = 6)
+  \]
+
+- For \( m = 5 \):
+  \[
+  7(5) + 2 = 37 \quad \text{(not divisible by 5)}
+  \]
+
+### Step 4: Calculate \( x \)
+
+Using \( m = 4 \) and \( k = 6 \):
+\[
+x = 7(4) + 5 = 28 + 5 = 33
+\]
+or
+\[
+x = 5(6) + 3 = 30 + 3 = 33
+\]
+
+### Step 5: Verify Conditions
+
+1. **Check \( x < 40 \)**:
+   \[
+   33 < 40 \quad \text{(satisfied)}
+   \]
+
+2. **Check \( x \equiv 3 \mod{5} \)**:
+   \[
+   33 \mod{5} = 3 \quad \text{(satisfied)}
+   \]
+
+3. **Check \( x \equiv 5 \mod{7} \)**:
+   \[
+   33 \mod{7} = 5 \quad \text{(satisfied)}
+   \]
+
+### Conclusion
+
+Wendy has **33 quarters**. This number satisfies all the conditions of the problem: it is less than 10 dollars, leaves a remainder of 3 when divided by 5, and a remainder of 5 when divided by 7.

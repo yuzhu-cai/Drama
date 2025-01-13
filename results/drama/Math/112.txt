@@ -1,0 +1,106 @@
+To solve the problem, we need to express \( x \), \( y \), and \( w \) in terms of \( z \) using the given ratios, and then calculate \( \frac{x + y + w}{z} \).
+
+### Step 1: Express \( y \) in terms of \( z \)
+
+From the equation 
+
+\[
+\frac{y}{z} = \frac{3}{10},
+\]
+
+we can express \( y \) as:
+
+\[
+y = \frac{3}{10} z.
+\]
+
+### Step 2: Express \( x \) in terms of \( y \)
+
+From the equation 
+
+\[
+\frac{x}{y} = \frac{4}{5},
+\]
+
+we can express \( x \) in terms of \( y \):
+
+\[
+x = \frac{4}{5} y.
+\]
+
+Now substituting the expression for \( y \):
+
+\[
+x = \frac{4}{5} \left(\frac{3}{10} z\right) = \frac{4 \cdot 3}{5 \cdot 10} z = \frac{12}{50} z = \frac{6}{25} z.
+\]
+
+### Step 3: Express \( w \) in terms of \( z \)
+
+From the equation 
+
+\[
+\frac{z}{w} = \frac{6}{7},
+\]
+
+we can express \( w \) in terms of \( z \):
+
+\[
+w = \frac{7}{6} z.
+\]
+
+### Step 4: Calculate \( x + y + w \)
+
+Now we can add \( x \), \( y \), and \( w \):
+
+\[
+x + y + w = \frac{6}{25} z + \frac{3}{10} z + \frac{7}{6} z.
+\]
+
+To add these fractions, we need a common denominator. The least common multiple of \( 25 \), \( 10 \), and \( 6 \) is \( 150 \).
+
+Now we convert each term:
+
+1. For \( x = \frac{6}{25} z \):
+   \[
+   x = \frac{6 \cdot 6}{25 \cdot 6} z = \frac{36}{150} z.
+   \]
+
+2. For \( y = \frac{3}{10} z \):
+   \[
+   y = \frac{3 \cdot 15}{10 \cdot 15} z = \frac{45}{150} z.
+   \]
+
+3. For \( w = \frac{7}{6} z \):
+   \[
+   w = \frac{7 \cdot 25}{6 \cdot 25} z = \frac{175}{150} z.
+   \]
+
+Now we can add these fractions:
+
+\[
+x + y + w = \frac{36}{150} z + \frac{45}{150} z + \frac{175}{150} z = \frac{36 + 45 + 175}{150} z = \frac{256}{150} z.
+\]
+
+### Step 5: Calculate \( \frac{x + y + w}{z} \)
+
+Now we divide \( x + y + w \) by \( z \):
+
+\[
+\frac{x + y + w}{z} = \frac{\frac{256}{150} z}{z} = \frac{256}{150}.
+\]
+
+### Step 6: Simplify the fraction
+
+To simplify \( \frac{256}{150} \), we find the greatest common divisor (GCD) of \( 256 \) and \( 150 \). The GCD is \( 2 \):
+
+\[
+\frac{256 \div 2}{150 \div 2} = \frac{128}{75}.
+\]
+
+### Final Answer
+
+Thus, the value of \( \frac{x + y + w}{z} \) is 
+
+\[
+\boxed{\frac{128}{75}}.
+\]

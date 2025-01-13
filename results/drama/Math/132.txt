@@ -1,0 +1,126 @@
+To solve the equation 
+
+\[
+\frac{6r^2 - 19r - 7}{2r - 7} = 4r - 3,
+\]
+
+we will follow these steps:
+
+### Step 1: Eliminate the Fraction
+
+Multiply both sides by \( (2r - 7) \):
+
+\[
+6r^2 - 19r - 7 = (4r - 3)(2r - 7).
+\]
+
+### Step 2: Expand the Right Side
+
+Now, we expand the right-hand side:
+
+\[
+(4r - 3)(2r - 7) = 4r \cdot 2r - 4r \cdot 7 - 3 \cdot 2r + 3 \cdot 7.
+\]
+
+Calculating this gives:
+
+\[
+8r^2 - 28r - 6r + 21 = 8r^2 - 34r + 21.
+\]
+
+### Step 3: Set the Equation to Zero
+
+Now, we set the equation to zero:
+
+\[
+6r^2 - 19r - 7 = 8r^2 - 34r + 21.
+\]
+
+Rearranging gives:
+
+\[
+6r^2 - 19r - 7 - 8r^2 + 34r - 21 = 0,
+\]
+
+which simplifies to:
+
+\[
+-2r^2 + 15r - 28 = 0.
+\]
+
+Multiplying through by -1 to make the leading coefficient positive:
+
+\[
+2r^2 - 15r + 28 = 0.
+\]
+
+### Step 4: Use the Quadratic Formula
+
+Now, we can apply the quadratic formula:
+
+\[
+r = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a},
+\]
+
+where \( a = 2 \), \( b = -15 \), and \( c = 28 \).
+
+Calculating the discriminant:
+
+\[
+b^2 - 4ac = (-15)^2 - 4 \cdot 2 \cdot 28 = 225 - 224 = 1.
+\]
+
+Now substituting into the quadratic formula:
+
+\[
+r = \frac{15 \pm \sqrt{1}}{2 \cdot 2} = \frac{15 \pm 1}{4}.
+\]
+
+This gives us two solutions:
+
+1. \( r = \frac{16}{4} = 4 \)
+2. \( r = \frac{14}{4} = \frac{7}{2} \)
+
+### Step 5: Verify the Solutions
+
+Now we will verify both solutions by substituting them back into the original equation.
+
+**For \( r = 4 \)**:
+
+Substituting \( r = 4 \):
+
+\[
+\frac{6(4)^2 - 19(4) - 7}{2(4) - 7} = \frac{96 - 76 - 7}{8 - 7} = \frac{13}{1} = 13,
+\]
+
+and 
+
+\[
+4(4) - 3 = 16 - 3 = 13.
+\]
+
+Both sides are equal, so \( r = 4 \) is a valid solution.
+
+**For \( r = \frac{7}{2} \)**:
+
+Substituting \( r = \frac{7}{2} \):
+
+\[
+\frac{6\left(\frac{7}{2}\right)^2 - 19\left(\frac{7}{2}\right) - 7}{2\left(\frac{7}{2}\right) - 7} = \frac{6 \cdot \frac{49}{4} - \frac{133}{2} - 7}{7 - 7} = \text{undefined}.
+\]
+
+The denominator becomes zero, so \( r = \frac{7}{2} \) is not a valid solution.
+
+### Final Solution
+
+The only valid solution to the equation 
+
+\[
+\frac{6r^2 - 19r - 7}{2r - 7} = 4r - 3
+\]
+
+is 
+
+\[
+\boxed{4}.
+\]

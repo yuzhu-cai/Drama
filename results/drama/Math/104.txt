@@ -1,0 +1,67 @@
+To solve the quadratic equation \( x^2 - 8x - 49 = 0 \) by completing the square and rewriting it in the form \( (ax + b)^2 + c \), we will follow these steps:
+
+### Step 1: Rewrite the Equation
+Start with the original equation:
+\[
+x^2 - 8x - 49 = 0
+\]
+
+### Step 2: Isolate the Constant Term
+Move the constant term to the right side:
+\[
+x^2 - 8x = 49
+\]
+
+### Step 3: Complete the Square
+To complete the square, we take the coefficient of \( x \) (which is \(-8\)), divide it by 2, and square it:
+\[
+\left(-\frac{8}{2}\right)^2 = (-4)^2 = 16
+\]
+Now, add and subtract this square inside the equation:
+\[
+x^2 - 8x + 16 - 16 = 49
+\]
+This simplifies to:
+\[
+(x - 4)^2 - 16 = 49
+\]
+
+### Step 4: Rearrange the Equation
+Now, move \(-16\) to the right side:
+\[
+(x - 4)^2 = 49 + 16
+\]
+This gives:
+\[
+(x - 4)^2 = 65
+\]
+
+### Step 5: Write in Completed Square Form
+Now, we can express the equation in the desired form:
+\[
+(x - 4)^2 - 65 = 0
+\]
+This can be rewritten as:
+\[
+(x - 4)^2 + (-65) = 0
+\]
+
+### Step 6: Identify Values of \( a \), \( b \), and \( c \)
+From the completed square form \( (x - 4)^2 - 65 \):
+- We can identify \( a = 1 \) (since the coefficient of the squared term is 1),
+- \( b = -4 \) (the term inside the parentheses is \(-4\)),
+- \( c = -65 \) (the constant term).
+
+### Step 7: Calculate the Product \( ab \)
+Now, we calculate the product \( ab \):
+\[
+ab = 1 \times (-4) = -4
+\]
+
+### Conclusion
+Thus, the product \( ab \) is:
+\[
+\boxed{-4}
+\] 
+
+This solution clearly outlines the steps taken to complete the square, identifies the necessary values, and calculates the product accurately.

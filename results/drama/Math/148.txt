@@ -1,0 +1,87 @@
+To find the positive base \( b \) in which the equation \( 4 \cdot 12 = 103 \) is valid, we will follow these steps:
+
+### Step 1: Convert the numbers to base \( b \)
+
+1. **Convert \( 4 \)**:
+   - In base \( b \), \( 4 \) remains \( 4 \) since \( 4 < b \).
+
+2. **Convert \( 12 \)**:
+   - In base \( b \), \( 12 \) can be expressed as:
+     \[
+     12_b = 1 \cdot b + 2
+     \]
+
+3. **Convert \( 103 \)**:
+   - In base \( b \), \( 103 \) can be expressed as:
+     \[
+     103_b = 1 \cdot b^2 + 0 \cdot b + 3
+     \]
+
+### Step 2: Set up the equation
+
+The original equation \( 4 \cdot 12 = 103 \) can be rewritten in terms of base \( b \):
+\[
+4 \cdot (1 \cdot b + 2) = 1 \cdot b^2 + 0 \cdot b + 3
+\]
+
+### Step 3: Simplify the left side
+
+Calculating the left side:
+\[
+4 \cdot (b + 2) = 4b + 8
+\]
+
+### Step 4: Set the left side equal to the right side
+
+Now we have:
+\[
+4b + 8 = b^2 + 3
+\]
+
+### Step 5: Rearrange the equation
+
+Rearranging gives us:
+\[
+b^2 - 4b + 3 - 8 = 0
+\]
+\[
+b^2 - 4b - 5 = 0
+\]
+
+### Step 6: Factor the quadratic equation
+
+Factoring the quadratic:
+\[
+(b - 5)(b + 1) = 0
+\]
+
+### Step 7: Solve for \( b \)
+
+The solutions to the equation are:
+\[
+b - 5 = 0 \quad \Rightarrow \quad b = 5
+\]
+\[
+b + 1 = 0 \quad \Rightarrow \quad b = -1 \quad (\text{not valid since base must be positive})
+\]
+
+### Conclusion
+
+The only valid solution for the positive base \( b \) is:
+\[
+\boxed{5}
+\]
+
+### Verification
+
+To verify, we can check if the equation holds true in base \( 5 \):
+- \( 4 \) in base \( 5 \) is \( 4 \).
+- \( 12 \) in base \( 5 \) is \( 1 \cdot 5 + 2 = 7 \).
+- \( 103 \) in base \( 5 \) is \( 1 \cdot 5^2 + 0 \cdot 5 + 3 = 25 + 0 + 3 = 28 \).
+
+Now, check the multiplication:
+\[
+4 \cdot 7 = 28
+\]
+
+Since both sides are equal, the solution \( b = 5 \) is indeed correct. Thus, the comprehensive solution confirms that the positive base \( b \) in which the equation \( 4 \cdot 12 = 103 \) is valid is \( \boxed{5} \).

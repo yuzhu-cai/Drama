@@ -1,0 +1,88 @@
+To determine the number of solutions for the equation 
+
+\[
+x^2 = -|x|,
+\]
+
+we will analyze the equation by considering two cases: when \( x \) is non-negative and when \( x \) is negative.
+
+### Case 1: \( x \geq 0 \)
+
+In this case, the absolute value function simplifies to \( |x| = x \). Therefore, the equation becomes:
+
+\[
+x^2 = -x.
+\]
+
+Rearranging this gives:
+
+\[
+x^2 + x = 0.
+\]
+
+Factoring out \( x \):
+
+\[
+x(x + 1) = 0.
+\]
+
+Setting each factor to zero gives us the solutions:
+
+1. \( x = 0 \)
+2. \( x + 1 = 0 \) which leads to \( x = -1 \) (not valid in this case since \( x \) must be non-negative).
+
+Thus, from Case 1, the only valid solution is:
+
+\[
+x = 0.
+\]
+
+### Case 2: \( x < 0 \)
+
+In this case, the absolute value function simplifies to \( |x| = -x \). Therefore, the equation becomes:
+
+\[
+x^2 = -(-x) \implies x^2 = x.
+\]
+
+Rearranging this gives:
+
+\[
+x^2 - x = 0.
+\]
+
+Factoring out \( x \):
+
+\[
+x(x - 1) = 0.
+\]
+
+Setting each factor to zero gives us the solutions:
+
+1. \( x = 0 \) (not valid in this case since \( x \) must be negative).
+2. \( x - 1 = 0 \) which leads to \( x = 1 \) (not valid in this case since \( x \) must be negative).
+
+Thus, from Case 2, there are no valid solutions.
+
+### Summary of Solutions
+
+Combining the results from both cases:
+
+- From Case 1 (\( x \geq 0 \)), we found one valid solution: \( x = 0 \).
+- From Case 2 (\( x < 0 \)), we found no valid solutions.
+
+### Conclusion
+
+The total number of valid solutions for the equation 
+
+\[
+x^2 = -|x|
+\]
+
+is 
+
+\[
+\boxed{1}.
+\] 
+
+The only solution is \( x = 0 \).

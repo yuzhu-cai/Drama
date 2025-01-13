@@ -1,0 +1,38 @@
+To find the sum of the integers from 1 to 100, represented mathematically as \( 1 + 2 + 3 + \cdots + 98 + 99 + 100 \), we can utilize the formula for the sum of the first \( n \) natural numbers:
+
+\[
+S_n = \frac{n(n + 1)}{2}
+\]
+
+### Step-by-Step Solution:
+
+1. **Identify \( n \)**: In this case, \( n = 100 \) since we want to sum all natural numbers from 1 to 100.
+
+2. **Apply the Formula**:
+   \[
+   S_{100} = \frac{100(100 + 1)}{2}
+   \]
+
+3. **Calculate \( 100 + 1 \)**:
+   \[
+   100 + 1 = 101
+   \]
+
+4. **Multiply \( 100 \) by \( 101 \)**:
+   \[
+   100 \times 101 = 10100
+   \]
+
+5. **Divide by \( 2 \)**:
+   \[
+   \frac{10100}{2} = 5050
+   \]
+
+### Conclusion:
+Thus, the sum of the integers from 1 to 100 is:
+
+\[
+\boxed{5050}
+\]
+
+This comprehensive solution confirms that the sum \( 1 + 2 + 3 + \cdots + 98 + 99 + 100 \) equals 5050, utilizing the established formula for the sum of the first \( n \) natural numbers.

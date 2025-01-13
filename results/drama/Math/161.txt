@@ -1,0 +1,84 @@
+To find the radius of a right circular cylinder given its lateral surface area and volume, we will use the formulas for lateral surface area and volume, and then solve the resulting equations.
+
+### Given:
+- Lateral Surface Area \( A = 3.5 \) square inches
+- Volume \( V = 3.5 \) cubic inches
+
+### Formulas:
+1. **Lateral Surface Area**:
+   \[
+   A = 2\pi rh
+   \]
+2. **Volume**:
+   \[
+   V = \pi r^2 h
+   \]
+
+### Step 1: Express \( h \) in terms of \( r \)
+
+From the lateral surface area formula, we can express \( h \) in terms of \( r \):
+\[
+h = \frac{A}{2\pi r}
+\]
+Substituting \( A = 3.5 \):
+\[
+h = \frac{3.5}{2\pi r}
+\]
+
+### Step 2: Substitute \( h \) into the Volume Formula
+
+Now, we substitute this expression for \( h \) into the volume formula:
+\[
+V = \pi r^2 h
+\]
+Substituting \( V = 3.5 \) and \( h = \frac{3.5}{2\pi r} \):
+\[
+3.5 = \pi r^2 \left(\frac{3.5}{2\pi r}\right)
+\]
+
+### Step 3: Simplify the Equation
+
+Now simplify the equation:
+\[
+3.5 = \frac{3.5 r^2}{2r}
+\]
+This simplifies to:
+\[
+3.5 = \frac{3.5 r}{2}
+\]
+
+### Step 4: Solve for \( r \)
+
+To eliminate \( 3.5 \) from both sides, we can divide by \( 3.5 \):
+\[
+1 = \frac{r}{2}
+\]
+Multiplying both sides by \( 2 \):
+\[
+r = 2 \text{ inches}
+\]
+
+### Conclusion
+
+The radius of the right circular cylinder is \( \boxed{2} \) inches.
+
+### Verification
+
+To ensure the solution is correct, we can verify by substituting \( r = 2 \) back into the formulas for lateral surface area and volume.
+
+1. **Calculate \( h \)**:
+   \[
+   h = \frac{3.5}{2\pi(2)} = \frac{3.5}{4\pi} \approx 0.278 \text{ inches}
+   \]
+
+2. **Verify Lateral Surface Area**:
+   \[
+   A = 2\pi rh = 2\pi(2)\left(\frac{3.5}{4\pi}\right) = 3.5 \text{ square inches}
+   \]
+
+3. **Verify Volume**:
+   \[
+   V = \pi r^2 h = \pi(2^2)\left(\frac{3.5}{4\pi}\right) = \pi(4)\left(\frac{3.5}{4\pi}\right) = 3.5 \text{ cubic inches}
+   \]
+
+Both calculations confirm that the lateral surface area and volume match the given values. Thus, the solution is verified, and the radius is indeed \( \boxed{2} \) inches.

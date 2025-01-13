@@ -1,0 +1,56 @@
+To solve the problem, we have two key pieces of information about the real numbers \( x \) and \( y \):
+
+1. The arithmetic mean of \( x \) and \( y \) is 7:
+   \[
+   \frac{x + y}{2} = 7
+   \]
+   From this, we can derive:
+   \[
+   x + y = 14 \quad \text{(Equation 1)}
+   \]
+
+2. The geometric mean of \( x \) and \( y \) is \( \sqrt{19} \):
+   \[
+   \sqrt{x \cdot y} = \sqrt{19}
+   \]
+   Squaring both sides gives us:
+   \[
+   x \cdot y = 19 \quad \text{(Equation 2)}
+   \]
+
+Now, we need to find \( x^2 + y^2 \). We can use the identity:
+\[
+x^2 + y^2 = (x + y)^2 - 2xy
+\]
+
+### Step 1: Calculate \( (x + y)^2 \)
+Using Equation 1:
+\[
+(x + y)^2 = 14^2 = 196
+\]
+
+### Step 2: Calculate \( 2xy \)
+Using Equation 2:
+\[
+2xy = 2 \cdot 19 = 38
+\]
+
+### Step 3: Substitute into the identity
+Now we substitute these values into the identity:
+\[
+x^2 + y^2 = (x + y)^2 - 2xy
+\]
+\[
+x^2 + y^2 = 196 - 38
+\]
+\[
+x^2 + y^2 = 158
+\]
+
+### Conclusion
+Thus, the value of \( x^2 + y^2 \) is:
+\[
+\boxed{158}
+\] 
+
+This solution comprehensively addresses the problem by deriving the necessary equations from the given means, applying the identity for \( x^2 + y^2 \), and calculating the final result accurately.

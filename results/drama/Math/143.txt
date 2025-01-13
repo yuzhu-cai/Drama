@@ -1,0 +1,74 @@
+To solve the problem of finding the remainder when the 100th term of the Fibonacci sequence is divided by 4, we will follow these steps:
+
+1. **Identify the Fibonacci Sequence**: The Fibonacci sequence is defined as follows:
+   - \( F(1) = 1 \)
+   - \( F(2) = 1 \)
+   - \( F(n) = F(n-1) + F(n-2) \) for \( n \geq 3 \)
+
+   The first few terms of the Fibonacci sequence are:
+   - \( F(1) = 1 \)
+   - \( F(2) = 1 \)
+   - \( F(3) = 2 \)
+   - \( F(4) = 3 \)
+   - \( F(5) = 5 \)
+   - \( F(6) = 8 \)
+   - \( F(7) = 13 \)
+   - \( F(8) = 21 \)
+   - \( F(9) = 34 \)
+   - \( F(10) = 55 \)
+   - ...
+   - \( F(100) \) is what we need to find.
+
+2. **Calculate the 100th Fibonacci Number**: 
+   We can compute the Fibonacci numbers iteratively up to the 100th term. However, since we are only interested in the remainder when this number is divided by 4, we can simplify our calculations by only keeping track of the remainders.
+
+3. **Compute Fibonacci Numbers Modulo 4**:
+   We can calculate the Fibonacci sequence modulo 4 as follows:
+
+   - \( F(1) \mod 4 = 1 \)
+   - \( F(2) \mod 4 = 1 \)
+   - \( F(3) \mod 4 = (F(1) + F(2)) \mod 4 = (1 + 1) \mod 4 = 2 \)
+   - \( F(4) \mod 4 = (F(2) + F(3)) \mod 4 = (1 + 2) \mod 4 = 3 \)
+   - \( F(5) \mod 4 = (F(3) + F(4)) \mod 4 = (2 + 3) \mod 4 = 1 \)
+   - \( F(6) \mod 4 = (F(4) + F(5)) \mod 4 = (3 + 1) \mod 4 = 0 \)
+   - \( F(7) \mod 4 = (F(5) + F(6)) \mod 4 = (1 + 0) \mod 4 = 1 \)
+   - \( F(8) \mod 4 = (F(6) + F(7)) \mod 4 = (0 + 1) \mod 4 = 1 \)
+   - \( F(9) \mod 4 = (F(7) + F(8)) \mod 4 = (1 + 1) \mod 4 = 2 \)
+   - \( F(10) \mod 4 = (F(8) + F(9)) \mod 4 = (1 + 2) \mod 4 = 3 \)
+
+Continuing this process up to \( F(100) \):
+
+Here are the results of the Fibonacci numbers modulo 4 for the first few terms:
+- \( F(1) \mod 4 = 1 \)
+- \( F(2) \mod 4 = 1 \)
+- \( F(3) \mod 4 = 2 \)
+- \( F(4) \mod 4 = 3 \)
+- \( F(5) \mod 4 = 1 \)
+- \( F(6) \mod 4 = 0 \)
+- \( F(7) \mod 4 = 1 \)
+- \( F(8) \mod 4 = 1 \)
+- \( F(9) \mod 4 = 2 \)
+- \( F(10) \mod 4 = 3 \)
+- \( F(11) \mod 4 = 1 \)
+- \( F(12) \mod 4 = 0 \)
+
+From the calculations, we can observe a repeating pattern every 6 terms:
+- \( 1, 1, 2, 3, 1, 0 \)
+
+4. **Determine the 100th Term Modulo 4**:
+Since the pattern repeats every 6 terms, we can find the position of the 100th term in the cycle:
+\[
+100 \mod 6 = 4
+\]
+This means that \( F(100) \mod 4 \) corresponds to \( F(4) \mod 4 \).
+
+From our earlier calculations:
+\[
+F(4) \mod 4 = 3
+\]
+
+### Conclusion
+The remainder when the 100th term of the Fibonacci sequence is divided by 4 is:
+\[
+\boxed{3}
+\]

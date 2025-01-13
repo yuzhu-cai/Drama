@@ -1,0 +1,106 @@
+To solve the problem, we need to establish the relationship between the surface areas of the original pyramid and the smaller pyramid that is cut from the top. We will derive the necessary equations and then solve for the altitude \( h \) of the original pyramid.
+
+### Step 1: Define the Surface Areas
+
+1. **Surface Area of the Original Pyramid**:
+   The surface area \( S \) of the original pyramid with a square base of side length \( s \) and height \( h \) is given by:
+   \[
+   S = s^2 + 2s\sqrt{h^2 + \left(\frac{s}{2}\right)^2}
+   \]
+
+2. **Surface Area of the Smaller Pyramid**:
+   The smaller pyramid has an altitude of \( h - 2 \) (since it is cut 2 units from the base). The side length of the base of the smaller pyramid, due to similarity, is:
+   \[
+   s_{\text{small}} = s \cdot \frac{h - 2}{h}
+   \]
+   Therefore, the surface area \( S' \) of the smaller pyramid is:
+   \[
+   S' = \left(s \cdot \frac{h - 2}{h}\right)^2 + 2\left(s \cdot \frac{h - 2}{h}\right)\sqrt{(h - 2)^2 + \left(\frac{s \cdot (h - 2)}{2h}\right)^2}
+   \]
+
+### Step 2: Set Up the Equation
+
+According to the problem, the surface area of the smaller pyramid is half that of the original pyramid:
+\[
+S' = \frac{1}{2} S
+\]
+
+### Step 3: Substitute and Simplify
+
+Substituting the expressions for \( S \) and \( S' \) into the equation:
+\[
+\left(s \cdot \frac{h - 2}{h}\right)^2 + 2\left(s \cdot \frac{h - 2}{h}\right)\sqrt{(h - 2)^2 + \left(\frac{s \cdot (h - 2)}{2h}\right)^2} = \frac{1}{2} \left( s^2 + 2s\sqrt{h^2 + \left(\frac{s}{2}\right)^2} \right)
+\]
+
+### Step 4: Solve for \( h \)
+
+This equation is complex, but we can simplify the problem by using the fact that the smaller pyramid is similar to the original pyramid. The ratio of their heights is:
+\[
+\frac{h - 2}{h}
+\]
+
+The surface area of the smaller pyramid can also be expressed in terms of the ratio of the heights:
+\[
+S' = \left(\frac{h - 2}{h}\right)^2 S
+\]
+
+Setting this equal to half the surface area of the original pyramid:
+\[
+\left(\frac{h - 2}{h}\right)^2 S = \frac{1}{2} S
+\]
+
+Assuming \( S \neq 0 \), we can divide both sides by \( S \):
+\[
+\left(\frac{h - 2}{h}\right)^2 = \frac{1}{2}
+\]
+
+Taking the square root of both sides:
+\[
+\frac{h - 2}{h} = \frac{1}{\sqrt{2}}
+\]
+
+Cross-multiplying gives:
+\[
+h - 2 = \frac{h}{\sqrt{2}}
+\]
+
+Rearranging the equation:
+\[
+h - \frac{h}{\sqrt{2}} = 2
+\]
+
+Factoring out \( h \):
+\[
+h\left(1 - \frac{1}{\sqrt{2}}\right) = 2
+\]
+
+Now, solving for \( h \):
+\[
+h = \frac{2}{1 - \frac{1}{\sqrt{2}}}
+\]
+
+To simplify \( 1 - \frac{1}{\sqrt{2}} \):
+\[
+1 - \frac{1}{\sqrt{2}} = \frac{\sqrt{2} - 1}{\sqrt{2}}
+\]
+
+Thus:
+\[
+h = \frac{2\sqrt{2}}{\sqrt{2} - 1}
+\]
+
+### Step 5: Rationalize the Denominator
+
+To rationalize the denominator:
+\[
+h = \frac{2\sqrt{2}(\sqrt{2} + 1)}{(\sqrt{2} - 1)(\sqrt{2} + 1)} = \frac{2\sqrt{2}(\sqrt{2} + 1)}{2 - 1} = 2\sqrt{2}(\sqrt{2} + 1) = 4 + 2\sqrt{2}
+\]
+
+### Final Result
+
+Thus, the altitude \( h \) of the original pyramid is:
+\[
+\boxed{4 + 2\sqrt{2}}
+\] 
+
+This value represents the height of the original pyramid based on the given conditions.

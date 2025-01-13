@@ -1,0 +1,82 @@
+To determine the positive value of \( n \) for which the quadratic equation \( 9x^2 + nx + 36 = 0 \) has exactly one solution, we need to analyze the discriminant of the equation.
+
+### Step 1: Identify the coefficients
+The quadratic equation is in the form \( ax^2 + bx + c = 0 \), where:
+- \( a = 9 \)
+- \( b = n \)
+- \( c = 36 \)
+
+### Step 2: Calculate the discriminant
+The discriminant \( D \) is given by the formula:
+
+\[
+D = b^2 - 4ac
+\]
+
+Substituting the values of \( a \), \( b \), and \( c \):
+
+\[
+D = n^2 - 4 \cdot 9 \cdot 36
+\]
+
+### Step 3: Simplify the discriminant
+Calculating \( 4 \cdot 9 \cdot 36 \):
+
+\[
+4 \cdot 9 = 36
+\]
+\[
+36 \cdot 36 = 1296
+\]
+
+Thus, the discriminant becomes:
+
+\[
+D = n^2 - 1296
+\]
+
+### Step 4: Set the discriminant equal to zero
+For the quadratic equation to have exactly one solution, we set the discriminant equal to zero:
+
+\[
+n^2 - 1296 = 0
+\]
+
+### Step 5: Solve for \( n \)
+Rearranging the equation gives:
+
+\[
+n^2 = 1296
+\]
+
+Taking the square root of both sides results in:
+
+\[
+n = \pm \sqrt{1296}
+\]
+
+Calculating \( \sqrt{1296} \):
+
+\[
+\sqrt{1296} = 36
+\]
+
+Thus, we have two possible values for \( n \):
+
+\[
+n = 36 \quad \text{or} \quad n = -36
+\]
+
+### Step 6: Identify the positive value
+Since the problem specifically asks for the positive value of \( n \), we conclude that:
+
+\[
+\text{The positive value of } n \text{ is } 36.
+\]
+
+### Final Answer
+The positive value of \( n \) for which the equation \( 9x^2 + nx + 36 = 0 \) has exactly one solution is:
+
+\[
+\boxed{36}
+\]

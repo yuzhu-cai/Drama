@@ -1,0 +1,69 @@
+To solve the problem, we need to find the value of \( n \) such that the sum of the first \( n \) terms of the infinite geometric sequence \( \left\{\frac{1}{4}, \frac{1}{8}, \frac{1}{16}, \dots \right\} \) equals \( \frac{255}{512} \).
+
+### Step 1: Identify the First Term and Common Ratio
+
+The first term \( a \) of the sequence is:
+
+\[
+a = \frac{1}{4}
+\]
+
+The common ratio \( r \) can be calculated by dividing the second term by the first term:
+
+\[
+r = \frac{\frac{1}{8}}{\frac{1}{4}} = \frac{1}{2}
+\]
+
+### Step 2: Use the Formula for the Sum of the First \( n \) Terms
+
+The formula for the sum \( S_n \) of the first \( n \) terms of a geometric series is:
+
+\[
+S_n = a \frac{1 - r^n}{1 - r}
+\]
+
+Substituting the values of \( a \) and \( r \):
+
+\[
+S_n = \frac{1}{4} \frac{1 - \left(\frac{1}{2}\right)^n}{1 - \frac{1}{2}} = \frac{1}{4} \frac{1 - \left(\frac{1}{2}\right)^n}{\frac{1}{2}} = \frac{1}{4} \cdot 2 \left(1 - \left(\frac{1}{2}\right)^n\right) = \frac{1}{2} \left(1 - \left(\frac{1}{2}\right)^n\right)
+\]
+
+### Step 3: Set the Sum Equal to \( \frac{255}{512} \)
+
+Now we set the sum equal to \( \frac{255}{512} \):
+
+\[
+\frac{1}{2} \left(1 - \left(\frac{1}{2}\right)^n\right) = \frac{255}{512}
+\]
+
+Multiplying both sides by 2 to eliminate the fraction:
+
+\[
+1 - \left(\frac{1}{2}\right)^n = \frac{255}{256}
+\]
+
+### Step 4: Solve for \( \left(\frac{1}{2}\right)^n \)
+
+Rearranging gives:
+
+\[
+\left(\frac{1}{2}\right)^n = 1 - \frac{255}{256} = \frac{1}{256}
+\]
+
+### Step 5: Solve for \( n \)
+
+Recognizing that \( \frac{1}{256} = \left(\frac{1}{2}\right)^8 \), we can equate the exponents:
+
+\[
+\left(\frac{1}{2}\right)^n = \left(\frac{1}{2}\right)^8 \implies n = 8
+\]
+
+### Conclusion
+
+Thus, the value of \( n \) such that the sum of the first \( n \) terms of the geometric sequence equals \( \frac{255}{512} \) is:
+
+\[
+\boxed{8}
+\]
+
+This solution is clear and accurately addresses all aspects of the problem, confirming that the sum of the first 8 terms of the given geometric sequence is indeed \( \frac{255}{512} \).

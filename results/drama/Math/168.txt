@@ -1,0 +1,65 @@
+To solve the problem, we need to find the angle \( x \) in degrees that corresponds to the shaded region, which is 20% of the area of the circle.
+
+### Step 1: Area of the Circle
+
+The area \( A \) of a circle with radius \( r \) is given by:
+
+\[
+A = \pi r^2
+\]
+
+### Step 2: Area of the Shaded Region
+
+The shaded region is 20% of the area of the circle. Therefore, the area of the shaded region \( A_{\text{shaded}} \) can be expressed as:
+
+\[
+A_{\text{shaded}} = 0.20 \times A = 0.20 \times \pi r^2 = \frac{1}{5} \pi r^2
+\]
+
+### Step 3: Area of the Sector
+
+The area of the sector corresponding to the angle \( x \) (in radians) is given by:
+
+\[
+A_{\text{sector}} = \frac{x}{2\pi} \times A = \frac{x}{2\pi} \times \pi r^2 = \frac{x}{2} r^2
+\]
+
+### Step 4: Setting Up the Equation
+
+Since the area of the shaded region is equal to the area of the sector, we can set the two expressions equal to each other:
+
+\[
+\frac{x}{2} r^2 = \frac{1}{5} \pi r^2
+\]
+
+### Step 5: Simplifying the Equation
+
+We can cancel \( r^2 \) from both sides (assuming \( r \neq 0 \)):
+
+\[
+\frac{x}{2} = \frac{1}{5} \pi
+\]
+
+### Step 6: Solving for \( x \)
+
+Now, multiply both sides by 2 to isolate \( x \):
+
+\[
+x = \frac{2}{5} \pi
+\]
+
+### Step 7: Converting to Degrees
+
+To convert \( x \) from radians to degrees, we use the conversion factor \( \frac{180^\circ}{\pi} \):
+
+\[
+x = \frac{2}{5} \pi \times \frac{180^\circ}{\pi} = \frac{2 \times 180^\circ}{5} = \frac{360^\circ}{5} = 72^\circ
+\]
+
+### Conclusion
+
+Thus, the value of the angle \( x \) corresponding to the shaded region that is 20% of the area of the circle is:
+
+\[
+\boxed{72^\circ}
+\]

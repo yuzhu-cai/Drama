@@ -1,0 +1,33 @@
+To find \(\cos A\) in right triangle \(ABC\) where \(\angle A = 90^\circ\), we can follow these steps:
+
+### Given Information:
+- Triangle \(ABC\) is a right triangle with \(\angle A = 90^\circ\).
+- The lengths of the sides are:
+  - \(AB = 6\) (one leg of the triangle)
+  - \(BC = 10\) (the hypotenuse)
+
+### Step 1: Identify the Sides
+In triangle \(ABC\):
+- The side \(AB\) is adjacent to angle \(C\) and opposite to angle \(B\).
+- The side \(BC\) is the hypotenuse.
+
+### Step 2: Use the Definition of Cosine
+The cosine of an angle in a right triangle is defined as the ratio of the length of the adjacent side to the length of the hypotenuse. However, since \(\angle A\) is the right angle, we cannot directly calculate \(\cos A\) using the adjacent side and hypotenuse because \(\cos(90^\circ)\) is a special case.
+
+### Step 3: Calculate \(\cos A\)
+For any right angle:
+\[
+\cos(90^\circ) = 0
+\]
+
+### Conclusion
+Thus, in triangle \(ABC\) with \(\angle A = 90^\circ\):
+\[
+\cos A = 0
+\]
+
+This result is consistent with the properties of trigonometric functions, where the cosine of a right angle is always zero. Therefore, the comprehensive solution to the original query is:
+
+\[
+\cos A = 0
+\]

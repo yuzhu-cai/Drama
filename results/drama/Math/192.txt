@@ -1,0 +1,48 @@
+To find the expected winnings from one flip of the unfair coin, we will follow these steps:
+
+1. **Identify the Outcomes and Their Probabilities**:
+   - Heads (H): Probability \( P(H) = \frac{3}{5} \), Winnings \( W(H) = 4 \) dollars.
+   - Tails (T): Probability \( P(T) = \frac{1}{5} \), Winnings \( W(T) = -1 \) dollar (loss).
+   - Edge (E): Probability \( P(E) = \frac{1}{5} \), Winnings \( W(E) = -10 \) dollars (loss).
+
+2. **Calculate the Expected Winnings**:
+   We will use the expected value formula:
+   \[
+   EV = P(H) \cdot W(H) + P(T) \cdot W(T) + P(E) \cdot W(E)
+   \]
+
+   Substituting the values:
+   \[
+   EV = \left(\frac{3}{5} \cdot 4\right) + \left(\frac{1}{5} \cdot -1\right) + \left(\frac{1}{5} \cdot -10\right)
+   \]
+
+   Now, we calculate each term:
+   - For heads: 
+     \[
+     \frac{3}{5} \cdot 4 = \frac{12}{5} = 2.4
+     \]
+   - For tails: 
+     \[
+     \frac{1}{5} \cdot -1 = -\frac{1}{5} = -0.2
+     \]
+   - For edge: 
+     \[
+     \frac{1}{5} \cdot -10 = -\frac{10}{5} = -2
+     \]
+
+   Now, summing these values:
+   \[
+   EV = 2.4 - 0.2 - 2
+   \]
+   \[
+   EV = 2.4 - 0.2 - 2 = 0.2
+   \]
+
+3. **Round to the Nearest Cent**:
+   The expected winnings from one flip of the coin is \( 0.2 \) dollars, which can be expressed as:
+   \[
+   \text{Expected Winnings} = 0.20 \text{ dollars}
+   \]
+
+### Conclusion
+The expected winnings from one flip of the unfair coin is **$0.20**, rounded to the nearest cent.

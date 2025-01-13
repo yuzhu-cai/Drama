@@ -1,0 +1,92 @@
+To determine the number of ways to arrange 5 beads on a necklace using 8 distinct beads, while considering rotations and reflections as equivalent, we can follow these steps:
+
+### Step 1: Choosing the Beads
+
+First, we need to select 5 beads from the 8 distinct beads. The number of ways to choose 5 beads from 8 is given by the combination formula:
+
+\[
+\binom{8}{5} = 56
+\]
+
+### Step 2: Arranging the Beads on a Necklace
+
+Once we have chosen the 5 beads, we need to arrange them on a necklace. Since the arrangement is circular and we consider rotations and reflections to be the same, we will use Burnside's lemma to count the distinct arrangements.
+
+#### Group Actions
+
+The group of symmetries for a necklace of 5 beads is the dihedral group \( D_5 \), which consists of:
+- **5 rotations** (0°, 72°, 144°, 216°, 288°)
+- **5 reflections** (each reflection can be thought of as a line of symmetry that passes through one bead and the midpoint of the opposite side).
+
+#### Fixed Arrangements
+
+1. **Rotations**:
+   - **0° rotation**: All arrangements are fixed. If we have \( k \) different beads, the number of arrangements is \( k^5 \).
+   - **72°, 144°, 216°, and 288° rotations**: For these rotations, the arrangement must have all beads the same, resulting in \( k \) fixed arrangements for each rotation.
+
+   Total fixed arrangements under rotations:
+   \[
+   k^5 + 4k
+   \]
+
+2. **Reflections**:
+   Each reflection fixes arrangements where the beads on either side of the reflection line are the same. For each reflection, we can choose the bead at the reflection axis freely (1 choice), and the remaining two pairs of beads must match. Thus, for each reflection, we have \( k \times k \) arrangements.
+
+   Total fixed arrangements under reflections:
+   \[
+   5k^3
+   \]
+
+### Step 3: Applying Burnside's Lemma
+
+Using Burnside's lemma, the number of distinct arrangements (orbits) is given by:
+
+\[
+\text{Number of distinct arrangements} = \frac{1}{|G|} \sum_{g \in G} \text{Fix}(g)
+\]
+
+Where \( |G| = 10 \) (5 rotations + 5 reflections). Thus, we compute:
+
+\[
+\text{Total fixed arrangements} = (k^5 + 4k) + (5k^3) = k^5 + 4k + 5k^3
+\]
+
+Now, substituting into Burnside's lemma:
+
+\[
+\text{Number of distinct arrangements} = \frac{k^5 + 4k + 5k^3}{10}
+\]
+
+### Step 4: Final Calculation
+
+Now, we substitute \( k = 5 \) (the number of distinct beads chosen):
+
+\[
+\text{Number of distinct arrangements} = \frac{5^5 + 4 \cdot 5 + 5 \cdot 5^3}{10}
+\]
+
+Calculating each term:
+
+- \( 5^5 = 3125 \)
+- \( 4 \cdot 5 = 20 \)
+- \( 5 \cdot 5^3 = 5 \cdot 125 = 625 \)
+
+Adding these together:
+
+\[
+3125 + 20 + 625 = 3770
+\]
+
+Now, dividing by 10:
+
+\[
+\text{Number of distinct arrangements} = \frac{3770}{10} = 377
+\]
+
+### Conclusion
+
+Thus, the total number of ways to arrange 5 beads on a necklace, chosen from 8 distinct beads, considering rotations and reflections as the same, is:
+
+\[
+\boxed{377}
+\]

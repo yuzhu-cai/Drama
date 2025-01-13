@@ -1,0 +1,73 @@
+To determine the value of \( K \) such that the system of equations has no solutions, we need to analyze the given equations:
+
+1. \( 6x + 4y = 7 \) (Equation 1)
+2. \( Kx + 8y = 7 \) (Equation 2)
+
+### Step 1: Write the equations in standard form
+
+The equations are already in standard form. We can identify the coefficients:
+
+- For Equation 1: \( a_1 = 6 \), \( b_1 = 4 \), \( c_1 = 7 \)
+- For Equation 2: \( a_2 = K \), \( b_2 = 8 \), \( c_2 = 7 \)
+
+### Step 2: Determine the condition for no solutions
+
+For the system of equations to have no solutions, the lines represented by these equations must be parallel. This occurs when the ratios of the coefficients of \( x \) and \( y \) are equal, but the ratio of the constants is different. Mathematically, this can be expressed as:
+
+\[
+\frac{a_1}{a_2} = \frac{b_1}{b_2} \quad \text{and} \quad \frac{c_1}{c_2} \neq \frac{a_1}{a_2}
+\]
+
+### Step 3: Set up the ratios
+
+Using the coefficients from our equations, we set up the ratios:
+
+1. **Equal slopes condition**:
+   \[
+   \frac{6}{K} = \frac{4}{8}
+   \]
+
+   Simplifying the right side:
+   \[
+   \frac{4}{8} = \frac{1}{2}
+   \]
+
+   Thus, we have:
+   \[
+   \frac{6}{K} = \frac{1}{2}
+   \]
+
+### Step 4: Solve for \( K \)
+
+Cross-multiplying gives:
+\[
+6 \cdot 2 = 1 \cdot K \implies 12 = K
+\]
+
+### Step 5: Check the condition for no solutions
+
+Now we need to ensure that the second condition holds, which is that the ratios of the constants are different:
+
+\[
+\frac{c_1}{c_2} \neq \frac{a_1}{a_2}
+\]
+
+Substituting the values:
+\[
+\frac{7}{7} \neq \frac{6}{12}
+\]
+
+This simplifies to:
+\[
+1 \neq \frac{1}{2}
+\]
+
+This condition is satisfied.
+
+### Conclusion
+
+Thus, the value of \( K \) such that the system of equations has no solutions is:
+
+\[
+\boxed{12}
+\]

@@ -1,0 +1,80 @@
+To find the probability that exactly two of the six rolled dice show a 1 and exactly two show a 2, we will follow these steps:
+
+### Step 1: Calculate the Total Number of Outcomes
+
+When rolling six 6-sided dice, the total number of outcomes is given by:
+
+\[
+\text{Total outcomes} = 6^6 = 46656
+\]
+
+### Step 2: Calculate the Number of Favorable Outcomes
+
+To find the number of favorable outcomes where exactly two dice show a 1 and exactly two dice show a 2, we can break this down into the following subtasks:
+
+1. **Choose the positions for the 1s**: We need to select 2 positions from the 6 dice to show a 1. This can be calculated using the binomial coefficient:
+
+   \[
+   \binom{6}{2} = \frac{6!}{2!(6-2)!} = \frac{6 \times 5}{2 \times 1} = 15
+   \]
+
+2. **Choose the positions for the 2s**: After selecting positions for the 1s, we have 4 positions left. We need to choose 2 of these 4 positions to show a 2:
+
+   \[
+   \binom{4}{2} = \frac{4!}{2!(4-2)!} = \frac{4 \times 3}{2 \times 1} = 6
+   \]
+
+3. **Determine the outcomes for the remaining dice**: After placing the 1s and 2s, there are 2 positions left. These remaining dice can show any number from 3 to 6 (since we are only interested in the outcomes where exactly two dice show a 1 and exactly two dice show a 2). Each of the remaining 2 dice can independently take any of the 4 values (3, 4, 5, or 6):
+
+   \[
+   4^2 = 16
+   \]
+
+### Step 3: Calculate the Total Number of Favorable Outcomes
+
+Now, we can combine these results to find the total number of favorable outcomes:
+
+\[
+\text{Total favorable outcomes} = \binom{6}{2} \times \binom{4}{2} \times 4^2 = 15 \times 6 \times 16
+\]
+
+Calculating this:
+
+1. \( 15 \times 6 = 90 \)
+2. \( 90 \times 16 = 1440 \)
+
+So, the total number of favorable outcomes is \( 1440 \).
+
+### Step 4: Calculate the Probability
+
+Now we can calculate the probability of the event:
+
+\[
+P(\text{exactly two 1s and two 2s}) = \frac{\text{Number of favorable outcomes}}{\text{Total number of outcomes}} = \frac{1440}{46656}
+\]
+
+### Step 5: Simplify the Fraction
+
+To simplify \( \frac{1440}{46656} \), we can find the greatest common divisor (GCD) of 1440 and 46656.
+
+Using the Euclidean algorithm or a calculator, we find that the GCD is 144.
+
+Now we can simplify:
+
+\[
+\frac{1440 \div 144}{46656 \div 144} = \frac{10}{324}
+\]
+
+We can simplify \( \frac{10}{324} \) further:
+
+\[
+\frac{10 \div 2}{324 \div 2} = \frac{5}{162}
+\]
+
+### Final Answer
+
+Thus, the probability that exactly two of the six dice show a 1 and exactly two show a 2 is:
+
+\[
+\boxed{\frac{5}{162}}
+\]

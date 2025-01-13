@@ -1,0 +1,106 @@
+To compute the product of all the roots of the equation 
+
+\[
+\sqrt{5 | x | + 8} = \sqrt{x^2 - 16},
+\]
+
+we first need to solve the equation and identify the roots.
+
+### Step 1: Square Both Sides
+
+We start by squaring both sides to eliminate the square roots:
+
+\[
+(\sqrt{5 | x | + 8})^2 = (\sqrt{x^2 - 16})^2.
+\]
+
+This simplifies to:
+
+\[
+5 | x | + 8 = x^2 - 16.
+\]
+
+### Step 2: Rearrange the Equation
+
+Rearranging gives us:
+
+\[
+x^2 - 5 | x | - 24 = 0.
+\]
+
+### Step 3: Consider Cases for \(|x|\)
+
+We will consider two cases based on the definition of absolute value.
+
+#### Case 1: \(x \geq 0\)
+
+In this case, \(|x| = x\). The equation becomes:
+
+\[
+x^2 - 5x - 24 = 0.
+\]
+
+Using the quadratic formula:
+
+\[
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} = \frac{5 \pm \sqrt{(-5)^2 - 4 \cdot 1 \cdot (-24)}}{2 \cdot 1} = \frac{5 \pm \sqrt{25 + 96}}{2} = \frac{5 \pm \sqrt{121}}{2}.
+\]
+
+Calculating the roots:
+
+\[
+x = \frac{5 + 11}{2} = 8 \quad \text{and} \quad x = \frac{5 - 11}{2} = -3 \quad (\text{not valid since } x \geq 0).
+\]
+
+Thus, from this case, we have \(x = 8\).
+
+#### Case 2: \(x < 0\)
+
+In this case, \(|x| = -x\). The equation becomes:
+
+\[
+x^2 + 5x - 24 = 0.
+\]
+
+Using the quadratic formula again:
+
+\[
+x = \frac{-5 \pm \sqrt{5^2 - 4 \cdot 1 \cdot (-24)}}{2 \cdot 1} = \frac{-5 \pm \sqrt{25 + 96}}{2} = \frac{-5 \pm \sqrt{121}}{2}.
+\]
+
+Calculating the roots:
+
+\[
+x = \frac{-5 + 11}{2} = 3 \quad (\text{not valid since } x < 0) \quad \text{and} \quad x = \frac{-5 - 11}{2} = -8.
+\]
+
+Thus, from this case, we have \(x = -8\).
+
+### Step 4: Identify All Roots
+
+The valid roots from both cases are:
+
+- From Case 1: \(x = 8\)
+- From Case 2: \(x = -8\)
+
+### Step 5: Compute the Product of All Roots
+
+Now, we compute the product of all the roots:
+
+\[
+\text{Product} = 8 \times (-8) = -64.
+\]
+
+### Conclusion
+
+The product of all the roots of the equation 
+
+\[
+\sqrt{5 | x | + 8} = \sqrt{x^2 - 16}
+\]
+
+is 
+
+\[
+\boxed{-64}.
+\]

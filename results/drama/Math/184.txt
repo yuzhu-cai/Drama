@@ -1,0 +1,30 @@
+To determine the probability that Joe will get three hits in three at-bats, we can use the probability of him getting a hit in a single at-bat, which is given as his batting average of \( 0.323 \).
+
+### Step-by-Step Solution:
+
+1. **Identify the Probability of a Hit**:
+   - The probability of Joe getting a hit in one at-bat is \( p = 0.323 \).
+
+2. **Calculate the Probability of Three Hits in Three At-Bats**:
+   - Since the at-bats are independent events, the probability of Joe getting three hits in three at-bats can be calculated using the formula for independent events:
+   \[
+   P(\text{3 hits in 3 at-bats}) = p \times p \times p = p^3
+   \]
+   - Substituting the value of \( p \):
+   \[
+   P(\text{3 hits}) = (0.323)^3
+   \]
+
+3. **Calculate \( (0.323)^3 \)**:
+   \[
+   (0.323)^3 = 0.0338 \quad (\text{approximately})
+   \]
+
+4. **Round to the Nearest Hundredth**:
+   - To express this probability as a decimal to the nearest hundredth, we round \( 0.0338 \):
+   \[
+   0.0338 \approx 0.03
+   \]
+
+### Final Answer:
+The probability that Joe will get three hits in three at-bats is approximately **0.03** when expressed as a decimal to the nearest hundredth.

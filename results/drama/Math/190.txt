@@ -1,0 +1,54 @@
+To determine the probability of rolling the same number on both dice when rolling two fair, standard six-faced dice, we can follow these steps:
+
+### Step 1: Identify the Total Number of Possible Outcomes
+
+When rolling two six-faced dice, each die has 6 faces. The total number of possible outcomes can be calculated as follows:
+
+\[
+\text{Total outcomes} = 6 \times 6 = 36
+\]
+
+### Step 2: Identify the Favorable Outcomes
+
+The favorable outcomes where both dice show the same number (also known as rolling doubles) are:
+
+1. (1, 1)
+2. (2, 2)
+3. (3, 3)
+4. (4, 4)
+5. (5, 5)
+6. (6, 6)
+
+Thus, there are a total of **6 favorable outcomes**.
+
+### Step 3: Calculate the Probability
+
+The probability \( P \) of rolling the same number on both dice can be calculated using the formula:
+
+\[
+P(E) = \frac{\text{Number of favorable outcomes}}{\text{Total number of possible outcomes}}
+\]
+
+Substituting the values we found:
+
+\[
+P(\text{same number}) = \frac{6}{36}
+\]
+
+### Step 4: Simplify the Fraction
+
+To simplify the fraction:
+
+\[
+P(\text{same number}) = \frac{6 \div 6}{36 \div 6} = \frac{1}{6}
+\]
+
+### Conclusion
+
+The probability of rolling the same number on both dice when rolling two fair, standard six-faced dice is:
+
+\[
+\boxed{\frac{1}{6}}
+\] 
+
+This solution clearly outlines the steps taken to arrive at the final probability, ensuring that all aspects of the problem are addressed accurately.

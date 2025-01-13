@@ -1,0 +1,49 @@
+To find the power to which \(10\) is raised in the expression \(\frac{\sqrt{10}}{\sqrt[4]{10}}\), we first simplify the expression step by step.
+
+1. **Rewrite the roots in exponential form**:
+   - The square root of \(10\) can be expressed as:
+     \[
+     \sqrt{10} = 10^{1/2}.
+     \]
+   - The fourth root of \(10\) can be expressed as:
+     \[
+     \sqrt[4]{10} = 10^{1/4}.
+     \]
+
+2. **Substitute these expressions into the original fraction**:
+   \[
+   \frac{\sqrt{10}}{\sqrt[4]{10}} = \frac{10^{1/2}}{10^{1/4}}.
+   \]
+
+3. **Apply the property of exponents**:
+   When dividing powers with the same base, we subtract the exponents:
+   \[
+   \frac{10^{1/2}}{10^{1/4}} = 10^{1/2 - 1/4}.
+   \]
+
+4. **Perform the subtraction of the exponents**:
+   To subtract \(1/2\) and \(1/4\), we convert \(1/2\) to a fraction with a common denominator of \(4\):
+   \[
+   1/2 = 2/4.
+   \]
+   Thus,
+   \[
+   1/2 - 1/4 = 2/4 - 1/4 = 1/4.
+   \]
+
+5. **Rewrite the expression**:
+   Therefore, we have:
+   \[
+   10^{1/2 - 1/4} = 10^{1/4}.
+   \]
+
+6. **Identify the value of \(x\)**:
+   The expression \(\frac{\sqrt{10}}{\sqrt[4]{10}}\) simplifies to \(10^{1/4}\). Thus, in the form \(10^x\), we find that:
+   \[
+   x = \frac{1}{4}.
+   \]
+
+In conclusion, the expression \(\frac{\sqrt{10}}{\sqrt[4]{10}}\) equals \(10^{1/4}\), and the value of \(x\) is:
+\[
+\boxed{\frac{1}{4}}.
+\]

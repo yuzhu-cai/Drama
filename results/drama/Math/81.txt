@@ -1,0 +1,82 @@
+To find the value of \( k \) such that the remainder when the polynomial \( f(x) = kx^4 + 9x^3 + kx^2 + 32x - 11 \) is divided by \( x + 5 \) is 4, we will use the Remainder Theorem.
+
+According to the Remainder Theorem, the remainder of the polynomial \( f(x) \) when divided by \( x + 5 \) can be found by evaluating \( f(-5) \). We want this remainder to equal 4.
+
+### Step 1: Substitute \( x = -5 \) into the polynomial
+
+We start by substituting \( x = -5 \) into the polynomial:
+
+\[
+f(-5) = k(-5)^4 + 9(-5)^3 + k(-5)^2 + 32(-5) - 11
+\]
+
+### Step 2: Calculate each term
+
+1. Calculate \( (-5)^4 \):
+   \[
+   (-5)^4 = 625 \quad \Rightarrow \quad k(-5)^4 = 625k
+   \]
+
+2. Calculate \( (-5)^3 \):
+   \[
+   (-5)^3 = -125 \quad \Rightarrow \quad 9(-5)^3 = 9 \cdot (-125) = -1125
+   \]
+
+3. Calculate \( (-5)^2 \):
+   \[
+   (-5)^2 = 25 \quad \Rightarrow \quad k(-5)^2 = 25k
+   \]
+
+4. Calculate \( 32(-5) \):
+   \[
+   32(-5) = -160
+   \]
+
+5. Combine all these results:
+   \[
+   f(-5) = 625k - 1125 + 25k - 160 - 11
+   \]
+
+### Step 3: Combine like terms
+
+Now, combine the terms:
+\[
+f(-5) = (625k + 25k) + (-1125 - 160 - 11)
+\]
+\[
+f(-5) = 650k - 1296
+\]
+
+### Step 4: Set the equation equal to the remainder
+
+Since we want the remainder to be 4, we set up the equation:
+\[
+650k - 1296 = 4
+\]
+
+### Step 5: Solve for \( k \)
+
+1. Add 1296 to both sides:
+   \[
+   650k = 1300
+   \]
+
+2. Divide both sides by 650:
+   \[
+   k = \frac{1300}{650}
+   \]
+
+3. Simplify the fraction:
+   \[
+   k = \frac{1300 \div 650}{650 \div 650} = \frac{2}{1} = 2
+   \]
+
+### Conclusion
+
+Thus, the value of \( k \) is:
+
+\[
+\boxed{2}
+\] 
+
+This solution clearly outlines the steps taken to find \( k \) based on the condition that the remainder is 4 when the polynomial is divided by \( x + 5 \).

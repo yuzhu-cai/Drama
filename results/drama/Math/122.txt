@@ -1,0 +1,42 @@
+To solve the problem, we need to calculate the midpoints based on the two different locations provided for Barbara and then find the positive difference in the x-coordinates of these midpoints.
+
+### Step 1: Calculate the Midpoint of Annie's Location and Barbara's Incorrect Location
+
+Annie's location is \( (3, 5) \) and Barbara's incorrect location is \( (-6, 2) \).
+
+Using the midpoint formula:
+
+\[
+\text{Midpoint} = \left( \frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2} \right)
+\]
+
+Substituting the coordinates:
+
+\[
+\text{Midpoint}_{\text{incorrect}} = \left( \frac{3 + (-6)}{2}, \frac{5 + 2}{2} \right) = \left( \frac{-3}{2}, \frac{7}{2} \right) = \left( -1.5, 3.5 \right)
+\]
+
+### Step 2: Calculate the Midpoint of Annie's Location and Barbara's Correct Location
+
+Now, using Barbara's correct location \( (-10, 4) \):
+
+\[
+\text{Midpoint}_{\text{correct}} = \left( \frac{3 + (-10)}{2}, \frac{5 + 4}{2} \right) = \left( \frac{-7}{2}, \frac{9}{2} \right) = \left( -3.5, 4.5 \right)
+\]
+
+### Step 3: Find the Positive Difference in the x-coordinates of the Two Midpoints
+
+Now we have the x-coordinates of the two midpoints:
+
+- \( x_{\text{incorrect}} = -1.5 \)
+- \( x_{\text{correct}} = -3.5 \)
+
+To find the positive difference in the x-coordinates:
+
+\[
+\text{Positive difference} = |x_{\text{incorrect}} - x_{\text{correct}}| = |-1.5 - (-3.5)| = |-1.5 + 3.5| = |2| = 2
+\]
+
+### Conclusion
+
+The positive difference in the x-coordinates of where Annie and Barbara agreed to meet (based on the incorrect location) and where they should actually meet (based on the correct location) is \( \boxed{2} \).

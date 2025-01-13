@@ -1,0 +1,28 @@
+To solve for \( x \) in the given diagram where lines \( PRT \) and \( QRS \) are straight lines, we will use the property that the sum of angles on a straight line is \( 180^\circ \).
+
+### Step-by-Step Solution:
+
+1. **Identify the Angles**: 
+   - We have an angle \( x \) at point \( T \) (formed by line \( PRT \)).
+   - We have another angle of \( 40^\circ \) at point \( Q \) (formed by line \( QRS \)).
+
+2. **Set Up the Equation**:
+   - Since \( PRT \) and \( QRS \) are straight lines, the angles \( x \) and \( 40^\circ \) are adjacent angles that form a linear pair. Therefore, we can write the equation:
+   \[
+   x + 40^\circ = 180^\circ
+   \]
+
+3. **Solve for \( x \)**:
+   - Rearranging the equation gives:
+   \[
+   x = 180^\circ - 40^\circ
+   \]
+   - Calculating the right side:
+   \[
+   x = 140^\circ
+   \]
+
+### Conclusion:
+The value of \( x \) is \( \boxed{140^\circ} \). 
+
+This solution is clear and addresses all aspects of the problem, confirming that the angles formed by the straight lines \( PRT \) and \( QRS \) sum to \( 180^\circ \).

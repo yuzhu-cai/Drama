@@ -1,0 +1,74 @@
+To solve the problem, we need to determine which integer Marsha could have excluded from the first ten positive integers (1 through 10) such that the resulting sum is a perfect square.
+
+### Step 1: Calculate the Total Sum of the First Ten Positive Integers
+
+The sum of the first ten positive integers can be calculated using the formula:
+
+\[
+S_n = \frac{n(n + 1)}{2}
+\]
+
+For \( n = 10 \):
+
+\[
+S_{10} = \frac{10(10 + 1)}{2} = \frac{10 \times 11}{2} = 55
+\]
+
+### Step 2: Calculate the Possible Sums by Excluding Each Integer
+
+Next, we will calculate the sums obtained by excluding each integer from 1 to 10:
+
+1. **Excluding 1**: \( 55 - 1 = 54 \)
+2. **Excluding 2**: \( 55 - 2 = 53 \)
+3. **Excluding 3**: \( 55 - 3 = 52 \)
+4. **Excluding 4**: \( 55 - 4 = 51 \)
+5. **Excluding 5**: \( 55 - 5 = 50 \)
+6. **Excluding 6**: \( 55 - 6 = 49 \)
+7. **Excluding 7**: \( 55 - 7 = 48 \)
+8. **Excluding 8**: \( 55 - 8 = 47 \)
+9. **Excluding 9**: \( 55 - 9 = 46 \)
+10. **Excluding 10**: \( 55 - 10 = 45 \)
+
+The resulting sums are:
+
+- 54
+- 53
+- 52
+- 51
+- 50
+- 49
+- 48
+- 47
+- 46
+- 45
+
+### Step 3: Identify Which Sums are Perfect Squares
+
+Now, we will check which of these sums are perfect squares:
+
+- \( 54 \) is not a perfect square.
+- \( 53 \) is not a perfect square.
+- \( 52 \) is not a perfect square.
+- \( 51 \) is not a perfect square.
+- \( 50 \) is not a perfect square.
+- \( 49 = 7^2 \) (perfect square).
+- \( 48 \) is not a perfect square.
+- \( 47 \) is not a perfect square.
+- \( 46 \) is not a perfect square.
+- \( 45 \) is not a perfect square.
+
+### Step 4: Determine Which Integer Was Excluded
+
+The only sum that is a perfect square is \( 49 \). This sum was achieved by excluding the integer \( 6 \):
+
+\[
+55 - 6 = 49
+\]
+
+### Conclusion
+
+Marsha did not include the integer **6** in her sum, resulting in a perfect square sum of \( 49 \).
+
+Thus, the answer to the original query is:
+
+**Marsha did not include the integer 6.**

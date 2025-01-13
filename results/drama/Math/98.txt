@@ -1,0 +1,38 @@
+To find the smallest integer \( x \) such that the expression \(\frac{\sqrt{x-2}}{x^2+x-6}\) is defined, we need to consider the conditions derived from both the numerator and the denominator.
+
+### Step 1: Analyze the Numerator
+The numerator \(\sqrt{x-2}\) is defined when:
+\[
+x - 2 \geq 0 \implies x \geq 2.
+\]
+
+### Step 2: Analyze the Denominator
+The denominator \(x^2 + x - 6\) must not be zero. We previously solved the equation:
+\[
+x^2 + x - 6 = 0
+\]
+Factoring gives:
+\[
+(x - 2)(x + 3) = 0.
+\]
+This results in the solutions:
+\[
+x = 2 \quad \text{and} \quad x = -3.
+\]
+Thus, the denominator is zero at \(x = 2\) and \(x = -3\). Therefore, we must exclude these values from our consideration.
+
+### Step 3: Combine Conditions
+From the analysis:
+- The condition \(x \geq 2\) from the numerator means we start considering integers from \(2\) onward.
+- The condition that the denominator is not zero excludes \(x = 2\).
+
+### Step 4: Identify the Smallest Integer
+Given the conditions:
+- The smallest integer \( x \) that satisfies \( x \geq 2 \) is \( x = 2\), but since \( x = 2 \) makes the denominator zero, we must move to the next integer.
+- The next integer is \( x = 3\).
+
+### Conclusion
+Thus, the smallest integer \( x \) such that the expression \(\frac{\sqrt{x-2}}{x^2+x-6}\) is defined is:
+\[
+\boxed{3}.
+\]

@@ -1,0 +1,35 @@
+To find the value of \( f(g(2)) \) given the functions \( f(x) = x + 1 \) and \( g(x) = x^2 + 3 \), we will follow these steps:
+
+1. **Calculate \( g(2) \)**:
+   - We use the function \( g(x) = x^2 + 3 \).
+   - Substitute \( x = 2 \):
+     \[
+     g(2) = 2^2 + 3
+     \]
+   - Calculate \( 2^2 \):
+     \[
+     2^2 = 4
+     \]
+   - Now add \( 3 \):
+     \[
+     g(2) = 4 + 3 = 7
+     \]
+
+2. **Substitute \( g(2) \) into \( f(x) \)**:
+   - Now we need to find \( f(g(2)) = f(7) \).
+   - Use the function \( f(x) = x + 1 \):
+     \[
+     f(7) = 7 + 1
+     \]
+   - Calculate \( 7 + 1 \):
+     \[
+     f(7) = 8
+     \]
+
+3. **Final Result**:
+   - Therefore, the value of \( f(g(2)) \) is \( 8 \).
+
+In conclusion, the comprehensive solution to the original query is:
+\[
+f(g(2)) = 8
+\]

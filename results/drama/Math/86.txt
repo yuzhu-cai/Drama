@@ -1,0 +1,51 @@
+To solve the problem, we need to evaluate the expression:
+
+\[
+S = \frac{a^4}{(a - b)(a - c)(a - d)(a - e)} + \frac{b^4}{(b - a)(b - c)(b - d)(b - e)} + \frac{c^4}{(c - a)(c - b)(c - d)(c - e)} + \frac{d^4}{(d - a)(d - b)(d - c)(d - e)} + \frac{e^4}{(e - a)(e - b)(e - c)(e - d)},
+\]
+
+where \( a, b, c, d, e \) are the distinct roots of the polynomial equation \( x^5 + 7x^4 - 2 = 0 \).
+
+### Step 1: Recognizing the Structure of the Expression
+
+The expression \( S \) can be interpreted as a form of Lagrange interpolation. Specifically, it represents the value of the polynomial \( P(x) = x^4 \) evaluated at the roots \( a, b, c, d, e \). 
+
+### Step 2: Understanding the Polynomial
+
+The polynomial \( P(x) = x^4 \) is a polynomial of degree 4. According to the properties of polynomial interpolation, the expression \( S \) can be evaluated at any of the roots \( a, b, c, d, e \) and will yield the same result.
+
+### Step 3: Evaluating the Expression
+
+Since \( S \) is equal to \( P(a) \), \( P(b) \), \( P(c) \), \( P(d) \), or \( P(e) \), we can evaluate it at any of these points. For example, evaluating at \( a \):
+
+\[
+S = P(a) = a^4.
+\]
+
+Similarly, evaluating at \( b \):
+
+\[
+S = P(b) = b^4,
+\]
+
+and so forth for \( c, d, e \).
+
+### Step 4: Conclusion
+
+Since \( S \) is equal to \( P(x) \) evaluated at any of the roots, we conclude that the value of the expression is:
+
+\[
+S = a^4 = b^4 = c^4 = d^4 = e^4.
+\]
+
+However, we need to recognize that \( S \) is a specific evaluation of the polynomial at the roots of the original polynomial \( x^5 + 7x^4 - 2 = 0 \). 
+
+### Final Result
+
+The value of the expression \( S \) simplifies to:
+
+\[
+\boxed{1}.
+\]
+
+This result follows from the fact that the polynomial \( P(x) = x^4 \) evaluated at the roots of the polynomial \( x^5 + 7x^4 - 2 = 0 \) yields a consistent value across all roots, which is \( 1 \) when normalized by the product of the differences in the denominators.

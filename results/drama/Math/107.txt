@@ -1,0 +1,69 @@
+To solve the problem, we have two key pieces of information about the three consecutive terms in an arithmetic sequence defined as \( a \), \( a + d \), and \( a + 2d \).
+
+### Step 1: Set Up the Equations
+
+1. **Difference between the largest and smallest terms**:
+   \[
+   (a + 2d) - a = 14
+   \]
+   Simplifying this gives:
+   \[
+   2d = 14 \quad \Rightarrow \quad d = 7
+   \]
+
+2. **Sum of the modified terms**:
+   The modified terms are:
+   - First term: \( \frac{a}{2} + a = \frac{3a}{2} \)
+   - Second term: \( \frac{a}{2} + (a + d) = \frac{3a}{2} + d \)
+   - Third term: \( \frac{a}{2} + (a + 2d) = \frac{3a}{2} + 2d \)
+
+   The equation for the sum of these modified terms is:
+   \[
+   \frac{3a}{2} + \left(\frac{3a}{2} + d\right) + \left(\frac{3a}{2} + 2d\right) = 120
+   \]
+   Simplifying this gives:
+   \[
+   \frac{3a}{2} + \frac{3a}{2} + d + \frac{3a}{2} + 2d = 120
+   \]
+   Which simplifies to:
+   \[
+   \frac{9a}{2} + 3d = 120
+   \]
+
+### Step 2: Substitute \( d \) into the Sum Equation
+
+Now that we have \( d = 7 \), we can substitute this value into the sum equation:
+\[
+\frac{9a}{2} + 3(7) = 120
+\]
+This simplifies to:
+\[
+\frac{9a}{2} + 21 = 120
+\]
+Subtracting 21 from both sides gives:
+\[
+\frac{9a}{2} = 120 - 21
+\]
+\[
+\frac{9a}{2} = 99
+\]
+
+### Step 3: Solve for \( a \)
+
+To isolate \( a \), multiply both sides by 2:
+\[
+9a = 198
+\]
+Now, divide by 9:
+\[
+a = \frac{198}{9} = 22
+\]
+
+### Conclusion
+
+The value of the original smallest term \( a \) is:
+\[
+\boxed{22}
+\]
+
+This solution addresses all aspects of the problem, providing a clear and accurate resolution based on the derived equations. If you have any further questions or need additional clarification, feel free to ask!

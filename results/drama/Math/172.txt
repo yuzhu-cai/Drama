@@ -1,0 +1,62 @@
+To find the area of the region that is common to the two equilateral triangles formed by joining alternate vertices of a regular hexagon with edges 4 inches long, we will follow these steps:
+
+### Step 1: Identify the Vertices of the Hexagon
+The vertices of the regular hexagon with edges of 4 inches can be calculated as follows:
+- The vertices are:
+  - \( A(4, 0) \)
+  - \( B(2, 2\sqrt{3}) \)
+  - \( C(-2, 2\sqrt{3}) \)
+  - \( D(-4, 0) \)
+  - \( E(-2, -2\sqrt{3}) \)
+  - \( F(2, -2\sqrt{3}) \)
+
+### Step 2: Identify the Vertices of the Equilateral Triangles
+Using alternate vertices of the hexagon, we form two equilateral triangles:
+
+1. **Triangle 1** formed by vertices \( A(4, 0) \), \( C(-2, 2\sqrt{3}) \), and \( E(-2, -2\sqrt{3}) \).
+2. **Triangle 2** formed by vertices \( B(2, 2\sqrt{3}) \), \( D(-4, 0) \), and \( F(2, -2\sqrt{3}) \).
+
+### Step 3: Calculate the Area of Each Triangle
+The area \( A \) of an equilateral triangle can be calculated using the formula:
+
+\[
+A = \frac{\sqrt{3}}{4} s^2
+\]
+
+where \( s \) is the length of a side of the triangle. The side length of each triangle is equal to the edge length of the hexagon, which is 4 inches.
+
+Calculating the area of one triangle:
+
+\[
+A = \frac{\sqrt{3}}{4} (4)^2 = \frac{\sqrt{3}}{4} \cdot 16 = 4\sqrt{3} \text{ square inches}
+\]
+
+### Step 4: Determine the Common Area
+To find the area of the region that is common to the two triangles, we can visualize the triangles and their overlap. Since both triangles are equilateral and symmetrically placed, the common area can be calculated as follows:
+
+1. **Identify the intersection points**: The triangles intersect at the midpoints of their sides. The common area forms a smaller equilateral triangle.
+
+2. **Calculate the side length of the common triangle**: The height of each triangle is given by:
+
+\[
+\text{Height} = \frac{\sqrt{3}}{2} s = \frac{\sqrt{3}}{2} \cdot 4 = 2\sqrt{3}
+\]
+
+The common area is a smaller equilateral triangle formed by the midpoints of the sides of the original triangles. The side length of this smaller triangle is half of the original triangle's side length:
+
+\[
+s_{\text{common}} = \frac{4}{2} = 2 \text{ inches}
+\]
+
+3. **Calculate the area of the common triangle**:
+
+\[
+A_{\text{common}} = \frac{\sqrt{3}}{4} (2)^2 = \frac{\sqrt{3}}{4} \cdot 4 = \sqrt{3} \text{ square inches}
+\]
+
+### Conclusion
+The area of the region that is common to the two equilateral triangles formed by joining alternate vertices of the regular hexagon is:
+
+\[
+\boxed{\sqrt{3}} \text{ square inches}
+\]

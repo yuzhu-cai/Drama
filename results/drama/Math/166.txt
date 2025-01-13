@@ -1,0 +1,112 @@
+To find the area of equilateral triangle \( ABC \) given the lengths of the altitudes from point \( P \) to the sides \( AB \), \( BC \), and \( CA \) as 5, 6, and 7 respectively, we can use a specific property of equilateral triangles.
+
+### Step 1: Understanding the Relationship
+
+In an equilateral triangle, the area can be expressed in terms of the altitudes from any interior point to the sides of the triangle. The area \( A \) of triangle \( ABC \) can be calculated using the formula:
+
+\[
+A = \frac{1}{3} (h_a + h_b + h_c) \cdot s
+\]
+
+where \( h_a \), \( h_b \), and \( h_c \) are the lengths of the altitudes from point \( P \) to sides \( BC \), \( CA \), and \( AB \) respectively, and \( s \) is the length of a side of the equilateral triangle.
+
+### Step 2: Calculate the Total Altitude Length
+
+Given:
+- \( h_a = 5 \)
+- \( h_b = 6 \)
+- \( h_c = 7 \)
+
+We first calculate the sum of the altitudes:
+
+\[
+h_a + h_b + h_c = 5 + 6 + 7 = 18
+\]
+
+### Step 3: Relate the Area to the Altitudes
+
+In an equilateral triangle, the area can also be expressed in terms of the side length \( s \) and the altitude \( h \) of the triangle:
+
+\[
+A = \frac{s \cdot h}{2}
+\]
+
+The altitude \( h \) of an equilateral triangle with side length \( s \) is given by:
+
+\[
+h = \frac{\sqrt{3}}{2} s
+\]
+
+Thus, the area can also be expressed as:
+
+\[
+A = \frac{s \cdot \frac{\sqrt{3}}{2} s}{2} = \frac{\sqrt{3}}{4} s^2
+\]
+
+### Step 4: Using the Altitudes to Find the Area
+
+Using the property of the altitudes from point \( P \):
+
+\[
+A = \frac{1}{3} (h_a + h_b + h_c) \cdot s
+\]
+
+Substituting the sum of the altitudes:
+
+\[
+A = \frac{1}{3} \cdot 18 \cdot s = 6s
+\]
+
+### Step 5: Equating the Two Area Expressions
+
+Now we have two expressions for the area \( A \):
+
+1. \( A = 6s \)
+2. \( A = \frac{\sqrt{3}}{4} s^2 \)
+
+Setting these equal to each other:
+
+\[
+6s = \frac{\sqrt{3}}{4} s^2
+\]
+
+### Step 6: Solve for \( s \)
+
+To solve for \( s \), we can rearrange the equation:
+
+\[
+\frac{\sqrt{3}}{4} s^2 - 6s = 0
+\]
+
+Factoring out \( s \):
+
+\[
+s \left( \frac{\sqrt{3}}{4} s - 6 \right) = 0
+\]
+
+This gives us two solutions:
+
+1. \( s = 0 \) (not valid)
+2. \( \frac{\sqrt{3}}{4} s - 6 = 0 \)
+
+Solving for \( s \):
+
+\[
+\frac{\sqrt{3}}{4} s = 6 \implies s = \frac{6 \cdot 4}{\sqrt{3}} = \frac{24}{\sqrt{3}} = 8\sqrt{3}
+\]
+
+### Step 7: Calculate the Area
+
+Now substituting \( s \) back into the area formula:
+
+\[
+A = 6s = 6 \cdot 8\sqrt{3} = 48\sqrt{3}
+\]
+
+### Final Result
+
+Thus, the area of triangle \( ABC \) is:
+
+\[
+\boxed{48\sqrt{3}}
+\]

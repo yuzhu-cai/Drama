@@ -1,0 +1,56 @@
+To determine which of the given points is farthest from the origin \((0, 0)\), we will calculate the distance of each point from the origin using the distance formula:
+
+\[
+d = \sqrt{x^2 + y^2}
+\]
+
+We will calculate the distances for the following points:
+
+1. \((1, 4)\)
+2. \((3, 5)\)
+3. \((-6, 0)\)
+4. \((-4, -2)\)
+
+### Calculating Distances
+
+1. **Distance from \((1, 4)\)**:
+   \[
+   d = \sqrt{(1)^2 + (4)^2} = \sqrt{1 + 16} = \sqrt{17} \approx 4.123
+   \]
+
+2. **Distance from \((3, 5)\)**:
+   \[
+   d = \sqrt{(3)^2 + (5)^2} = \sqrt{9 + 25} = \sqrt{34} \approx 5.831
+   \]
+
+3. **Distance from \((-6, 0)\)**:
+   \[
+   d = \sqrt{(-6)^2 + (0)^2} = \sqrt{36 + 0} = \sqrt{36} = 6
+   \]
+
+4. **Distance from \((-4, -2)\)**:
+   \[
+   d = \sqrt{(-4)^2 + (-2)^2} = \sqrt{16 + 4} = \sqrt{20} = 2\sqrt{5} \approx 4.472
+   \]
+
+### Summary of Distances
+
+- Distance from \((1, 4)\): \(\sqrt{17} \approx 4.123\)
+- Distance from \((3, 5)\): \(\sqrt{34} \approx 5.831\)
+- Distance from \((-6, 0)\): \(6\)
+- Distance from \((-4, -2)\): \(2\sqrt{5} \approx 4.472\)
+
+### Conclusion
+
+Comparing the calculated distances:
+
+- \(\sqrt{17} \approx 4.123\)
+- \(\sqrt{34} \approx 5.831\)
+- \(6\)
+- \(2\sqrt{5} \approx 4.472\)
+
+The point that is farthest from the origin is \((-6, 0)\) with a distance of \(6\) units. 
+
+Thus, the comprehensive solution to the original query is:
+
+**The point \((-6, 0)\) is the farthest from the origin.**

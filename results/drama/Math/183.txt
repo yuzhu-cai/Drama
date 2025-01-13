@@ -1,0 +1,89 @@
+To determine the greatest common factor (GCF) of \(5!\), \(10!\), and \(15!\), we will follow a systematic approach based on the prime factorization of each factorial.
+
+### Step 1: Calculate the Factorials
+
+1. **Calculate \(5!\)**:
+   \[
+   5! = 5 \times 4 \times 3 \times 2 \times 1 = 120
+   \]
+   The prime factorization of \(120\) is:
+   \[
+   120 = 2^3 \times 3^1 \times 5^1
+   \]
+
+2. **Calculate \(10!\)**:
+   \[
+   10! = 10 \times 9 \times 8 \times 7 \times 6 \times 5 \times 4 \times 3 \times 2 \times 1
+   \]
+   The prime factorization of \(10!\) is:
+   \[
+   10! = 2^8 \times 3^4 \times 5^2 \times 7^1
+   \]
+
+3. **Calculate \(15!\)**:
+   \[
+   15! = 15 \times 14 \times 13 \times 12 \times 11 \times 10 \times 9 \times 8 \times 7 \times 6 \times 5 \times 4 \times 3 \times 2 \times 1
+   \]
+   The prime factorization of \(15!\) is:
+   \[
+   15! = 2^{11} \times 3^6 \times 5^3 \times 7^2 \times 11^1 \times 13^1
+   \]
+
+### Step 2: Identify Common Prime Factors
+
+Next, we identify the common prime factors among \(5!\), \(10!\), and \(15!\):
+
+- **Prime factors of \(5!\)**: \(2, 3, 5\)
+- **Prime factors of \(10!\)**: \(2, 3, 5, 7\)
+- **Prime factors of \(15!\)**: \(2, 3, 5, 7, 11, 13\)
+
+The common prime factors are:
+\[
+2, 3, 5
+\]
+
+### Step 3: Determine the Lowest Power of Each Common Prime Factor
+
+Now, we will take the lowest power of each common prime factor from the factorizations:
+
+- For \(2\):
+  - \(5!\): \(2^3\)
+  - \(10!\): \(2^8\)
+  - \(15!\): \(2^{11}\)
+  - **Lowest power**: \(2^3\)
+
+- For \(3\):
+  - \(5!\): \(3^1\)
+  - \(10!\): \(3^4\)
+  - \(15!\): \(3^6\)
+  - **Lowest power**: \(3^1\)
+
+- For \(5\):
+  - \(5!\): \(5^1\)
+  - \(10!\): \(5^2\)
+  - \(15!\): \(5^3\)
+  - **Lowest power**: \(5^1\)
+
+### Step 4: Calculate the GCF
+
+Now, we multiply the common prime factors raised to their lowest powers:
+\[
+\text{GCF} = 2^3 \times 3^1 \times 5^1
+\]
+
+Calculating this:
+\[
+\text{GCF} = 8 \times 3 \times 5
+\]
+\[
+= 24 \times 5 = 120
+\]
+
+### Conclusion
+
+The greatest common factor (GCF) of \(5!\), \(10!\), and \(15!\) is:
+\[
+\boxed{120}
+\] 
+
+This comprehensive solution addresses all aspects of the problem, providing a clear and accurate calculation of the GCF based on the prime factorization of the factorials involved.

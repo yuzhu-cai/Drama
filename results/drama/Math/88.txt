@@ -1,0 +1,87 @@
+To find the range of the function 
+
+\[
+j(x) = \frac{5x + 3}{x},
+\]
+
+we will follow a systematic approach that includes identifying the domain, analyzing the behavior of the function, and evaluating limits.
+
+### Step 1: Identify the Domain
+
+The function \( j(x) \) is a rational function, which is defined for all real numbers except where the denominator is zero. Setting the denominator equal to zero gives:
+
+\[
+x = 0.
+\]
+
+Thus, the domain of \( j(x) \) is:
+
+\[
+(-\infty, 0) \cup (0, \infty).
+\]
+
+### Step 2: Simplify the Function
+
+We can simplify \( j(x) \):
+
+\[
+j(x) = \frac{5x + 3}{x} = 5 + \frac{3}{x}.
+\]
+
+This form makes it easier to analyze the behavior of the function.
+
+### Step 3: Analyze the Behavior of the Function
+
+#### Critical Points
+
+To find critical points, we can take the derivative of \( j(x) \):
+
+\[
+j'(x) = -\frac{3}{x^2}.
+\]
+
+The derivative \( j'(x) \) is never zero, but it is undefined at \( x = 0 \), which we already identified as a boundary of the domain.
+
+#### Limits at the Boundaries
+
+Next, we evaluate the limits as \( x \) approaches the boundaries of the domain:
+
+1. **As \( x \to 0^- \)** (approaching from the left):
+   \[
+   j(x) = 5 + \frac{3}{x} \to 5 - \infty = -\infty.
+   \]
+
+2. **As \( x \to 0^+ \)** (approaching from the right):
+   \[
+   j(x) = 5 + \frac{3}{x} \to 5 + \infty = +\infty.
+   \]
+
+3. **As \( x \to \infty \)**:
+   \[
+   j(x) = 5 + \frac{3}{x} \to 5 + 0 = 5.
+   \]
+
+4. **As \( x \to -\infty \)**:
+   \[
+   j(x) = 5 + \frac{3}{x} \to 5 + 0 = 5.
+   \]
+
+### Step 4: Determine the Range
+
+From the analysis, we see that:
+
+- As \( x \) approaches \( 0 \) from the left, \( j(x) \) approaches \( -\infty \).
+- As \( x \) approaches \( 0 \) from the right, \( j(x) \) approaches \( +\infty \).
+- The function approaches \( 5 \) as \( x \) goes to both \( +\infty \) and \( -\infty \).
+
+However, the function never actually reaches \( 5 \) because it approaches this value asymptotically. Therefore, \( j(x) \) can take all values except \( 5 \).
+
+### Conclusion
+
+The range of the function \( j(x) = \frac{5x + 3}{x} \) is:
+
+\[
+(-\infty, 5) \cup (5, \infty).
+\]
+
+This means that \( j(x) \) can take any real number except for \( 5 \).

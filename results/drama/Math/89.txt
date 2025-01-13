@@ -1,0 +1,33 @@
+To solve the equation \( |3 - 2i + w| = 0 \), we start by analyzing what it means for the absolute value of a complex number to equal zero. The absolute value of a complex number \( z \) is zero if and only if \( z \) itself is equal to zero.
+
+Given the equation:
+
+\[
+|3 - 2i + w| = 0
+\]
+
+This implies that the expression inside the absolute value must be equal to zero:
+
+\[
+3 - 2i + w = 0
+\]
+
+Next, we can isolate \( w \) by rearranging the equation:
+
+\[
+w = - (3 - 2i)
+\]
+
+Now, simplifying this gives:
+
+\[
+w = -3 + 2i
+\]
+
+Thus, the value of \( w \) that satisfies the equation \( |3 - 2i + w| = 0 \) is:
+
+\[
+\boxed{-3 + 2i}
+\]
+
+This solution is clear and addresses all aspects of the problem, confirming that \( w = -3 + 2i \) is the correct and complete answer.

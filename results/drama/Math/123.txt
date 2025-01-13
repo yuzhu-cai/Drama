@@ -1,0 +1,98 @@
+To solve the equation 
+
+\[
+\frac{\sqrt[3]{2x-4}}{\sqrt[3]{x+4}} = 2,
+\]
+
+we will follow these steps:
+
+### Step 1: Eliminate the fraction
+
+Multiply both sides by \(\sqrt[3]{x+4}\):
+
+\[
+\sqrt[3]{2x-4} = 2\sqrt[3]{x+4}.
+\]
+
+### Step 2: Cube both sides
+
+To eliminate the cube roots, cube both sides of the equation:
+
+\[
+(\sqrt[3]{2x-4})^3 = (2\sqrt[3]{x+4})^3.
+\]
+
+This simplifies to:
+
+\[
+2x - 4 = 8(x + 4).
+\]
+
+### Step 3: Expand and simplify
+
+Now, expand the right side:
+
+\[
+2x - 4 = 8x + 32.
+\]
+
+Next, move all terms involving \(x\) to one side and constant terms to the other side:
+
+\[
+2x - 8x = 32 + 4.
+\]
+
+This simplifies to:
+
+\[
+-6x = 36.
+\]
+
+### Step 4: Solve for \(x\)
+
+Now, divide both sides by \(-6\):
+
+\[
+x = -6.
+\]
+
+### Step 5: Check the solution
+
+To verify the solution, substitute \(x = -6\) back into the original equation:
+
+1. Calculate \(2x - 4\) and \(x + 4\):
+
+   \[
+   2(-6) - 4 = -12 - 4 = -16,
+   \]
+   \[
+   -6 + 4 = -2.
+   \]
+
+2. Substitute these values into the left side of the original equation:
+
+   \[
+   \frac{\sqrt[3]{-16}}{\sqrt[3]{-2}}.
+   \]
+
+3. Simplify:
+
+   \[
+   \frac{-2}{-1} = 2.
+   \]
+
+Since both sides of the original equation are equal, the solution is verified.
+
+### Final Answer
+
+Thus, the solution to the equation 
+
+\[
+\frac{\sqrt[3]{2x-4}}{\sqrt[3]{x+4}} = 2
+\]
+
+is 
+
+\[
+\boxed{-6}.
+\]

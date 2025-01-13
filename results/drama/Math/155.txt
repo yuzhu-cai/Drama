@@ -1,0 +1,47 @@
+To determine the units digit of \( 2^{2010} \), we can follow a systematic approach based on the established pattern of the units digits of powers of 2.
+
+### Step 1: Identify the Pattern
+
+First, we calculate the units digits of the first few powers of 2:
+
+- \( 2^1 = 2 \) → units digit is **2**
+- \( 2^2 = 4 \) → units digit is **4**
+- \( 2^3 = 8 \) → units digit is **8**
+- \( 2^4 = 16 \) → units digit is **6**
+- \( 2^5 = 32 \) → units digit is **2**
+- \( 2^6 = 64 \) → units digit is **4**
+- \( 2^7 = 128 \) → units digit is **8**
+- \( 2^8 = 256 \) → units digit is **6**
+
+From these calculations, we observe that the units digits repeat every four powers in the following cycle:
+
+- **2, 4, 8, 6**
+
+### Step 2: Determine the Position of \( 2010 \) in the Cycle
+
+Next, we need to find out where \( 2010 \) falls within this cycle. We do this by calculating \( 2010 \mod 4 \):
+
+\[
+2010 \div 4 = 502 \quad \text{(remainder 2)}
+\]
+
+Thus, we find:
+
+\[
+2010 \mod 4 = 2
+\]
+
+### Step 3: Match the Remainder to the Units Digit
+
+Now, we can match this remainder to the corresponding units digit in our established cycle:
+
+- Remainder 1 corresponds to units digit **2**
+- Remainder 2 corresponds to units digit **4**
+- Remainder 3 corresponds to units digit **8**
+- Remainder 0 corresponds to units digit **6**
+
+Since \( 2010 \mod 4 = 2 \), we conclude that the units digit of \( 2^{2010} \) is **4**.
+
+### Final Answer
+
+Therefore, the units digit of \( 2^{2010} \) is \( \boxed{4} \).

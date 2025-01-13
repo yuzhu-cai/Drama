@@ -1,0 +1,74 @@
+To solve the original query of how many integers \( n \) satisfy both \( 0 < n < 60 \) and \( 4n \equiv 2 \mod{6} \), we can follow these steps:
+
+### Step 1: Simplify the Congruence
+
+We start with the congruence equation:
+\[
+4n \equiv 2 \mod{6}
+\]
+
+1. **Divide the entire equation by 2** (since 2 is a common factor):
+   \[
+   2n \equiv 1 \mod{3}
+   \]
+
+### Step 2: Solve the Simplified Congruence
+
+Next, we need to find integers \( n \) such that:
+\[
+2n \equiv 1 \mod{3}
+\]
+
+To solve this, we can test values of \( n \):
+- If \( n = 0 \): \( 2(0) \equiv 0 \mod{3} \)
+- If \( n = 1 \): \( 2(1) \equiv 2 \mod{3} \)
+- If \( n = 2 \): \( 2(2) \equiv 4 \equiv 1 \mod{3} \)
+
+Thus, we find that:
+\[
+n \equiv 2 \mod{3}
+\]
+
+### Step 3: Write the General Solution
+
+The general solution for \( n \) can be expressed as:
+\[
+n = 2 + 3k
+\]
+where \( k \) is any integer.
+
+### Step 4: Determine Integer Solutions in the Range \( 0 < n < 60 \)
+
+Now, we need to find the values of \( n \) that satisfy \( 0 < n < 60 \):
+1. Substitute \( n = 2 + 3k \) into the inequality:
+   \[
+   0 < 2 + 3k < 60
+   \]
+
+2. **Solve the left side**:
+   \[
+   2 + 3k > 0 \implies 3k > -2 \implies k > -\frac{2}{3}
+   \]
+   Since \( k \) must be an integer, the smallest integer \( k \) can take is \( k = 0 \).
+
+3. **Solve the right side**:
+   \[
+   2 + 3k < 60 \implies 3k < 58 \implies k < \frac{58}{3} \approx 19.33
+   \]
+   The largest integer \( k \) can take is \( k = 19 \).
+
+### Step 5: Count the Integer Solutions
+
+Now we have the range for \( k \):
+\[
+0 \leq k \leq 19
+\]
+
+The integer values of \( k \) are \( 0, 1, 2, \ldots, 19 \). This gives us:
+\[
+19 - 0 + 1 = 20
+\]
+
+### Conclusion
+
+Thus, the total number of integer solutions \( n \) that satisfy both \( 0 < n < 60 \) and \( 4n \equiv 2 \mod{6} \) is \( \boxed{20} \).

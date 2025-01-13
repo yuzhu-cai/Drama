@@ -1,0 +1,84 @@
+Let's break down the solution step-by-step based on the original query:
+
+### Step 1: Identify the Four Consecutive Integers
+We start with the equation for the sum of four consecutive integers equal to 22. We defined the first integer as \( n \), leading to the following integers:
+
+- First integer: \( n \)
+- Second integer: \( n + 1 \)
+- Third integer: \( n + 2 \)
+- Fourth integer: \( n + 3 \)
+
+Setting up the equation for their sum:
+
+\[
+n + (n + 1) + (n + 2) + (n + 3) = 22
+\]
+
+Simplifying this gives:
+
+\[
+4n + 6 = 22
+\]
+
+Solving for \( n \):
+
+1. Subtract 6 from both sides:
+   \[
+   4n = 16
+   \]
+2. Divide by 4:
+   \[
+   n = 4
+   \]
+
+Thus, the four consecutive integers are:
+- \( 4 \)
+- \( 5 \)
+- \( 6 \)
+- \( 7 \)
+
+### Step 2: Increase Each Integer by 2
+Next, we increase each of these integers by 2:
+
+- First integer: \( 4 + 2 = 6 \)
+- Second integer: \( 5 + 2 = 7 \)
+- Third integer: \( 6 + 2 = 8 \)
+- Fourth integer: \( 7 + 2 = 9 \)
+
+The new set of integers is:
+- \( 6 \)
+- \( 7 \)
+- \( 8 \)
+- \( 9 \)
+
+### Step 3: Multiply Each New Integer by 20
+Now, we multiply each of the new integers by 20:
+
+- First integer: \( 6 \times 20 = 120 \)
+- Second integer: \( 7 \times 20 = 140 \)
+- Third integer: \( 8 \times 20 = 160 \)
+- Fourth integer: \( 9 \times 20 = 180 \)
+
+The new set of integers after multiplication is:
+- \( 120 \)
+- \( 140 \)
+- \( 160 \)
+- \( 180 \)
+
+### Step 4: Calculate the Sum of the New Set of Integers
+Finally, we calculate the sum of the new set of integers:
+
+\[
+120 + 140 + 160 + 180
+\]
+
+Calculating this step-by-step:
+
+1. \( 120 + 140 = 260 \)
+2. \( 260 + 160 = 420 \)
+3. \( 420 + 180 = 600 \)
+
+### Final Result
+The sum of the new set of integers is **600**.
+
+Thus, the comprehensive solution to the original query is that the sum of the new set of integers, after increasing each of the original four consecutive integers by 2 and then multiplying by 20, is **600**.

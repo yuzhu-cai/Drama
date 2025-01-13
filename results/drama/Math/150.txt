@@ -1,0 +1,57 @@
+To solve the problem of finding the greater of two consecutive positive even integers whose product is 288, we can follow these steps:
+
+1. **Define the integers**: Let the first even integer be \( x = 2n \) and the second consecutive even integer be \( y = 2n + 2 \).
+
+2. **Set up the equation**: The product of these two integers can be expressed as:
+   \[
+   x \cdot y = 288
+   \]
+   Substituting the definitions of \( x \) and \( y \):
+   \[
+   (2n)(2n + 2) = 288
+   \]
+
+3. **Simplify the equation**:
+   \[
+   2n(2n + 2) = 288
+   \]
+   \[
+   4n^2 + 4n = 288
+   \]
+   Dividing the entire equation by 4 to simplify:
+   \[
+   n^2 + n - 72 = 0
+   \]
+
+4. **Solve the quadratic equation**: We can use the quadratic formula \( n = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \), where \( a = 1, b = 1, c = -72 \):
+   \[
+   n = \frac{-1 \pm \sqrt{1^2 - 4 \cdot 1 \cdot (-72)}}{2 \cdot 1}
+   \]
+   \[
+   n = \frac{-1 \pm \sqrt{1 + 288}}{2}
+   \]
+   \[
+   n = \frac{-1 \pm \sqrt{289}}{2}
+   \]
+   \[
+   n = \frac{-1 \pm 17}{2}
+   \]
+
+   This gives us two potential solutions for \( n \):
+   \[
+   n = \frac{16}{2} = 8 \quad \text{(valid, since } n \text{ is positive)}
+   \]
+   \[
+   n = \frac{-18}{2} = -9 \quad \text{(not valid, since } n \text{ must be positive)}
+   \]
+
+5. **Find the integers**: Using \( n = 8 \):
+   - The first even integer: \( x = 2n = 2 \times 8 = 16 \)
+   - The second even integer: \( y = 2n + 2 = 16 + 2 = 18 \)
+
+6. **Identify the greater integer**: The two consecutive positive even integers are 16 and 18. Therefore, the greater of the two integers is:
+   \[
+   \boxed{18}
+   \]
+
+In summary, the greater of the two consecutive positive even integers whose product is 288 is 18.

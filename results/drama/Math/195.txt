@@ -1,0 +1,55 @@
+To determine the number of ways to distribute 4 indistinguishable balls into 2 distinguishable boxes, we can apply the stars and bars theorem, which is a well-known combinatorial method.
+
+### Problem Breakdown:
+
+1. **Indistinguishable Objects**: We have 4 indistinguishable balls.
+2. **Distinguishable Boxes**: We have 2 distinguishable boxes.
+
+### Application of Stars and Bars Theorem:
+
+According to the stars and bars theorem, the number of ways to distribute \( n \) indistinguishable objects into \( k \) distinguishable boxes is given by the formula:
+
+\[
+\binom{n + k - 1}{k - 1}
+\]
+
+Where:
+- \( n \) is the number of indistinguishable objects (balls),
+- \( k \) is the number of distinguishable boxes.
+
+### Substituting Values:
+
+In our case:
+- \( n = 4 \) (the number of balls),
+- \( k = 2 \) (the number of boxes).
+
+We can substitute these values into the formula:
+
+\[
+\text{Number of distributions} = \binom{4 + 2 - 1}{2 - 1} = \binom{5}{1}
+\]
+
+### Calculation of the Binomial Coefficient:
+
+Now, we calculate \( \binom{5}{1} \):
+
+\[
+\binom{5}{1} = 5
+\]
+
+### Conclusion:
+
+Thus, the number of ways to distribute 4 indistinguishable balls into 2 distinguishable boxes is **5**.
+
+### Summary of Distributions:
+
+The different distributions can be represented as follows:
+1. All 4 balls in Box 1 and 0 in Box 2: \( (4, 0) \)
+2. 3 balls in Box 1 and 1 in Box 2: \( (3, 1) \)
+3. 2 balls in Box 1 and 2 in Box 2: \( (2, 2) \)
+4. 1 ball in Box 1 and 3 in Box 2: \( (1, 3) \)
+5. 0 balls in Box 1 and 4 in Box 2: \( (0, 4) \)
+
+Each of these arrangements corresponds to one of the 5 ways to distribute the balls.
+
+This comprehensive solution addresses all aspects of the problem, confirming that there are **5 distinct ways** to distribute 4 indistinguishable balls into 2 distinguishable boxes.

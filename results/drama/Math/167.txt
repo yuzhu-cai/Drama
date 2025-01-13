@@ -1,0 +1,117 @@
+To solve the problem, we will follow these steps:
+
+1. **Determine the coordinates of points A, B, and C** based on the given lengths of the legs of the right triangle.
+2. **Calculate the midpoints M and N** of sides AB and BC, respectively.
+3. **Find the equations of the medians AM and CN**.
+4. **Determine the intersection point P of the medians**.
+5. **Calculate the length of segment CP** using the distance formula.
+
+### Step 1: Determine the Coordinates of Points A, B, and C
+
+Given that \( AB = 6 \) and \( BC = 3\sqrt{3} \), we can place the triangle in the Cartesian plane for simplicity:
+- Let \( A(0, 0) \) (the origin).
+- Let \( B(6, 0) \) (6 units along the x-axis).
+- Since \( BC \) is vertical and has a length of \( 3\sqrt{3} \), point \( C \) will be directly above point \( B \):
+  - Thus, \( C(6, 3\sqrt{3}) \).
+
+### Step 2: Calculate the Midpoints M and N
+
+1. **Midpoint M of side BC**:
+   \[
+   M = \left( \frac{x_B + x_C}{2}, \frac{y_B + y_C}{2} \right) = \left( \frac{6 + 6}{2}, \frac{0 + 3\sqrt{3}}{2} \right) = \left( 6, \frac{3\sqrt{3}}{2} \right)
+   \]
+
+2. **Midpoint N of side AB**:
+   \[
+   N = \left( \frac{x_A + x_B}{2}, \frac{y_A + y_B}{2} \right) = \left( \frac{0 + 6}{2}, \frac{0 + 0}{2} \right) = (3, 0)
+   \]
+
+### Step 3: Find the Equations of the Medians AM and CN
+
+1. **Median AM**:
+   - Coordinates of \( A(0, 0) \) and \( M(6, \frac{3\sqrt{3}}{2}) \).
+   - Slope \( m_{AM} \):
+     \[
+     m_{AM} = \frac{\frac{3\sqrt{3}}{2} - 0}{6 - 0} = \frac{3\sqrt{3}}{12} = \frac{\sqrt{3}}{4}
+     \]
+   - Equation of line \( AM \) using point-slope form:
+     \[
+     y - 0 = \frac{\sqrt{3}}{4}(x - 0) \implies y = \frac{\sqrt{3}}{4}x
+     \]
+
+2. **Median CN**:
+   - Coordinates of \( C(6, 3\sqrt{3}) \) and \( N(3, 0) \).
+   - Slope \( m_{CN} \):
+     \[
+     m_{CN} = \frac{0 - 3\sqrt{3}}{3 - 6} = \frac{-3\sqrt{3}}{-3} = \sqrt{3}
+     \]
+   - Equation of line \( CN \):
+     \[
+     y - 3\sqrt{3} = \sqrt{3}(x - 6) \implies y = \sqrt{3}x - 6\sqrt{3} + 3\sqrt{3} \implies y = \sqrt{3}x - 3\sqrt{3}
+     \]
+
+### Step 4: Determine the Intersection Point P of the Medians
+
+To find point \( P \), we set the equations of the medians equal to each other:
+
+\[
+\frac{\sqrt{3}}{4}x = \sqrt{3}x - 3\sqrt{3}
+\]
+
+Multiplying through by 4 to eliminate the fraction:
+
+\[
+\sqrt{3}x = 4\sqrt{3}x - 12\sqrt{3}
+\]
+
+Rearranging gives:
+
+\[
+12\sqrt{3} = 4\sqrt{3}x - \sqrt{3}x \implies 12\sqrt{3} = 3\sqrt{3}x
+\]
+
+Dividing both sides by \( 3\sqrt{3} \):
+
+\[
+x = 4
+\]
+
+Substituting \( x = 4 \) back into the equation of median \( AM \):
+
+\[
+y = \frac{\sqrt{3}}{4}(4) = \sqrt{3}
+\]
+
+Thus, the coordinates of point \( P \) are:
+
+\[
+P(4, \sqrt{3})
+\]
+
+### Step 5: Calculate the Length of Segment CP
+
+Using the distance formula between points \( C(6, 3\sqrt{3}) \) and \( P(4, \sqrt{3}) \):
+
+\[
+CP = \sqrt{(x_P - x_C)^2 + (y_P - y_C)^2}
+\]
+
+Substituting the coordinates:
+
+\[
+CP = \sqrt{(4 - 6)^2 + (\sqrt{3} - 3\sqrt{3})^2}
+\]
+\[
+= \sqrt{(-2)^2 + (-2\sqrt{3})^2}
+\]
+\[
+= \sqrt{4 + 4 \cdot 3} = \sqrt{4 + 12} = \sqrt{16} = 4
+\]
+
+### Final Answer
+
+The length of segment \( CP \) is:
+
+\[
+\boxed{4}
+\]

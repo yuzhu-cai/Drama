@@ -1,0 +1,35 @@
+To determine how many five-digit ZIP codes exist such that each of the first three digits is greater than 4, we will follow these steps:
+
+### Step 1: Determine the Valid Range for the First Three Digits
+The first three digits of the ZIP code must be greater than 4. Therefore, the valid range for these digits is from 500 to 999. 
+
+- **Valid choices for the first digit**: The first digit can be 5, 6, 7, 8, or 9. This gives us 5 options.
+- **Valid choices for the second digit**: The second digit can also be any digit from 0 to 9, providing 10 options.
+- **Valid choices for the third digit**: Similarly, the third digit can also be any digit from 0 to 9, providing another 10 options.
+
+### Step 2: Calculate the Total Combinations for the First Three Digits
+The total number of combinations for the first three digits is calculated as follows:
+\[
+\text{Total combinations for first three digits} = 5 \times 10 \times 10 = 500
+\]
+
+### Step 3: Determine the Valid Choices for the Last Two Digits
+The last two digits of the ZIP code can be any digit from 0 to 9. 
+
+- **Valid choices for the fourth digit**: 10 options (0-9).
+- **Valid choices for the fifth digit**: 10 options (0-9).
+
+### Step 4: Calculate the Total Combinations for the Last Two Digits
+The total number of combinations for the last two digits is:
+\[
+\text{Total combinations for last two digits} = 10 \times 10 = 100
+\]
+
+### Step 5: Calculate the Total Number of Valid ZIP Codes
+To find the total number of valid five-digit ZIP codes where the first three digits are greater than 4, we multiply the number of combinations for the first three digits by the number of combinations for the last two digits:
+\[
+\text{Total valid ZIP codes} = 500 \times 100 = 50000
+\]
+
+### Conclusion
+The total number of five-digit ZIP codes where each of the first three digits is greater than 4 is \( \boxed{50000} \).

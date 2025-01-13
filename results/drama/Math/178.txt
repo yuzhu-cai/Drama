@@ -1,0 +1,57 @@
+To determine the number of ways to distribute four identical oranges into at most three groups, where each group must contain at least one orange, we can break down the problem into cases based on the number of groups used (1, 2, or 3 groups).
+
+### Case 1: One Group
+- If all oranges are placed in one group, there is only **1 way** to do this:
+  - \( (4) \)
+
+### Case 2: Two Groups
+To distribute the oranges into two groups, we need to find the non-negative integer solutions to the equation:
+\[
+x_1 + x_2 = 4
+\]
+where \( x_1 \) and \( x_2 \) are the number of oranges in each group. The possible distributions are:
+1. \( (4, 0) \)
+2. \( (3, 1) \)
+3. \( (2, 2) \)
+4. \( (1, 3) \)
+5. \( (0, 4) \)
+
+However, since each group must have at least one orange, we exclude the cases where any group has zero oranges. The valid distributions are:
+1. \( (3, 1) \)
+2. \( (2, 2) \)
+3. \( (1, 3) \)
+
+Thus, there are **3 valid distributions** for two groups.
+
+### Case 3: Three Groups
+To distribute the oranges into three groups, we need to find the non-negative integer solutions to the equation:
+\[
+x_1 + x_2 + x_3 = 4
+\]
+where \( x_1 \), \( x_2 \), and \( x_3 \) are the number of oranges in each group. The possible distributions, ensuring each group has at least one orange, can be found by first giving one orange to each group. This reduces the equation to:
+\[
+y_1 + y_2 + y_3 = 1
+\]
+where \( y_i = x_i - 1 \) (the remaining oranges after giving one to each group). The only non-negative integer solution to this equation is:
+- \( (1, 0, 0) \) (which corresponds to \( (2, 1, 1) \) when we add back the one orange given to each group).
+
+The valid distributions for three groups are:
+1. \( (2, 1, 1) \)
+
+Thus, there is **1 valid distribution** for three groups.
+
+### Summary of Results
+Now, we can summarize the total number of distributions based on the cases:
+
+- **One Group**: 1 way
+- **Two Groups**: 3 ways
+- **Three Groups**: 1 way
+
+### Total Distributions
+Adding these together gives:
+\[
+1 + 3 + 1 = 5
+\]
+
+### Final Answer
+Therefore, the total number of ways to divide four identical oranges into at most three groups, ensuring that each group has at least one orange, is **5 ways**.

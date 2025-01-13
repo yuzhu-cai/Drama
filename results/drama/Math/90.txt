@@ -1,0 +1,66 @@
+To find the intersection points of the parabolas defined by the equations \( y = x^2 + 4x + 6 \) and \( y = \frac{1}{2}x^2 + x + 6 \), we set the equations equal to each other:
+
+\[
+x^2 + 4x + 6 = \frac{1}{2}x^2 + x + 6
+\]
+
+Next, we rearrange the equation:
+
+1. Subtract \( \frac{1}{2}x^2 \), \( x \), and \( 6 \) from both sides:
+
+\[
+x^2 - \frac{1}{2}x^2 + 4x - x + 6 - 6 = 0
+\]
+
+2. Simplify:
+
+\[
+\frac{1}{2}x^2 + 3x = 0
+\]
+
+3. Factor out \( x \):
+
+\[
+x\left(\frac{1}{2}x + 3\right) = 0
+\]
+
+Setting each factor equal to zero gives us the solutions:
+
+1. \( x = 0 \)
+2. \( \frac{1}{2}x + 3 = 0 \) leads to \( x = -6 \)
+
+Now we have the x-values where the curves intersect: \( x = 0 \) and \( x = -6 \).
+
+Next, we find the corresponding y-values for each x-value using either of the original equations. We'll use \( y = x^2 + 4x + 6 \):
+
+1. For \( x = 0 \):
+
+\[
+y = 0^2 + 4(0) + 6 = 6
+\]
+
+So one intersection point is \( (0, 6) \).
+
+2. For \( x = -6 \):
+
+\[
+y = (-6)^2 + 4(-6) + 6 = 36 - 24 + 6 = 18
+\]
+
+So the other intersection point is \( (-6, 18) \).
+
+Thus, the intersection points are:
+
+- \( (a, b) = (-6, 18) \)
+- \( (c, d) = (0, 6) \)
+
+Since \( c \ge a \), we have \( a = -6 \) and \( c = 0 \).
+
+Finally, we compute the difference \( c - a \):
+
+\[
+c - a = 0 - (-6) = 0 + 6 = 6
+\]
+
+### Conclusion
+The difference \( c - a \) is \( \boxed{6} \).

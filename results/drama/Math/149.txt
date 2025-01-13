@@ -1,0 +1,52 @@
+To determine how many digits the decimal number \( 700 \) has when converted to base \( 5 \), we can follow a systematic approach that involves both conversion and logarithmic calculations.
+
+### Step 1: Convert \( 700 \) to Base \( 5 \)
+
+We previously converted the decimal number \( 700 \) to base \( 5 \) using repeated division:
+
+1. **700 ÷ 5** = 140 with a remainder of **0**.
+2. **140 ÷ 5** = 28 with a remainder of **0**.
+3. **28 ÷ 5** = 5 with a remainder of **3**.
+4. **5 ÷ 5** = 1 with a remainder of **0**.
+5. **1 ÷ 5** = 0 with a remainder of **1**.
+
+Reading the remainders from bottom to top, we find that the base \( 5 \) representation of \( 700 \) is \( 10300_5 \).
+
+### Step 2: Count the Number of Digits
+
+To find the number of digits in the base \( 5 \) representation, we can use the logarithmic formula:
+
+\[
+d = \lfloor \log_b(n) \rfloor + 1
+\]
+
+Where:
+- \( n \) is the number in decimal (in this case, \( 700 \)),
+- \( b \) is the base (in this case, \( 5 \)),
+- \( d \) is the number of digits.
+
+Using the change of base formula for logarithms:
+
+\[
+\log_5(700) = \frac{\log_{10}(700)}{\log_{10}(5)}
+\]
+
+Calculating the logarithms:
+- \( \log_{10}(700) \approx 2.845 \)
+- \( \log_{10}(5) \approx 0.699 \)
+
+Now substituting these values:
+
+\[
+\log_5(700) \approx \frac{2.845}{0.699} \approx 4.07
+\]
+
+Applying the formula for the number of digits:
+
+\[
+d = \lfloor 4.07 \rfloor + 1 = 4 + 1 = 5
+\]
+
+### Conclusion
+
+Thus, the number of digits in the base \( 5 \) representation of \( 700 \) is \( \boxed{5} \). This comprehensive solution confirms both the conversion and the digit count accurately.

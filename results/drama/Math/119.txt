@@ -1,0 +1,55 @@
+To determine the value of the constant \( c \) such that the quadratic expression \( x^2 + 25x + c \) can be expressed as the square of a binomial, we follow these steps:
+
+### Step 1: Identify the Form of the Binomial Square
+
+A binomial square can be expressed in the form:
+
+\[
+(x + a)^2 = x^2 + 2ax + a^2
+\]
+
+### Step 2: Compare Coefficients
+
+We want to match the coefficients of the expression \( x^2 + 25x + c \) with those from the expanded binomial square:
+
+1. The coefficient of \( x^2 \) is \( 1 \), which matches.
+2. The coefficient of \( x \) gives us the equation:
+   \[
+   2a = 25
+   \]
+3. The constant term corresponds to:
+   \[
+   c = a^2
+   \]
+
+### Step 3: Solve for \( a \)
+
+From the equation \( 2a = 25 \):
+
+\[
+a = \frac{25}{2} = 12.5
+\]
+
+### Step 4: Calculate \( c \)
+
+Now, substituting \( a \) back into the equation for \( c \):
+
+\[
+c = a^2 = \left(\frac{25}{2}\right)^2 = \frac{625}{4} = 156.25
+\]
+
+### Conclusion
+
+Thus, the value of \( c \) such that the expression \( x^2 + 25x + c \) is equal to the square of a binomial is:
+
+\[
+\boxed{156.25}
+\]
+
+This solution confirms that the quadratic can indeed be expressed as a binomial square, specifically as:
+
+\[
+\left(x + \frac{25}{2}\right)^2
+\] 
+
+This comprehensive approach ensures that all aspects of the problem are addressed clearly and accurately.

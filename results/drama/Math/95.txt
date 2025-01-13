@@ -1,0 +1,91 @@
+To solve the problem, we are given the equations:
+
+1. \( jk = 24 \)
+2. \( jl = 48 \)
+3. \( kl = 18 \)
+
+We need to find the values of \( j \), \( k \), and \( l \), and then compute the sum \( j + k + l \).
+
+### Step 1: Express \( k \) and \( l \) in terms of \( j \)
+
+From the first equation \( jk = 24 \):
+\[
+k = \frac{24}{j}
+\]
+
+From the second equation \( jl = 48 \):
+\[
+l = \frac{48}{j}
+\]
+
+### Step 2: Substitute \( k \) and \( l \) into the third equation
+
+Now, substitute \( k \) and \( l \) into the third equation \( kl = 18 \):
+\[
+\left(\frac{24}{j}\right)\left(\frac{48}{j}\right) = 18
+\]
+
+### Step 3: Simplify the equation
+
+This simplifies to:
+\[
+\frac{24 \cdot 48}{j^2} = 18
+\]
+
+Calculating \( 24 \cdot 48 \):
+\[
+24 \cdot 48 = 1152
+\]
+
+So we have:
+\[
+\frac{1152}{j^2} = 18
+\]
+
+### Step 4: Solve for \( j^2 \)
+
+Multiply both sides by \( j^2 \):
+\[
+1152 = 18j^2
+\]
+
+Now, divide both sides by 18:
+\[
+j^2 = \frac{1152}{18}
+\]
+
+Calculating \( \frac{1152}{18} \):
+\[
+j^2 = 64 \implies j = 8 \quad (\text{taking the positive root since } j \text{ must be positive})
+\]
+
+### Step 5: Find \( k \) and \( l \)
+
+Now substitute \( j = 8 \) back into the equations for \( k \) and \( l \):
+- For \( k \):
+\[
+k = \frac{24}{j} = \frac{24}{8} = 3
+\]
+- For \( l \):
+\[
+l = \frac{48}{j} = \frac{48}{8} = 6
+\]
+
+### Step 6: Calculate the sum \( j + k + l \)
+
+Now we can find the sum:
+\[
+j + k + l = 8 + 3 + 6 = 17
+\]
+
+### Conclusion
+
+The values of \( j \), \( k \), and \( l \) are:
+- \( j = 8 \)
+- \( k = 3 \)
+- \( l = 6 \)
+
+Thus, the final result is:
+\[
+\boxed{17}
+\]

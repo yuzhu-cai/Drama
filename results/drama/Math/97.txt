@@ -1,0 +1,69 @@
+To solve the problem, we start with the equation given:
+
+\[
+4x = 3y
+\]
+
+### Step 1: Express \( y \) in terms of \( x \)
+
+From the equation \( 4x = 3y \), we can express \( y \) as follows:
+
+\[
+y = \frac{4x}{3}
+\]
+
+### Step 2: Substitute \( y \) into the expression \(\frac{2x + y}{3x - 2y}\)
+
+Now we substitute \( y \) into the expression \(\frac{2x + y}{3x - 2y}\):
+
+1. **Numerator**: 
+   \[
+   2x + y = 2x + \frac{4x}{3}
+   \]
+   To combine these, we need a common denominator:
+   \[
+   2x = \frac{6x}{3}
+   \]
+   Therefore,
+   \[
+   2x + y = \frac{6x}{3} + \frac{4x}{3} = \frac{10x}{3}
+   \]
+
+2. **Denominator**: 
+   \[
+   3x - 2y = 3x - 2\left(\frac{4x}{3}\right) = 3x - \frac{8x}{3}
+   \]
+   Again, we need a common denominator:
+   \[
+   3x = \frac{9x}{3}
+   \]
+   Thus,
+   \[
+   3x - 2y = \frac{9x}{3} - \frac{8x}{3} = \frac{x}{3}
+   \]
+
+### Step 3: Combine the results
+
+Now we can substitute the simplified numerator and denominator back into the expression:
+
+\[
+\frac{2x + y}{3x - 2y} = \frac{\frac{10x}{3}}{\frac{x}{3}}
+\]
+
+### Step 4: Simplify the expression
+
+When dividing fractions, we multiply by the reciprocal:
+
+\[
+\frac{\frac{10x}{3}}{\frac{x}{3}} = \frac{10x}{3} \cdot \frac{3}{x} = \frac{10x \cdot 3}{3 \cdot x} = 10
+\]
+
+### Final Result
+
+Thus, the value of the expression \(\frac{2x + y}{3x - 2y}\) is:
+
+\[
+\boxed{10}
+\] 
+
+This comprehensive solution addresses all aspects of the original query, providing clear steps and calculations.

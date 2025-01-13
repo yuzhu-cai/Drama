@@ -1,0 +1,97 @@
+To find the probability \( p \) that two random numbers \( a \) and \( b \) (generated uniformly between 0 and 1) and the fixed number \( c = 1 \) can form an obtuse triangle, we need to analyze the conditions for forming a triangle and the conditions for it to be obtuse.
+
+### Step 1: Triangle Inequalities
+
+For \( a \), \( b \), and \( c = 1 \) to form a triangle, they must satisfy the triangle inequalities:
+
+1. \( a + b > 1 \)
+2. \( a + 1 > b \) (which simplifies to \( a > b - 1 \), but since \( b \) is between 0 and 1, this condition is always satisfied)
+3. \( b + 1 > a \) (which simplifies to \( b > a - 1 \), but since \( a \) is between 0 and 1, this condition is also always satisfied)
+
+Thus, the only relevant triangle inequality is:
+\[
+a + b > 1
+\]
+
+### Step 2: Conditions for an Obtuse Triangle
+
+A triangle is obtuse if the square of the length of the longest side is greater than the sum of the squares of the other two sides. Since \( c = 1 \) is the longest side (as \( a \) and \( b \) are both less than or equal to 1), we require:
+\[
+1^2 > a^2 + b^2 \quad \Rightarrow \quad 1 > a^2 + b^2
+\]
+
+### Step 3: Finding the Probability \( p \)
+
+Now we need to find the area of the region in the unit square (where \( 0 < a < 1 \) and \( 0 < b < 1 \)) that satisfies both conditions:
+
+1. \( a + b > 1 \)
+2. \( a^2 + b^2 < 1 \)
+
+#### Area of the Unit Square
+
+The unit square has an area of \( 1 \).
+
+#### Area of the Region Defined by \( a + b > 1 \)
+
+The line \( a + b = 1 \) divides the unit square into two regions. The area above this line (where \( a + b > 1 \)) is a right triangle with vertices at \( (0, 1) \), \( (1, 0) \), and \( (1, 1) \). The area of this triangle is:
+\[
+\text{Area}_{\text{above}} = \frac{1}{2} \times 1 \times 1 = \frac{1}{2}
+\]
+
+#### Area of the Region Defined by \( a^2 + b^2 < 1 \)
+
+The inequality \( a^2 + b^2 < 1 \) describes the interior of a quarter circle of radius 1 in the first quadrant. The area of this quarter circle is:
+\[
+\text{Area}_{\text{quarter circle}} = \frac{1}{4} \pi \cdot 1^2 = \frac{\pi}{4}
+\]
+
+#### Area of Intersection
+
+To find the area where both conditions are satisfied, we need to find the area of the region that is both above the line \( a + b = 1 \) and inside the quarter circle \( a^2 + b^2 < 1 \).
+
+This region can be visualized as the area of the quarter circle minus the area of the triangle formed by the points \( (0, 1) \), \( (1, 0) \), and the intersection point of the line \( a + b = 1 \) with the quarter circle.
+
+The intersection point can be found by solving:
+\[
+a + b = 1 \quad \text{and} \quad a^2 + b^2 = 1
+\]
+Substituting \( b = 1 - a \) into the second equation:
+\[
+a^2 + (1 - a)^2 = 1 \\
+a^2 + (1 - 2a + a^2) = 1 \\
+2a^2 - 2a + 1 - 1 = 0 \\
+2a^2 - 2a = 0 \\
+2a(a - 1) = 0
+\]
+This gives \( a = 0 \) or \( a = 1 \). The intersection points are \( (0, 1) \) and \( (1, 0) \).
+
+The area of the triangle formed by the points \( (0, 1) \), \( (1, 0) \), and the origin \( (0, 0) \) is:
+\[
+\text{Area}_{\text{triangle}} = \frac{1}{2} \times 1 \times 1 = \frac{1}{2}
+\]
+
+Thus, the area of the region satisfying both conditions is:
+\[
+\text{Area}_{\text{intersection}} = \text{Area}_{\text{quarter circle}} - \text{Area}_{\text{triangle}} = \frac{\pi}{4} - \frac{1}{2}
+\]
+
+### Step 4: Probability \( p \)
+
+The probability \( p \) that the random numbers \( a \) and \( b \) form an obtuse triangle with \( c = 1 \) is the area of the intersection divided by the area of the unit square:
+\[
+p = \frac{\text{Area}_{\text{intersection}}}{\text{Area}_{\text{unit square}}} = \frac{\frac{\pi}{4} - \frac{1}{2}}{1} = \frac{\pi}{4} - \frac{1}{2}
+\]
+
+### Step 5: Calculate \( 4p \)
+
+Now, we compute \( 4p \):
+\[
+4p = 4\left(\frac{\pi}{4} - \frac{1}{2}\right) = \pi - 2
+\]
+
+### Final Answer
+
+Thus, the final result is:
+\[
+\boxed{\pi - 2}
+\]

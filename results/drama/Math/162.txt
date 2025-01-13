@@ -1,0 +1,70 @@
+To solve the problem, we start by defining the variables and setting up the equations based on the given ratio \(3:14:4\).
+
+1. **Define the angles**:
+   - Let the measure of angle \( A \) be \( x \) degrees.
+   - The complement of angle \( A \) is \( 90^\circ - x \).
+   - The supplement of angle \( A \) is \( 180^\circ - x \).
+
+2. **Set up the ratio**:
+   According to the problem, the ratio of three times the measure of angle \( A \) to four times the measure of the complement of angle \( A \) to half the measure of the supplement of angle \( A \) is \( 3:14:4 \). This can be expressed as:
+
+   \[
+   \frac{3x}{4(90^\circ - x)} = \frac{3}{14} \quad \text{and} \quad \frac{3x}{\frac{1}{2}(180^\circ - x)} = \frac{3}{4}
+   \]
+
+3. **Set up the equations**:
+   From the first part of the ratio:
+
+   \[
+   \frac{3x}{4(90^\circ - x)} = \frac{3}{14}
+   \]
+
+   Cross-multiplying gives:
+
+   \[
+   3x \cdot 14 = 4(90^\circ - x) \cdot 3
+   \]
+
+   Simplifying this:
+
+   \[
+   42x = 12(90^\circ - x)
+   \]
+
+   Expanding the right side:
+
+   \[
+   42x = 1080^\circ - 12x
+   \]
+
+   Combining like terms:
+
+   \[
+   42x + 12x = 1080^\circ
+   \]
+
+   \[
+   54x = 1080^\circ
+   \]
+
+   Solving for \( x \):
+
+   \[
+   x = \frac{1080^\circ}{54} = 20^\circ
+   \]
+
+4. **Calculate the complement of angle \( A \)**:
+   Now that we have \( x = 20^\circ \), we can find the complement of angle \( A \):
+
+   \[
+   \text{Complement of } A = 90^\circ - x = 90^\circ - 20^\circ = 70^\circ
+   \]
+
+5. **Final answer**:
+   Therefore, the measure of the complement of angle \( A \) is:
+
+   \[
+   \boxed{70^\circ}
+   \] 
+
+This comprehensive solution addresses all aspects of the problem, providing clear steps and calculations leading to the final answer.

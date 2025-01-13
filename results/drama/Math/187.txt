@@ -1,0 +1,46 @@
+To solve the problem of how many ways Liz can choose 3 marbles from her collection of 11 marbles, given that she refuses to choose both the green and purple marbles at the same time, we can break down the solution into manageable parts.
+
+### Step 1: Total Ways to Choose 3 Marbles
+
+First, we calculate the total number of ways to choose 3 marbles from the 11 available marbles without any restrictions. This is given by the combination formula:
+
+\[
+\binom{11}{3} = \frac{11 \times 10 \times 9}{3 \times 2 \times 1} = 165
+\]
+
+### Step 2: Ways to Choose 3 Marbles Including Both Green and Purple
+
+Next, we need to find the number of ways to choose 3 marbles that include both the green and purple marbles. As established in the previous analysis:
+
+1. If Liz chooses both the green and purple marbles, she has already selected 2 marbles.
+2. She needs to choose 1 more marble from the remaining marbles. Since there are 11 marbles in total, after choosing the green and purple, there are \( 11 - 2 = 9 \) marbles left.
+
+Thus, the number of ways to choose the third marble is:
+
+\[
+\binom{9}{1} = 9
+\]
+
+### Step 3: Calculate the Valid Combinations
+
+To find the number of ways Liz can choose 3 marbles while adhering to her restriction (not choosing both the green and purple marbles at the same time), we subtract the number of combinations that include both the green and purple marbles from the total combinations:
+
+\[
+\text{Valid Combinations} = \text{Total Combinations} - \text{Combinations Including Both}
+\]
+
+Substituting the values we calculated:
+
+\[
+\text{Valid Combinations} = 165 - 9 = 156
+\]
+
+### Conclusion
+
+Thus, the total number of ways Liz can choose 3 marbles from her collection of 11 marbles, ensuring that she does not choose both the green and purple marbles at the same time, is:
+
+\[
+\boxed{156}
+\] 
+
+This solution comprehensively addresses the original query by calculating the total combinations and the restricted combinations, leading to the final answer.

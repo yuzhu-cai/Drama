@@ -1,0 +1,50 @@
+To solve the problem of finding the probability that a randomly selected point \((x, y)\) within the rectangle defined by the constraints \(0 \leq x \leq 8\) and \(0 \leq y \leq 4\) satisfies the condition \(x + y \leq 4\), we will follow these steps:
+
+### Step 1: Define the Rectangle
+The rectangle is defined by the vertices:
+- \( (0, 0) \)
+- \( (8, 0) \)
+- \( (8, 4) \)
+- \( (0, 4) \)
+
+### Step 2: Calculate the Area of the Rectangle
+The area \(A\) of the rectangle can be calculated using the formula:
+\[
+A = \text{width} \times \text{height}
+\]
+In this case, the width is 8 (from \(x = 0\) to \(x = 8\)) and the height is 4 (from \(y = 0\) to \(y = 4\)):
+\[
+A = 8 \times 4 = 32
+\]
+
+### Step 3: Define the Region \(x + y \leq 4\)
+The inequality \(x + y \leq 4\) describes a triangular region in the first quadrant. The line \(x + y = 4\) intersects the axes at:
+- \( (4, 0) \) (x-intercept)
+- \( (0, 4) \) (y-intercept)
+
+### Step 4: Identify the Area of the Triangle
+The vertices of the triangle formed by the line \(x + y = 4\) and the axes are:
+- \( (0, 0) \)
+- \( (4, 0) \)
+- \( (0, 4) \)
+
+The area \(A_t\) of this triangle can be calculated using the formula for the area of a triangle:
+\[
+A_t = \frac{1}{2} \times \text{base} \times \text{height}
+\]
+Here, both the base and height are 4:
+\[
+A_t = \frac{1}{2} \times 4 \times 4 = \frac{1}{2} \times 16 = 8
+\]
+
+### Step 5: Compute the Probability
+The probability \(P\) that a randomly chosen point in the rectangle satisfies the condition \(x + y \leq 4\) is given by the ratio of the area of the triangle to the area of the rectangle:
+\[
+P = \frac{\text{Area of the triangle}}{\text{Area of the rectangle}} = \frac{A_t}{A} = \frac{8}{32} = \frac{1}{4}
+\]
+
+### Conclusion
+The probability that a randomly selected point \((x, y)\) within the rectangle defined by \(0 \leq x \leq 8\) and \(0 \leq y \leq 4\) satisfies the condition \(x + y \leq 4\) is:
+\[
+\boxed{\frac{1}{4}}
+\]

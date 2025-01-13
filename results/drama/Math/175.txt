@@ -1,0 +1,29 @@
+To solve the problem of finding the measure of minor arc \(AD\) in the regular pentagon \(ABCDE\) with the given conditions, we will follow these steps:
+
+### Step 1: Understanding the Geometry
+In a regular pentagon, all sides and angles are equal. The central angles corresponding to each side of the pentagon can be calculated as follows:
+
+\[
+\text{Central angle} = \frac{360^\circ}{5} = 72^\circ
+\]
+
+### Step 2: Identifying the Central Angle for Arc \(AD\)
+The minor arc \(AD\) corresponds to the central angle formed by points \(A\) and \(D\). To find this angle, we need to count how many sides (or central angles) are subtended by the arc \(AD\).
+
+- Moving from \(A\) to \(D\) in the pentagon, we pass through vertices \(B\) and \(C\).
+- Therefore, the arc \(AD\) subtends two central angles (from \(A\) to \(B\) and from \(B\) to \(C\)).
+
+Calculating the total central angle for arc \(AD\):
+
+\[
+\text{Central angle for arc } AD = 2 \times 72^\circ = 144^\circ
+\]
+
+### Step 3: Conclusion
+The measure of minor arc \(AD\) in degrees is:
+
+\[
+\boxed{144^\circ}
+\]
+
+This solution is comprehensive and accurately reflects the geometric properties of the regular pentagon and the relationships between the central angles and the arcs. The conditions of tangency to the lines \(DC\) and \(AB\) do not affect the calculation of the arc length or the central angle in this context.
